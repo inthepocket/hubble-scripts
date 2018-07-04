@@ -17,3 +17,17 @@ Works best with a library file.
 ```console
 npm run export "/Volumes/GoogleDrive/design/MyLibraryFile.sketch"
 ```
+
+## Importing into a project
+Copy the file `sketchxport.sh` into your project and run it from project root.
+Advised is to add a npm run task for this:
+
+```json
+{
+  "scripts": {
+    "sketchxport": "./scripts/sketchxport.sh"
+  }
+}
+```
+
+As these always run relative to project root, path resolving is not an issue.

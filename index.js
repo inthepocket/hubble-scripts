@@ -4,7 +4,7 @@ const sketch2json = require('sketch2json');
 const { prettyJSON } = require('./lib/utils');
 const { mapTextStyles, mapColors } = require('./lib/mappers');
 
-module.exports = ((args, flags) => {
+module.exports = (args, flags) => {
   if (args.length <= 0) throw new Error('No file input passed after npm start');
 
   const [filePath] = args;
@@ -22,13 +22,23 @@ module.exports = ((args, flags) => {
         sketchVersion: response.meta.appVersion,
       };
 
-      await fs.writeFile(`${__dirname}/config.json`, prettyJSON(mapping), console.error);
+      await fs.writeFile(
+        `${__dirname}/config.json`,
+        prettyJSON(mapping),
+        console.error
+      );
 
-      if (flags.dump) await fs.writeFile(`${__dirname}/logdump.json`, prettyJSON(response), console.error);
+      if (flags.dump) {
+        await fs.writeFile(
+          `${__dirname}/logdump.json`,
+          prettyJSON(response),
+          console.error
+        );
+      }
 
       return response;
     } catch (err) {
       throw new Error(err);
     }
   });
-});
+};
