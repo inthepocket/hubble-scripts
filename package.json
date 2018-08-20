@@ -15,7 +15,9 @@
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
+    "camelcase": "^5.0.0",
     "color-convert": "^1.9.1",
+    "color-namer": "^1.3.0",
     "meow": "^5.0.0",
     "sketch2json": "^0.1.2"
   }
