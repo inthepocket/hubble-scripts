@@ -15,7 +15,7 @@ function log() {
 function checkout() {
   if [ ! -d "$SKETCHXPORT_CLONE_DIR" ]; then
     log "🐙  Cloning and installing inthepocket/sketchxport..."
-    git clone git@bitbucket.org:inthepocket/sketchxport.git "$SKETCHXPORT_CLONE_DIR" -q && cd "$SKETCHXPORT_CLONE_DIR"
+    git clone https://github.com/inthepocket/sketchxport.git "$SKETCHXPORT_CLONE_DIR" -q && cd "$SKETCHXPORT_CLONE_DIR"
     npm install --quiet
     cd "$MAIN_REPO_DIR" || exit
   else
