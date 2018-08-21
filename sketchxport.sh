@@ -105,7 +105,7 @@ function main() {
   if [ -z "$1" ]; then
     echo "No sketchfile provided"
     echo "Please provide a sketchfile to export!"
-    echo "e.g: npm run sketchxport \"/Users/thibault.maekelbergh/Downloads/Daikin_MVP7.sketch\""
+    echo "e.g: npm run sketchxport \"/Users/thibault.maekelbergh/Downloads/MyLibrary.sketch\""
     exit 1
   fi
 
