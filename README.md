@@ -16,6 +16,12 @@
   </p>
 </p>
 
+# Prerequisites
+
+- macOS with a Sketch 41+
+- A recent bash version (bash@4.4 recommended)
+- A recent node version (node@8 recommended)
+
 # Usage
 
 ## Generating JSON config
