@@ -1,11 +1,13 @@
-# npm
+# Dependencies
 node_modules
 .npm
+
+# Clutter
+.DS_Store
 npm-debug.log
 
-# mac
-.DS_Store
-
+# Build artifacts
 *.sketch
 sketchtool-export
 config.json
+logdump.json

@@ -14,13 +14,16 @@ function check_file_input() {
 
 function export_assets() {
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
-    echo "Exporting slices as svg & png using sketchtool from file $1"
-    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output=sketchtool-export/ --format="png" --scales="1, 2, 3"
-    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output=sketchtool-export/ --format="svg"
+    echo "Exporting slices as svg & png(1x,2x,3x) to directory $2"
+
+    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$2" \
+      --format="png" --scales="1, 2, 3"
+
+    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$2" \
+      --format="svg"
   else
     echo "💩  sketchtool was not found"
     echo "Please install Sketch.app and follow https://developer.sketchapp.com/guides/sketchtool/"
-
     exit 1
   fi
 }

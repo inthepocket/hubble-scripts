@@ -23,14 +23,14 @@ module.exports = (args, flags) => {
       };
 
       await fs.writeFile(
-        `${__dirname}/config.json`,
+        `${flags.outputDir}/config.json`,
         prettyJSON(mapping),
         console.error
       );
 
       if (flags.dump) {
         await fs.writeFile(
-          `${__dirname}/logdump.json`,
+          `${flags.outputDir}/logdump.json`,
           prettyJSON(response),
           console.error
         );
