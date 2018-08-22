@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-
 set -e
+
+# Pretty log output
+function log() {
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+}
 
 function check_file_input() {
   if [ $# -eq 0 ]; then
@@ -16,7 +20,7 @@ function check_file_input() {
 
 function export_assets() {
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
-    echo "Exporting slices as svg & png(1x,2x,3x) to directory $2"
+    log "Exporting slices as svg & png(1x,2x,3x) to directory $2"
 
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
       --format="png" --scales="1, 2, 3"
@@ -24,8 +28,8 @@ function export_assets() {
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
       --format="svg"
   else
-    echo "💩  sketchtool was not found"
-    echo "Please install Sketch.app and follow https://developer.sketchapp.com/guides/sketchtool/"
+    log "💩  sketchtool was not found"
+    log "Please install Sketch.app and follow https://developer.sketchapp.com/guides/sketchtool/"
     exit 1
   fi
 }
