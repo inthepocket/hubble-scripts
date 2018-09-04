@@ -10,6 +10,7 @@
     "export": "./sketchtool.sh",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:update": "npm run test -- --updateSnapshot",
     "test:travis": "trevor"
   },
   "devDependencies": {
