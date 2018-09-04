@@ -68,4 +68,11 @@ Advised is to add a npm run task for this:
 # Testing
 
 This project uses [jest](https://jestjs.io/) to run tests. You can trigger the tests with `npm test`.
-Tests will be validated against the sample output in [__mocks__](./__mocks__).
+
+## Mocks & sample output
+
+All tests will be validated against the sample output in [__mocks__](./__mocks__). You can regenerate these using `npm run generate:mocks` which will consume `__mocks__/sample_sketchfile.sketch` and output a new config & sketch2json dump.
+
+## Local CI server mocking
+
+If you have Docker installed you could use [trevor](https://github.com/vadimdemedes/trevor) to locally mock our Travis CI server before submitting a pull request or while testing a new change. It will pull a node@8:alpine image from Docker Hub and run tests inside of the container, and afterwards destroy the container.
