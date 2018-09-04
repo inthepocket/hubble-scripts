@@ -3,8 +3,8 @@
 exports[`[mapper.js] test suite -> #formatColor: given RGB NSColor, should transform it to a nicely parsed object 1`] = `
 Object {
   "alpha": 1,
-  "blue": "159",
-  "green": "6",
+  "blue": 159,
+  "green": 6,
   "hex": "10069f",
   "hsl": Array [
     244,
@@ -12,7 +12,7 @@ Object {
     32,
   ],
   "name": "ultramarine",
-  "red": "16",
+  "red": 16,
   "rgb": "16, 6, 159",
   "rgba": "16, 6, 159, 1",
 }
@@ -22,8 +22,8 @@ exports[`[mapper.js] test suite -> #mapColors: given the document colors, should
 Array [
   Object {
     "alpha": 1,
-    "blue": "80",
-    "green": "0",
+    "blue": 80,
+    "green": 0,
     "hex": "e50050",
     "hsl": Array [
       339,
@@ -31,14 +31,14 @@ Array [
       45,
     ],
     "name": "amaranth",
-    "red": "229",
+    "red": 229,
     "rgb": "229, 0, 80",
     "rgba": "229, 0, 80, 1",
   },
   Object {
     "alpha": 1,
-    "blue": "78",
-    "green": "190",
+    "blue": 78,
+    "green": 190,
     "hex": "2cbe4e",
     "hsl": Array [
       134,
@@ -46,14 +46,14 @@ Array [
       46,
     ],
     "name": "apple",
-    "red": "44",
+    "red": 44,
     "rgb": "44, 190, 78",
     "rgba": "44, 190, 78, 1",
   },
   Object {
     "alpha": 1,
-    "blue": "0",
-    "green": "0",
+    "blue": 0,
+    "green": 0,
     "hex": "000000",
     "hsl": Array [
       0,
@@ -61,7 +61,7 @@ Array [
       0,
     ],
     "name": "black",
-    "red": "0",
+    "red": 0,
     "rgb": "0, 0, 0",
     "rgba": "0, 0, 0, 1",
   },
@@ -74,8 +74,8 @@ Array [
     "borderBottom": null,
     "color": Object {
       "alpha": 1,
-      "blue": "159",
-      "green": "6",
+      "blue": 159,
+      "green": 6,
       "hex": "10069f",
       "hsl": Array [
         244,
@@ -83,7 +83,7 @@ Array [
         32,
       ],
       "name": "ultramarine",
-      "red": "16",
+      "red": 16,
       "rgb": "16, 6, 159",
       "rgba": "16, 6, 159, 1",
     },
@@ -97,8 +97,8 @@ Array [
     "borderBottom": null,
     "color": Object {
       "alpha": 1,
-      "blue": "159",
-      "green": "6",
+      "blue": 159,
+      "green": 6,
       "hex": "10069f",
       "hsl": Array [
         244,
@@ -106,7 +106,7 @@ Array [
         32,
       ],
       "name": "ultramarine",
-      "red": "16",
+      "red": 16,
       "rgb": "16, 6, 159",
       "rgba": "16, 6, 159, 1",
     },
@@ -120,8 +120,8 @@ Array [
     "borderBottom": null,
     "color": Object {
       "alpha": 1,
-      "blue": "0",
-      "green": "0",
+      "blue": 0,
+      "green": 0,
       "hex": "000000",
       "hsl": Array [
         0,
@@ -129,7 +129,7 @@ Array [
         0,
       ],
       "name": "black",
-      "red": "0",
+      "red": 0,
       "rgb": "0, 0, 0",
       "rgba": "0, 0, 0, 1",
     },
