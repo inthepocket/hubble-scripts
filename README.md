@@ -18,11 +18,13 @@
 
 # Prerequisites
 
-- macOS with a Sketch 41+
+- macOS with Sketch 41+
 - A recent bash version (bash@4.4 recommended)
 - A recent node version (node@8 recommended)
 
 # Usage
+
+> There is a sample sketchfile in the [__mocks__](./__mocks__) folder with sample output that would be generated for this file.
 
 ## Generating JSON config
 
@@ -62,3 +64,8 @@ Advised is to add a npm run task for this:
   }
 }
 ```
+
+# Testing
+
+This project uses [jest](https://jestjs.io/) to run tests. You can trigger the tests with `npm test`.
+Tests will be validated against the sample output in [__mocks__](./__mocks__).
