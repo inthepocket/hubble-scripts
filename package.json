@@ -7,11 +7,14 @@
   "scripts": {
     "start": "node cli.js",
     "clean": "rm config.json && rm -rf sketchtool-export node_modules && npm install",
-    "export": "./sketchtool.sh"
+    "export": "./sketchtool.sh",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-itp-base": "^1.1.0"
+    "eslint-config-itp-base": "^1.1.0",
+    "jest": "^23.5.0"
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
