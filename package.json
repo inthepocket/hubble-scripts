@@ -8,6 +8,8 @@
     "start": "node cli.js",
     "clean": "rm config.json && rm -rf sketchtool-export node_modules && npm install",
     "export": "./sketchtool.sh",
+    "generate:mocks":
+      "npm start ./__mocks__/sample_sketchfile.sketch -- --dump && mv config.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",

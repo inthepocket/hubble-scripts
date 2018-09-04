@@ -46,7 +46,17 @@
           "booleanOperation": -1,
           "exportOptions": {
             "_class": "exportOptions",
-            "exportFormats": [],
+            "exportFormats": [
+              {
+                "_class": "exportFormat",
+                "absoluteSize": 0,
+                "fileFormat": "png",
+                "name": "",
+                "namingScheme": 0,
+                "scale": 1,
+                "visibleScaleType": 0
+              }
+            ],
             "includedLayerIds": [],
             "layerOptions": 0,
             "shouldTrim": false
@@ -574,7 +584,7 @@
           },
           "includeBackgroundColorInInstance": true,
           "symbolID": "D0CF42E7-14DF-4B59-B04C-FEA4C2A190D3",
-          "changeIdentifier": 116
+          "changeIdentifier": 117
         },
         {
           "_class": "artboard",
