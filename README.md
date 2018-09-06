@@ -6,6 +6,13 @@
       <img src="https://badgen.net/badge/license/MIT/blue" alt="MIT License">
     </a>
     <img src="https://badgen.net/badge/platform/macOS?icon=apple" alt="" />
+    <a href="https://github.com/inthepocket/sketchxport-scripts/releases">
+      <img src="https://badgen.net/github/releases/inthepocket/sketchxport-scripts" />
+    </a>
+    <img src="https://badgen.net/github/last-commit/inthepocket/sketchxport-scripts" />
+    <a href="https://travis-ci.org/inthepocket/sketchxport-scripts">
+      <img src="https://badgen.net/travis/inthepocket/sketchxport-scripts" />
+    </a>
   </p>
 
   <p align="center">
@@ -18,11 +25,13 @@
 
 # Prerequisites
 
-- macOS with a Sketch 41+
+- macOS with Sketch 41+
 - A recent bash version (bash@4.4 recommended)
 - A recent node version (node@8 recommended)
 
 # Usage
+
+> There is a sample sketchfile in the [__mocks__](./__mocks__) folder with sample output that would be generated for this file.
 
 ## Generating JSON config
 
@@ -61,4 +70,30 @@ Advised is to add a npm run task for this:
     "sketchxport": "./scripts/sketchxport.sh"
   }
 }
+```
+
+# Testing
+
+This project uses [jest](https://jestjs.io/) to run tests. You can trigger the tests with `npm test`.
+
+## Mocks & sample output
+
+All tests will be validated against the sample output in [__mocks__](./__mocks__). You can regenerate these using `npm run generate:mocks` which will consume `__mocks__/sample_sketchfile.sketch` and output a new config & sketch2json dump.
+
+## Local CI server mocking
+
+If you have Docker installed you could use [trevor](https://github.com/vadimdemedes/trevor) to locally mock our Travis CI server before submitting a pull request or while testing a new change. It will pull a node@8:alpine image from Docker Hub and run tests inside of the container, and afterwards destroy the container.
+
+## Bash
+
+[Shellcheck](https://github.com/koalaman/shellcheck) is used to ensure consistent and safe shell (bash) scripts. Make sure you have shellcheck installed and run the lint command to test the scripts:
+
+```console
+$ brew install shellcheck
+$ npm run lint:shell
+
+In sketchxport.sh line 6:
+  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+          ^-- SC1117: Backslash is literal in "\n". Prefer explicit escaping: "\\n".
+
 ```
