@@ -12,4 +12,4 @@ matrix:
     - language: shell
       sudo: false
       script:
-        - bash -c 'shopt -s globstar; shellcheck *.sh'
+        - shellcheck sketchtool.sh sketchxport.sh
