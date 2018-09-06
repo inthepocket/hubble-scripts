@@ -3,7 +3,7 @@ set -e
 
 # Pretty log output
 function log() {
-  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
 }
 
 function check_file_input() {
