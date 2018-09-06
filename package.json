@@ -1,6 +1,6 @@
 {
   "name": "sketchxport",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "node": ">=8.0"
   },
@@ -8,8 +8,10 @@
     "start": "node cli.js",
     "clean": "rm config.json && rm -rf sketchtool-export node_modules && npm install",
     "export": "./sketchtool.sh",
-    "generate:mocks":
-      "npm start ./__mocks__/sample_sketchfile.sketch -- --dump && mv config.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:shell": "which shellcheck > /dev/null && shellcheck *.sh",
+    "generate:mocks": "npm start ./__mocks__/sample_sketchfile.sketch -- --dump && mv config.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
@@ -23,6 +25,7 @@
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
+    "@inthepocket/itp-react-scripts": "^0.44.2",
     "camelcase": "^5.0.0",
     "color-convert": "^1.9.1",
     "color-namer": "^1.3.0",

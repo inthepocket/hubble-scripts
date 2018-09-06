@@ -6,6 +6,13 @@
       <img src="https://badgen.net/badge/license/MIT/blue" alt="MIT License">
     </a>
     <img src="https://badgen.net/badge/platform/macOS?icon=apple" alt="" />
+    <a href="https://github.com/inthepocket/sketchxport-scripts/releases">
+      <img src="https://badgen.net/github/releases/inthepocket/sketchxport-scripts" />
+    </a>
+    <img src="https://badgen.net/github/last-commit/inthepocket/sketchxport-scripts" />
+    <a href="https://travis-ci.org/inthepocket/sketchxport-scripts">
+      <img src="https://badgen.net/travis/inthepocket/sketchxport-scripts" />
+    </a>
   </p>
 
   <p align="center">
@@ -76,3 +83,17 @@ All tests will be validated against the sample output in [__mocks__](./__mocks__
 ## Local CI server mocking
 
 If you have Docker installed you could use [trevor](https://github.com/vadimdemedes/trevor) to locally mock our Travis CI server before submitting a pull request or while testing a new change. It will pull a node@8:alpine image from Docker Hub and run tests inside of the container, and afterwards destroy the container.
+
+## Bash
+
+[Shellcheck](https://github.com/koalaman/shellcheck) is used to ensure consistent and safe shell (bash) scripts. Make sure you have shellcheck installed and run the lint command to test the scripts:
+
+```console
+$ brew install shellcheck
+$ npm run lint:shell
+
+In sketchxport.sh line 6:
+  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+          ^-- SC1117: Backslash is literal in "\n". Prefer explicit escaping: "\\n".
+
+```
