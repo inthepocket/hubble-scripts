@@ -11,3 +11,5 @@ sketchtool-export
 config.json
 logdump.json
 assets/images
+
+.eslintcache

@@ -8,7 +8,7 @@
     "start": "node cli.js",
     "clean": "rm config.json && rm -rf sketchtool-export node_modules && npm install",
     "export": "./sketchtool.sh",
-    "lint": "eslint \"**/*.js\"",
+    "lint": "itp-react-scripts lint",
     "lint:fix": "npm run lint -- --fix",
     "lint:shell": "which shellcheck > /dev/null && shellcheck *.sh",
     "generate:mocks": "npm start ./__mocks__/sample_sketchfile.sketch -- --dump && mv config.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
@@ -20,7 +20,6 @@
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.44.2",
     "eslint": "^5.5.0",
-    "eslint-config-itp-base": "^1.1.0",
     "jest": "^23.5.0",
     "trevor": "^2.3.0"
   },
