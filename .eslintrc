@@ -1,3 +1,3 @@
 {
-  "extends": "itp-base"
+  "extends": "./node_modules/@inthepocket/itp-react-scripts/dist/config/eslintrc.js"
 }

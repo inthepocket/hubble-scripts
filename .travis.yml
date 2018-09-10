@@ -1,0 +1,15 @@
+matrix:
+  include:
+    # Javascript checks
+    - language: node_js
+      node_js:
+        - "8"
+      script:
+        - npm run lint
+        - npm test
+
+    # Shell checks
+    - language: shell
+      sudo: false
+      script:
+        - shellcheck sketchtool.sh sketchxport.sh

@@ -1,22 +1,32 @@
 {
   "name": "sketchxport",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "node": ">=8.0"
   },
   "scripts": {
     "start": "node cli.js",
     "clean": "rm config.json && rm -rf sketchtool-export node_modules && npm install",
-    "export": "./sketchtool.sh"
+    "export": "./sketchtool.sh",
+    "lint": "itp-react-scripts lint",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:shell": "which shellcheck > /dev/null && shellcheck *.sh",
+    "generate:mocks": "npm start ./__mocks__/sample_sketchfile.sketch -- --dump && mv config.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:update": "npm run test -- --updateSnapshot",
+    "test:travis": "which docker > /dev/null && trevor"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-itp-base": "^1.1.0"
+    "@inthepocket/itp-react-scripts": "^0.44.2",
+    "eslint": "^5.5.0",
+    "jest": "^23.5.0",
+    "trevor": "^2.3.0"
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
     "camelcase": "^5.0.0",
-    "color-convert": "^1.9.1",
+    "color-convert": "^1.9.3",
     "color-namer": "^1.3.0",
     "meow": "^5.0.0",
     "sketch2json": "^0.1.2"

@@ -7,8 +7,9 @@ node_modules
 npm-debug.log
 
 # Build artifacts
-*.sketch
 sketchtool-export
 config.json
 logdump.json
 assets/images
+
+.eslintcache
