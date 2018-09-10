@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.44.2",
-    "eslint": "^4.19.1",
+    "eslint": "^5.5.0",
     "eslint-config-itp-base": "^1.1.0",
     "jest": "^23.5.0",
     "trevor": "^2.3.0"
@@ -27,7 +27,7 @@
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
     "camelcase": "^5.0.0",
-    "color-convert": "^1.9.1",
+    "color-convert": "^1.9.3",
     "color-namer": "^1.3.0",
     "meow": "^5.0.0",
     "sketch2json": "^0.1.2"
