@@ -35,7 +35,7 @@
 
 ## Generating JSON config
 
-This will generate a `config.json` file with text styles & colors found in a Sketch document.
+This will generate a `sketchxport.json` file with text styles & colors found in a Sketch document.
 Works best with a library file.
 
 ```bash

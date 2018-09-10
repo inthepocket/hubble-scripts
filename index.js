@@ -23,7 +23,7 @@ module.exports = (args, flags) => {
       };
 
       await fs.writeFile(
-        `${flags.outputDir}/config.json`,
+        `${flags.outputDir}/sketchxport.json`,
         prettyJSON(mapping),
         err => err && console.error(err),
       );
