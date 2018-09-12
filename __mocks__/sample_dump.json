@@ -25,8 +25,8 @@
       "isLocked": false,
       "isVisible": true,
       "layerListExpandedType": 0,
-      "name": "Page 1",
-      "nameIsFixed": false,
+      "name": "primitives",
+      "nameIsFixed": true,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
@@ -88,7 +88,7 @@
             "startMarkerType": 0,
             "windingRule": 1
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "group",
@@ -1110,8 +1110,8 @@
           "isLocked": false,
           "isVisible": true,
           "layerListExpandedType": 0,
-          "name": "primitives/color/black",
-          "nameIsFixed": false,
+          "name": "primitives/color/@secondaryColor",
+          "nameIsFixed": true,
           "resizingConstraint": 63,
           "resizingType": 0,
           "rotation": 0,
@@ -1313,7 +1313,7 @@
           },
           "includeBackgroundColorInInstance": true,
           "symbolID": "A52E7E62-AA1E-4B8E-8AB6-798553DFCC8D",
-          "changeIdentifier": 6
+          "changeIdentifier": 8
         },
         {
           "_class": "symbolMaster",
@@ -1340,8 +1340,8 @@
           "isLocked": false,
           "isVisible": true,
           "layerListExpandedType": 0,
-          "name": "primitives/color/blue",
-          "nameIsFixed": false,
+          "name": "primitives/color/@primaryColor",
+          "nameIsFixed": true,
           "resizingConstraint": 63,
           "resizingType": 0,
           "rotation": 0,
@@ -1538,7 +1538,7 @@
           },
           "includeBackgroundColorInInstance": true,
           "symbolID": "9B3A6867-91DD-47EE-9498-30149CBCFEAA",
-          "changeIdentifier": 6
+          "changeIdentifier": 8
         },
         {
           "_class": "symbolMaster",
@@ -1566,7 +1566,7 @@
           "isVisible": true,
           "layerListExpandedType": 0,
           "name": "primitives/color/green",
-          "nameIsFixed": false,
+          "nameIsFixed": true,
           "resizingConstraint": 63,
           "resizingType": 0,
           "rotation": 0,
@@ -1768,7 +1768,7 @@
           },
           "includeBackgroundColorInInstance": true,
           "symbolID": "58E6D44A-F19B-4BF3-B76A-9C84AE56BDFA",
-          "changeIdentifier": 6
+          "changeIdentifier": 9
         },
         {
           "_class": "symbolMaster",
@@ -1796,7 +1796,7 @@
           "isVisible": true,
           "layerListExpandedType": 0,
           "name": "primitives/color/red",
-          "nameIsFixed": false,
+          "nameIsFixed": true,
           "resizingConstraint": 63,
           "resizingType": 0,
           "rotation": 0,
@@ -1998,7 +1998,7 @@
           },
           "includeBackgroundColorInInstance": true,
           "symbolID": "F9561A7F-5D4D-408F-9BA7-33C75531EE42",
-          "changeIdentifier": 6
+          "changeIdentifier": 11
         }
       ],
       "horizontalRulerData": {
@@ -2195,18 +2195,18 @@
   },
   "user": {
     "document": {
-      "pageListHeight": -1
+      "pageListHeight": 110
     },
     "3887CAEA-110F-415F-8010-F3C825F27590": {
-      "scrollOrigin": "{-1522, -719}",
-      "zoomValue": 2.286192821080191
+      "scrollOrigin": "{-1931, -664}",
+      "zoomValue": 2.205122103569333
     }
   },
   "meta": {
-    "commit": "120f488f43e85cae5c74eeae99d970dcf7fe443d",
+    "commit": "a9a8e0cffcaebe58914746cb1ab8f707ba873565",
     "pagesAndArtboards": {
       "3887CAEA-110F-415F-8010-F3C825F27590": {
-        "name": "Page 1",
+        "name": "primitives",
         "artboards": {
           "C6B906D0-7FC4-4BA7-87C4-3B49683B38C5": {
             "name": "primitives/color/red"
@@ -2227,10 +2227,10 @@
             "name": "textstyle/heading1"
           },
           "CAFB0099-C63B-4758-A944-695D29A9FB8A": {
-            "name": "primitives/color/black"
+            "name": "primitives/color/@secondaryColor"
           },
           "12679CB8-A968-48CC-8628-2F20B5A73D7D": {
-            "name": "primitives/color/blue"
+            "name": "primitives/color/@primaryColor"
           }
         }
       }
@@ -2244,18 +2244,18 @@
     "autosaved": 0,
     "variant": "NONAPPSTORE",
     "created": {
-      "commit": "120f488f43e85cae5c74eeae99d970dcf7fe443d",
-      "appVersion": "51.2",
-      "build": 57519,
+      "commit": "a9a8e0cffcaebe58914746cb1ab8f707ba873565",
+      "appVersion": "51.3",
+      "build": 57544,
       "app": "com.bohemiancoding.sketch3",
       "compatibilityVersion": 99,
       "version": 105,
       "variant": "NONAPPSTORE"
     },
     "saveHistory": [
-      "NONAPPSTORE.57519"
+      "NONAPPSTORE.57544"
     ],
-    "appVersion": "51.2",
-    "build": 57519
+    "appVersion": "51.3",
+    "build": 57544
   }
 }
