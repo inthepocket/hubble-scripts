@@ -32,6 +32,10 @@ module.exports = (args, flags) => {
         sketchVersion: response.meta.appVersion,
       };
 
+      if (!fs.existsSync(flags.outputDir)) {
+        fs.mkdirSync(flags.outputDir);
+      }
+
       await fs.writeFile(
         `${flags.outputDir}/sketchxport.json`,
         prettyJSON(mapping),
