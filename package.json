@@ -4,6 +4,9 @@
   "engines": {
     "node": ">=8.0"
   },
+  "bin": {
+    "sketchxport-cli": "./cli.js"
+  },
   "scripts": {
     "start": "node cli.js",
     "clean": "rm sketchxport.json && rm -rf sketchtool-export node_modules && npm install",
