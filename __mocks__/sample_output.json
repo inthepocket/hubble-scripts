@@ -72,7 +72,7 @@
   ],
   "colors": [
     {
-      "id": "@secondaryColor",
+      "id": "secondaryColor",
       "name": "black",
       "red": 0,
       "green": 0,
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "id": "@primaryColor",
+      "id": "primaryColor",
       "name": "ultramarine",
       "red": 16,
       "green": 6,
