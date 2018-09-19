@@ -5,7 +5,8 @@
     "node": ">=8.0"
   },
   "bin": {
-    "sketchxport-cli": "./cli.js"
+    "sketchxport-cli": "./cli.js",
+    "sketchxport": "bash sketchxport.sh"
   },
   "scripts": {
     "start": "node cli.js",

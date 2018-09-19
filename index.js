@@ -19,6 +19,7 @@ module.exports = (args, flags) => {
 
       const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
       if (primitivesPage && flags.useColorArtboards) {
+        console.log("[sketchxport-scripts] 💎 Using color artboards instead of document colors")
         colorLayers = getColorsFromArtboard(primitivesPage.layers);
       } else {
         colorLayers = response.document.assets.colors;
