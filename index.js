@@ -1,6 +1,7 @@
 const fs = require('fs');
 const sketch2json = require('sketch2json');
 
+const { getPageArrays, getColorsFromArtboard } = require('./lib/sketch');
 const { prettyJSON } = require('./lib/utils');
 const { mapTextStyles, mapColors } = require('./lib/mappers');
 
@@ -14,16 +15,30 @@ module.exports = (args, flags) => {
 
     try {
       const response = await sketch2json(data);
+      let colorLayers;
+
+      const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
+      if (primitivesPage && flags.useColorArtboards) {
+        console.log("[sketchxport-scripts] 💎 Using color artboards instead of document colors")
+        colorLayers = getColorsFromArtboard(primitivesPage.layers);
+      } else {
+        colorLayers = response.document.assets.colors;
+      }
+
 
       const mapping = {
         textStyles: mapTextStyles(response.document.layerTextStyles),
-        colors: mapColors(response.document.assets.colors),
+        colors: mapColors(colorLayers),
         fonts: response.meta.fonts,
         sketchVersion: response.meta.appVersion,
       };
 
+      if (!fs.existsSync(flags.outputDir)) {
+        fs.mkdirSync(flags.outputDir);
+      }
+
       await fs.writeFile(
-        `${flags.outputDir}/config.json`,
+        `${flags.outputDir}/sketchxport.json`,
         prettyJSON(mapping),
         err => err && console.error(err),
       );

@@ -9,7 +9,7 @@ function log() {
 # Generate config file from sketchxport
 function generate_config() {
   log "💎  Generating config from sketchfile..."
-  node cli.js "$SKETCHFILE" --outputDir="$CONFIG_OUTPUT_DIR"
+  node cli.js "$SKETCHFILE" --outputDir="$CONFIG_OUTPUT_DIR" "$@"
 }
 
 # Generate assets from sketchxport
