@@ -24,6 +24,12 @@ function generate_assets() {
   bash ./sketchtool.sh "$SKETCHFILE" "$ASSETS_OUTPUT_DIR"
 }
 
+function upload_to_cloud() {
+  # You can enable custom cloud providers here to upload generated output to that provider
+  # upload_to_gcloud "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"
+  exit 0
+}
+
 function main() {
   # Check if we got a sketchfile, otherwise exit 1
   if [ -z "$1" ]; then
@@ -37,11 +43,18 @@ function main() {
   if [ -z "$2" ]; then CONFIG_OUTPUT_DIR="$PWD"; else CONFIG_OUTPUT_DIR=$2; fi
   if [ -z "$3" ]; then ASSETS_OUTPUT_DIR="$PWD/assets/images"; else ASSETS_OUTPUT_DIR=$3; fi
 
+  # Source cloud providers
+  for file in ./services/upload/*; do
+    [ -r "$file" ] && [ -f "$file" ] && source "$file"
+  done
+
   log "Sketchfile is $SKETCHFILE"
   log "Config output dir is $CONFIG_OUTPUT_DIR"
   log "Asset output dir is $ASSETS_OUTPUT_DIR"
 
   generate_config "$@"
   generate_assets "$@"
+
+  upload_to_cloud "sketchxport-output-dir"
 }
 main "$@"
