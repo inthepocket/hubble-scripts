@@ -45,6 +45,7 @@ function main() {
 
   # Source cloud providers
   for file in ./services/upload/*; do
+    # shellcheck disable=SC1090,SC1091
     [ -r "$file" ] && [ -f "$file" ] && source "$file"
   done
 
