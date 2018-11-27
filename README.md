@@ -68,7 +68,7 @@ Each script takes 3 arguments
 2) Configuration output folder
 3) Bucket name
 
-You can configure this service by adding one of these lines to `sketchxport.sh`
+You can configure this service by adding one of these lines to `hubble.sh`
 
 `upload_to_gcloud "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"`
 
