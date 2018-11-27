@@ -58,6 +58,22 @@ Works best with a library file.
 bash ./sketchtool.sh "MyFile.sketch" "/var/hubble/assets/images"
 ```
 
+## Uploading to cloud
+
+There are scripts to upload your files to AWS S3 and to Google Cloud.
+It is assumed that you have [aws-cli](https://aws.amazon.com/cli/) or [gsutil](https://cloud.google.com/storage/docs/gsutil) cli already installed and configured.
+
+Each script takes 3 arguments
+1) Assets output folder
+2) Configuration output folder
+3) Bucket name
+
+You can configure this service by adding one of these lines to `sketchxport.sh`
+
+`upload_to_gcloud "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"`
+
+`upload_to_s3 "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"`
+
 # Integrations
 
 ## Importing into a project
