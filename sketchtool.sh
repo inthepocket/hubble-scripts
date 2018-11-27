@@ -3,14 +3,14 @@ set -e
 
 # Pretty log output
 function log() {
-  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
 }
 
 function check_file_input() {
   if [ $# -eq 0 ]; then
     echo "No arguments provided"
     echo "Please provide a sketchfile to export and an output dir!"
-    echo "e.g: bash ./sketchtool.sh MyFile.sketch /var/sketchxport/assets/images"
+    echo "e.g: bash ./sketchtool.sh MyFile.sketch /var/hubble/assets/images"
 
     exit 1
   fi

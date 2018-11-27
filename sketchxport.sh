@@ -3,22 +3,22 @@ set -e
 
 # Pretty log output
 function log() {
-  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
 }
 
-# Generate config file from sketchxport
+# Generate config file from hubble
 function generate_config() {
   log "💎  Generating config from sketchfile..."
   node cli.js "$SKETCHFILE" --outputDir="$CONFIG_OUTPUT_DIR" "$@"
 }
 
-# Generate assets from sketchxport
+# Generate assets from hubble
 function generate_assets() {
   log "💎  Exporting & moving assets from sketchfile..."
 
   if [ ! -d "$ASSETS_OUTPUT_DIR" ]; then
     log "Asset output dir does not exist yet. Creating it"
-    mkdir -p "$ASSETS_OUTPUT_DIR/$SKETCHXPORT_ASSETS_OUTPUT_DIR"
+    mkdir -p "$ASSETS_OUTPUT_DIR"
   fi
 
   bash ./sketchtool.sh "$SKETCHFILE" "$ASSETS_OUTPUT_DIR"
@@ -35,7 +35,7 @@ function main() {
   if [ -z "$1" ]; then
     echo "No sketchfile provided"
     echo "Please provide a sketchfile to export!"
-    echo "e.g: ./sketchxport.sh \"/home/usr/file.sketch\""
+    echo "e.g: ./hubble.sh \"/home/usr/file.sketch\""
     exit 1
   fi
 
@@ -56,6 +56,6 @@ function main() {
   generate_config "$@"
   generate_assets "$@"
 
-  upload_to_cloud "sketchxport-output-dir"
+  upload_to_cloud "hubble-output-dir"
 }
 main "$@"

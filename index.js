@@ -19,7 +19,7 @@ module.exports = (args, flags) => {
 
       const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
       if (primitivesPage && flags.useColorArtboards) {
-        console.log("[sketchxport-scripts] 💎 Using color artboards instead of document colors")
+        console.log("[hubble-scripts] 💎 Using color artboards instead of document colors")
         colorLayers = getColorsFromArtboard(primitivesPage.layers);
       } else {
         colorLayers = response.document.assets.colors;
@@ -38,7 +38,7 @@ module.exports = (args, flags) => {
       }
 
       await fs.writeFile(
-        `${flags.outputDir}/sketchxport.json`,
+        `${flags.outputDir}/hubble-data.json`,
         prettyJSON(mapping),
         err => err && console.error(err),
       );

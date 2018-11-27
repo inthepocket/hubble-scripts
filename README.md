@@ -1,27 +1,28 @@
-<p align="center">
-  <h1 align="center">💎 sketchxport-scripts</h1>
-
-  <p align="center">
-    <a href='./LICENSE'>
-      <img src="https://badgen.net/badge/license/MIT/blue" alt="MIT License">
-    </a>
-    <img src="https://badgen.net/badge/platform/macOS?icon=apple" alt="" />
-    <a href="https://github.com/inthepocket/sketchxport-scripts/releases">
-      <img src="https://badgen.net/github/releases/inthepocket/sketchxport-scripts" />
-    </a>
-    <img src="https://badgen.net/github/last-commit/inthepocket/sketchxport-scripts" />
-    <a href="https://travis-ci.org/inthepocket/sketchxport-scripts">
-      <img src="https://badgen.net/travis/inthepocket/sketchxport-scripts" />
-    </a>
-  </p>
-
-  <p align="center">
-    Export configuration data like colors, fonts & text styles out of sketch to a universally parseable JSON format.<br/>
-    This repository is an attempt to further automate design systems & tooling at In The Pocket.<br/>
-    <br/>
-    Assets can also be exported as platform-friendly PNG & SVG formats.
-  </p>
-</p>
+<div align="center">
+  <h1 align="center">🔭 hubble-scripts</h1>
+  <div align="center">
+    <img src="./icon.png" alt="Hubble Icon" />
+    <p>
+      <a href='./LICENSE'>
+        <img src="https://badgen.net/badge/license/MIT/blue" alt="MIT License">
+      </a>
+      <img src="https://badgen.net/badge/platform/macOS?icon=apple" alt="" />
+      <a href="https://github.com/inthepocket/hubble-scripts/releases">
+        <img src="https://badgen.net/github/releases/inthepocket/hubble-scripts" />
+      </a>
+      <img src="https://badgen.net/github/last-commit/inthepocket/hubble-scripts" />
+      <a href="https://travis-ci.org/inthepocket/hubble-scripts">
+        <img src="https://badgen.net/travis/inthepocket/hubble-scripts" />
+      </a>
+    </p>
+    <p>
+      Export configuration data like colors, fonts & text styles out of sketch to a universally parseable JSON format.<br/>
+      This repository is an attempt to further automate design systems & tooling at In The Pocket.<br/>
+      <br/>
+      Assets can also be exported as platform-friendly PNG & SVG formats.
+    </p>
+  </div>
+</div>
 
 # Prerequisites
 
@@ -35,17 +36,17 @@
 
 ## Generating JSON config
 
-This will generate a `sketchxport.json` file with text styles & colors found in a Sketch document.
+This will generate a `hubble-data.json` file with text styles & colors found in a Sketch document.
 Works best with a library file.
 
 ```bash
-bash ./sketchxport.sh "/home/usr/file.sketch"
+bash ./hubble.sh "/home/usr/file.sketch"
 ```
 
 You can optionally specify a config output dir as $2 and asset output dir as $3. Otherwise current working directory will be used:
 
 ```bash
-bash ./sketchxport.sh "/home/usr/file.sketch" "/var/sketchxport" "/var/sketchxport/assets/images"
+bash ./hubble.sh "/home/usr/file.sketch" "/var/hubble" "/var/hubble/assets/images"
 ```
 
 ## Exporting assets
@@ -54,20 +55,20 @@ Will export all assets as SVG (for web) and PNG (1x, 2x, 3x for native).
 Works best with a library file.
 
 ```bash
-bash ./sketchtool.sh "MyFile.sketch" "/var/sketchxport/assets/images"
+bash ./sketchtool.sh "MyFile.sketch" "/var/hubble/assets/images"
 ```
 
 # Integrations
 
 ## Importing into a project
 
-Copy `sketchxport.sh` and `sketchtool.sh` to a scripts folder in your project
+Copy `hubble.sh` and `sketchtool.sh` to a scripts folder in your project
 Advised is to add a npm run task for this:
 
 ```json
 {
   "scripts": {
-    "sketchxport": "./scripts/sketchxport.sh"
+    "hubble": "./scripts/hubble.sh"
   }
 }
 ```
@@ -92,8 +93,8 @@ If you have Docker installed you could use [trevor](https://github.com/vadimdeme
 $ brew install shellcheck
 $ npm run lint:shell
 
-In sketchxport.sh line 6:
-  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+In hubble.sh line 6:
+  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
           ^-- SC1117: Backslash is literal in "\n". Prefer explicit escaping: "\\n".
 
 ```
