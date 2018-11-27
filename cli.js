@@ -28,6 +28,10 @@ const cli = meow(`
     useColorArtboards: {
       type: 'boolean',
       default: false,
+    },
+    version: {
+      type: "boolean",
+      alias: 'v',
     }
   },
 });

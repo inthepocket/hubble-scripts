@@ -1,16 +1,19 @@
 const fs = require('fs');
 const sketch2json = require('sketch2json');
+const pkg = require('./package.json');
 
 const { getPageArrays, getColorsFromArtboard } = require('./lib/sketch');
 const { prettyJSON } = require('./lib/utils');
 const { mapTextStyles, mapColors } = require('./lib/mappers');
 
 module.exports = (args, flags) => {
+  if (flags.version) return pkg.version;
+
   if (args.length <= 0) throw new Error('No file input passed after npm start');
 
   const [filePath] = args;
 
-  fs.readFile(filePath, async (error, data) => {
+  return fs.readFile(filePath, async (error, data) => {
     if (error) throw new Error(error);
 
     try {
