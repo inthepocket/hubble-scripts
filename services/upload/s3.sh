@@ -3,7 +3,7 @@ set -e
 
 # Pretty log output
 function log() {
-  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
 }
 
 # @param $1 asset output dir
@@ -34,6 +34,6 @@ function upload_to_s3() {
 
   # Upload asset output dir recursively to the provided bucket (in parallell)
   aws s3 cp "$1" "s3://$3" --recursive && \
-    # Upload config output to the provided bucket.  
-    aws s3 cp "$2/sketchxport.json" "s3://$3"
+    # Upload config output to the provided bucket.
+    aws s3 cp "$2/hubble-data.json" "s3://$3"
 }

@@ -3,7 +3,7 @@ set -e
 
 # Pretty log output
 function log() {
-  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[sketchxport-scripts] ${1}"
+  printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
 }
 
 # @param $1 asset output dir
@@ -35,5 +35,5 @@ function upload_to_gcloud() {
   # Upload asset output dir recursively to the provided bucket (in parallell)
   gsutil -m cp -r "$1" "gs://$3" && \
     # Upload config output to the provided bucket.
-    gsutil cp "$2/sketchxport.json" "gs://$3"
+    gsutil cp "$2/hubble-data.json" "gs://$3"
 }

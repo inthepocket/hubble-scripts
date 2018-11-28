@@ -4,7 +4,7 @@ const app = require('./index');
 
 const cli = meow(`
   Usage
-    $ sketchxport-cli <input> --outputDir="/home/usr/downloads"
+    $ hubble-cli <input> --outputDir="/home/usr/downloads"
 
   Options
     --outputDir=<dir>, -o     The directory where parsed files will be placed after a run. Defaults to current working directory
@@ -12,8 +12,8 @@ const cli = meow(`
     --useColorArtboards       Use artboards named "primitives/color/<name>" to export colors instead of using the document colors
 
   Examples
-    $ sketchxport-cli "__mocks/sample_sketchfile.sketch"
-    $ sketchxport-cli "__mocks__/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
+    $ hubble-cli "__mocks/sample_sketchfile.sketch"
+    $ hubble-cli "__mocks__/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
 `, {
   flags: {
     outputDir: {
@@ -28,6 +28,10 @@ const cli = meow(`
     useColorArtboards: {
       type: 'boolean',
       default: false,
+    },
+    version: {
+      type: "boolean",
+      alias: 'v',
     }
   },
 });

@@ -1,16 +1,19 @@
 const fs = require('fs');
 const sketch2json = require('sketch2json');
+const pkg = require('./package.json');
 
 const { getPageArrays, getColorsFromArtboard } = require('./lib/sketch');
 const { prettyJSON } = require('./lib/utils');
 const { mapTextStyles, mapColors } = require('./lib/mappers');
 
 module.exports = (args, flags) => {
+  if (flags.version) return pkg.version;
+
   if (args.length <= 0) throw new Error('No file input passed after npm start');
 
   const [filePath] = args;
 
-  fs.readFile(filePath, async (error, data) => {
+  return fs.readFile(filePath, async (error, data) => {
     if (error) throw new Error(error);
 
     try {
@@ -19,7 +22,7 @@ module.exports = (args, flags) => {
 
       const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
       if (primitivesPage && flags.useColorArtboards) {
-        console.log("[sketchxport-scripts] 💎 Using color artboards instead of document colors")
+        console.log("[hubble-scripts] 💎 Using color artboards instead of document colors")
         colorLayers = getColorsFromArtboard(primitivesPage.layers);
       } else {
         colorLayers = response.document.assets.colors;
@@ -38,7 +41,7 @@ module.exports = (args, flags) => {
       }
 
       await fs.writeFile(
-        `${flags.outputDir}/sketchxport.json`,
+        `${flags.outputDir}/hubble-data.json`,
         prettyJSON(mapping),
         err => err && console.error(err),
       );
