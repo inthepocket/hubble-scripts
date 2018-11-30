@@ -19,6 +19,11 @@ function check_file_input() {
 }
 
 function export_assets() {
+  if [ ! -d /Applications/Sketch.app ]; then
+    log "Doesn't seem like you have Sketch installed..."
+    log "Please make sure Sketch is installed and at the path /Applications/Sketch.app"
+  fi
+
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
     log "Exporting slices as svg & png(1x,2x,3x) to directory $2"
 
