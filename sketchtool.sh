@@ -22,6 +22,7 @@ function export_assets() {
   if [ ! -d /Applications/Sketch.app ]; then
     log "Doesn't seem like you have Sketch installed..."
     log "Please make sure Sketch is installed and at the path /Applications/Sketch.app"
+    exit 1
   fi
 
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
