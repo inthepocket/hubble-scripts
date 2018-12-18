@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.48.0",
-    "eslint": "^5.9.0",
+    "eslint": "^5.10.0",
     "jest": "^23.6.0",
-    "lint-staged": "^7.3.0",
-    "pkg": "^4.3.4",
+    "lint-staged": "^8.1.0",
+    "pkg": "^4.3.5",
     "trevor": "^2.3.0"
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
