@@ -2,9 +2,8 @@ const fs = require('fs');
 const sketch2json = require('sketch2json');
 const pkg = require('./package.json');
 
-const { getPageArrays, getColorsFromArtboard } = require('./lib/sketch');
+const mappers = require('./lib/mappers');
 const { prettyJSON } = require('./lib/utils');
-const { mapTextStyles, mapColors } = require('./lib/mappers');
 
 module.exports = (args, flags) => {
   if (flags.version) return pkg.version;
@@ -28,10 +27,9 @@ module.exports = (args, flags) => {
         colorLayers = response.document.assets.colors;
       }
 
-
       const mapping = {
-        textStyles: mapTextStyles(response.document.layerTextStyles),
-        colors: mapColors(colorLayers),
+        textStyles: mappers.mapTextStyles(response.document.layerTextStyles),
+        colors: mappers.mapColors(colorLayers),
         fonts: response.meta.fonts,
         sketchVersion: response.meta.appVersion,
       };
