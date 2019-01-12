@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[mapper.js] test suite -> #formatColor: given RGB NSColor, should transform it to a nicely parsed object 1`] = `
+Object {
+  "alpha": 1,
+  "blue": 159,
+  "green": 6,
+  "hex": "10069f",
+  "hsl": Array [
+    244,
+    93,
+    32,
+  ],
+  "name": "ultramarine",
+  "red": 16,
+  "rgb": "16, 6, 159",
+  "rgba": "16, 6, 159, 1",
+}
+`;
+
+exports[`[mapper.js] test suite -> #mapColors: given the document colors, should transform all colors nicely 1`] = `
+Array [
+  Object {
+    "alpha": 1,
+    "blue": 159,
+    "green": 6,
+    "hex": "10069f",
+    "hsl": Array [
+      244,
+      93,
+      32,
+    ],
+    "name": "ultramarine",
+    "red": 16,
+    "rgb": "16, 6, 159",
+    "rgba": "16, 6, 159, 1",
+  },
+  Object {
+    "alpha": 1,
+    "blue": 80,
+    "green": 0,
+    "hex": "e50050",
+    "hsl": Array [
+      339,
+      100,
+      45,
+    ],
+    "name": "amaranth",
+    "red": 229,
+    "rgb": "229, 0, 80",
+    "rgba": "229, 0, 80, 1",
+  },
+  Object {
+    "alpha": 1,
+    "blue": 78,
+    "green": 190,
+    "hex": "2cbe4e",
+    "hsl": Array [
+      134,
+      62,
+      46,
+    ],
+    "name": "apple",
+    "red": 44,
+    "rgb": "44, 190, 78",
+    "rgba": "44, 190, 78, 1",
+  },
+  Object {
+    "alpha": 1,
+    "blue": 0,
+    "green": 0,
+    "hex": "000000",
+    "hsl": Array [
+      0,
+      0,
+      0,
+    ],
+    "name": "black",
+    "red": 0,
+    "rgb": "0, 0, 0",
+    "rgba": "0, 0, 0, 1",
+  },
+]
+`;
+
+exports[`[mapper.js] test suite -> #mapGradients: given artboard gradients, should transform them nicely 1`] = `
+Array [
+  Object {
+    "from": "{0.5, 1}",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": "151, 182, 144",
+          "rgba": "151, 182, 144, 1",
+        },
+        "position": 0,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 88,
+          "green": 145,
+          "hex": "559158",
+          "hsl": Array [
+            123,
+            26,
+            45,
+          ],
+          "name": "hippieGreen",
+          "red": 85,
+          "rgb": "85, 145, 88",
+          "rgba": "85, 145, 88, 1",
+        },
+        "position": 0.5038507579143953,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": "34, 125, 62",
+          "rgba": "34, 125, 62, 1",
+        },
+        "position": 1,
+      },
+    ],
+    "to": "{0.49999999999999989, 3.0616169978683836e-17}",
+    "type": "LINEAR",
+  },
+  Object {
+    "from": "{0.5, 1}",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": "151, 182, 144",
+          "rgba": "151, 182, 144, 1",
+        },
+        "position": 0,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": "34, 125, 62",
+          "rgba": "34, 125, 62, 1",
+        },
+        "position": 1,
+      },
+    ],
+    "to": "{0.5, -0.27263153394819584}",
+    "type": "RADIAL",
+  },
+  Object {
+    "from": "{0.5, 1}",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": "151, 182, 144",
+          "rgba": "151, 182, 144, 1",
+        },
+        "position": 0.4336458341191861,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": "34, 125, 62",
+          "rgba": "34, 125, 62, 1",
+        },
+        "position": 1,
+      },
+    ],
+    "to": "{0.5, -0.27263153394819584}",
+    "type": "ANGULAR",
+  },
+]
+`;
+
+exports[`[mapper.js] test suite -> #mapTextStyles: given the text styles, should transform them nicely 1`] = `
+Array [
+  Object {
+    "borderBottom": null,
+    "color": Object {
+      "alpha": 1,
+      "blue": 159,
+      "green": 6,
+      "hex": "10069f",
+      "hsl": Array [
+        244,
+        93,
+        32,
+      ],
+      "name": "ultramarine",
+      "red": 16,
+      "rgb": "16, 6, 159",
+      "rgba": "16, 6, 159, 1",
+    },
+    "family": "FiraSans-Regular",
+    "id": "Heading 1",
+    "kerning": null,
+    "size": 48,
+    "weight": null,
+  },
+  Object {
+    "borderBottom": null,
+    "color": Object {
+      "alpha": 1,
+      "blue": 159,
+      "green": 6,
+      "hex": "10069f",
+      "hsl": Array [
+        244,
+        93,
+        32,
+      ],
+      "name": "ultramarine",
+      "red": 16,
+      "rgb": "16, 6, 159",
+      "rgba": "16, 6, 159, 1",
+    },
+    "family": "FiraSans-Regular",
+    "id": "Heading 2",
+    "kerning": null,
+    "size": 36,
+    "weight": null,
+  },
+  Object {
+    "borderBottom": null,
+    "color": Object {
+      "alpha": 1,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "black",
+      "red": 0,
+      "rgb": "0, 0, 0",
+      "rgba": "0, 0, 0, 1",
+    },
+    "family": "FiraSans-Regular",
+    "id": "Paragraph",
+    "kerning": null,
+    "size": 18,
+    "weight": null,
+  },
+]
+`;
