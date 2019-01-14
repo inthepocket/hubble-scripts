@@ -395,8 +395,157 @@
       ]
     }
   ],
+  "gradients": [
+    {
+      "type": "LINEAR",
+      "from": "{0.5, 1}",
+      "to": "{0.49999999999999989, 3.0616169978683836e-17}",
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": "151, 182, 144",
+            "rgba": "151, 182, 144, 1",
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 0.5038507579143953,
+          "color": {
+            "name": "hippieGreen",
+            "red": 85,
+            "green": 145,
+            "blue": 88,
+            "alpha": 1,
+            "rgb": "85, 145, 88",
+            "rgba": "85, 145, 88, 1",
+            "hex": "559158",
+            "hsl": [
+              123,
+              26,
+              45
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": "34, 125, 62",
+            "rgba": "34, 125, 62, 1",
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RADIAL",
+      "from": "{0.5, 1}",
+      "to": "{0.5, -0.27263153394819584}",
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": "151, 182, 144",
+            "rgba": "151, 182, 144, 1",
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": "34, 125, 62",
+            "rgba": "34, 125, 62, 1",
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "ANGULAR",
+      "from": "{0.5, 1}",
+      "to": "{0.5, -0.27263153394819584}",
+      "stops": [
+        {
+          "position": 0.4336458341191861,
+          "color": {
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": "151, 182, 144",
+            "rgba": "151, 182, 144, 1",
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": "34, 125, 62",
+            "rgba": "34, 125, 62, 1",
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    }
+  ],
   "fonts": [
     "FiraSans-Regular"
   ],
-  "sketchVersion": "51.3"
+  "sketchVersion": "52.6"
 }
