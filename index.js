@@ -18,20 +18,23 @@ module.exports = (args, flags) => {
 
     try {
       const response = await sketch2json(data);
-      let colorLayers;
 
       const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
-      if (primitivesPage && flags.useColorArtboards) {
-        console.log("[hubble-scripts] 💎 Using color artboards instead of document colors")
-        colorLayers = getColorsFromArtboard(primitivesPage.layers);
-      } else {
-        colorLayers = response.document.assets.colors;
+      if (!primitivesPage) {
+        throw new Error(`No primitives page found.`)
       }
+
+      const colorLayers = flags.useColorArtboards
+        ? getColorsFromArtboard(primitivesPage.layers)
+        : response.document.assets.colors;
+      const gradientLayers = flags.useGradientArtboards
+        ? getGradientsFromArtboard(primitivesPage.layers)
+        : response.document.assets.gradients;
 
       const mapping = {
         textStyles: mappers.mapTextStyles(response.document.layerTextStyles),
         colors: mappers.mapColors(colorLayers),
-        gradients: mappers.mapGradients(getGradientsFromArtboard(primitivesPage.layers)),
+        gradients: mappers.mapGradients(gradientLayers),
         shadows: mappers.mapShadows(getShadowsFromArtboard(primitivesPage.layers)),
         fonts: response.meta.fonts,
         sketchVersion: response.meta.appVersion,
