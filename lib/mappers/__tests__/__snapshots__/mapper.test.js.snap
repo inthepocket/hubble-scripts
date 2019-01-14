@@ -235,6 +235,55 @@ Array [
 ]
 `;
 
+exports[`[mapper.js] test suite -> #mapShadows: given artboard gradients, should transform them nicely 1`] = `
+Array [
+  Object {
+    "blur": 3,
+    "color": Object {
+      "alpha": 0.5,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "black",
+      "red": 0,
+      "rgb": "0, 0, 0",
+      "rgba": "0, 0, 0, 0.5",
+    },
+    "spread": 0,
+    "type": "inner-shadow",
+    "x": 0,
+    "y": 1,
+  },
+  Object {
+    "blur": 4,
+    "color": Object {
+      "alpha": 0.5,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "black",
+      "red": 0,
+      "rgb": "0, 0, 0",
+      "rgba": "0, 0, 0, 0.5",
+    },
+    "spread": 0,
+    "type": "drop-shadow",
+    "x": 0,
+    "y": 2,
+  },
+]
+`;
+
 exports[`[mapper.js] test suite -> #mapTextStyles: given the text styles, should transform them nicely 1`] = `
 Array [
   Object {
