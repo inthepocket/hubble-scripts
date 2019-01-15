@@ -590,6 +590,139 @@
       }
     }
   ],
+  "borders": [
+    {
+      "color": {
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": "255, 150, 150",
+        "rgba": "255, 150, 150, 1",
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "INSIDE",
+      "radius": 3
+    },
+    {
+      "color": {
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": "255, 150, 150",
+        "rgba": "255, 150, 150, 1",
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": 12.5
+    },
+    {
+      "gradient": {
+        "type": "LINEAR",
+        "from": "{0.5, 1}",
+        "to": "{0.49999999999999989, 3.0616169978683836e-17}",
+        "stops": [
+          {
+            "position": 0,
+            "color": {
+              "name": "norway",
+              "red": 151,
+              "green": 182,
+              "blue": 144,
+              "alpha": 1,
+              "rgb": "151, 182, 144",
+              "rgba": "151, 182, 144, 1",
+              "hex": "97b690",
+              "hsl": [
+                109,
+                21,
+                64
+              ]
+            }
+          },
+          {
+            "position": 0.5038507579143953,
+            "color": {
+              "name": "hippieGreen",
+              "red": 85,
+              "green": 145,
+              "blue": 88,
+              "alpha": 1,
+              "rgb": "85, 145, 88",
+              "rgba": "85, 145, 88, 1",
+              "hex": "559158",
+              "hsl": [
+                123,
+                26,
+                45
+              ]
+            }
+          },
+          {
+            "position": 1,
+            "color": {
+              "name": "salem",
+              "red": 34,
+              "green": 125,
+              "blue": 62,
+              "alpha": 1,
+              "rgb": "34, 125, 62",
+              "rgba": "34, 125, 62, 1",
+              "hex": "227d3e",
+              "hsl": [
+                138,
+                57,
+                31
+              ]
+            }
+          }
+        ]
+      },
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": [
+        8,
+        12.5,
+        12.5,
+        12.5
+      ]
+    },
+    {
+      "color": {
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": "255, 150, 150",
+        "rgba": "255, 150, 150, 1",
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "CENTER",
+      "radius": 0
+    }
+  ],
   "fonts": [
     "FiraSans-Regular"
   ],
