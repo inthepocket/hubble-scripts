@@ -18,6 +18,142 @@ Object {
 }
 `;
 
+exports[`[mapper.js] test suite -> #mapBorders: given artboard borders, should transform them nicely 1`] = `
+Array [
+  Object {
+    "color": Object {
+      "alpha": 1,
+      "blue": 150,
+      "green": 150,
+      "hex": "ff9696",
+      "hsl": Array [
+        0,
+        100,
+        79,
+      ],
+      "name": "geraldine",
+      "red": 255,
+      "rgb": "255, 150, 150",
+      "rgba": "255, 150, 150, 1",
+    },
+    "radius": 3,
+    "type": "INSIDE",
+    "width": 1,
+  },
+  Object {
+    "color": Object {
+      "alpha": 1,
+      "blue": 150,
+      "green": 150,
+      "hex": "ff9696",
+      "hsl": Array [
+        0,
+        100,
+        79,
+      ],
+      "name": "geraldine",
+      "red": 255,
+      "rgb": "255, 150, 150",
+      "rgba": "255, 150, 150, 1",
+    },
+    "radius": 12.5,
+    "type": "OUTSIDE",
+    "width": 1,
+  },
+  Object {
+    "gradient": Object {
+      "from": "{0.5, 1}",
+      "stops": Array [
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 144,
+            "green": 182,
+            "hex": "97b690",
+            "hsl": Array [
+              109,
+              21,
+              64,
+            ],
+            "name": "norway",
+            "red": 151,
+            "rgb": "151, 182, 144",
+            "rgba": "151, 182, 144, 1",
+          },
+          "position": 0,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 88,
+            "green": 145,
+            "hex": "559158",
+            "hsl": Array [
+              123,
+              26,
+              45,
+            ],
+            "name": "hippieGreen",
+            "red": 85,
+            "rgb": "85, 145, 88",
+            "rgba": "85, 145, 88, 1",
+          },
+          "position": 0.5038507579143953,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 62,
+            "green": 125,
+            "hex": "227d3e",
+            "hsl": Array [
+              138,
+              57,
+              31,
+            ],
+            "name": "salem",
+            "red": 34,
+            "rgb": "34, 125, 62",
+            "rgba": "34, 125, 62, 1",
+          },
+          "position": 1,
+        },
+      ],
+      "to": "{0.49999999999999989, 3.0616169978683836e-17}",
+      "type": "LINEAR",
+    },
+    "radius": Array [
+      8,
+      12.5,
+      12.5,
+      12.5,
+    ],
+    "type": "OUTSIDE",
+    "width": 1,
+  },
+  Object {
+    "color": Object {
+      "alpha": 1,
+      "blue": 150,
+      "green": 150,
+      "hex": "ff9696",
+      "hsl": Array [
+        0,
+        100,
+        79,
+      ],
+      "name": "geraldine",
+      "red": 255,
+      "rgb": "255, 150, 150",
+      "rgba": "255, 150, 150, 1",
+    },
+    "radius": 0,
+    "type": "CENTER",
+    "width": 1,
+  },
+]
+`;
+
 exports[`[mapper.js] test suite -> #mapColors: given artboard colors, should transform all colors nicely 1`] = `
 Array [
   Object {

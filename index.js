@@ -2,7 +2,10 @@ const fs = require('fs');
 const sketch2json = require('sketch2json');
 const pkg = require('./package.json');
 
-const { getPageArrays, getColorsFromArtboard, getGradientsFromArtboard, getShadowsFromArtboard } = require('./lib/sketch');
+const {
+  getPageArrays, getColorsFromArtboard, getGradientsFromArtboard, getShadowsFromArtboard,
+  getBordersFromArtboard
+} = require('./lib/sketch');
 const mappers = require('./lib/mappers');
 const { prettyJSON } = require('./lib/utils');
 
@@ -36,6 +39,7 @@ module.exports = (args, flags) => {
         colors: mappers.mapColors(colorLayers),
         gradients: mappers.mapGradients(gradientLayers),
         shadows: mappers.mapShadows(getShadowsFromArtboard(primitivesPage.layers)),
+        borders: mappers.mapBorders(getBordersFromArtboard(primitivesPage.layers)),
         fonts: response.meta.fonts,
         sketchVersion: response.meta.appVersion,
       };
