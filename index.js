@@ -22,7 +22,7 @@ module.exports = (args, flags) => {
     try {
       const response = await sketch2json(data);
 
-      const primitivesPage = getPageArrays(response).find(i => i.name === 'primitives');
+      const primitivesPage = getPageArrays(response).find(i => i.name.toLowerCase() === 'primitives');
       if (!primitivesPage) {
         throw new Error(`No primitives page found.`)
       }
