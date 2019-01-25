@@ -56,6 +56,7 @@ Array [
       ],
       "token": "color",
     },
+    "id": "inside",
     "radius": 3,
     "token": "border",
     "type": "INSIDE",
@@ -87,6 +88,7 @@ Array [
       ],
       "token": "color",
     },
+    "id": "outside",
     "radius": 12.5,
     "token": "border",
     "type": "OUTSIDE",
@@ -191,6 +193,7 @@ Array [
       "token": "gradient",
       "type": "LINEAR",
     },
+    "id": "gradientWithCorners",
     "radius": Array [
       8,
       12.5,
@@ -227,6 +230,7 @@ Array [
       ],
       "token": "color",
     },
+    "id": "center",
     "radius": 0,
     "token": "border",
     "type": "CENTER",
@@ -865,6 +869,7 @@ Array [
       0.5,
       1,
     ],
+    "id": "linear",
     "stops": Array [
       Object {
         "color": Object {
@@ -963,6 +968,7 @@ Array [
       0.5,
       1,
     ],
+    "id": "radial",
     "stops": Array [
       Object {
         "color": Object {
@@ -1033,6 +1039,7 @@ Array [
       0.5,
       1,
     ],
+    "id": "angular",
     "stops": Array [
       Object {
         "color": Object {
@@ -1233,6 +1240,7 @@ Array [
       ],
       "token": "color",
     },
+    "id": "simple",
     "spread": 0,
     "token": "shadow",
     "type": "inner-shadow",
@@ -1266,6 +1274,7 @@ Array [
       ],
       "token": "color",
     },
+    "id": "simple",
     "spread": 0,
     "token": "shadow",
     "type": "drop-shadow",
