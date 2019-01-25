@@ -89,6 +89,29 @@ Advised is to add a npm run task for this:
 }
 ```
 
+# Development
+
+## Building the binary
+
+hubble-scripts has to option to compile down to a binary that can be used on 64-bit macOS systems. This functionality is provided so it can be used in other native applications or systems where the Node.js runtime is not available.
+Since Node provides no option to build a binary and relies on the runtime itself, we are using `zeit/pkg` to do this for us. The only downside is that the binary is large in size.
+
+> Important!: before building, make sure you bump the version in package.json if required since it will compile down with the binary and the --version flag on the binary uses this file to return version output.
+
+```console
+# Verify that your version is correct first
+$ grep "version" package.json
+> "version": "3.0.0",
+
+# Build the application down to a binary in the bin folder
+$ npm run build
+> pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli
+
+# Verify it's ok
+$ bin/hubble-cli --version
+> 3.0.0
+```
+
 # Testing
 
 This project uses [jest](https://jestjs.io/) to run tests. You can trigger the tests with `npm test`.

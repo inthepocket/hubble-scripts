@@ -9,7 +9,8 @@ const cli = meow(`
   Options
     --outputDir=<dir>, -o     The directory where parsed files will be placed after a run. Defaults to current working directory
     --dump, -d                Dump all Sketch JSON files into 1 logdump.json
-    --useColorArtboards       Use artboards named "primitives/color/<name>" to export colors instead of using the document colors
+    --useColorArtboards       Use artboard formatting to export colors instead of using the document colors
+    --useGradientArtboards    Use artboard formatting to export gradients instead of using the document gradients
 
   Examples
     $ hubble-cli "__mocks/sample_sketchfile.sketch"
@@ -26,6 +27,10 @@ const cli = meow(`
       alias: 'd'
     },
     useColorArtboards: {
+      type: 'boolean',
+      default: false,
+    },
+    useGradientArtboards: {
       type: 'boolean',
       default: false,
     },
