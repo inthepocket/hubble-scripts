@@ -620,6 +620,7 @@
   ],
   "gradients": [
     {
+      "id": "linear",
       "token": "gradient",
       "type": "LINEAR",
       "from": [
@@ -718,6 +719,7 @@
       ]
     },
     {
+      "id": "radial",
       "token": "gradient",
       "type": "RADIAL",
       "from": [
@@ -788,6 +790,7 @@
       ]
     },
     {
+      "id": "angular",
       "token": "gradient",
       "type": "ANGULAR",
       "from": [
@@ -860,6 +863,7 @@
   ],
   "shadows": [
     {
+      "id": "simple",
       "token": "shadow",
       "blur": 3,
       "x": 0,
@@ -893,6 +897,7 @@
       }
     },
     {
+      "id": "simple",
       "token": "shadow",
       "blur": 4,
       "x": 0,
@@ -928,6 +933,7 @@
   ],
   "borders": [
     {
+      "id": "inside",
       "token": "border",
       "color": {
         "token": "color",
@@ -959,6 +965,7 @@
       "radius": 3
     },
     {
+      "id": "outside",
       "token": "border",
       "color": {
         "token": "color",
@@ -990,6 +997,7 @@
       "radius": 12.5
     },
     {
+      "id": "gradientWithCorners",
       "token": "border",
       "gradient": {
         "token": "gradient",
@@ -1099,6 +1107,7 @@
       ]
     },
     {
+      "id": "center",
       "token": "border",
       "color": {
         "token": "color",
@@ -1133,5 +1142,5 @@
   "fonts": [
     "FiraSans-Regular"
   ],
-  "sketchVersion": "52.6"
+  "sketchVersion": "53"
 }
