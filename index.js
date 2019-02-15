@@ -29,10 +29,12 @@ module.exports = (args, flags) => {
 
       const colorLayers = flags.useColorArtboards
         ? getColorsFromArtboard(primitivesPage.layers)
-        : response.document.assets.colors;
+        : response.document.assets.colorAssets
+            .map(({ color, _class, name }) => ({ ...color, _class, name }));
       const gradientLayers = flags.useGradientArtboards
         ? getGradientsFromArtboard(primitivesPage.layers)
-        : response.document.assets.gradients;
+        : response.document.assets.gradientAssets
+            .map(({ gradient, _class }) => ({ ...gradient, _class }));
 
       const mapping = {
         textStyles: mappers.mapTextStyles(response.document.layerTextStyles),
