@@ -7522,6 +7522,7 @@
       "colorAssets": [
         {
           "_class": "MSImmutableColorAsset",
+          "name": "darkBlue",
           "color": {
             "_class": "color",
             "alpha": 1,
@@ -7532,6 +7533,7 @@
         },
         {
           "_class": "MSImmutableColorAsset",
+          "name": "hotRed",
           "color": {
             "_class": "color",
             "alpha": 1,
@@ -7542,6 +7544,7 @@
         },
         {
           "_class": "MSImmutableColorAsset",
+          "name": "jungleGreen",
           "color": {
             "_class": "color",
             "alpha": 1,
@@ -7552,6 +7555,7 @@
         },
         {
           "_class": "MSImmutableColorAsset",
+          "name": "ashDark",
           "color": {
             "_class": "color",
             "alpha": 1,
@@ -7559,11 +7563,22 @@
             "green": 0,
             "red": 0
           }
+        },
+        {
+          "_class": "MSImmutableColorAsset",
+          "color": {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.7294117647058823,
+            "green": 0.8235294117647058,
+            "red": 0.7529411764705882
+          }
         }
       ],
       "gradientAssets": [
         {
           "_class": "MSImmutableGradientAsset",
+          "name": "swampy",
           "gradient": {
             "_class": "gradient",
             "elipseLength": 1,
@@ -7641,6 +7656,13 @@
           "blue": 0,
           "green": 0,
           "red": 0
+        },
+        {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7294117647058823,
+          "green": 0.8235294117647058,
+          "red": 0.7529411764705882
         }
       ],
       "gradients": [
