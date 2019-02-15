@@ -1,9 +1,8 @@
-os: osx
-osx_image: xcode10
-
 matrix:
   include:
-  - language: node_js
+  - os: osx
+    osx_image: xcode10
+    language: node_js
     node_js:
     - '8'
     script:
