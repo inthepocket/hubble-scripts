@@ -120,10 +120,6 @@ This project uses [jest](https://jestjs.io/) to run tests. You can trigger the t
 
 All tests will be validated against the sample output in [__mocks__](./__mocks__). You can regenerate these using `npm run generate:mocks` which will consume `__mocks__/sample_sketchfile.sketch` and output a new config & sketch2json dump.
 
-## Local CI server mocking
-
-If you have Docker installed you could use [trevor](https://github.com/vadimdemedes/trevor) to locally mock our Travis CI server before submitting a pull request or while testing a new change. It will pull a node@8:alpine image from Docker Hub and run tests inside of the container, and afterwards destroy the container.
-
 ## Bash
 
 [Shellcheck](https://github.com/koalaman/shellcheck) is used to ensure consistent and safe shell (bash) scripts. Make sure you have shellcheck installed and run the lint command to test the scripts:

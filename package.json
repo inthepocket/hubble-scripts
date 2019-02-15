@@ -21,7 +21,6 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
-    "test:travis": "which docker > /dev/null && trevor",
     "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli"
   },
   "devDependencies": {
@@ -29,8 +28,7 @@
     "eslint": "^5.10.0",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
-    "pkg": "^4.3.5",
-    "trevor": "^2.3.0"
+    "pkg": "^4.3.5"
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {
