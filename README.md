@@ -26,7 +26,7 @@
 
 # Prerequisites
 
-- macOS with Sketch 41+
+- macOS with Sketch 41+ (latest Sketch recommended)
 - A recent bash version (bash@4.4 recommended)
 - A recent node version (node@8 recommended)
 
@@ -109,7 +109,7 @@ $ npm run build
 
 # Verify it's ok
 $ bin/hubble-cli --version
-> 3.0.0
+> 3.1.0
 ```
 
 # Testing
