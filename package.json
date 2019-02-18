@@ -23,16 +23,14 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
-    "test:travis": "which docker > /dev/null && trevor",
     "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli"
   },
   "devDependencies": {
-    "@inthepocket/itp-react-scripts": "^0.48.0",
-    "eslint": "^5.10.0",
+    "@inthepocket/itp-react-scripts": "^0.48.1",
+    "eslint": "^5.13.0",
     "jest": "^23.6.0",
-    "lint-staged": "^8.1.0",
-    "pkg": "^4.3.5",
-    "trevor": "^2.3.0"
+    "lint-staged": "^8.1.4",
+    "pkg": "^4.3.7"
   },
   "author": "Thibault Maekelbergh <thibault.maekelbergh@icloud.com>",
   "dependencies": {

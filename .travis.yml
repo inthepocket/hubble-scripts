@@ -1,15 +1,19 @@
 matrix:
   include:
-  - language: node_js
+  - os: osx
+    osx_image: xcode10
+    language: node_js
     node_js:
     - '8'
     script:
     - npm run lint
+    - npm run generate:mocks
     - npm test
   - language: shell
     sudo: false
     script:
     - shellcheck sketchtool.sh hubble.sh
+
 notifications:
   slack:
     secure: jCXaJgotbSFaJ4ID5XMdFIrmJoSOSyB1QE+WD3iW+qE67kEqBkreFGdeeP5gK9AEPMO/HkIdpQqpY3fp6JRpJEK/y54+zburrUaJFH3FHvOzgb3LPek1MAi7JsP1C9JXqG9LDt5f/EvE8LZln8eEA3ryL9gSLQ38AwRGw97qmmNd2jHmiPL3ELHd7Z67zIHGLyt44kbrQtjNgrN0bIgz1jTvY3Yulm3a7dzTn4xwK3ImLEYtmBJLqqoLprvlEY9ld7hPmQ6oy+GJgSqjrQl9iIwcygZzJtZVWko9Kjx9w4Y4q89Qv8X32GlGnf7WJef+/Dui2EaPrv/aNd5bbSAX7xrsiA+9n3um5CI1G3iiB/Rz9meoXYs4h6cPGqn6IoO7LHdzyyLATSlOLCZHSN+om7tNPgKAA6h3YyJsHLDxeJi8X0n+MnxpzD218XY+zpc6E39tiKYJ87bVYBCEDaUdHU/rDRqgh/pKcNJLrEa5erYbHtZw0BmfaUg+QkI3bv/BOEhvDybUdtIvF0bo9Nb9wD1TWTA4av/DcTvehFCOZCce/pTjFqGCKztwGNkX+PGp/R0of2Xod1RbYbANG/QnJo8Vm4kAAkFEuKxDhvpIPMlrXU/egkEXWTHploe9KnzUvZ0pGSlXhTURsg//3Kw2RarYBj+TYJqCNTKzgJn9z1U=
