@@ -6,6 +6,62 @@ Object {
     "_class": "document",
     "assets": Object {
       "_class": "assetCollection",
+      "colorAssets": Array [
+        Object {
+          "_class": "MSImmutableColorAsset",
+          "color": Object {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.6235294117647059,
+            "green": 0.02352941176470588,
+            "red": 0.06274509803921553,
+          },
+          "name": "darkBlue",
+        },
+        Object {
+          "_class": "MSImmutableColorAsset",
+          "color": Object {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.3137254901960784,
+            "green": 0,
+            "red": 0.8980392156862745,
+          },
+          "name": "hotRed",
+        },
+        Object {
+          "_class": "MSImmutableColorAsset",
+          "color": Object {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.3058823529411765,
+            "green": 0.7450980392156863,
+            "red": 0.1725490196078432,
+          },
+          "name": "jungleGreen",
+        },
+        Object {
+          "_class": "MSImmutableColorAsset",
+          "color": Object {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0,
+            "green": 0,
+            "red": 0,
+          },
+          "name": "ashDark",
+        },
+        Object {
+          "_class": "MSImmutableColorAsset",
+          "color": Object {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.7294117647058823,
+            "green": 0.8235294117647058,
+            "red": 0.7529411764705882,
+          },
+        },
+      ],
       "colors": Array [
         Object {
           "_class": "color",
@@ -34,6 +90,61 @@ Object {
           "blue": 0,
           "green": 0,
           "red": 0,
+        },
+        Object {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7294117647058823,
+          "green": 0.8235294117647058,
+          "red": 0.7529411764705882,
+        },
+      ],
+      "gradientAssets": Array [
+        Object {
+          "_class": "MSImmutableGradientAsset",
+          "gradient": Object {
+            "_class": "gradient",
+            "elipseLength": 1,
+            "from": "{0.5, 1}",
+            "gradientType": 0,
+            "stops": Array [
+              Object {
+                "_class": "gradientStop",
+                "color": Object {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0.5647058823529412,
+                  "green": 0.7137254901960784,
+                  "red": 0.592156862745098,
+                },
+                "position": 0,
+              },
+              Object {
+                "_class": "gradientStop",
+                "color": Object {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0.3450980392156862,
+                  "green": 0.5686274509803921,
+                  "red": 0.3333333333333334,
+                },
+                "position": 0.5038507579143953,
+              },
+              Object {
+                "_class": "gradientStop",
+                "color": Object {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0.2431372549019607,
+                  "green": 0.4901960784313725,
+                  "red": 0.1333333333333333,
+                },
+                "position": 1,
+              },
+            ],
+            "to": "{0.49999999999999989, 3.0616169978683836e-17}",
+          },
+          "name": "swampy",
         },
       ],
       "gradients": Array [
@@ -228,19 +339,19 @@ Object {
   },
   "meta": Object {
     "app": "com.bohemiancoding.sketch3",
-    "appVersion": "52.6",
+    "appVersion": "53",
     "autosaved": 0,
-    "build": 67491,
-    "commit": "b1e0d1c5db157d3a481169aac84f04adc67d2e21",
+    "build": 72520,
+    "commit": "6bf1bb7d02be2c7e63a1a6d1a4e221acacddb3fe",
     "compatibilityVersion": 99,
     "created": Object {
       "app": "com.bohemiancoding.sketch3",
-      "appVersion": "52.6",
-      "build": 67491,
-      "commit": "b1e0d1c5db157d3a481169aac84f04adc67d2e21",
+      "appVersion": "53",
+      "build": 72520,
+      "commit": "6bf1bb7d02be2c7e63a1a6d1a4e221acacddb3fe",
       "compatibilityVersion": 99,
       "variant": "NONAPPSTORE",
-      "version": 112,
+      "version": 116,
     },
     "fonts": Array [
       "FiraSans-Regular",
@@ -349,10 +460,10 @@ Object {
       },
     },
     "saveHistory": Array [
-      "NONAPPSTORE.67491",
+      "NONAPPSTORE.72520",
     ],
     "variant": "NONAPPSTORE",
-    "version": 112,
+    "version": 116,
   },
   "pages": Object {
     "3887CAEA-110F-415F-8010-F3C825F27590": Object {
@@ -374,6 +485,9 @@ Object {
         "width": 0,
         "x": 0,
         "y": 0,
+      },
+      "groupLayout": Object {
+        "_class": "MSImmutableFreeformGroupLayout",
       },
       "hasClickThrough": true,
       "hasClippingMask": false,
@@ -428,6 +542,9 @@ Object {
             "x": 1013,
             "y": 419,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -467,6 +584,9 @@ Object {
                 "x": 0,
                 "y": 0,
               },
+              "groupLayout": Object {
+                "_class": "MSImmutableFreeformGroupLayout",
+              },
               "hasClickThrough": false,
               "hasClippingMask": false,
               "isFixedToViewport": false,
@@ -497,6 +617,9 @@ Object {
                     "width": 19,
                     "x": 0,
                     "y": 0,
+                  },
+                  "groupLayout": Object {
+                    "_class": "MSImmutableFreeformGroupLayout",
                   },
                   "hasClickThrough": false,
                   "hasClippingMask": true,
@@ -961,6 +1084,7 @@ Object {
           ],
           "name": "icons/level2/code-check",
           "nameIsFixed": false,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -1006,6 +1130,9 @@ Object {
             "width": 81,
             "x": 759,
             "y": 532,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
@@ -1178,6 +1305,9 @@ Object {
             "x": 759,
             "y": 478,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
           "hasClippingMask": false,
@@ -1348,6 +1478,9 @@ Object {
             "width": 205,
             "x": 759,
             "y": 407,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -1522,6 +1655,9 @@ Object {
             "x": 1064,
             "y": 407,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -1690,6 +1826,7 @@ Object {
           },
           "name": "primitives/color/primary/900",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -1746,6 +1883,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 445,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -1915,6 +2055,7 @@ Object {
           },
           "name": "primitives/color/primary/800",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -1978,6 +2119,9 @@ Object {
             "gridSize": 20,
             "isEnabled": false,
             "thickGridTimes": 10,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -2147,6 +2291,7 @@ Object {
           },
           "name": "primitives/color/primary/700",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -2203,6 +2348,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 531,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -2372,6 +2520,7 @@ Object {
           },
           "name": "primitives/color/primary/600",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -2428,6 +2577,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 571,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -2597,6 +2749,7 @@ Object {
           },
           "name": "primitives/color/primary/500",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -2653,6 +2806,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 613,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -2822,6 +2978,7 @@ Object {
           },
           "name": "primitives/color/primary/400",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -2878,6 +3035,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 658,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -3047,6 +3207,7 @@ Object {
           },
           "name": "primitives/color/primary/300",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -3103,6 +3264,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 703,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -3272,6 +3436,7 @@ Object {
           },
           "name": "primitives/color/primary/200",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -3328,6 +3493,9 @@ Object {
             "width": 24,
             "x": 1064,
             "y": 746,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -3497,6 +3665,7 @@ Object {
           },
           "name": "primitives/color/primary/100",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -3560,6 +3729,9 @@ Object {
             "gridSize": 20,
             "isEnabled": false,
             "thickGridTimes": 10,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -3729,6 +3901,7 @@ Object {
           },
           "name": "primitives/color/secondary/900",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -3792,6 +3965,9 @@ Object {
             "gridSize": 20,
             "isEnabled": false,
             "thickGridTimes": 10,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
@@ -3961,6 +4137,7 @@ Object {
           },
           "name": "primitives/color/red",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -4017,6 +4194,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 445,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -4186,6 +4366,7 @@ Object {
           },
           "name": "primitives/color/secondary/800",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -4242,6 +4423,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 488,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -4411,6 +4595,7 @@ Object {
           },
           "name": "primitives/color/secondary/700",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -4467,6 +4652,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 531,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -4636,6 +4824,7 @@ Object {
           },
           "name": "primitives/color/secondary/600",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -4692,6 +4881,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 571,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -4861,6 +5053,7 @@ Object {
           },
           "name": "primitives/color/secondary/500",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -4917,6 +5110,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 613,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -5086,6 +5282,7 @@ Object {
           },
           "name": "primitives/color/secondary/400",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -5142,6 +5339,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 658,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -5311,6 +5511,7 @@ Object {
           },
           "name": "primitives/color/secondary/300",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -5367,6 +5568,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 703,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
@@ -5536,6 +5740,7 @@ Object {
           },
           "name": "primitives/color/secondary/200",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -5592,6 +5797,9 @@ Object {
             "width": 24,
             "x": 1131,
             "y": 746,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -5761,6 +5969,7 @@ Object {
           },
           "name": "primitives/color/secondary/100",
           "nameIsFixed": true,
+          "overrideProperties": Array [],
           "resizesContent": false,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -5813,6 +6022,9 @@ Object {
             "width": 131,
             "x": 1180,
             "y": 407,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
@@ -6047,6 +6259,9 @@ Object {
             "x": 1180,
             "y": 488,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -6275,6 +6490,9 @@ Object {
             "x": 1180,
             "y": 569,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -6500,6 +6718,9 @@ Object {
             "x": 1328,
             "y": 407,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -6713,6 +6934,9 @@ Object {
             "x": 1453,
             "y": 407,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
           "hasClippingMask": false,
@@ -6910,6 +7134,9 @@ Object {
             "x": 1453,
             "y": 515,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
           "hasClippingMask": false,
@@ -7106,6 +7333,9 @@ Object {
             "width": 102,
             "x": 1453,
             "y": 568,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
@@ -7343,6 +7573,9 @@ Object {
             "x": 1453,
             "y": 460,
           },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
+          },
           "hasBackgroundColor": false,
           "hasClickThrough": true,
           "hasClippingMask": false,
@@ -7533,6 +7766,9 @@ Object {
             "width": 102,
             "x": 1328,
             "y": 457,
+          },
+          "groupLayout": Object {
+            "_class": "MSImmutableFreeformGroupLayout",
           },
           "hasBackgroundColor": false,
           "hasClickThrough": false,
@@ -7746,8 +7982,8 @@ Object {
   },
   "user": Object {
     "3887CAEA-110F-415F-8010-F3C825F27590": Object {
-      "scrollOrigin": "{-3804, -1091}",
-      "zoomValue": 2.869504109150927,
+      "scrollOrigin": "{-1454, -592}",
+      "zoomValue": 1.576445328816996,
     },
     "document": Object {
       "pageListCollapsed": 0,
@@ -7786,6 +8022,7 @@ Object {
         ],
         "token": "color",
       },
+      "id": "inside",
       "radius": 3,
       "token": "border",
       "type": "INSIDE",
@@ -7817,6 +8054,7 @@ Object {
         ],
         "token": "color",
       },
+      "id": "outside",
       "radius": 12.5,
       "token": "border",
       "type": "OUTSIDE",
@@ -7828,6 +8066,7 @@ Object {
           0.5,
           1,
         ],
+        "name": "norwayGradient",
         "stops": Array [
           Object {
             "color": Object {
@@ -7921,6 +8160,7 @@ Object {
         "token": "gradient",
         "type": "LINEAR",
       },
+      "id": "gradientWithCorners",
       "radius": Array [
         8,
         12.5,
@@ -7957,6 +8197,7 @@ Object {
         ],
         "token": "color",
       },
+      "id": "center",
       "radius": 0,
       "token": "border",
       "type": "CENTER",
@@ -8487,6 +8728,7 @@ Object {
         0.5,
         1,
       ],
+      "id": "linear",
       "stops": Array [
         Object {
           "color": Object {
@@ -8585,6 +8827,7 @@ Object {
         0.5,
         1,
       ],
+      "id": "radial",
       "stops": Array [
         Object {
           "color": Object {
@@ -8655,6 +8898,7 @@ Object {
         0.5,
         1,
       ],
+      "id": "angular",
       "stops": Array [
         Object {
           "color": Object {
@@ -8749,6 +8993,7 @@ Object {
         ],
         "token": "color",
       },
+      "id": "simple",
       "spread": 0,
       "token": "shadow",
       "type": "inner-shadow",
@@ -8782,6 +9027,7 @@ Object {
         ],
         "token": "color",
       },
+      "id": "simple",
       "spread": 0,
       "token": "shadow",
       "type": "drop-shadow",
@@ -8789,7 +9035,7 @@ Object {
       "y": 2,
     },
   ],
-  "sketchVersion": "52.6",
+  "sketchVersion": "53",
   "textStyles": Array [
     Object {
       "borderBottom": null,
