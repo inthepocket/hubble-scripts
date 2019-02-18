@@ -11,7 +11,7 @@ Object {
     93,
     32,
   ],
-  "name": "ultramarine",
+  "name": "darkBlue",
   "red": 16,
   "rgb": Array [
     16,
@@ -100,6 +100,7 @@ Array [
         0.5,
         1,
       ],
+      "name": "norwayGradient",
       "stops": Array [
         Object {
           "color": Object {
@@ -769,7 +770,7 @@ Array [
       93,
       32,
     ],
-    "name": "ultramarine",
+    "name": "darkBlue",
     "red": 16,
     "rgb": Array [
       16,
@@ -794,7 +795,7 @@ Array [
       100,
       45,
     ],
-    "name": "amaranth",
+    "name": "hotRed",
     "red": 229,
     "rgb": Array [
       229,
@@ -819,7 +820,7 @@ Array [
       62,
       46,
     ],
-    "name": "apple",
+    "name": "jungleGreen",
     "red": 44,
     "rgb": Array [
       44,
@@ -844,7 +845,7 @@ Array [
       0,
       0,
     ],
-    "name": "black",
+    "name": "ashDark",
     "red": 0,
     "rgb": Array [
       0,
@@ -855,6 +856,31 @@ Array [
       0,
       0,
       0,
+      1,
+    ],
+    "token": "color",
+  },
+  Object {
+    "alpha": 1,
+    "blue": 186,
+    "green": 210,
+    "hex": "c0d2ba",
+    "hsl": Array [
+      105,
+      21,
+      78,
+    ],
+    "name": "paleLeaf",
+    "red": 192,
+    "rgb": Array [
+      192,
+      210,
+      186,
+    ],
+    "rgba": Array [
+      192,
+      210,
+      186,
       1,
     ],
     "token": "color",
@@ -1115,6 +1141,7 @@ Array [
       0.5,
       1,
     ],
+    "name": "norwayGradient",
     "stops": Array [
       Object {
         "color": Object {
