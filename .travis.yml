@@ -9,10 +9,15 @@ matrix:
     - npm run lint
     - npm run generate:mocks
     - npm test
+
   - language: shell
     sudo: false
     script:
     - shellcheck sketchtool.sh hubble.sh
+
+  - language: ruby
+    before_script: gem install awesome_bot
+    script: awesome_bot README.md --allow-redirect --allow-dupe
 
 notifications:
   slack:
