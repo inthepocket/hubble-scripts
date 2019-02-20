@@ -1,135 +1,124 @@
-<div align="center">
-  <h1 align="center">🔭 hubble-scripts</h1>
-  <div align="center">
-    <img src="./icon.png" alt="Hubble Icon" />
-    <p>
-      <a href='./LICENSE'>
-        <img src="https://badgen.net/badge/license/MIT/blue" alt="MIT License">
-      </a>
-      <img src="https://badgen.net/badge/platform/macOS?icon=apple" alt="" />
-      <a href="https://github.com/inthepocket/hubble-scripts/releases">
-        <img src="https://badgen.net/github/releases/inthepocket/hubble-scripts" />
-      </a>
-      <img src="https://badgen.net/github/last-commit/inthepocket/hubble-scripts" />
-      <a href="https://travis-ci.org/inthepocket/hubble-scripts">
-        <img src="https://badgen.net/travis/inthepocket/hubble-scripts" />
-      </a>
-    </p>
-    <p>
-      Export configuration data like colors, fonts & text styles out of sketch to a universally parseable JSON format.<br/>
-      This repository is an attempt to further automate design systems & tooling at In The Pocket.<br/>
-      <br/>
-      Assets can also be exported as platform-friendly PNG & SVG formats.
-    </p>
-  </div>
-</div>
+![Hubble Scripts logo][logo]
+
+[![LICENSE](https://badgen.net/badge/license/MIT/blue)][license]
+![Platform](https://badgen.net/badge/platform/macOS?icon=apple)
+[![Releases](https://badgen.net/github/releases/inthepocket/hubble-scripts)][releases]
+![Last commit](https://badgen.net/github/last-commit/inthepocket/hubble-scripts)
+[![Latest release](https://badgen.net/github/release/inthepocket/hubble-scripts/stable)][latest release]
+[![CI Status](https://badgen.net/travis/inthepocket/hubble-scripts)][travis]
+
+> Scripts repository to export design data like colors, fonts & text, and map them to design tokens.
+
+Map design data from Sketch to universally parseable JSON design tokens to integrate in your applications. This repository is an attempt to further automate design systems & tooling at In The Pocket. Assets can also be exported as platform-friendly PNG & SVG formats. This scripts library is the backbone of the [Hubble ecosystem][hubble homepage]
+
+# Contents
+
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 # Prerequisites
 
 - macOS with Sketch 41+ (latest Sketch recommended)
 - A recent bash version (bash@4.4 recommended)
-- A recent node version (node@8 recommended)
+
+# Installing
+
+The easiest way to install is to download [one of the releases][releases] and download the hubble-cli binary. This can be executed by most shells and will only output design tokens.
+
+If you're looking to also export assets, download [`sketchtool.sh`][sketchtool], which is a shell script wrapper around Sketch's [sketchtool binary][sketchtool docs].
 
 # Usage
 
-> There is a sample sketchfile in the [__mocks__](./__mocks__) folder with sample output that would be generated for this file.
+> There is a sample sketchfile in the [__mocks__][mocks] folder with sample output that would be generated for this file.
+
+hubble-scripts works best with a separate Sketch [library file][[sketch library docs]].
 
 ## Generating JSON config
 
-This will generate a `hubble-data.json` file with text styles & colors found in a Sketch document.
-Works best with a library file.
+You can use the `hubble-cli` binary to export design data out of your Sketch file and map it to a generic JSON design token format.
 
-```bash
-bash ./hubble.sh "/home/usr/file.sketch"
+```shell
+# This will generate a `hubble-data.json` file with text styles & colors found in a Sketch document:
+$ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch"
+
+# You can optionally specify a config output dir. Otherwise current working directory will be used:
+$ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --outputDir="/var/hubble/"
 ```
 
-You can optionally specify a config output dir as $2 and asset output dir as $3. Otherwise current working directory will be used:
-
-```bash
-bash ./hubble.sh "/home/usr/file.sketch" "/var/hubble" "/var/hubble/assets/images"
-```
+If you need more fine-tuning over this export flow, Hubble provides even more options to [customise your design token output][wiki].
 
 ## Exporting assets
 
-Will export all assets as SVG (for web) and PNG (1x, 2x, 3x for native).
-Works best with a library file.
+Assets can be exported using the `sketchtool.sh` script. This process exports all layers marked as exportable or that have been sliced.
 
-```bash
-bash ./sketchtool.sh "MyFile.sketch" "/var/hubble/assets/images"
+```shell
+# This will export assets as SVG (for web) and PNG (1x, 2x, 3x for native)
+$ ./sketchtool.sh "/Users/hubble/Desktop/MyDesign.sketch"
+
+# You can optionally specify an asset output dir. Otherwise current working directory will be used:
+$ ./sketchtool.sh "/Users/hubble/Desktop/MyDesign.sketch" "/var/hubble/assets/images"
 ```
 
-## Uploading to cloud
+## Integrating in a project
 
-There are scripts to upload your files to AWS S3 and to Google Cloud.
-It is assumed that you have [aws-cli](https://aws.amazon.com/cli/) or [gsutil](https://cloud.google.com/storage/docs/gsutil) cli already installed and configured.
-
-Each script takes 3 arguments
-1) Assets output folder
-2) Configuration output folder
-3) Bucket name
-
-You can configure this service by adding one of these lines to `hubble.sh`
-
-`upload_to_gcloud "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"`
-
-`upload_to_s3 "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"`
-
-# Integrations
-
-## Importing into a project
-
-Copy `hubble.sh` and `sketchtool.sh` to a scripts folder in your project
-Advised is to add a npm run task for this:
+Copy `hubble-cli` and `sketchtool.sh` to a scripts folder in your project. This example uses npm run-tasks to describe the export flow:
 
 ```json
 {
   "scripts": {
-    "hubble": "./scripts/hubble.sh"
+    "hubble:data": "./scripts/hubble-cli ...",
+    "hubble:assets": "./scripts/sketchtool.sh ...",
+    "hubble": "npm run hubble:data && npm run hubble:assets"
   }
 }
 ```
 
-# Development
+# Contributing
 
-## Building the binary
+❤ We appreciate every form of contribution, but before you contribute please make sure you have read the [contribution guidelines][contributing]
 
-hubble-scripts has to option to compile down to a binary that can be used on 64-bit macOS systems. This functionality is provided so it can be used in other native applications or systems where the Node.js runtime is not available.
-Since Node provides no option to build a binary and relies on the runtime itself, we are using `zeit/pkg` to do this for us. The only downside is that the binary is large in size.
+## Development
 
-> Important!: before building, make sure you bump the version in package.json if required since it will compile down with the binary and the --version flag on the binary uses this file to return version output.
+`hubble-cli` is a compiled binary of `cli.js`, a Node.js CLI wrapper around our `index.js` script. If you have Node you can run this script directly:
 
-```console
-# Verify that your version is correct first
-$ grep "version" package.json
-> "version": "3.0.0",
+```shell
+$ node cli.js --help
 
-# Build the application down to a binary in the bin folder
-$ npm run build
-> pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli
+  Usage
+    $ hubble-cli <input> --outputDir="/home/usr/downloads"
 
-# Verify it's ok
-$ bin/hubble-cli --version
-> 3.1.0
+  Options
+    --outputDir=<dir>, -o     The directory where parsed files will be placed after a run. Defaults to current working directory
+    --dump, -d                Dump all Sketch JSON files into 1 logdump.json
+    --useColorArtboards       Use artboard formatting to export colors instead of using the document colors
+    --useGradientArtboards    Use artboard formatting to export gradients instead of using the document gradients
+
+  Examples
+    $ hubble-cli "__mocks/sample_sketchfile.sketch"
+    $ hubble-cli "__mocks__/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
 ```
 
-# Testing
+For more on running in development mode, check the [wiki].
 
-This project uses [jest](https://jestjs.io/) to run tests. You can trigger the tests with `npm test`.
+# License
 
-## Mocks & sample output
+[MIT][license]
 
-All tests will be validated against the sample output in [__mocks__](./__mocks__). You can regenerate these using `npm run generate:mocks` which will consume `__mocks__/sample_sketchfile.sketch` and output a new config & sketch2json dump.
+<!-- LINKS -->
+[hubble homepage]: https://hubble-design-systems.netlify.com
 
-## Bash
+[logo]: https://github.com/inthepocket/hubble-scripts/blob/master/.github/hubble-scripts-banner.png
+[license]: https://github.com/inthepocket/hubble-scripts/blob/master/LICENSE
+[contributing]: https://github.com/inthepocket/hubble-scripts/blob/master/CONTRIBUTING.md
+[releases]: https://github.com/inthepocket/hubble-scripts/releases
+[latest release]: https://github.com/inthepocket/hubble-scripts/releases/latest
+[wiki]: https://github.com/inthepocket/hubble-scripts/wiki
+[mocks]: https://github.com/inthepocket/hubble-scripts/blob/master/__mocks__/
+[sketchtool]: https://github.com/inthepocket/hubble-scripts/blob/master/sketchtool.sh
 
-[Shellcheck](https://github.com/koalaman/shellcheck) is used to ensure consistent and safe shell (bash) scripts. Make sure you have shellcheck installed and run the lint command to test the scripts:
-
-```console
-$ brew install shellcheck
-$ npm run lint:shell
-
-In hubble.sh line 6:
-  printf "\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
-          ^-- SC1117: Backslash is literal in "\n". Prefer explicit escaping: "\\n".
-
-```
+[travis]: https://travis-ci.org/inthepocket/hubble-scripts
+[sketch library docs]: https://sketchapp.com/docs/libraries/
+[sketchtool docs]: https://developer.sketchapp.com/guides/sketchtool/

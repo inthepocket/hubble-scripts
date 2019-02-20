@@ -9,7 +9,7 @@ function log() {
 # Generate config file from hubble
 function generate_config() {
   log "💎  Generating config from sketchfile..."
-  node cli.js "$SKETCHFILE" --outputDir="$CONFIG_OUTPUT_DIR" "$@"
+  ./bin/hubble-cli "$SKETCHFILE" --outputDir="$CONFIG_OUTPUT_DIR" "$@"
 }
 
 # Generate assets from hubble
