@@ -34,7 +34,7 @@ If you're looking to also export assets, download [`sketchtool.sh`][sketchtool],
 
 > There is a sample sketchfile in the [__mocks__][mocks] folder with sample output that would be generated for this file.
 
-hubble-scripts works best with a separate Sketch [library file][[sketch library docs]].
+hubble-scripts works best with a separate Sketch [library file][sketch library docs].
 
 ## Generating JSON config
 
