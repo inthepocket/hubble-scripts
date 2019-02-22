@@ -9,7 +9,7 @@
 
 > Scripts repository to export design data like colors, fonts & text, and map them to design tokens.
 
-Map design data from Sketch to universally parseable JSON design tokens to integrate in your applications. This repository is an attempt to further automate design systems & tooling at In The Pocket. Assets can also be exported as platform-friendly PNG & SVG formats. This scripts library is the backbone of the [Hubble ecosystem][hubble homepage]
+The backbone of the [Hubble ecosystem][hubble homepage], this scripts repository exports design data like colors, fonts & text, and maps them to JSON design tokens to integrate in your applications. This repository is an attempt to further automate design systems & tooling at In The Pocket. Assets can also be exported as platform-friendly PNG & SVG formats.
 
 # Contents
 
@@ -48,7 +48,7 @@ $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch"
 $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --outputDir="/var/hubble/"
 ```
 
-If you need more fine-tuning over this export flow, Hubble provides even more options to [customise your design token output][wiki].
+If you need more fine-tuning over this export flow, Hubble provides even more options to [customize your design token output][wiki].
 
 ## Exporting assets
 
