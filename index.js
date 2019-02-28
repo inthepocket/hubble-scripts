@@ -8,6 +8,7 @@ const {
 } = require('./lib/sketch');
 const mappers = require('./lib/mappers');
 const { prettyJSON } = require('./lib/utils');
+const { mapToStyleDictionaryTokens } = require('./lib/styleDictionary');
 
 module.exports = (args, flags) => {
   if (flags.version) return pkg.version;
@@ -58,6 +59,14 @@ module.exports = (args, flags) => {
       };
 
       await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping), fsErrorHandler);
+
+      if (flags.useStyleDictionaryOutput) {
+        await fs.writeFile(
+          `${flags.outputDir}/hubble-style-dictionary-tokens.json`,
+          prettyJSON(mapToStyleDictionaryTokens(mapping)),
+          fsErrorHandler,
+        );
+      }
 
       if (flags.dump) {
         await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response), fsErrorHandler);
