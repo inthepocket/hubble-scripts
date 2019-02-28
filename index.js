@@ -50,10 +50,16 @@ module.exports = (args, flags) => {
         fs.mkdirSync(flags.outputDir);
       }
 
-      await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
+      const fsErrorHandler = (err) => {
+        if (err) {
+          throw new Error(err);
+        }
+      };
+
+      await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping), fsErrorHandler);
 
       if (flags.dump) {
-        await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response));
+        await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response), fsErrorHandler);
       }
 
       return response;
