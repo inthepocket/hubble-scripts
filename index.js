@@ -52,6 +52,7 @@ module.exports = (args, flags) => {
 
       const fsErrorHandler = (err) => {
         if (err) {
+          console.error('Error trying to write to file:', err); // eslint-disable-line no-console
           throw new Error(err);
         }
       };
