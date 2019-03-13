@@ -3,9 +3,9 @@
     {
       "token": "text-style",
       "id": "heading1",
-      "weight": null,
+      "weight": "bold",
       "size": 48,
-      "family": "FiraSans-Regular",
+      "family": "FiraSans-Bold",
       "borderBottom": null,
       "color": {
         "token": "color",
@@ -32,12 +32,14 @@
           32
         ]
       },
-      "kerning": null
+      "kerning": null,
+      "lineHeight": 57.6,
+      "paragraphSpacing": 0
     },
     {
       "token": "text-style",
       "id": "heading2",
-      "weight": null,
+      "weight": "regular",
       "size": 36,
       "family": "FiraSans-Regular",
       "borderBottom": null,
@@ -66,14 +68,16 @@
           32
         ]
       },
-      "kerning": null
+      "kerning": null,
+      "lineHeight": 43.2,
+      "paragraphSpacing": 0
     },
     {
       "token": "text-style",
       "id": "paragraph",
-      "weight": null,
+      "weight": "book",
       "size": 18,
-      "family": "FiraSans-Regular",
+      "family": "FiraSans-Book",
       "borderBottom": null,
       "color": {
         "token": "color",
@@ -100,7 +104,45 @@
           0
         ]
       },
-      "kerning": null
+      "kerning": null,
+      "lineHeight": 21.6,
+      "paragraphSpacing": 0
+    },
+    {
+      "token": "text-style",
+      "id": "quote",
+      "weight": "bold",
+      "size": 14,
+      "family": "Helvetica-Bold",
+      "borderBottom": null,
+      "color": {
+        "token": "color",
+        "name": "silver",
+        "red": 186,
+        "green": 186,
+        "blue": 186,
+        "alpha": 1,
+        "rgb": [
+          186,
+          186,
+          186
+        ],
+        "rgba": [
+          186,
+          186,
+          186,
+          1
+        ],
+        "hex": "bababa",
+        "hsl": [
+          0,
+          0,
+          73
+        ]
+      },
+      "kerning": 0.6,
+      "lineHeight": 16.8,
+      "paragraphSpacing": 0
     }
   ],
   "colors": [
@@ -1141,7 +1183,10 @@
     }
   ],
   "fonts": [
-    "FiraSans-Regular"
+    "FiraSans-Bold",
+    "Helvetica-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book"
   ],
   "sketchVersion": "53.2"
 }
