@@ -98,7 +98,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "group",
@@ -669,7 +669,7 @@
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
-          "layerListExpandedType": 1,
+          "layerListExpandedType": 0,
           "name": "textstyle/paragraph",
           "nameIsFixed": true,
           "resizingConstraint": 63,
@@ -688,7 +688,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "text",
@@ -738,7 +738,7 @@
                     "MSAttributedStringFontAttribute": {
                       "_class": "fontDescriptor",
                       "attributes": {
-                        "name": "FiraSans-Regular",
+                        "name": "FiraSans-Book",
                         "size": 18
                       }
                     },
@@ -770,7 +770,7 @@
                       "MSAttributedStringFontAttribute": {
                         "_class": "fontDescriptor",
                         "attributes": {
-                          "name": "FiraSans-Regular",
+                          "name": "FiraSans-Book",
                           "size": 18
                         }
                       },
@@ -815,6 +815,215 @@
           "resizesContent": false,
           "verticalRulerData": {
             "_class": "rulerData",
+            "base": 0,
+            "guides": []
+          }
+        },
+        {
+          "_class": "artboard",
+          "do_objectID": "2A91FC83-C952-4FA9-9AB7-3B847F23A2CB",
+          "booleanOperation": -1,
+          "exportOptions": {
+            "_class": "exportOptions",
+            "do_objectID": "F4FEFF05-F822-4E24-88AD-11E730CB1125",
+            "exportFormats": [],
+            "includedLayerIds": [],
+            "layerOptions": 0,
+            "shouldTrim": false
+          },
+          "frame": {
+            "_class": "rect",
+            "do_objectID": "51C923DE-D7EF-49C6-9208-CB90B0ADDD66",
+            "constrainProportions": false,
+            "height": 12,
+            "width": 43,
+            "x": 758,
+            "y": 565
+          },
+          "isFixedToViewport": false,
+          "isFlippedHorizontal": false,
+          "isFlippedVertical": false,
+          "isLocked": false,
+          "isVisible": true,
+          "layerListExpandedType": 0,
+          "name": "textstyle/quote",
+          "nameIsFixed": true,
+          "resizingConstraint": 63,
+          "resizingType": 0,
+          "rotation": 0,
+          "shouldBreakMaskChain": true,
+          "clippingMaskMode": 0,
+          "hasClippingMask": false,
+          "style": {
+            "_class": "style",
+            "do_objectID": "DB62187D-C4BD-4260-BB66-59DEFAF9AF0E",
+            "endMarkerType": 0,
+            "miterLimit": 10,
+            "startMarkerType": 0,
+            "windingRule": 1
+          },
+          "groupLayout": {
+            "_class": "MSImmutableFreeformGroupLayout",
+            "do_objectID": "F7A378A7-6FD3-4F4D-A973-001889C51BBE"
+          },
+          "hasClickThrough": false,
+          "layers": [
+            {
+              "_class": "text",
+              "do_objectID": "4468ABF8-2F2B-444C-91D6-14C18C4520C6",
+              "booleanOperation": -1,
+              "exportOptions": {
+                "_class": "exportOptions",
+                "do_objectID": "E55B6ED9-1524-4F52-BE1C-616C660CE6FF",
+                "exportFormats": [],
+                "includedLayerIds": [],
+                "layerOptions": 0,
+                "shouldTrim": false
+              },
+              "frame": {
+                "_class": "rect",
+                "do_objectID": "CE3E5784-2A6E-4B9B-9F3B-88E09E50ED50",
+                "constrainProportions": false,
+                "height": 17,
+                "width": 69,
+                "x": 0,
+                "y": -3
+              },
+              "isFixedToViewport": false,
+              "isFlippedHorizontal": false,
+              "isFlippedVertical": false,
+              "isLocked": false,
+              "isVisible": true,
+              "layerListExpandedType": 0,
+              "name": "Quote",
+              "nameIsFixed": false,
+              "resizingConstraint": 63,
+              "resizingType": 0,
+              "rotation": 0,
+              "shouldBreakMaskChain": false,
+              "clippingMaskMode": 0,
+              "hasClippingMask": false,
+              "sharedStyleID": "5BDEB3A7-2D72-47B3-98E1-63F84C614891",
+              "style": {
+                "_class": "style",
+                "do_objectID": "AA7FFA64-0967-4B71-AAD2-669947C071A8",
+                "endMarkerType": 0,
+                "miterLimit": 10,
+                "startMarkerType": 0,
+                "textStyle": {
+                  "_class": "textStyle",
+                  "encodedAttributes": {
+                    "MSAttributedStringColorAttribute": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0.7300158514492754,
+                      "green": 0.7300158514492754,
+                      "red": 0.7300158514492754
+                    },
+                    "textStyleVerticalAlignmentKey": 0,
+                    "MSAttributedStringFontAttribute": {
+                      "_class": "fontDescriptor",
+                      "attributes": {
+                        "name": "Helvetica-Bold",
+                        "size": 14
+                      }
+                    },
+                    "paragraphStyle": {
+                      "_class": "paragraphStyle"
+                    },
+                    "kerning": 0.6000000238418579
+                  },
+                  "verticalAlignment": 0
+                },
+                "windingRule": 1
+              },
+              "attributedString": {
+                "_class": "attributedString",
+                "string": "Quote",
+                "attributes": [
+                  {
+                    "_class": "stringAttribute",
+                    "location": 0,
+                    "length": 4,
+                    "attributes": {
+                      "MSAttributedStringFontAttribute": {
+                        "_class": "fontDescriptor",
+                        "attributes": {
+                          "name": "Helvetica-Bold",
+                          "size": 14
+                        }
+                      },
+                      "MSAttributedStringColorAttribute": {
+                        "_class": "color",
+                        "alpha": 1,
+                        "blue": 0.7300158514492754,
+                        "green": 0.7300158514492754,
+                        "red": 0.7300158514492754
+                      },
+                      "kerning": 0.6000000238418579,
+                      "textStyleVerticalAlignmentKey": 0,
+                      "paragraphStyle": {
+                        "_class": "paragraphStyle"
+                      }
+                    }
+                  },
+                  {
+                    "_class": "stringAttribute",
+                    "location": 4,
+                    "length": 1,
+                    "attributes": {
+                      "MSAttributedStringFontAttribute": {
+                        "_class": "fontDescriptor",
+                        "attributes": {
+                          "name": "Helvetica-Bold",
+                          "size": 14
+                        }
+                      },
+                      "MSAttributedStringColorAttribute": {
+                        "_class": "color",
+                        "alpha": 1,
+                        "blue": 0.7300158514492754,
+                        "green": 0.7300158514492754,
+                        "red": 0.7300158514492754
+                      },
+                      "kerning": 0,
+                      "textStyleVerticalAlignmentKey": 0,
+                      "paragraphStyle": {
+                        "_class": "paragraphStyle"
+                      }
+                    }
+                  }
+                ]
+              },
+              "automaticallyDrawOnUnderlyingPath": false,
+              "dontSynchroniseWithSymbol": false,
+              "glyphBounds": "{{0, 3}, {43, 12}}",
+              "lineSpacingBehaviour": 2,
+              "textBehaviour": 1
+            }
+          ],
+          "backgroundColor": {
+            "_class": "color",
+            "do_objectID": "CD6F807F-FA5B-4467-868D-8E4EEDABCB6F",
+            "alpha": 1,
+            "blue": 1,
+            "green": 1,
+            "red": 1
+          },
+          "hasBackgroundColor": false,
+          "horizontalRulerData": {
+            "_class": "rulerData",
+            "do_objectID": "C7B9EAF6-4D0E-4023-9130-79540D1B407A",
+            "base": 0,
+            "guides": []
+          },
+          "includeBackgroundColorInExport": true,
+          "includeInCloudUpload": true,
+          "isFlowHome": false,
+          "resizesContent": false,
+          "verticalRulerData": {
+            "_class": "rulerData",
+            "do_objectID": "3FBAA4E9-89D9-42B8-863E-A94E43A2D6A7",
             "base": 0,
             "guides": []
           }
@@ -1007,10 +1216,10 @@
           "frame": {
             "_class": "rect",
             "constrainProportions": false,
-            "height": 49,
-            "width": 205,
+            "height": 52,
+            "width": 228,
             "x": 759,
-            "y": 407
+            "y": 408
           },
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -1052,10 +1261,10 @@
               "frame": {
                 "_class": "rect",
                 "constrainProportions": false,
-                "height": 58,
-                "width": 294,
-                "x": -4,
-                "y": -7
+                "height": 57.59999847412109,
+                "width": 216,
+                "x": -3,
+                "y": -6
               },
               "isFixedToViewport": false,
               "isFlippedHorizontal": false,
@@ -1084,7 +1293,7 @@
                     "MSAttributedStringFontAttribute": {
                       "_class": "fontDescriptor",
                       "attributes": {
-                        "name": "FiraSans-Regular",
+                        "name": "FiraSans-Bold",
                         "size": 48
                       }
                     },
@@ -1097,7 +1306,9 @@
                     },
                     "textStyleVerticalAlignmentKey": 0,
                     "paragraphStyle": {
-                      "_class": "paragraphStyle"
+                      "_class": "paragraphStyle",
+                      "maximumLineHeight": 57.59999847412109,
+                      "minimumLineHeight": 57.59999847412109
                     }
                   },
                   "verticalAlignment": 0
@@ -1116,7 +1327,7 @@
                       "MSAttributedStringFontAttribute": {
                         "_class": "fontDescriptor",
                         "attributes": {
-                          "name": "FiraSans-Regular",
+                          "name": "FiraSans-Bold",
                           "size": 48
                         }
                       },
@@ -1129,7 +1340,9 @@
                       },
                       "textStyleVerticalAlignmentKey": 0,
                       "paragraphStyle": {
-                        "_class": "paragraphStyle"
+                        "_class": "paragraphStyle",
+                        "maximumLineHeight": 57.59999847412109,
+                        "minimumLineHeight": 57.59999847412109
                       }
                     }
                   }
@@ -1137,7 +1350,7 @@
               },
               "automaticallyDrawOnUnderlyingPath": false,
               "dontSynchroniseWithSymbol": false,
-              "glyphBounds": "{{4, 7}, {205, 49}}",
+              "glyphBounds": "{{3, 5}, {209, 51}}",
               "lineSpacingBehaviour": 2,
               "textBehaviour": 1
             }
@@ -1216,7 +1429,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "rectangle",
@@ -3520,7 +3733,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "rectangle",
@@ -5130,7 +5343,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": false,
+          "hasClickThrough": true,
           "layers": [
             {
               "_class": "rectangle",
@@ -7928,7 +8141,7 @@
                 "MSAttributedStringFontAttribute": {
                   "_class": "fontDescriptor",
                   "attributes": {
-                    "name": "FiraSans-Regular",
+                    "name": "FiraSans-Bold",
                     "size": 48
                   }
                 },
@@ -7941,7 +8154,9 @@
                 },
                 "textStyleVerticalAlignmentKey": 0,
                 "paragraphStyle": {
-                  "_class": "paragraphStyle"
+                  "_class": "paragraphStyle",
+                  "maximumLineHeight": 57.59999847412109,
+                  "minimumLineHeight": 57.59999847412109
                 }
               },
               "verticalAlignment": 0
@@ -8000,7 +8215,7 @@
                 "MSAttributedStringFontAttribute": {
                   "_class": "fontDescriptor",
                   "attributes": {
-                    "name": "FiraSans-Regular",
+                    "name": "FiraSans-Book",
                     "size": 18
                   }
                 },
@@ -8015,6 +8230,43 @@
                 "paragraphStyle": {
                   "_class": "paragraphStyle"
                 }
+              },
+              "verticalAlignment": 0
+            },
+            "windingRule": 1
+          }
+        },
+        {
+          "_class": "sharedStyle",
+          "do_objectID": "5BDEB3A7-2D72-47B3-98E1-63F84C614891",
+          "name": "Quote",
+          "value": {
+            "_class": "style",
+            "endMarkerType": 0,
+            "miterLimit": 10,
+            "startMarkerType": 0,
+            "textStyle": {
+              "_class": "textStyle",
+              "encodedAttributes": {
+                "MSAttributedStringColorAttribute": {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0.7300158514492754,
+                  "green": 0.7300158514492754,
+                  "red": 0.7300158514492754
+                },
+                "textStyleVerticalAlignmentKey": 0,
+                "MSAttributedStringFontAttribute": {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "Helvetica-Bold",
+                    "size": 14
+                  }
+                },
+                "paragraphStyle": {
+                  "_class": "paragraphStyle"
+                },
+                "kerning": 0.6000000238418579
               },
               "verticalAlignment": 0
             },
@@ -8042,8 +8294,8 @@
       "pageListCollapsed": 0
     },
     "3887CAEA-110F-415F-8010-F3C825F27590": {
-      "scrollOrigin": "{-1454, -362}",
-      "zoomValue": 1.576445328816996
+      "scrollOrigin": "{-1340, -358}",
+      "zoomValue": 1.994339327540023
     }
   },
   "meta": {
@@ -8112,6 +8364,9 @@
           "78EED8DF-E23A-40C7-B916-FB8D70BDDDD1": {
             "name": "primitives/border/inside"
           },
+          "2A91FC83-C952-4FA9-9AB7-3B847F23A2CB": {
+            "name": "textstyle/quote"
+          },
           "5C5299C1-75CB-42A5-ADF2-4CD8A4C259A8": {
             "name": "primitives/color/primary/500"
           },
@@ -8156,7 +8411,10 @@
     },
     "version": 116,
     "fonts": [
-      "FiraSans-Regular"
+      "FiraSans-Bold",
+      "Helvetica-Bold",
+      "FiraSans-Regular",
+      "FiraSans-Book"
     ],
     "compatibilityVersion": 99,
     "app": "com.bohemiancoding.sketch3",
