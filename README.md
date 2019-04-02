@@ -58,7 +58,7 @@ If you need more fine-tuning over this export flow, Hubble provides even more op
 hubble-scripts supports a variant on our default generic design tokens, which is compatible with the [Style Dictionary][style dictionary] build system.
 By taking advantage of Style Dictionary's structure, we can slot in their existing transformers to output to various platforms or languages.
 
-For more information on our Style Dictionary output, check [the wiki][[wiki local style dictionary]].
+For more information on our Style Dictionary output, check [the wiki][wiki style dictionary].
 
 ## Exporting assets
 
@@ -101,10 +101,11 @@ $ node cli.js --help
     $ hubble-cli <input> --outputDir="/home/usr/downloads"
 
   Options
-    --outputDir=<dir>, -o     The directory where parsed files will be placed after a run. Defaults to current working directory
-    --dump, -d                Dump all Sketch JSON files into 1 logdump.json
-    --useColorArtboards       Use artboard formatting to export colors instead of using the document colors
-    --useGradientArtboards    Use artboard formatting to export gradients instead of using the document gradients
+    --outputDir=<dir>, -o           The directory where parsed files will be placed after a run. Defaults to current working directory
+    --dump, -d                      Dump all Sketch JSON files into 1 logdump.json
+    --useColorArtboards             Use artboard formatting to export colors instead of using the document colors
+    --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients
+    --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
 
   Examples
     $ hubble-cli "__mocks/sample_sketchfile.sketch"
@@ -128,9 +129,9 @@ For more on running in development mode, check the [wiki].
 [wiki]: https://github.com/inthepocket/hubble-scripts/wiki
 [mocks]: https://github.com/inthepocket/hubble-scripts/blob/master/__mocks__/
 [sketchtool]: https://github.com/inthepocket/hubble-scripts/blob/master/sketchtool.sh
+[wiki style dictionary]: https://github.com/inthepocket/hubble-scripts/wiki/Exporting-design-tokens#style-dictionary
 
 [travis]: https://travis-ci.org/inthepocket/hubble-scripts
 [sketch library docs]: https://sketchapp.com/docs/libraries/
 [sketchtool docs]: https://developer.sketchapp.com/guides/sketchtool/
 [style dictionary]: https://amzn.github.io/style-dictionary
-[wiki local style dictionary]: https://github.com/inthepocket/hubble-scripts/wiki/Exporting-design-tokens#style-dictionary

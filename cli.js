@@ -11,11 +11,11 @@ const cli = meow(`
     --dump, -d                      Dump all Sketch JSON files into 1 logdump.json
     --useColorArtboards             Use artboard formatting to export colors instead of using the document colors
     --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients
-    --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output in addition to the regular itp tokens.
+    --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
 
   Examples
-    $ hubble-cli "__mocks/sample_sketchfile.sketch"
-    $ hubble-cli "__mocks__/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
+    $ hubble-cli "My Library.sketch"
+    $ hubble-cli "My Library.sketch" -d --useColorArtboards --outputDir="config/"
 `, {
   flags: {
     outputDir: {
