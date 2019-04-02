@@ -1,0 +1,164 @@
+{
+  "color": {
+    "base": {
+      "primary900": {
+        "value": "#5FC2E6",
+        "comment": "seagull"
+      },
+      "primary800": {
+        "value": "#5EC1D1",
+        "comment": "viking"
+      },
+      "primary700": {
+        "value": "#77C8D6",
+        "comment": "viking"
+      },
+      "primary600": {
+        "value": "#8DCFDB",
+        "comment": "halfBaked"
+      },
+      "primary500": {
+        "value": "#A0D6E0",
+        "comment": "powderBlue"
+      },
+      "primary400": {
+        "value": "#B3DDE6",
+        "comment": "powderBlue"
+      },
+      "primary300": {
+        "value": "#D4EBF0",
+        "comment": "pattensBlue"
+      },
+      "primary200": {
+        "value": "#E5F3FA",
+        "comment": "solitude"
+      },
+      "primary100": {
+        "value": "#F2F9FD",
+        "comment": "aliceBlue"
+      },
+      "secondary900": {
+        "value": "#227D3E",
+        "comment": "salem"
+      },
+      "red": {
+        "value": "#F55E5E",
+        "comment": "carnation"
+      },
+      "secondary800": {
+        "value": "#3E874A",
+        "comment": "seaGreen"
+      },
+      "secondary700": {
+        "value": "#559158",
+        "comment": "hippieGreen"
+      },
+      "secondary600": {
+        "value": "#6B9D6A",
+        "comment": "aquaForest"
+      },
+      "secondary500": {
+        "value": "#81A97C",
+        "comment": "amulet"
+      },
+      "secondary400": {
+        "value": "#97B690",
+        "comment": "norway"
+      },
+      "secondary300": {
+        "value": "#C0D2BA",
+        "comment": "paleLeaf"
+      },
+      "secondary200": {
+        "value": "#D4E0D0",
+        "comment": "tasman"
+      },
+      "secondary100": {
+        "value": "#E9EFE7",
+        "comment": "grayNurse"
+      }
+    },
+    "font": {
+      "heading1": {
+        "value": "#10069F",
+        "comment": "ultramarine"
+      },
+      "heading2": {
+        "value": "#10069F",
+        "comment": "ultramarine"
+      },
+      "paragraph": {
+        "value": "#000000",
+        "comment": "black"
+      }
+    },
+    "border": {
+      "inside": {
+        "value": "#FF9696",
+        "comment": "geraldine"
+      },
+      "outside": {
+        "value": "#FF9696",
+        "comment": "geraldine"
+      },
+      "center": {
+        "value": "#FF9696",
+        "comment": "geraldine"
+      }
+    },
+    "shadow": {
+      "simple": {
+        "innerShadow": {
+          "value": "#000000",
+          "comment": "black"
+        },
+        "dropShadow": {
+          "value": "#000000",
+          "comment": "black"
+        }
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "heading1": {
+        "value": "48"
+      },
+      "heading2": {
+        "value": "36"
+      },
+      "paragraph": {
+        "value": "18"
+      }
+    },
+    "border": {
+      "inside": {
+        "value": "1"
+      },
+      "outside": {
+        "value": "1"
+      },
+      "gradientWithCorners": {
+        "value": "1"
+      },
+      "center": {
+        "value": "1"
+      }
+    }
+  },
+  "asset": {
+    "font": {
+      "family": {
+        "heading1": {
+          "value": "FiraSans-Regular"
+        },
+        "heading2": {
+          "value": "FiraSans-Regular"
+        },
+        "paragraph": {
+          "value": "FiraSans-Regular"
+        }
+      }
+    }
+  }
+}
