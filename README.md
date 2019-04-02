@@ -46,9 +46,19 @@ $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch"
 
 # You can optionally specify a config output dir. Otherwise current working directory will be used:
 $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --outputDir="/var/hubble/"
+
+# You can also export to a Style Dictionary compatible format.
+$ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --useStyleDictionaryOutput
 ```
 
 If you need more fine-tuning over this export flow, Hubble provides even more options to [customize your design token output][wiki].
+
+### Style Dictionary
+
+hubble-scripts supports a variant on our default generic design tokens, which is compatible with the [Style Dictionary][style dictionary] build system.
+By taking advantage of Style Dictionary's structure, we can slot in their existing transformers to output to various platforms or languages.
+
+For more information on our Style Dictionary output, check [the wiki][[wiki local style dictionary]].
 
 ## Exporting assets
 
@@ -122,3 +132,5 @@ For more on running in development mode, check the [wiki].
 [travis]: https://travis-ci.org/inthepocket/hubble-scripts
 [sketch library docs]: https://sketchapp.com/docs/libraries/
 [sketchtool docs]: https://developer.sketchapp.com/guides/sketchtool/
+[style dictionary]: https://amzn.github.io/style-dictionary
+[wiki local style dictionary]: https://github.com/inthepocket/hubble-scripts/wiki/Exporting-design-tokens#style-dictionary
