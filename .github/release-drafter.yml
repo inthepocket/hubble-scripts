@@ -1,0 +1,19 @@
+name-template: $NEXT_MINOR_VERSION:
+
+tag-template: $NEXT_MINOR_VERSION
+
+categories:
+  - title: 🚀 Features
+    label: enhancement
+  - title: 🐛 Bug Fixes
+    label: bug
+  - title: 📦 Dependencies
+    label: dependencies
+
+template: |
+  <!-- REMEMBER TO INCLUDE LATEST BUILD OF hubble-cli IN THIS RELEASE -->
+  ## What's new
+
+  $CHANGES
+
+  __Thanks to contributors for this release:__ $CONTRIBUTORS

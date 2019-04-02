@@ -34,7 +34,7 @@ If you're looking to also export assets, download [`sketchtool.sh`][sketchtool],
 
 > There is a sample sketchfile in the [__mocks__][mocks] folder with sample output that would be generated for this file.
 
-hubble-scripts works best with a separate Sketch [library file][sketch library docs].
+hubble-scripts works best with a separate Sketch [library file][sketch library docs]. Take a look at the examples and short bits below, or refer to our [more advanced documentation][wiki].
 
 ## Generating JSON config
 
@@ -51,7 +51,7 @@ $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --outputDir="/var/hubble/
 $ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --useStyleDictionaryOutput
 ```
 
-If you need more fine-tuning over this export flow, Hubble provides even more options to [customize your design token output][wiki].
+If you need more fine-tuning over this export flow, Hubble provides even more options to [customize your design token output][hubble-cli options].
 
 ### Style Dictionary
 
@@ -127,6 +127,7 @@ For more on running in development mode, check the [wiki].
 [releases]: https://github.com/inthepocket/hubble-scripts/releases
 [latest release]: https://github.com/inthepocket/hubble-scripts/releases/latest
 [wiki]: https://github.com/inthepocket/hubble-scripts/wiki
+[hubble-cli options]: https://github.com/inthepocket/hubble-scripts/wiki/Hubble-cli-options
 [mocks]: https://github.com/inthepocket/hubble-scripts/blob/master/__mocks__/
 [sketchtool]: https://github.com/inthepocket/hubble-scripts/blob/master/sketchtool.sh
 [wiki style dictionary]: https://github.com/inthepocket/hubble-scripts/wiki/Exporting-design-tokens#style-dictionary
