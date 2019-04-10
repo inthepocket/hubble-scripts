@@ -1,7 +1,7 @@
 {
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "homepage": "https://hubble-design-system.netlify.com",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
@@ -41,7 +41,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
-    "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli"
+    "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli && echo \"New hubble-cli version: $(./bin/hubble-cli --version)\""
   },
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.48.1",
