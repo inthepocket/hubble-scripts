@@ -1,7 +1,7 @@
 {
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "homepage": "https://hubble-design-system.netlify.com",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
@@ -28,18 +28,20 @@
     "start": "node cli.js",
     "start:document": "npm start -- --dump",
     "start:artboards": "npm start -- --dump --useColorArtboards --useGradientArtboards",
+    "start:styledictionary": "npm start -- --dump --useColorArtboards --useGradientArtboards --useStyleDictionaryOutput",
     "clean": "rm hubble-data.json && rm -rf sketchtool-export node_modules && npm install",
     "export": "./sketchtool.sh",
     "lint": "itp-react-scripts lint",
     "lint:fix": "npm run lint -- --fix",
     "lint:shell": "which shellcheck > /dev/null && shellcheck *.sh",
-    "generate:mocks": "npm run generate:mocks:artboards && npm run generate:mocks:document",
+    "generate:mocks": "npm run generate:mocks:artboards && npm run generate:mocks:document && npm run generate:mocks:styledictionary",
     "generate:mocks:artboards": "npm run start:artboards ./__mocks__/sample_sketchfile.sketch && mv hubble-data.json ./__mocks__/sample_output.json && mv logdump.json ./__mocks__/sample_dump.json",
     "generate:mocks:document": "npm run start:document ./__mocks__/sample_sketchfile.sketch && mv hubble-data.json ./__mocks__/sample_output.document.json && mv logdump.json ./__mocks__/sample_dump.json",
+    "generate:mocks:styledictionary": "npm run start:styledictionary ./__mocks__/sample_sketchfile.sketch && mv hubble-style-dictionary-tokens.json ./__mocks__/sample_output.styledictionary.json && mv logdump.json ./__mocks__/sample_dump.json",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
-    "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli"
+    "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli && echo \"New hubble-cli version: $(./bin/hubble-cli --version)\""
   },
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.48.1",

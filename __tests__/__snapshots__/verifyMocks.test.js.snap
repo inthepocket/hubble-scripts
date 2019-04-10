@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Verify if the mocks are unchanged should match previous output + dump after generating mocks 1`] = `
+exports[`Verify that the mocks are unchanged for the Sketch dump 1`] = `
 Object {
   "document": Object {
     "_class": "document",
@@ -8441,7 +8441,184 @@ Object {
 }
 `;
 
-exports[`Verify if the mocks are unchanged should match previous output + dump after generating mocks 2`] = `
+exports[`Verify that the mocks are unchanged for the hubble output (using Style Dictionary) 1`] = `
+Object {
+  "asset": Object {
+    "font": Object {
+      "family": Object {
+        "heading1": Object {
+          "value": "FiraSans-Bold",
+        },
+        "heading2": Object {
+          "value": "FiraSans-Regular",
+        },
+        "paragraph": Object {
+          "value": "FiraSans-Book",
+        },
+        "quote": Object {
+          "value": "Helvetica-Bold",
+        },
+      },
+    },
+  },
+  "color": Object {
+    "base": Object {
+      "primary100": Object {
+        "comment": "aliceBlue",
+        "value": "#F2F9FD",
+      },
+      "primary200": Object {
+        "comment": "solitude",
+        "value": "#E5F3FA",
+      },
+      "primary300": Object {
+        "comment": "pattensBlue",
+        "value": "#D4EBF0",
+      },
+      "primary400": Object {
+        "comment": "powderBlue",
+        "value": "#B3DDE6",
+      },
+      "primary500": Object {
+        "comment": "powderBlue",
+        "value": "#A0D6E0",
+      },
+      "primary600": Object {
+        "comment": "halfBaked",
+        "value": "#8DCFDB",
+      },
+      "primary700": Object {
+        "comment": "viking",
+        "value": "#77C8D6",
+      },
+      "primary800": Object {
+        "comment": "viking",
+        "value": "#5EC1D1",
+      },
+      "primary900": Object {
+        "comment": "seagull",
+        "value": "#5FC2E6",
+      },
+      "red": Object {
+        "comment": "carnation",
+        "value": "#F55E5E",
+      },
+      "secondary100": Object {
+        "comment": "grayNurse",
+        "value": "#E9EFE7",
+      },
+      "secondary200": Object {
+        "comment": "tasman",
+        "value": "#D4E0D0",
+      },
+      "secondary300": Object {
+        "comment": "paleLeaf",
+        "value": "#C0D2BA",
+      },
+      "secondary400": Object {
+        "comment": "norway",
+        "value": "#97B690",
+      },
+      "secondary500": Object {
+        "comment": "amulet",
+        "value": "#81A97C",
+      },
+      "secondary600": Object {
+        "comment": "aquaForest",
+        "value": "#6B9D6A",
+      },
+      "secondary700": Object {
+        "comment": "hippieGreen",
+        "value": "#559158",
+      },
+      "secondary800": Object {
+        "comment": "seaGreen",
+        "value": "#3E874A",
+      },
+      "secondary900": Object {
+        "comment": "salem",
+        "value": "#227D3E",
+      },
+    },
+    "border": Object {
+      "center": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+      "inside": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+      "outside": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+    },
+    "font": Object {
+      "heading1": Object {
+        "comment": "ultramarine",
+        "value": "#10069F",
+      },
+      "heading2": Object {
+        "comment": "ultramarine",
+        "value": "#10069F",
+      },
+      "paragraph": Object {
+        "comment": "black",
+        "value": "#000000",
+      },
+      "quote": Object {
+        "comment": "silver",
+        "value": "#BABABA",
+      },
+    },
+    "shadow": Object {
+      "simple": Object {
+        "dropShadow": Object {
+          "comment": "black",
+          "value": "#000000",
+        },
+        "innerShadow": Object {
+          "comment": "black",
+          "value": "#000000",
+        },
+      },
+    },
+  },
+  "size": Object {
+    "border": Object {
+      "center": Object {
+        "value": "1",
+      },
+      "gradientWithCorners": Object {
+        "value": "1",
+      },
+      "inside": Object {
+        "value": "1",
+      },
+      "outside": Object {
+        "value": "1",
+      },
+    },
+    "font": Object {
+      "heading1": Object {
+        "value": "48",
+      },
+      "heading2": Object {
+        "value": "36",
+      },
+      "paragraph": Object {
+        "value": "18",
+      },
+      "quote": Object {
+        "value": "14",
+      },
+    },
+  },
+}
+`;
+
+exports[`Verify that the mocks are unchanged for the hubble output (using artboards) 1`] = `
 Object {
   "borders": Array [
     Object {
@@ -9414,6 +9591,671 @@ Object {
       ],
       "token": "gradient",
       "type": "ANGULAR",
+    },
+  ],
+  "shadows": Array [
+    Object {
+      "blur": 3,
+      "color": Object {
+        "alpha": 0.5,
+        "blue": 0,
+        "green": 0,
+        "hex": "000000",
+        "hsl": Array [
+          0,
+          0,
+          0,
+        ],
+        "name": "black",
+        "red": 0,
+        "rgb": Array [
+          0,
+          0,
+          0,
+        ],
+        "rgba": Array [
+          0,
+          0,
+          0,
+          0.5,
+        ],
+        "token": "color",
+      },
+      "id": "simple",
+      "spread": 0,
+      "token": "shadow",
+      "type": "inner-shadow",
+      "x": 0,
+      "y": 1,
+    },
+    Object {
+      "blur": 4,
+      "color": Object {
+        "alpha": 0.5,
+        "blue": 0,
+        "green": 0,
+        "hex": "000000",
+        "hsl": Array [
+          0,
+          0,
+          0,
+        ],
+        "name": "black",
+        "red": 0,
+        "rgb": Array [
+          0,
+          0,
+          0,
+        ],
+        "rgba": Array [
+          0,
+          0,
+          0,
+          0.5,
+        ],
+        "token": "color",
+      },
+      "id": "simple",
+      "spread": 0,
+      "token": "shadow",
+      "type": "drop-shadow",
+      "x": 0,
+      "y": 2,
+    },
+  ],
+  "sketchVersion": "53.2",
+  "textStyles": Array [
+    Object {
+      "borderBottom": null,
+      "color": Object {
+        "alpha": 1,
+        "blue": 159,
+        "green": 6,
+        "hex": "10069f",
+        "hsl": Array [
+          244,
+          93,
+          32,
+        ],
+        "name": "ultramarine",
+        "red": 16,
+        "rgb": Array [
+          16,
+          6,
+          159,
+        ],
+        "rgba": Array [
+          16,
+          6,
+          159,
+          1,
+        ],
+        "token": "color",
+      },
+      "family": "FiraSans-Bold",
+      "id": "heading1",
+      "kerning": null,
+      "lineHeight": 57.6,
+      "paragraphSpacing": 0,
+      "size": 48,
+      "token": "text-style",
+      "weight": "bold",
+    },
+    Object {
+      "borderBottom": null,
+      "color": Object {
+        "alpha": 1,
+        "blue": 159,
+        "green": 6,
+        "hex": "10069f",
+        "hsl": Array [
+          244,
+          93,
+          32,
+        ],
+        "name": "ultramarine",
+        "red": 16,
+        "rgb": Array [
+          16,
+          6,
+          159,
+        ],
+        "rgba": Array [
+          16,
+          6,
+          159,
+          1,
+        ],
+        "token": "color",
+      },
+      "family": "FiraSans-Regular",
+      "id": "heading2",
+      "kerning": null,
+      "lineHeight": 43.2,
+      "paragraphSpacing": 0,
+      "size": 36,
+      "token": "text-style",
+      "weight": "regular",
+    },
+    Object {
+      "borderBottom": null,
+      "color": Object {
+        "alpha": 1,
+        "blue": 0,
+        "green": 0,
+        "hex": "000000",
+        "hsl": Array [
+          0,
+          0,
+          0,
+        ],
+        "name": "black",
+        "red": 0,
+        "rgb": Array [
+          0,
+          0,
+          0,
+        ],
+        "rgba": Array [
+          0,
+          0,
+          0,
+          1,
+        ],
+        "token": "color",
+      },
+      "family": "FiraSans-Book",
+      "id": "paragraph",
+      "kerning": null,
+      "lineHeight": 21.6,
+      "paragraphSpacing": 0,
+      "size": 18,
+      "token": "text-style",
+      "weight": "book",
+    },
+    Object {
+      "borderBottom": null,
+      "color": Object {
+        "alpha": 1,
+        "blue": 186,
+        "green": 186,
+        "hex": "bababa",
+        "hsl": Array [
+          0,
+          0,
+          73,
+        ],
+        "name": "silver",
+        "red": 186,
+        "rgb": Array [
+          186,
+          186,
+          186,
+        ],
+        "rgba": Array [
+          186,
+          186,
+          186,
+          1,
+        ],
+        "token": "color",
+      },
+      "family": "Helvetica-Bold",
+      "id": "quote",
+      "kerning": 0.6,
+      "lineHeight": 16.8,
+      "paragraphSpacing": 0,
+      "size": 14,
+      "token": "text-style",
+      "weight": "bold",
+    },
+  ],
+}
+`;
+
+exports[`Verify that the mocks are unchanged for the hubble output (using document styles) 1`] = `
+Object {
+  "borders": Array [
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "inside",
+      "radius": 3,
+      "token": "border",
+      "type": "INSIDE",
+      "width": 1,
+    },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "outside",
+      "radius": 12.5,
+      "token": "border",
+      "type": "OUTSIDE",
+      "width": 1,
+    },
+    Object {
+      "gradient": Object {
+        "from": Array [
+          0.5,
+          1,
+        ],
+        "name": "norwayGradient",
+        "stops": Array [
+          Object {
+            "color": Object {
+              "alpha": 1,
+              "blue": 144,
+              "green": 182,
+              "hex": "97b690",
+              "hsl": Array [
+                109,
+                21,
+                64,
+              ],
+              "name": "norway",
+              "red": 151,
+              "rgb": Array [
+                151,
+                182,
+                144,
+              ],
+              "rgba": Array [
+                151,
+                182,
+                144,
+                1,
+              ],
+              "token": "color",
+            },
+            "position": 0,
+          },
+          Object {
+            "color": Object {
+              "alpha": 1,
+              "blue": 88,
+              "green": 145,
+              "hex": "559158",
+              "hsl": Array [
+                123,
+                26,
+                45,
+              ],
+              "name": "hippieGreen",
+              "red": 85,
+              "rgb": Array [
+                85,
+                145,
+                88,
+              ],
+              "rgba": Array [
+                85,
+                145,
+                88,
+                1,
+              ],
+              "token": "color",
+            },
+            "position": 0.5038507579143953,
+          },
+          Object {
+            "color": Object {
+              "alpha": 1,
+              "blue": 62,
+              "green": 125,
+              "hex": "227d3e",
+              "hsl": Array [
+                138,
+                57,
+                31,
+              ],
+              "name": "salem",
+              "red": 34,
+              "rgb": Array [
+                34,
+                125,
+                62,
+              ],
+              "rgba": Array [
+                34,
+                125,
+                62,
+                1,
+              ],
+              "token": "color",
+            },
+            "position": 1,
+          },
+        ],
+        "to": Array [
+          0.4999999999999999,
+          3.0616169978683836e-17,
+        ],
+        "token": "gradient",
+        "type": "LINEAR",
+      },
+      "id": "gradientWithCorners",
+      "radius": Array [
+        8,
+        12.5,
+        12.5,
+        12.5,
+      ],
+      "token": "border",
+      "type": "OUTSIDE",
+      "width": 1,
+    },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "center",
+      "radius": 0,
+      "token": "border",
+      "type": "CENTER",
+      "width": 1,
+    },
+  ],
+  "colors": Array [
+    Object {
+      "alpha": 1,
+      "blue": 159,
+      "green": 6,
+      "hex": "10069f",
+      "hsl": Array [
+        244,
+        93,
+        32,
+      ],
+      "name": "darkBlue",
+      "red": 16,
+      "rgb": Array [
+        16,
+        6,
+        159,
+      ],
+      "rgba": Array [
+        16,
+        6,
+        159,
+        1,
+      ],
+      "token": "color",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 80,
+      "green": 0,
+      "hex": "e50050",
+      "hsl": Array [
+        339,
+        100,
+        45,
+      ],
+      "name": "hotRed",
+      "red": 229,
+      "rgb": Array [
+        229,
+        0,
+        80,
+      ],
+      "rgba": Array [
+        229,
+        0,
+        80,
+        1,
+      ],
+      "token": "color",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 78,
+      "green": 190,
+      "hex": "2cbe4e",
+      "hsl": Array [
+        134,
+        62,
+        46,
+      ],
+      "name": "jungleGreen",
+      "red": 44,
+      "rgb": Array [
+        44,
+        190,
+        78,
+      ],
+      "rgba": Array [
+        44,
+        190,
+        78,
+        1,
+      ],
+      "token": "color",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "ashDark",
+      "red": 0,
+      "rgb": Array [
+        0,
+        0,
+        0,
+      ],
+      "rgba": Array [
+        0,
+        0,
+        0,
+        1,
+      ],
+      "token": "color",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 186,
+      "green": 210,
+      "hex": "c0d2ba",
+      "hsl": Array [
+        105,
+        21,
+        78,
+      ],
+      "name": "paleLeaf",
+      "red": 192,
+      "rgb": Array [
+        192,
+        210,
+        186,
+      ],
+      "rgba": Array [
+        192,
+        210,
+        186,
+        1,
+      ],
+      "token": "color",
+    },
+  ],
+  "fonts": Array [
+    "FiraSans-Bold",
+    "Helvetica-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book",
+  ],
+  "gradients": Array [
+    Object {
+      "from": Array [
+        0.5,
+        1,
+      ],
+      "name": "norwayGradient",
+      "stops": Array [
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 144,
+            "green": 182,
+            "hex": "97b690",
+            "hsl": Array [
+              109,
+              21,
+              64,
+            ],
+            "name": "norway",
+            "red": 151,
+            "rgb": Array [
+              151,
+              182,
+              144,
+            ],
+            "rgba": Array [
+              151,
+              182,
+              144,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 0,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 88,
+            "green": 145,
+            "hex": "559158",
+            "hsl": Array [
+              123,
+              26,
+              45,
+            ],
+            "name": "hippieGreen",
+            "red": 85,
+            "rgb": Array [
+              85,
+              145,
+              88,
+            ],
+            "rgba": Array [
+              85,
+              145,
+              88,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 0.5038507579143953,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 62,
+            "green": 125,
+            "hex": "227d3e",
+            "hsl": Array [
+              138,
+              57,
+              31,
+            ],
+            "name": "salem",
+            "red": 34,
+            "rgb": Array [
+              34,
+              125,
+              62,
+            ],
+            "rgba": Array [
+              34,
+              125,
+              62,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 1,
+        },
+      ],
+      "to": Array [
+        0.4999999999999999,
+        3.0616169978683836e-17,
+      ],
+      "token": "gradient",
+      "type": "LINEAR",
     },
   ],
   "shadows": Array [
