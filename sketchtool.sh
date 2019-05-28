@@ -15,7 +15,11 @@ function check_file_input() {
     exit 1
   fi
 
-  if [ -z "$2" ]; then OUTPUT_DIR="$PWD/assets/images"; else OUTPUT_DIR=$2; fi
+  if [ -z "$2" ]; then
+    OUTPUT_DIR="$PWD/assets/images"
+  else
+    OUTPUT_DIR=$2
+  fi
 }
 
 function export_assets() {
@@ -40,8 +44,17 @@ function export_assets() {
   fi
 }
 
+function transform_assets() {
+  find "$OUTPUT_DIR" -name '*.png' | while read -r line; do
+    mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_')"
+  done
+  find "$OUTPUT_DIR" -name '*.svg' | while read -r line; do
+    mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_')"
+  done
+}
+
 function main() {
   check_file_input "$@"
-  export_assets "$@"
+  export_assets "$@" && transform_assets
 }
 main "$@"
