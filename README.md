@@ -62,7 +62,7 @@ For more information on our Style Dictionary output, check [the wiki][wiki style
 Assets can be exported using the `sketchtool.sh` script. This process exports all layers marked as exportable or that have been sliced.
 
 ```shell
-# This will export assets as SVG (for web) and PNG (1x, 2x, 3x for native)
+# This will export normalized (lowercase, underscore) assets as SVG (for web) and PNG (1x, 2x, 3x for native)
 $ ./sketchtool.sh "/Users/hubble/Desktop/MyDesign.sketch"
 
 # You can optionally specify an asset output dir. Otherwise current working directory will be used:
