@@ -15,7 +15,11 @@ function check_file_input() {
     exit 1
   fi
 
-  if [ -z "$2" ]; then OUTPUT_DIR="$PWD/assets/images"; else OUTPUT_DIR=$2; fi
+  if [ -z "$2" ]; then
+    OUTPUT_DIR="$PWD/assets/images"
+  else
+    OUTPUT_DIR=$2
+  fi
 }
 
 function export_assets() {
@@ -26,10 +30,10 @@ function export_assets() {
   fi
 
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
-    log "Exporting slices as svg & png(1x,2x,3x) to directory $2"
+    log "Exporting slices as svg & png(1x,1.5x,2x,3x,4x) to directory $2"
 
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
-      --format="png" --scales="1, 2, 3"
+      --format="png" --scales="1, 1.5, 2, 3, 4"
 
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
       --format="svg"
@@ -40,8 +44,17 @@ function export_assets() {
   fi
 }
 
+function transform_assets() {
+  find "$OUTPUT_DIR" -name '*.png' | while read -r line; do
+    mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_')"
+  done
+  find "$OUTPUT_DIR" -name '*.svg' | while read -r line; do
+    mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_')"
+  done
+}
+
 function main() {
   check_file_input "$@"
-  export_assets "$@"
+  export_assets "$@" && transform_assets
 }
 main "$@"
