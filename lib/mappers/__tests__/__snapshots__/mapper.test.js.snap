@@ -1315,31 +1315,6 @@ exports[`[mapper.js] test suite -> #mapTextStyles: given the text styles, should
 Array [
   Object {
     "borderBottom": null,
-    "color": Object {
-      "alpha": 1,
-      "blue": 159,
-      "green": 6,
-      "hex": "10069f",
-      "hsl": Array [
-        244,
-        93,
-        32,
-      ],
-      "name": "ultramarine",
-      "red": 16,
-      "rgb": Array [
-        16,
-        6,
-        159,
-      ],
-      "rgba": Array [
-        16,
-        6,
-        159,
-        1,
-      ],
-      "token": "color",
-    },
     "family": "FiraSans-Bold",
     "id": "heading1",
     "kerning": null,
@@ -1351,31 +1326,6 @@ Array [
   },
   Object {
     "borderBottom": null,
-    "color": Object {
-      "alpha": 1,
-      "blue": 159,
-      "green": 6,
-      "hex": "10069f",
-      "hsl": Array [
-        244,
-        93,
-        32,
-      ],
-      "name": "ultramarine",
-      "red": 16,
-      "rgb": Array [
-        16,
-        6,
-        159,
-      ],
-      "rgba": Array [
-        16,
-        6,
-        159,
-        1,
-      ],
-      "token": "color",
-    },
     "family": "FiraSans-Regular",
     "id": "heading2",
     "kerning": null,
@@ -1387,31 +1337,6 @@ Array [
   },
   Object {
     "borderBottom": null,
-    "color": Object {
-      "alpha": 1,
-      "blue": 0,
-      "green": 0,
-      "hex": "000000",
-      "hsl": Array [
-        0,
-        0,
-        0,
-      ],
-      "name": "black",
-      "red": 0,
-      "rgb": Array [
-        0,
-        0,
-        0,
-      ],
-      "rgba": Array [
-        0,
-        0,
-        0,
-        1,
-      ],
-      "token": "color",
-    },
     "family": "FiraSans-Book",
     "id": "paragraph",
     "kerning": null,
@@ -1423,31 +1348,6 @@ Array [
   },
   Object {
     "borderBottom": null,
-    "color": Object {
-      "alpha": 1,
-      "blue": 186,
-      "green": 186,
-      "hex": "bababa",
-      "hsl": Array [
-        0,
-        0,
-        73,
-      ],
-      "name": "silver",
-      "red": 186,
-      "rgb": Array [
-        186,
-        186,
-        186,
-      ],
-      "rgba": Array [
-        186,
-        186,
-        186,
-        1,
-      ],
-      "token": "color",
-    },
     "family": "Helvetica-Bold",
     "id": "quote",
     "kerning": 0.6,
