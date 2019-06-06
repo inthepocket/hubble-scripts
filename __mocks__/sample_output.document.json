@@ -7,31 +7,6 @@
       "size": 48,
       "family": "FiraSans-Bold",
       "borderBottom": null,
-      "color": {
-        "token": "color",
-        "name": "ultramarine",
-        "red": 16,
-        "green": 6,
-        "blue": 159,
-        "alpha": 1,
-        "rgb": [
-          16,
-          6,
-          159
-        ],
-        "rgba": [
-          16,
-          6,
-          159,
-          1
-        ],
-        "hex": "10069f",
-        "hsl": [
-          244,
-          93,
-          32
-        ]
-      },
       "kerning": null,
       "lineHeight": 57.6,
       "paragraphSpacing": 0
@@ -43,31 +18,6 @@
       "size": 36,
       "family": "FiraSans-Regular",
       "borderBottom": null,
-      "color": {
-        "token": "color",
-        "name": "ultramarine",
-        "red": 16,
-        "green": 6,
-        "blue": 159,
-        "alpha": 1,
-        "rgb": [
-          16,
-          6,
-          159
-        ],
-        "rgba": [
-          16,
-          6,
-          159,
-          1
-        ],
-        "hex": "10069f",
-        "hsl": [
-          244,
-          93,
-          32
-        ]
-      },
       "kerning": null,
       "lineHeight": 43.2,
       "paragraphSpacing": 0
@@ -79,31 +29,6 @@
       "size": 18,
       "family": "FiraSans-Book",
       "borderBottom": null,
-      "color": {
-        "token": "color",
-        "name": "black",
-        "red": 0,
-        "green": 0,
-        "blue": 0,
-        "alpha": 1,
-        "rgb": [
-          0,
-          0,
-          0
-        ],
-        "rgba": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "hex": "000000",
-        "hsl": [
-          0,
-          0,
-          0
-        ]
-      },
       "kerning": null,
       "lineHeight": 21.6,
       "paragraphSpacing": 0
@@ -115,31 +40,6 @@
       "size": 14,
       "family": "Helvetica-Bold",
       "borderBottom": null,
-      "color": {
-        "token": "color",
-        "name": "silver",
-        "red": 186,
-        "green": 186,
-        "blue": 186,
-        "alpha": 1,
-        "rgb": [
-          186,
-          186,
-          186
-        ],
-        "rgba": [
-          186,
-          186,
-          186,
-          1
-        ],
-        "hex": "bababa",
-        "hsl": [
-          0,
-          0,
-          73
-        ]
-      },
       "kerning": 0.6,
       "lineHeight": 16.8,
       "paragraphSpacing": 0

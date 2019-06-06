@@ -78,24 +78,6 @@
         "comment": "grayNurse"
       }
     },
-    "font": {
-      "heading1": {
-        "value": "#10069F",
-        "comment": "ultramarine"
-      },
-      "heading2": {
-        "value": "#10069F",
-        "comment": "ultramarine"
-      },
-      "paragraph": {
-        "value": "#000000",
-        "comment": "black"
-      },
-      "quote": {
-        "value": "#BABABA",
-        "comment": "silver"
-      }
-    },
     "border": {
       "inside": {
         "value": "#FF9696",
@@ -123,19 +105,35 @@
       }
     }
   },
+  "font": {
+    "typo": {
+      "heading1": {
+        "value": "firaSansBold"
+      },
+      "heading2": {
+        "value": "firaSansRegular"
+      },
+      "paragraph": {
+        "value": "firaSansBook"
+      },
+      "quote": {
+        "value": "helveticaBold"
+      }
+    }
+  },
   "size": {
     "font": {
       "heading1": {
-        "value": "48"
+        "value": 48
       },
       "heading2": {
-        "value": "36"
+        "value": 36
       },
       "paragraph": {
-        "value": "18"
+        "value": 18
       },
       "quote": {
-        "value": "14"
+        "value": 14
       }
     },
     "border": {
@@ -153,19 +151,55 @@
       }
     }
   },
+  "weight": {
+    "fontFamily": {
+      "firaSansBold": {
+        "value": 700
+      },
+      "firaSansBook": {
+        "value": 350
+      },
+      "firaSansRegular": {
+        "value": 400
+      },
+      "helveticaBold": {
+        "value": 700
+      }
+    },
+    "font": {
+      "heading1": {
+        "value": 700
+      },
+      "heading2": {
+        "value": 400
+      },
+      "paragraph": {
+        "value": 350
+      },
+      "quote": {
+        "value": 700
+      }
+    }
+  },
   "asset": {
     "font": {
-      "family": {
-        "heading1": {
+      "firaSansBold": {
+        "name": {
           "value": "FiraSans-Bold"
-        },
-        "heading2": {
+        }
+      },
+      "firaSansRegular": {
+        "name": {
           "value": "FiraSans-Regular"
-        },
-        "paragraph": {
+        }
+      },
+      "firaSansBook": {
+        "name": {
           "value": "FiraSans-Book"
-        },
-        "quote": {
+        }
+      },
+      "helveticaBold": {
+        "name": {
           "value": "Helvetica-Bold"
         }
       }
