@@ -30,7 +30,7 @@
     "start:artboards": "npm start -- --dump --useColorArtboards --useGradientArtboards",
     "start:styledictionary": "npm start -- --dump --useColorArtboards --useGradientArtboards --useStyleDictionaryOutput",
     "clean": "rm hubble-data.json && rm -rf sketchtool-export node_modules && npm install",
-    "export": "./sketchtool.sh",
+    "export": "./sketchtool.sh ./__mocks__/sample_sketchfile.sketch",
     "lint": "itp-react-scripts lint",
     "lint:fix": "npm run lint -- --fix",
     "lint:shell": "which shellcheck > /dev/null && shellcheck *.sh",
