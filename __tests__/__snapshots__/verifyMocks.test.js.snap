@@ -8594,64 +8594,6 @@ Object {
     },
   },
   "font": Object {
-    "family": Object {
-      "firaSansBold": Object {
-        "asset": Object {
-          "value": "asset.font.firaSansBold.name.value",
-        },
-        "family": Object {
-          "value": "FiraSans",
-        },
-        "id": Object {
-          "value": "FiraSans-Bold",
-        },
-        "variant": Object {
-          "value": "Bold",
-        },
-      },
-      "firaSansBook": Object {
-        "asset": Object {
-          "value": "asset.font.firaSansBook.name.value",
-        },
-        "family": Object {
-          "value": "FiraSans",
-        },
-        "id": Object {
-          "value": "FiraSans-Book",
-        },
-        "variant": Object {
-          "value": "Book",
-        },
-      },
-      "firaSansRegular": Object {
-        "asset": Object {
-          "value": "asset.font.firaSansRegular.name.value",
-        },
-        "family": Object {
-          "value": "FiraSans",
-        },
-        "id": Object {
-          "value": "FiraSans-Regular",
-        },
-        "variant": Object {
-          "value": "Regular",
-        },
-      },
-      "helveticaBold": Object {
-        "asset": Object {
-          "value": "asset.font.helveticaBold.name.value",
-        },
-        "family": Object {
-          "value": "Helvetica",
-        },
-        "id": Object {
-          "value": "Helvetica-Bold",
-        },
-        "variant": Object {
-          "value": "Bold",
-        },
-      },
-    },
     "typo": Object {
       "heading1": Object {
         "value": "firaSansBold",

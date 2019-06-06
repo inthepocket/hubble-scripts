@@ -106,64 +106,6 @@
     }
   },
   "font": {
-    "family": {
-      "firaSansBold": {
-        "id": {
-          "value": "FiraSans-Bold"
-        },
-        "family": {
-          "value": "FiraSans"
-        },
-        "variant": {
-          "value": "Bold"
-        },
-        "asset": {
-          "value": "asset.font.firaSansBold.name.value"
-        }
-      },
-      "firaSansBook": {
-        "id": {
-          "value": "FiraSans-Book"
-        },
-        "family": {
-          "value": "FiraSans"
-        },
-        "variant": {
-          "value": "Book"
-        },
-        "asset": {
-          "value": "asset.font.firaSansBook.name.value"
-        }
-      },
-      "firaSansRegular": {
-        "id": {
-          "value": "FiraSans-Regular"
-        },
-        "family": {
-          "value": "FiraSans"
-        },
-        "variant": {
-          "value": "Regular"
-        },
-        "asset": {
-          "value": "asset.font.firaSansRegular.name.value"
-        }
-      },
-      "helveticaBold": {
-        "id": {
-          "value": "Helvetica-Bold"
-        },
-        "family": {
-          "value": "Helvetica"
-        },
-        "variant": {
-          "value": "Bold"
-        },
-        "asset": {
-          "value": "asset.font.helveticaBold.name.value"
-        }
-      }
-    },
     "typo": {
       "heading1": {
         "value": "firaSansBold"
