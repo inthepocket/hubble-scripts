@@ -8465,17 +8465,23 @@ exports[`Verify that the mocks are unchanged for the hubble output (using Style 
 Object {
   "asset": Object {
     "font": Object {
-      "family": Object {
-        "heading1": Object {
+      "firaSansBold": Object {
+        "name": Object {
           "value": "FiraSans-Bold",
         },
-        "heading2": Object {
-          "value": "FiraSans-Regular",
-        },
-        "paragraph": Object {
+      },
+      "firaSansBook": Object {
+        "name": Object {
           "value": "FiraSans-Book",
         },
-        "quote": Object {
+      },
+      "firaSansRegular": Object {
+        "name": Object {
+          "value": "FiraSans-Regular",
+        },
+      },
+      "helveticaBold": Object {
+        "name": Object {
           "value": "Helvetica-Bold",
         },
       },
@@ -8574,24 +8580,6 @@ Object {
         "value": "#FF9696",
       },
     },
-    "font": Object {
-      "heading1": Object {
-        "comment": "ultramarine",
-        "value": "#10069F",
-      },
-      "heading2": Object {
-        "comment": "ultramarine",
-        "value": "#10069F",
-      },
-      "paragraph": Object {
-        "comment": "black",
-        "value": "#000000",
-      },
-      "quote": Object {
-        "comment": "silver",
-        "value": "#BABABA",
-      },
-    },
     "shadow": Object {
       "simple": Object {
         "dropShadow": Object {
@@ -8602,6 +8590,80 @@ Object {
           "comment": "black",
           "value": "#000000",
         },
+      },
+    },
+  },
+  "font": Object {
+    "family": Object {
+      "firaSansBold": Object {
+        "asset": Object {
+          "value": "asset.font.firaSansBold.name.value",
+        },
+        "family": Object {
+          "value": "FiraSans",
+        },
+        "id": Object {
+          "value": "FiraSans-Bold",
+        },
+        "variant": Object {
+          "value": "Bold",
+        },
+      },
+      "firaSansBook": Object {
+        "asset": Object {
+          "value": "asset.font.firaSansBook.name.value",
+        },
+        "family": Object {
+          "value": "FiraSans",
+        },
+        "id": Object {
+          "value": "FiraSans-Book",
+        },
+        "variant": Object {
+          "value": "Book",
+        },
+      },
+      "firaSansRegular": Object {
+        "asset": Object {
+          "value": "asset.font.firaSansRegular.name.value",
+        },
+        "family": Object {
+          "value": "FiraSans",
+        },
+        "id": Object {
+          "value": "FiraSans-Regular",
+        },
+        "variant": Object {
+          "value": "Regular",
+        },
+      },
+      "helveticaBold": Object {
+        "asset": Object {
+          "value": "asset.font.helveticaBold.name.value",
+        },
+        "family": Object {
+          "value": "Helvetica",
+        },
+        "id": Object {
+          "value": "Helvetica-Bold",
+        },
+        "variant": Object {
+          "value": "Bold",
+        },
+      },
+    },
+    "typo": Object {
+      "heading1": Object {
+        "value": "firaSansBold",
+      },
+      "heading2": Object {
+        "value": "firaSansRegular",
+      },
+      "paragraph": Object {
+        "value": "firaSansBook",
+      },
+      "quote": Object {
+        "value": "helveticaBold",
       },
     },
   },
@@ -8622,16 +8684,46 @@ Object {
     },
     "font": Object {
       "heading1": Object {
-        "value": "48",
+        "value": 48,
       },
       "heading2": Object {
-        "value": "36",
+        "value": 36,
       },
       "paragraph": Object {
-        "value": "18",
+        "value": 18,
       },
       "quote": Object {
-        "value": "14",
+        "value": 14,
+      },
+    },
+  },
+  "weight": Object {
+    "font": Object {
+      "heading1": Object {
+        "value": 700,
+      },
+      "heading2": Object {
+        "value": 400,
+      },
+      "paragraph": Object {
+        "value": 350,
+      },
+      "quote": Object {
+        "value": 700,
+      },
+    },
+    "fontFamily": Object {
+      "firaSansBold": Object {
+        "value": 700,
+      },
+      "firaSansBook": Object {
+        "value": 350,
+      },
+      "firaSansRegular": Object {
+        "value": 400,
+      },
+      "helveticaBold": Object {
+        "value": 700,
       },
     },
   },
