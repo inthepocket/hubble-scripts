@@ -8609,6 +8609,22 @@ Object {
       },
     },
   },
+  "lineHeight": Object {
+    "font": Object {
+      "heading1": Object {
+        "value": 57.6,
+      },
+      "heading2": Object {
+        "value": 43.2,
+      },
+      "paragraph": Object {
+        "value": 21.6,
+      },
+      "quote": Object {
+        "value": 16.8,
+      },
+    },
+  },
   "size": Object {
     "border": Object {
       "center": Object {

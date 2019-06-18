@@ -121,6 +121,22 @@
       }
     }
   },
+  "lineHeight": {
+    "font": {
+      "heading1": {
+        "value": 57.6
+      },
+      "heading2": {
+        "value": 43.2
+      },
+      "paragraph": {
+        "value": 21.6
+      },
+      "quote": {
+        "value": 16.8
+      }
+    }
+  },
   "size": {
     "font": {
       "heading1": {
