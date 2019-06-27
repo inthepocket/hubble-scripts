@@ -30,7 +30,7 @@ function remove_comments_svg() {
   files=$(find "$ASSETS_OUTPUT_DIR" -name \*.svg)
 
   for file in $files; do
-    sed -i '' -e '/<!--.*-->/d' $file
+    sed -i '' -e '/<!--.*-->/d' "$file"
   done
 }
 
