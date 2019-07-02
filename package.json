@@ -2,7 +2,7 @@
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
   "version": "4.0.0",
-  "homepage": "https://hubble-design-system.netlify.com",
+  "homepage": "https://hubble.inthepocket.design",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
   "maintainers": [
