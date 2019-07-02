@@ -24,16 +24,6 @@ function generate_assets() {
   bash ./sketchtool.sh "$SKETCHFILE" "$ASSETS_OUTPUT_DIR"
 }
 
-function remove_comments_svg() {
-  log "✂️  Removing comments from svg"
-
-  files=$(find "$ASSETS_OUTPUT_DIR" -name \*.svg)
-
-  for file in $files; do
-    sed -i '' -e '/<!--.*-->/d' "$file"
-  done
-}
-
 function upload_to_cloud() {
   # You can enable custom cloud providers here to upload generated output to that provider
   # upload_to_gcloud "$ASSETS_OUTPUT_DIR" "$CONFIG_OUTPUT_DIR" "$1"
@@ -65,8 +55,6 @@ function main() {
 
   generate_config "$@"
   generate_assets "$@"
-
-  remove_comments_svg
 
   upload_to_cloud "hubble-output-dir"
 }
