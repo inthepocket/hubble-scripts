@@ -44,14 +44,18 @@ function export_assets() {
   fi
 }
 
-# Transform asset filenames to all lowercase, replace spaces with underscores.
-# Sketchtool incorrectly maps 1.5x to 1x, replace that as well.
+# Transform asset:
+#   -> filenames to all lowercase
+#   -> replace spaces with underscores
+#   -> strip SVG comments
+#   -> sketchtool incorrectly maps 1.5x to 1x, replace that as well.
 function transform_assets() {
   find "$OUTPUT_DIR" -name '*.png' | while read -r line; do
     mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_' | sed s/@1x/@1.5x/)"
   done
 
   find "$OUTPUT_DIR" -name '*.svg' | while read -r line; do
+    sed -i '' -e '/<!--.*-->/d' "$line"
     mv "$line" "$(echo "$line" | tr "[:upper:]" "[:lower:]" | tr ' ' '_')"
   done
 }
