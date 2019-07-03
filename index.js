@@ -1,80 +1,54 @@
 const fs = require('fs');
-const sketch2json = require('sketch2json');
 const pkg = require('./package.json');
-
-const {
-  getPageArrays, getColorsFromArtboard, getGradientsFromArtboard, getShadowsFromArtboard,
-  getBordersFromArtboard
-} = require('./lib/sketch');
-const mappers = require('./lib/mappers');
-const { prettyJSON } = require('./lib/utils');
+const getParser = require('./lib/parser');
+const getMappers = require('./lib/mappers');
+const { prettyJSON} = require('./lib/utils');
 const mapToStyleDictionaryTokens = require('./lib/styleDictionary');
 
-module.exports = (args, flags) => {
+const getExtension = (file) => file.split('.').pop();
+exports.getExtension = getExtension;
+
+module.exports = async(args, flags) => {
   if (flags.version) return pkg.version;
 
   if (args.length <= 0) throw new Error('No file input passed after npm start');
+  const [file] = args
+  const {parser, response} = await getParser(args, flags);
+  const mappers = getMappers(getExtension(file));
+  
+  const mapping = {
+    textStyles: mappers.mapTextStyles(parser.getTextStyles()),
+    colors: mappers.mapColors(parser.getColors()),
+    gradients: mappers.mapGradients(parser.getGradients()),
+    shadows: mappers.mapShadows(parser.getShadows()),
+    borders: mappers.mapBorders(parser.getBorders()),
+    fonts: parser.getFonts(),
+    ...parser.getVersion()
+  }
 
-  const [filePath] = args;
+  if (!fs.existsSync(flags.outputDir)) {
+    fs.mkdirSync(flags.outputDir);
+  }
 
-  return fs.readFile(filePath, async (error, data) => {
-    if (error) throw new Error(error);
-
-    try {
-      const response = await sketch2json(data);
-
-      const primitivesPage = getPageArrays(response).find(i => i.name.toLowerCase() === 'primitives');
-      if (!primitivesPage) {
-        throw new Error(`No primitives page found.`)
-      }
-
-      const colorLayers = flags.useColorArtboards
-        ? getColorsFromArtboard(primitivesPage.layers)
-        : response.document.assets.colorAssets
-            .map(({ color, _class, name }) => ({ ...color, _class, name }));
-      const gradientLayers = flags.useGradientArtboards
-        ? getGradientsFromArtboard(primitivesPage.layers)
-        : response.document.assets.gradientAssets
-            .map(({ gradient, _class }) => ({ ...gradient, _class }));
-
-      const mapping = {
-        textStyles: mappers.mapTextStyles(response.document.layerTextStyles),
-        colors: mappers.mapColors(colorLayers),
-        gradients: mappers.mapGradients(gradientLayers),
-        shadows: mappers.mapShadows(getShadowsFromArtboard(primitivesPage.layers)),
-        borders: mappers.mapBorders(getBordersFromArtboard(primitivesPage.layers)),
-        fonts: response.meta.fonts,
-        sketchVersion: response.meta.appVersion,
-      };
-
-      if (!fs.existsSync(flags.outputDir)) {
-        fs.mkdirSync(flags.outputDir);
-      }
-
-      const fsErrorHandler = (err) => {
-        if (err) {
-          console.error('Error trying to write to file:', err); // eslint-disable-line no-console
-          throw new Error(err);
-        }
-      };
-
-      if (flags.useStyleDictionaryOutput) {
-        await fs.writeFile(
-          `${flags.outputDir}/hubble-style-dictionary-tokens.json`,
-          prettyJSON(mapToStyleDictionaryTokens(mapping)),
-          fsErrorHandler,
-        );
-      } else {
-        await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping), fsErrorHandler);
-      }
-
-      if (flags.dump) {
-        await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response), fsErrorHandler);
-      }
-
-      return response;
-    } catch (err) {
+  const fsErrorHandler = (err) => {
+    if (err) {
+      console.error('Error trying to write to file:', err); // eslint-disable-line no-console
       throw new Error(err);
     }
-  });
-};
+  };
+
+  if (flags.useStyleDictionaryOutput) {
+    await fs.writeFile(
+      `${flags.outputDir}/hubble-style-dictionary-tokens.json`,
+      prettyJSON(mapToStyleDictionaryTokens(mapping)),
+      fsErrorHandler,
+    );
+  } else {
+    await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping), fsErrorHandler);
+  }
+
+  if (flags.dump) {
+    await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response), fsErrorHandler);
+  }
+  return response;
+}
