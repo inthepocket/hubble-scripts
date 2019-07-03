@@ -54,6 +54,7 @@
     "camelcase": "^5.0.0",
     "color-convert": "^1.9.3",
     "color-namer": "^1.3.0",
+    "figma-js": "^1.7.0",
     "meow": "^5.0.0",
     "sketch2json": "^0.1.2"
   },
