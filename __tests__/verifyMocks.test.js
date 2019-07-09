@@ -1,4 +1,4 @@
-const sketchDump = require('../__mocks__/sample_dump.json');
+const sketchDump = require('../__mocks__/sample_dump_sketch.json');
 const hubbleOutput = require('../__mocks__/sample_output.json');
 const hubbleOutputAsDocument = require('../__mocks__/sample_output.document.json');
 const hubbleOutputAsStyleDictionary = require('../__mocks__/sample_output.styledictionary.json');
