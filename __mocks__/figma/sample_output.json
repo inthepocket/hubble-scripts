@@ -2,54 +2,52 @@
   "textStyles": [
     {
       "token": "text-style",
-      "id": "heading1",
-      "weight": "bold",
-      "size": 48,
-      "family": "FiraSans-Bold",
-      "borderBottom": null,
-      "kerning": null,
-      "lineHeight": 57.6,
-      "paragraphSpacing": 0
-    },
-    {
-      "token": "text-style",
-      "id": "heading2",
-      "weight": "regular",
-      "size": 36,
-      "family": "FiraSans-Regular",
-      "borderBottom": null,
-      "kerning": null,
-      "lineHeight": 43.2,
-      "paragraphSpacing": 0
-    },
-    {
-      "token": "text-style",
-      "id": "paragraph",
       "weight": "book",
+      "borderBottom": null,
+      "paragraphSpacing": null,
       "size": 18,
       "family": "FiraSans-Book",
-      "borderBottom": null,
+      "lineHeight": 21.1,
       "kerning": null,
-      "lineHeight": 21.6,
-      "paragraphSpacing": 0
+      "id": "paragraph"
     },
     {
       "token": "text-style",
-      "id": "quote",
       "weight": "bold",
+      "borderBottom": null,
+      "paragraphSpacing": null,
       "size": 14,
       "family": "Helvetica-Bold",
+      "lineHeight": 16.4,
+      "kerning": 1,
+      "id": "quote"
+    },
+    {
+      "token": "text-style",
+      "weight": "regular",
       "borderBottom": null,
-      "kerning": 0.6,
-      "lineHeight": 16.8,
-      "paragraphSpacing": 0
+      "paragraphSpacing": null,
+      "size": 36,
+      "family": "FiraSans-Regular",
+      "lineHeight": 42.2,
+      "kerning": null,
+      "id": "heading2"
+    },
+    {
+      "token": "text-style",
+      "weight": "bold",
+      "borderBottom": null,
+      "paragraphSpacing": null,
+      "size": 48,
+      "family": "FiraSans-Bold",
+      "lineHeight": 57.6,
+      "kerning": null,
+      "id": "heading1"
     }
   ],
   "colors": [
     {
       "token": "color",
-      "id": "primary900",
-      "variant": 900,
       "name": "seagull",
       "red": 95,
       "green": 194,
@@ -75,8 +73,6 @@
     },
     {
       "token": "color",
-      "id": "primary800",
-      "variant": 800,
       "name": "viking",
       "red": 94,
       "green": 193,
@@ -102,8 +98,6 @@
     },
     {
       "token": "color",
-      "id": "primary700",
-      "variant": 700,
       "name": "viking",
       "red": 119,
       "green": 200,
@@ -129,8 +123,6 @@
     },
     {
       "token": "color",
-      "id": "primary600",
-      "variant": 600,
       "name": "halfBaked",
       "red": 141,
       "green": 207,
@@ -156,8 +148,6 @@
     },
     {
       "token": "color",
-      "id": "primary500",
-      "variant": 500,
       "name": "powderBlue",
       "red": 160,
       "green": 214,
@@ -183,8 +173,6 @@
     },
     {
       "token": "color",
-      "id": "primary400",
-      "variant": 400,
       "name": "powderBlue",
       "red": 179,
       "green": 221,
@@ -210,8 +198,6 @@
     },
     {
       "token": "color",
-      "id": "primary300",
-      "variant": 300,
       "name": "pattensBlue",
       "red": 212,
       "green": 235,
@@ -237,8 +223,6 @@
     },
     {
       "token": "color",
-      "id": "primary200",
-      "variant": 200,
       "name": "solitude",
       "red": 229,
       "green": 243,
@@ -264,8 +248,6 @@
     },
     {
       "token": "color",
-      "id": "primary100",
-      "variant": 100,
       "name": "aliceBlue",
       "red": 242,
       "green": 249,
@@ -291,8 +273,6 @@
     },
     {
       "token": "color",
-      "id": "secondary900",
-      "variant": 900,
       "name": "salem",
       "red": 34,
       "green": 125,
@@ -318,8 +298,6 @@
     },
     {
       "token": "color",
-      "id": "red",
-      "variant": null,
       "name": "carnation",
       "red": 245,
       "green": 94,
@@ -345,8 +323,6 @@
     },
     {
       "token": "color",
-      "id": "secondary800",
-      "variant": 800,
       "name": "seaGreen",
       "red": 62,
       "green": 135,
@@ -372,8 +348,6 @@
     },
     {
       "token": "color",
-      "id": "secondary700",
-      "variant": 700,
       "name": "hippieGreen",
       "red": 85,
       "green": 145,
@@ -399,8 +373,6 @@
     },
     {
       "token": "color",
-      "id": "secondary600",
-      "variant": 600,
       "name": "aquaForest",
       "red": 107,
       "green": 157,
@@ -426,8 +398,6 @@
     },
     {
       "token": "color",
-      "id": "secondary500",
-      "variant": 500,
       "name": "amulet",
       "red": 129,
       "green": 169,
@@ -453,8 +423,6 @@
     },
     {
       "token": "color",
-      "id": "secondary400",
-      "variant": 400,
       "name": "norway",
       "red": 151,
       "green": 182,
@@ -480,8 +448,6 @@
     },
     {
       "token": "color",
-      "id": "secondary300",
-      "variant": 300,
       "name": "paleLeaf",
       "red": 192,
       "green": 210,
@@ -507,8 +473,6 @@
     },
     {
       "token": "color",
-      "id": "secondary200",
-      "variant": 200,
       "name": "tasman",
       "red": 212,
       "green": 224,
@@ -534,8 +498,6 @@
     },
     {
       "token": "color",
-      "id": "secondary100",
-      "variant": 100,
       "name": "grayNurse",
       "red": 233,
       "green": 239,
@@ -562,16 +524,16 @@
   ],
   "gradients": [
     {
-      "id": "linear",
+      "name": "linear",
       "token": "gradient",
-      "type": "LINEAR",
+      "type": "FRAME",
       "from": [
-        0.5,
-        1
+        0.5038167964273101,
+        1.0000000430625262
       ],
       "to": [
-        0.4999999999999999,
-        3.0616169978683836e-17
+        1.0038167964273075,
+        0.9999999674926328
       ],
       "stops": [
         {
@@ -603,7 +565,7 @@
           }
         },
         {
-          "position": 0.5038507579143953,
+          "position": 0.5038507580757141,
           "color": {
             "token": "color",
             "name": "hippieGreen",
@@ -661,16 +623,16 @@
       ]
     },
     {
-      "id": "radial",
+      "name": "radial",
       "token": "gradient",
-      "type": "RADIAL",
+      "type": "FRAME",
       "from": [
-        0.5,
-        1
+        0.4999999999999999,
+        1.0000000000000002
       ],
       "to": [
-        0.5,
-        -0.27263153394819584
+        1.7726315302406337,
+        1.0000000000000002
       ],
       "stops": [
         {
@@ -732,20 +694,20 @@
       ]
     },
     {
-      "id": "angular",
+      "name": "angular",
       "token": "gradient",
-      "type": "ANGULAR",
+      "type": "FRAME",
       "from": [
         0.5,
-        1
+        0.5
       ],
       "to": [
         0.5,
-        -0.27263153394819584
+        1
       ],
       "stops": [
         {
-          "position": 0.4336458341191861,
+          "position": 0.4336458444595337,
           "color": {
             "token": "color",
             "name": "norway",
@@ -801,50 +763,22 @@
           }
         }
       ]
+    },
+    {
+      "name": "gradient-with-corners",
+      "token": "gradient",
+      "type": "FRAME",
+      "from": null,
+      "to": null,
+      "stops": null
     }
   ],
   "shadows": [
     {
       "id": "simple",
       "token": "shadow",
-      "blur": 3,
-      "x": 0,
-      "y": 1,
-      "spread": 0,
-      "type": "inner-shadow",
-      "color": {
-        "token": "color",
-        "name": "black",
-        "red": 0,
-        "green": 0,
-        "blue": 0,
-        "alpha": 0.5,
-        "rgb": [
-          0,
-          0,
-          0
-        ],
-        "rgba": [
-          0,
-          0,
-          0,
-          0.5
-        ],
-        "hex": "000000",
-        "hsl": [
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": "simple",
-      "token": "shadow",
-      "blur": 4,
       "x": 0,
       "y": 2,
-      "spread": 0,
       "type": "drop-shadow",
       "color": {
         "token": "color",
@@ -870,13 +804,50 @@
           0,
           0
         ]
-      }
+      },
+      "spread": null
+    },
+    {
+      "id": "simple",
+      "token": "shadow",
+      "x": 0,
+      "y": 1,
+      "type": "inner-shadow",
+      "color": {
+        "token": "color",
+        "name": "black",
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.5,
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "rgba": [
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "hex": "000000",
+        "hsl": [
+          0,
+          0,
+          0
+        ]
+      },
+      "spread": null
     }
   ],
   "borders": [
     {
       "id": "inside",
       "token": "border",
+      "width": 1,
+      "type": "INSIDE",
+      "radius": 3,
       "color": {
         "token": "color",
         "name": "geraldine",
@@ -901,14 +872,14 @@
           100,
           79
         ]
-      },
-      "width": 1,
-      "type": "INSIDE",
-      "radius": 3
+      }
     },
     {
       "id": "outside",
       "token": "border",
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": 12.5,
       "color": {
         "token": "color",
         "name": "geraldine",
@@ -933,25 +904,30 @@
           100,
           79
         ]
-      },
-      "width": 1,
-      "type": "OUTSIDE",
-      "radius": 12.5
+      }
     },
     {
-      "id": "gradientWithCorners",
+      "id": "gradient-with-corners",
       "token": "border",
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": [
+        8,
+        12.5,
+        12.5,
+        12.5
+      ],
       "gradient": {
-        "name": "norwayGradient",
+        "name": null,
         "token": "gradient",
-        "type": "LINEAR",
+        "type": "GRADIENT_LINEAR",
         "from": [
-          0.5,
+          1,
           1
         ],
         "to": [
-          0.4999999999999999,
-          3.0616169978683836e-17
+          1.5,
+          0.9999999999999999
         ],
         "stops": [
           {
@@ -983,7 +959,7 @@
             }
           },
           {
-            "position": 0.5038507579143953,
+            "position": 0.5038507580757141,
             "color": {
               "token": "color",
               "name": "hippieGreen",
@@ -1039,19 +1015,14 @@
             }
           }
         ]
-      },
-      "width": 1,
-      "type": "OUTSIDE",
-      "radius": [
-        8,
-        12.5,
-        12.5,
-        12.5
-      ]
+      }
     },
     {
       "id": "center",
       "token": "border",
+      "width": 1,
+      "type": "CENTER",
+      "radius": 0,
       "color": {
         "token": "color",
         "name": "geraldine",
@@ -1076,17 +1047,13 @@
           100,
           79
         ]
-      },
-      "width": 1,
-      "type": "CENTER",
-      "radius": 0
+      }
     }
   ],
   "fonts": [
-    "FiraSans-Bold",
+    "FiraSans-Book",
     "Helvetica-Bold",
     "FiraSans-Regular",
-    "FiraSans-Book"
-  ],
-  "sketchVersion": "55"
+    "FiraSans-Bold"
+  ]
 }
