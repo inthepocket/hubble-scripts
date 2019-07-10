@@ -5,7 +5,7 @@ matrix:
     - '8'
     script:
     - npm run lint
-    - npm run generate:mocks
+    - ./generate_mocks.sh
     - npm test
 
   - language: shell
