@@ -2,7 +2,7 @@ const fs = require('fs');
 const pkg = require('./package.json');
 const getParser = require('./lib/parser');
 const getMappers = require('./lib/mappers');
-const { prettyJSON, isSketch } = require('./lib/utils');
+const { prettyJSON, isSketch, writeFile } = require('./lib/utils');
 const mapToStyleDictionaryTokens = require('./lib/styleDictionary');
 
 module.exports = async (args, flags) => {
@@ -37,25 +37,17 @@ module.exports = async (args, flags) => {
     fs.mkdirSync(flags.outputDir);
   }
 
-  const fsErrorHandler = err => {
-    if (err) {
-      console.error('Error trying to write to file:', err); // eslint-disable-line no-console
-      throw new Error(err);
-    }
-  };
-
   if (flags.useStyleDictionaryOutput) {
-    await fs.writeFile(
+    await writeFile(
       `${flags.outputDir}/hubble-style-dictionary-tokens.json`,
-      prettyJSON(mapToStyleDictionaryTokens(mapping)),
-      fsErrorHandler,
+      prettyJSON(mapToStyleDictionaryTokens(mapping))
     );
   } else {
-    await fs.writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping), fsErrorHandler);
+    await writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
   }
 
   if (flags.dump) {
-    await fs.writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response), fsErrorHandler);
+    await writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response));
   }
   return response;
 };
