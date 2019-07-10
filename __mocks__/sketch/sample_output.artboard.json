@@ -1,0 +1,1091 @@
+{
+  "textStyles": [
+    {
+      "token": "text-style",
+      "id": "heading1",
+      "weight": "bold",
+      "size": 48,
+      "family": "FiraSans-Bold",
+      "borderBottom": null,
+      "kerning": null,
+      "lineHeight": 57.6,
+      "paragraphSpacing": 0
+    },
+    {
+      "token": "text-style",
+      "id": "heading2",
+      "weight": "regular",
+      "size": 36,
+      "family": "FiraSans-Regular",
+      "borderBottom": null,
+      "kerning": null,
+      "lineHeight": 43.2,
+      "paragraphSpacing": 0
+    },
+    {
+      "token": "text-style",
+      "id": "paragraph",
+      "weight": "book",
+      "size": 18,
+      "family": "FiraSans-Book",
+      "borderBottom": null,
+      "kerning": null,
+      "lineHeight": 21.6,
+      "paragraphSpacing": 0
+    },
+    {
+      "token": "text-style",
+      "id": "quote",
+      "weight": "bold",
+      "size": 14,
+      "family": "Helvetica-Bold",
+      "borderBottom": null,
+      "kerning": 0.6,
+      "lineHeight": 16.8,
+      "paragraphSpacing": 0
+    }
+  ],
+  "colors": [
+    {
+      "token": "color",
+      "id": "primary900",
+      "variant": 900,
+      "name": "seagull",
+      "red": 95,
+      "green": 194,
+      "blue": 230,
+      "alpha": 1,
+      "rgb": [
+        95,
+        194,
+        230
+      ],
+      "rgba": [
+        95,
+        194,
+        230,
+        1
+      ],
+      "hex": "5fc2e6",
+      "hsl": [
+        196,
+        73,
+        64
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary800",
+      "variant": 800,
+      "name": "viking",
+      "red": 94,
+      "green": 193,
+      "blue": 209,
+      "alpha": 1,
+      "rgb": [
+        94,
+        193,
+        209
+      ],
+      "rgba": [
+        94,
+        193,
+        209,
+        1
+      ],
+      "hex": "5ec1d1",
+      "hsl": [
+        188,
+        56,
+        59
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary700",
+      "variant": 700,
+      "name": "viking",
+      "red": 119,
+      "green": 200,
+      "blue": 214,
+      "alpha": 1,
+      "rgb": [
+        119,
+        200,
+        214
+      ],
+      "rgba": [
+        119,
+        200,
+        214,
+        1
+      ],
+      "hex": "77c8d6",
+      "hsl": [
+        189,
+        54,
+        65
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary600",
+      "variant": 600,
+      "name": "halfBaked",
+      "red": 141,
+      "green": 207,
+      "blue": 219,
+      "alpha": 1,
+      "rgb": [
+        141,
+        207,
+        219
+      ],
+      "rgba": [
+        141,
+        207,
+        219,
+        1
+      ],
+      "hex": "8dcfdb",
+      "hsl": [
+        189,
+        52,
+        71
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary500",
+      "variant": 500,
+      "name": "powderBlue",
+      "red": 160,
+      "green": 214,
+      "blue": 224,
+      "alpha": 1,
+      "rgb": [
+        160,
+        214,
+        224
+      ],
+      "rgba": [
+        160,
+        214,
+        224,
+        1
+      ],
+      "hex": "a0d6e0",
+      "hsl": [
+        189,
+        51,
+        75
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary400",
+      "variant": 400,
+      "name": "powderBlue",
+      "red": 179,
+      "green": 221,
+      "blue": 230,
+      "alpha": 1,
+      "rgb": [
+        179,
+        221,
+        230
+      ],
+      "rgba": [
+        179,
+        221,
+        230,
+        1
+      ],
+      "hex": "b3dde6",
+      "hsl": [
+        191,
+        50,
+        80
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary300",
+      "variant": 300,
+      "name": "pattensBlue",
+      "red": 212,
+      "green": 235,
+      "blue": 240,
+      "alpha": 1,
+      "rgb": [
+        212,
+        235,
+        240
+      ],
+      "rgba": [
+        212,
+        235,
+        240,
+        1
+      ],
+      "hex": "d4ebf0",
+      "hsl": [
+        191,
+        48,
+        89
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary200",
+      "variant": 200,
+      "name": "solitude",
+      "red": 229,
+      "green": 243,
+      "blue": 250,
+      "alpha": 1,
+      "rgb": [
+        229,
+        243,
+        250
+      ],
+      "rgba": [
+        229,
+        243,
+        250,
+        1
+      ],
+      "hex": "e5f3fa",
+      "hsl": [
+        200,
+        68,
+        94
+      ]
+    },
+    {
+      "token": "color",
+      "id": "primary100",
+      "variant": 100,
+      "name": "aliceBlue",
+      "red": 242,
+      "green": 249,
+      "blue": 253,
+      "alpha": 1,
+      "rgb": [
+        242,
+        249,
+        253
+      ],
+      "rgba": [
+        242,
+        249,
+        253,
+        1
+      ],
+      "hex": "f2f9fd",
+      "hsl": [
+        202,
+        73,
+        97
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary900",
+      "variant": 900,
+      "name": "salem",
+      "red": 34,
+      "green": 125,
+      "blue": 62,
+      "alpha": 1,
+      "rgb": [
+        34,
+        125,
+        62
+      ],
+      "rgba": [
+        34,
+        125,
+        62,
+        1
+      ],
+      "hex": "227d3e",
+      "hsl": [
+        138,
+        57,
+        31
+      ]
+    },
+    {
+      "token": "color",
+      "id": "red",
+      "variant": null,
+      "name": "carnation",
+      "red": 245,
+      "green": 94,
+      "blue": 94,
+      "alpha": 1,
+      "rgb": [
+        245,
+        94,
+        94
+      ],
+      "rgba": [
+        245,
+        94,
+        94,
+        1
+      ],
+      "hex": "f55e5e",
+      "hsl": [
+        0,
+        88,
+        66
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary800",
+      "variant": 800,
+      "name": "seaGreen",
+      "red": 62,
+      "green": 135,
+      "blue": 74,
+      "alpha": 1,
+      "rgb": [
+        62,
+        135,
+        74
+      ],
+      "rgba": [
+        62,
+        135,
+        74,
+        1
+      ],
+      "hex": "3e874a",
+      "hsl": [
+        130,
+        37,
+        39
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary700",
+      "variant": 700,
+      "name": "hippieGreen",
+      "red": 85,
+      "green": 145,
+      "blue": 88,
+      "alpha": 1,
+      "rgb": [
+        85,
+        145,
+        88
+      ],
+      "rgba": [
+        85,
+        145,
+        88,
+        1
+      ],
+      "hex": "559158",
+      "hsl": [
+        123,
+        26,
+        45
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary600",
+      "variant": 600,
+      "name": "aquaForest",
+      "red": 107,
+      "green": 157,
+      "blue": 106,
+      "alpha": 1,
+      "rgb": [
+        107,
+        157,
+        106
+      ],
+      "rgba": [
+        107,
+        157,
+        106,
+        1
+      ],
+      "hex": "6b9d6a",
+      "hsl": [
+        119,
+        21,
+        52
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary500",
+      "variant": 500,
+      "name": "amulet",
+      "red": 129,
+      "green": 169,
+      "blue": 124,
+      "alpha": 1,
+      "rgb": [
+        129,
+        169,
+        124
+      ],
+      "rgba": [
+        129,
+        169,
+        124,
+        1
+      ],
+      "hex": "81a97c",
+      "hsl": [
+        113,
+        21,
+        57
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary400",
+      "variant": 400,
+      "name": "norway",
+      "red": 151,
+      "green": 182,
+      "blue": 144,
+      "alpha": 1,
+      "rgb": [
+        151,
+        182,
+        144
+      ],
+      "rgba": [
+        151,
+        182,
+        144,
+        1
+      ],
+      "hex": "97b690",
+      "hsl": [
+        109,
+        21,
+        64
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary300",
+      "variant": 300,
+      "name": "paleLeaf",
+      "red": 192,
+      "green": 210,
+      "blue": 186,
+      "alpha": 1,
+      "rgb": [
+        192,
+        210,
+        186
+      ],
+      "rgba": [
+        192,
+        210,
+        186,
+        1
+      ],
+      "hex": "c0d2ba",
+      "hsl": [
+        105,
+        21,
+        78
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary200",
+      "variant": 200,
+      "name": "tasman",
+      "red": 212,
+      "green": 224,
+      "blue": 208,
+      "alpha": 1,
+      "rgb": [
+        212,
+        224,
+        208
+      ],
+      "rgba": [
+        212,
+        224,
+        208,
+        1
+      ],
+      "hex": "d4e0d0",
+      "hsl": [
+        105,
+        21,
+        85
+      ]
+    },
+    {
+      "token": "color",
+      "id": "secondary100",
+      "variant": 100,
+      "name": "grayNurse",
+      "red": 233,
+      "green": 239,
+      "blue": 231,
+      "alpha": 1,
+      "rgb": [
+        233,
+        239,
+        231
+      ],
+      "rgba": [
+        233,
+        239,
+        231,
+        1
+      ],
+      "hex": "e9efe7",
+      "hsl": [
+        105,
+        20,
+        92
+      ]
+    }
+  ],
+  "gradients": [
+    {
+      "id": "linear",
+      "token": "gradient",
+      "type": "LINEAR",
+      "from": [
+        0.5,
+        1
+      ],
+      "to": [
+        0.4999999999999999,
+        3.0616169978683836e-17
+      ],
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "token": "color",
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": [
+              151,
+              182,
+              144
+            ],
+            "rgba": [
+              151,
+              182,
+              144,
+              1
+            ],
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 0.5038507579143953,
+          "color": {
+            "token": "color",
+            "name": "hippieGreen",
+            "red": 85,
+            "green": 145,
+            "blue": 88,
+            "alpha": 1,
+            "rgb": [
+              85,
+              145,
+              88
+            ],
+            "rgba": [
+              85,
+              145,
+              88,
+              1
+            ],
+            "hex": "559158",
+            "hsl": [
+              123,
+              26,
+              45
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "token": "color",
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": [
+              34,
+              125,
+              62
+            ],
+            "rgba": [
+              34,
+              125,
+              62,
+              1
+            ],
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "radial",
+      "token": "gradient",
+      "type": "RADIAL",
+      "from": [
+        0.5,
+        1
+      ],
+      "to": [
+        0.5,
+        -0.27263153394819584
+      ],
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "token": "color",
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": [
+              151,
+              182,
+              144
+            ],
+            "rgba": [
+              151,
+              182,
+              144,
+              1
+            ],
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "token": "color",
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": [
+              34,
+              125,
+              62
+            ],
+            "rgba": [
+              34,
+              125,
+              62,
+              1
+            ],
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "angular",
+      "token": "gradient",
+      "type": "ANGULAR",
+      "from": [
+        0.5,
+        1
+      ],
+      "to": [
+        0.5,
+        -0.27263153394819584
+      ],
+      "stops": [
+        {
+          "position": 0.4336458341191861,
+          "color": {
+            "token": "color",
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": [
+              151,
+              182,
+              144
+            ],
+            "rgba": [
+              151,
+              182,
+              144,
+              1
+            ],
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "token": "color",
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": [
+              34,
+              125,
+              62
+            ],
+            "rgba": [
+              34,
+              125,
+              62,
+              1
+            ],
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "shadows": [
+    {
+      "id": "simple",
+      "token": "shadow",
+      "blur": 3,
+      "x": 0,
+      "y": 1,
+      "spread": 0,
+      "type": "inner-shadow",
+      "color": {
+        "token": "color",
+        "name": "black",
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.5,
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "rgba": [
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "hex": "000000",
+        "hsl": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "simple",
+      "token": "shadow",
+      "blur": 4,
+      "x": 0,
+      "y": 2,
+      "spread": 0,
+      "type": "drop-shadow",
+      "color": {
+        "token": "color",
+        "name": "black",
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.5,
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "rgba": [
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "hex": "000000",
+        "hsl": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "borders": [
+    {
+      "id": "inside",
+      "token": "border",
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "INSIDE",
+      "radius": 3
+    },
+    {
+      "id": "outside",
+      "token": "border",
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": 12.5
+    },
+    {
+      "id": "gradientWithCorners",
+      "token": "border",
+      "gradient": {
+        "name": "norwayGradient",
+        "token": "gradient",
+        "type": "LINEAR",
+        "from": [
+          0.5,
+          1
+        ],
+        "to": [
+          0.4999999999999999,
+          3.0616169978683836e-17
+        ],
+        "stops": [
+          {
+            "position": 0,
+            "color": {
+              "token": "color",
+              "name": "norway",
+              "red": 151,
+              "green": 182,
+              "blue": 144,
+              "alpha": 1,
+              "rgb": [
+                151,
+                182,
+                144
+              ],
+              "rgba": [
+                151,
+                182,
+                144,
+                1
+              ],
+              "hex": "97b690",
+              "hsl": [
+                109,
+                21,
+                64
+              ]
+            }
+          },
+          {
+            "position": 0.5038507579143953,
+            "color": {
+              "token": "color",
+              "name": "hippieGreen",
+              "red": 85,
+              "green": 145,
+              "blue": 88,
+              "alpha": 1,
+              "rgb": [
+                85,
+                145,
+                88
+              ],
+              "rgba": [
+                85,
+                145,
+                88,
+                1
+              ],
+              "hex": "559158",
+              "hsl": [
+                123,
+                26,
+                45
+              ]
+            }
+          },
+          {
+            "position": 1,
+            "color": {
+              "token": "color",
+              "name": "salem",
+              "red": 34,
+              "green": 125,
+              "blue": 62,
+              "alpha": 1,
+              "rgb": [
+                34,
+                125,
+                62
+              ],
+              "rgba": [
+                34,
+                125,
+                62,
+                1
+              ],
+              "hex": "227d3e",
+              "hsl": [
+                138,
+                57,
+                31
+              ]
+            }
+          }
+        ]
+      },
+      "width": 1,
+      "type": "OUTSIDE",
+      "radius": [
+        8,
+        12.5,
+        12.5,
+        12.5
+      ]
+    },
+    {
+      "id": "center",
+      "token": "border",
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      },
+      "width": 1,
+      "type": "CENTER",
+      "radius": 0
+    }
+  ],
+  "fonts": [
+    "FiraSans-Bold",
+    "Helvetica-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book"
+  ]
+}
