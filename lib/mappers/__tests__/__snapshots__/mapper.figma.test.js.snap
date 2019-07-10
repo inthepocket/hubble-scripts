@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`-> #formatBorders: Given figma formatted array of JSON borders, should transform to a nicely parsed array 1`] = `
+exports[`figma mapper test suite -> #formatBorders: Given figma formatted array of JSON borders, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "color": Object {
@@ -160,8 +160,8 @@ Array [
         },
       ],
       "to": Array [
-        1,
-        1,
+        1.5,
+        0.9999999999999999,
       ],
       "token": "gradient",
       "type": "GRADIENT_LINEAR",
@@ -208,382 +208,6 @@ Array [
     "token": "border",
     "type": "CENTER",
     "width": 1,
-  },
-]
-`;
-
-exports[`-> #formatGradients: Given figma formatted array of JSON gradients, shoudl transform to a nicely parsed array 1`] = `
-Array [
-  Object {
-    "from": Array [
-      0.5038167964273101,
-      1.0000000430625262,
-    ],
-    "name": "linear",
-    "stops": Array [
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 144,
-          "green": 182,
-          "hex": "97b690",
-          "hsl": Array [
-            109,
-            21,
-            64,
-          ],
-          "name": "norway",
-          "red": 151,
-          "rgb": Array [
-            151,
-            182,
-            144,
-          ],
-          "rgba": Array [
-            151,
-            182,
-            144,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 0,
-      },
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 88,
-          "green": 145,
-          "hex": "559158",
-          "hsl": Array [
-            123,
-            26,
-            45,
-          ],
-          "name": "hippieGreen",
-          "red": 85,
-          "rgb": Array [
-            85,
-            145,
-            88,
-          ],
-          "rgba": Array [
-            85,
-            145,
-            88,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 0.5038507580757141,
-      },
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 62,
-          "green": 125,
-          "hex": "227d3e",
-          "hsl": Array [
-            138,
-            57,
-            31,
-          ],
-          "name": "salem",
-          "red": 34,
-          "rgb": Array [
-            34,
-            125,
-            62,
-          ],
-          "rgba": Array [
-            34,
-            125,
-            62,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 1,
-      },
-    ],
-    "to": Array [
-      0.5038167964273101,
-      1.0000000430625262,
-    ],
-    "token": "gradient",
-    "type": "FRAME",
-  },
-  Object {
-    "from": Array [
-      0.4999999999999999,
-      1.0000000000000002,
-    ],
-    "name": "radial",
-    "stops": Array [
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 144,
-          "green": 182,
-          "hex": "97b690",
-          "hsl": Array [
-            109,
-            21,
-            64,
-          ],
-          "name": "norway",
-          "red": 151,
-          "rgb": Array [
-            151,
-            182,
-            144,
-          ],
-          "rgba": Array [
-            151,
-            182,
-            144,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 0,
-      },
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 62,
-          "green": 125,
-          "hex": "227d3e",
-          "hsl": Array [
-            138,
-            57,
-            31,
-          ],
-          "name": "salem",
-          "red": 34,
-          "rgb": Array [
-            34,
-            125,
-            62,
-          ],
-          "rgba": Array [
-            34,
-            125,
-            62,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 1,
-      },
-    ],
-    "to": Array [
-      0.4999999999999999,
-      1.0000000000000002,
-    ],
-    "token": "gradient",
-    "type": "FRAME",
-  },
-  Object {
-    "from": Array [
-      0.5,
-      0.5,
-    ],
-    "name": "angular",
-    "stops": Array [
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 144,
-          "green": 182,
-          "hex": "97b690",
-          "hsl": Array [
-            109,
-            21,
-            64,
-          ],
-          "name": "norway",
-          "red": 151,
-          "rgb": Array [
-            151,
-            182,
-            144,
-          ],
-          "rgba": Array [
-            151,
-            182,
-            144,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 0.4336458444595337,
-      },
-      Object {
-        "color": Object {
-          "alpha": 1,
-          "blue": 62,
-          "green": 125,
-          "hex": "227d3e",
-          "hsl": Array [
-            138,
-            57,
-            31,
-          ],
-          "name": "salem",
-          "red": 34,
-          "rgb": Array [
-            34,
-            125,
-            62,
-          ],
-          "rgba": Array [
-            34,
-            125,
-            62,
-            1,
-          ],
-          "token": "color",
-        },
-        "position": 1,
-      },
-    ],
-    "to": Array [
-      0.5,
-      0.5,
-    ],
-    "token": "gradient",
-    "type": "FRAME",
-  },
-  Object {
-    "from": null,
-    "name": "gradient-with-corners",
-    "stops": null,
-    "to": null,
-    "token": "gradient",
-    "type": "FRAME",
-  },
-]
-`;
-
-exports[`-> #formatShadows Given figma formatted array of JSON shadows, should transform to a nicely parsed array 1`] = `
-Array [
-  Object {
-    "blur": undefined,
-    "color": Object {
-      "alpha": 0.5,
-      "blue": 0,
-      "green": 0,
-      "hex": "000000",
-      "hsl": Array [
-        0,
-        0,
-        0,
-      ],
-      "name": "black",
-      "red": 0,
-      "rgb": Array [
-        0,
-        0,
-        0,
-      ],
-      "rgba": Array [
-        0,
-        0,
-        0,
-        0.5,
-      ],
-      "token": "color",
-    },
-    "id": "simple",
-    "spread": null,
-    "token": "shadow",
-    "type": "drop-shadow",
-    "x": 0,
-    "y": 2,
-  },
-  Object {
-    "blur": undefined,
-    "color": Object {
-      "alpha": 0.5,
-      "blue": 0,
-      "green": 0,
-      "hex": "000000",
-      "hsl": Array [
-        0,
-        0,
-        0,
-      ],
-      "name": "black",
-      "red": 0,
-      "rgb": Array [
-        0,
-        0,
-        0,
-      ],
-      "rgba": Array [
-        0,
-        0,
-        0,
-        0.5,
-      ],
-      "token": "color",
-    },
-    "id": "simple",
-    "spread": null,
-    "token": "shadow",
-    "type": "inner-shadow",
-    "x": 0,
-    "y": 1,
-  },
-]
-`;
-
-exports[`-> #formatTextStyles: Given figma formatted array of JSON textstyles, should transform to a nicely parsed array 1`] = `
-Array [
-  Object {
-    "borderBottom": null,
-    "family": "FiraSans-Book",
-    "id": "paragraph",
-    "kerning": null,
-    "lineHeight": 21.1,
-    "paragraphSpacing": null,
-    "size": 18,
-    "token": "text-style",
-    "weight": "book",
-  },
-  Object {
-    "borderBottom": null,
-    "family": "Helvetica-Bold",
-    "id": "quote",
-    "kerning": 1,
-    "lineHeight": 16.4,
-    "paragraphSpacing": null,
-    "size": 14,
-    "token": "text-style",
-    "weight": "bold",
-  },
-  Object {
-    "borderBottom": null,
-    "family": "FiraSans-Regular",
-    "id": "heading2",
-    "kerning": null,
-    "lineHeight": 42.2,
-    "paragraphSpacing": null,
-    "size": 36,
-    "token": "text-style",
-    "weight": "regular",
-  },
-  Object {
-    "borderBottom": null,
-    "family": "FiraSans-Bold",
-    "id": "heading1",
-    "kerning": null,
-    "lineHeight": 57.6,
-    "paragraphSpacing": null,
-    "size": 48,
-    "token": "text-style",
-    "weight": "bold",
   },
 ]
 `;
@@ -1064,6 +688,382 @@ Array [
       1,
     ],
     "token": "color",
+  },
+]
+`;
+
+exports[`figma mapper test suite -> #formatGradients: Given figma formatted array of JSON gradients, shoudl transform to a nicely parsed array 1`] = `
+Array [
+  Object {
+    "from": Array [
+      0.5038167964273101,
+      1.0000000430625262,
+    ],
+    "name": "linear",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": Array [
+            151,
+            182,
+            144,
+          ],
+          "rgba": Array [
+            151,
+            182,
+            144,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 0,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 88,
+          "green": 145,
+          "hex": "559158",
+          "hsl": Array [
+            123,
+            26,
+            45,
+          ],
+          "name": "hippieGreen",
+          "red": 85,
+          "rgb": Array [
+            85,
+            145,
+            88,
+          ],
+          "rgba": Array [
+            85,
+            145,
+            88,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 0.5038507580757141,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": Array [
+            34,
+            125,
+            62,
+          ],
+          "rgba": Array [
+            34,
+            125,
+            62,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 1,
+      },
+    ],
+    "to": Array [
+      1.0038167964273075,
+      0.9999999674926328,
+    ],
+    "token": "gradient",
+    "type": "FRAME",
+  },
+  Object {
+    "from": Array [
+      0.4999999999999999,
+      1.0000000000000002,
+    ],
+    "name": "radial",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": Array [
+            151,
+            182,
+            144,
+          ],
+          "rgba": Array [
+            151,
+            182,
+            144,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 0,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": Array [
+            34,
+            125,
+            62,
+          ],
+          "rgba": Array [
+            34,
+            125,
+            62,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 1,
+      },
+    ],
+    "to": Array [
+      1.7726315302406337,
+      1.0000000000000002,
+    ],
+    "token": "gradient",
+    "type": "FRAME",
+  },
+  Object {
+    "from": Array [
+      0.5,
+      0.5,
+    ],
+    "name": "angular",
+    "stops": Array [
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 144,
+          "green": 182,
+          "hex": "97b690",
+          "hsl": Array [
+            109,
+            21,
+            64,
+          ],
+          "name": "norway",
+          "red": 151,
+          "rgb": Array [
+            151,
+            182,
+            144,
+          ],
+          "rgba": Array [
+            151,
+            182,
+            144,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 0.4336458444595337,
+      },
+      Object {
+        "color": Object {
+          "alpha": 1,
+          "blue": 62,
+          "green": 125,
+          "hex": "227d3e",
+          "hsl": Array [
+            138,
+            57,
+            31,
+          ],
+          "name": "salem",
+          "red": 34,
+          "rgb": Array [
+            34,
+            125,
+            62,
+          ],
+          "rgba": Array [
+            34,
+            125,
+            62,
+            1,
+          ],
+          "token": "color",
+        },
+        "position": 1,
+      },
+    ],
+    "to": Array [
+      0.5,
+      1,
+    ],
+    "token": "gradient",
+    "type": "FRAME",
+  },
+  Object {
+    "from": null,
+    "name": "gradient-with-corners",
+    "stops": null,
+    "to": null,
+    "token": "gradient",
+    "type": "FRAME",
+  },
+]
+`;
+
+exports[`figma mapper test suite -> #formatShadows Given figma formatted array of JSON shadows, should transform to a nicely parsed array 1`] = `
+Array [
+  Object {
+    "blur": undefined,
+    "color": Object {
+      "alpha": 0.5,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "black",
+      "red": 0,
+      "rgb": Array [
+        0,
+        0,
+        0,
+      ],
+      "rgba": Array [
+        0,
+        0,
+        0,
+        0.5,
+      ],
+      "token": "color",
+    },
+    "id": "simple",
+    "spread": null,
+    "token": "shadow",
+    "type": "drop-shadow",
+    "x": 0,
+    "y": 2,
+  },
+  Object {
+    "blur": undefined,
+    "color": Object {
+      "alpha": 0.5,
+      "blue": 0,
+      "green": 0,
+      "hex": "000000",
+      "hsl": Array [
+        0,
+        0,
+        0,
+      ],
+      "name": "black",
+      "red": 0,
+      "rgb": Array [
+        0,
+        0,
+        0,
+      ],
+      "rgba": Array [
+        0,
+        0,
+        0,
+        0.5,
+      ],
+      "token": "color",
+    },
+    "id": "simple",
+    "spread": null,
+    "token": "shadow",
+    "type": "inner-shadow",
+    "x": 0,
+    "y": 1,
+  },
+]
+`;
+
+exports[`figma mapper test suite -> #formatTextStyles: Given figma formatted array of JSON textstyles, should transform to a nicely parsed array 1`] = `
+Array [
+  Object {
+    "borderBottom": null,
+    "family": "FiraSans-Book",
+    "id": "paragraph",
+    "kerning": null,
+    "lineHeight": 21.1,
+    "paragraphSpacing": null,
+    "size": 18,
+    "token": "text-style",
+    "weight": "book",
+  },
+  Object {
+    "borderBottom": null,
+    "family": "Helvetica-Bold",
+    "id": "quote",
+    "kerning": 1,
+    "lineHeight": 16.4,
+    "paragraphSpacing": null,
+    "size": 14,
+    "token": "text-style",
+    "weight": "bold",
+  },
+  Object {
+    "borderBottom": null,
+    "family": "FiraSans-Regular",
+    "id": "heading2",
+    "kerning": null,
+    "lineHeight": 42.2,
+    "paragraphSpacing": null,
+    "size": 36,
+    "token": "text-style",
+    "weight": "regular",
+  },
+  Object {
+    "borderBottom": null,
+    "family": "FiraSans-Bold",
+    "id": "heading1",
+    "kerning": null,
+    "lineHeight": 57.6,
+    "paragraphSpacing": null,
+    "size": 48,
+    "token": "text-style",
+    "weight": "bold",
   },
 ]
 `;
