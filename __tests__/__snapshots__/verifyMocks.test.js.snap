@@ -6903,6 +6903,7 @@ Object {
   "schemaVersion": 0,
   "styles": Object {
     "47:2": Object {
+      "description": "",
       "key": "564ddcdcb8f51a7997d1f2d59c4538dc83b67bd5",
       "name": "test-gradient",
       "styleType": "FILL",
