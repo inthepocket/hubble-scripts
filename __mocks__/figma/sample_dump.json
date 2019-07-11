@@ -5838,7 +5838,8 @@
     "47:2": {
       "key": "564ddcdcb8f51a7997d1f2d59c4538dc83b67bd5",
       "name": "test-gradient",
-      "styleType": "FILL"
+      "styleType": "FILL",
+      "description": ""
     }
   },
   "name": "Hubble Figma Sample",
