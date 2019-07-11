@@ -40,7 +40,7 @@ module.exports = async (args, flags) => {
   if (flags.useStyleDictionaryOutput) {
     await writeFile(
       `${flags.outputDir}/hubble-style-dictionary-tokens.json`,
-      prettyJSON(mapToStyleDictionaryTokens(mapping))
+      prettyJSON(mapToStyleDictionaryTokens(mapping)),
     );
   } else {
     await writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
