@@ -2,13 +2,13 @@ const fs = require('fs');
 const pkg = require('./package.json');
 const getParser = require('./lib/parser');
 const getMappers = require('./lib/mappers');
-const { prettyJSON, isSketch, writeFile } = require('./lib/utils');
+const { prettyJSON, writeFile } = require('./lib/utils');
 const mapToStyleDictionaryTokens = require('./lib/styleDictionary');
 
 module.exports = async (args, flags) => {
   if (flags.version) return pkg.version;
   if (args.length <= 0) throw new Error('No file input passed after npm start');
-  const [file] = args;
+
   const { parser } = await getParser(args, flags);
   const {
     textStyles,
@@ -19,9 +19,10 @@ module.exports = async (args, flags) => {
     fonts,
     version,
     response,
+    fileType,
   } = await parser.getTokens();
 
-  const mappers = getMappers(isSketch(file));
+  const mappers = getMappers(fileType);
 
   const mapping = {
     textStyles: textStyles.map(mappers.textStyles),
@@ -30,6 +31,7 @@ module.exports = async (args, flags) => {
     shadows: shadows.map(mappers.shadows),
     borders: borders.map(mappers.borders),
     fonts,
+    fileType,
     ...mappers.version(version),
   };
 
