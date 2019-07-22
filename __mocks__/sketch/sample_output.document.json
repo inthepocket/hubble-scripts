@@ -558,6 +558,9 @@
     "FiraSans-Regular",
     "FiraSans-Book"
   ],
+<<<<<<< HEAD:__mocks__/sketch/sample_output.document.json
   "fileType": "SKETCH",
+=======
+>>>>>>> e53acc52d375e90c61aef4ebb927af0086bc1409:__mocks__/sample_output.document.json
   "sketchVersion": "55.2"
 }
