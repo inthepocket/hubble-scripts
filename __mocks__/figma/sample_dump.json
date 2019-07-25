@@ -6,7 +6,7 @@
     "children": [
       {
         "id": "0:1",
-        "name": "Page 1",
+        "name": "primitives",
         "type": "CANVAS",
         "children": [
           {
@@ -5843,7 +5843,7 @@
     }
   },
   "name": "Hubble Figma Sample",
-  "lastModified": "2019-07-08T13:36:57.068874Z",
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/49abe15c-adf6-42cc-80d1-a1ce870ecaab?Expires=1564963200&Signature=DslOcObzkTui8GF1p89WUpHPDGYTvNGZ-dW3nlNuXZ3zVR7hfCBVCL1E1JIpO2QvOwUW3vFd0tKXY9v7vSv~dwuni7bYK4TDFvmyaQkM0AePT6kGr9LT5aAqPVNAF1UOUsIx4zXY5w-VpIGi6bRbABbIgFeZK7D0LoddJZS~HnG5EYXb8QUozR~S8PdtiKbEVQiPURHJrrQAiZJ~MkrfiTMVcbWbQYbB3yr2RXGzwy2W3uhFrzvwiVRzHwd~4z1vehjwpof7stISAn1~CLoR7zpFYPvqloSBsTEPoX1o4qnk3HMaX-LMUFEkOqJgDtNLW40mqbrW8pM2AxRImBn9UQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "147892001"
+  "lastModified": "2019-07-25T12:14:00.267382Z",
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/e834ca30-aadb-4634-862f-bef7d2edacdf?Expires=1564963200&Signature=dYQyDosAZXPw4z3rO3r~SK52yXYvBT4WS~zpeRbZvcJzInUcXF7AVIYYu1Fj5ySS9CRrJLE6Xlnw36jRZJsl5MS0o-EC0T-xJqAYyFnTfcpsV8bjIO6S9mgpMVMVlZh2WWMLQqJNGN1vy26XJjV~zurw31pWMBfi~tiNlgRRsWqf-1yq64UtGoNm5q2twQh-G86u012UzeLcJJ1oAuHK7DFxTMZ5p3zMghTAv2stmpxPFiVpaLZRh72FBriK3gwVishW88steUalThHnKud3BwCZ8WvOh8F1PgURW2TQlu9AdSWthMwoUcu4CMZXZ9yj45AQyZkFh-lPVklFBfkv0g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "153951900"
 }
