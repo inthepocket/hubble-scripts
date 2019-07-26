@@ -153,10 +153,6 @@
                   24
                 ],
                 "styleOverrideTable": {
-                  "22": {
-                    "paragraphIndent": 7,
-                    "letterSpacing": 0
-                  },
                   "24": {
                     "letterSpacing": 0
                   },
@@ -5835,7 +5831,7 @@
   "schemaVersion": 0,
   "styles": {},
   "name": "Hubble Figma Sample",
-  "lastModified": "2019-07-26T08:29:45.661768Z",
+  "lastModified": "2019-07-26T09:51:07.064696Z",
   "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/ffcb11d4-ed53-41ad-9c80-36c1bf7d108c?Expires=1564963200&Signature=U41In1p~pua6LwH3bK1095mTXWy2nGYBYi2nbMJrlrP8uk~6VQSLSd8hLRCHefUZ9l8wItg-mlBt4K7OBxcBdmPOur~zdwmKoWzoP3PsWxbMa3~Xc1iaToh~X9VsXmUVQCOepv46E3hCw3FxakF~SAZiAgjv9i1WWVwpoc9-zjerbVkOjCe8tXMKhANO8Cc35gG6XXAsI4SFO0kR359sjhczjTPTaVt50hw3Tt4H6kD39jzb-4Co5JMNk8Ny22KBiSiUsbHwRAZ2iWeBQ6i1DpKKiy01m-J-3cqpHSXvN1sicMJcDhMXLH1gqo15JzSUzaYSXUADiU~VCCn87FxfAA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "154284872"
+  "version": "154322428"
 }

@@ -1066,7 +1066,7 @@ Array [
     "borderBottom": null,
     "family": "Helvetica-Bold",
     "id": "quote",
-    "kerning": 1,
+    "kerning": 0.6,
     "lineHeight": 16.4,
     "paragraphSpacing": 0,
     "size": 14,
