@@ -735,8 +735,8 @@ Object {
   "gradients": Array [
     Object {
       "from": Array [
-        0.5038167964273101,
-        1.0000000430625262,
+        0.5038167845431096,
+        1.0000000396974489,
       ],
       "name": "linear",
       "stops": Array [
@@ -826,8 +826,8 @@ Object {
         },
       ],
       "to": Array [
-        1.0038167964273075,
-        0.9999999674926328,
+        0.9999999762012087,
+        0.9999999613903336,
       ],
       "token": "gradient",
       "type": "LINEAR",
@@ -3210,16 +3210,16 @@ Object {
                     "blendMode": "NORMAL",
                     "gradientHandlePositions": Array [
                       Object {
-                        "x": 0.5038167964273101,
-                        "y": 1.0000000430625262,
+                        "x": 0.5038167845431096,
+                        "y": 1.0000000396974489,
                       },
                       Object {
-                        "x": 0.5038167610764519,
-                        "y": 4.306253154062745e-8,
+                        "x": 0.5038167491922538,
+                        "y": 3.9697454434772794e-8,
                       },
                       Object {
-                        "x": 1.0038167964273075,
-                        "y": 0.9999999674926328,
+                        "x": 0.9999999762012087,
+                        "y": 0.9999999613903336,
                       },
                     ],
                     "gradientStops": Array [
@@ -6925,7 +6925,7 @@ Object {
     "name": "Document",
     "type": "DOCUMENT",
   },
-  "lastModified": "2019-07-26T09:51:07.064696Z",
+  "lastModified": "2019-07-26T10:19:43.05729Z",
   "name": "Hubble Figma Sample",
   "schemaVersion": 0,
   "styles": Object {},

@@ -734,8 +734,8 @@ exports[`figma mapper test suite -> #formatGradients: Given figma formatted arra
 Array [
   Object {
     "from": Array [
-      0.5038167964273101,
-      1.0000000430625262,
+      0.5038167845431096,
+      1.0000000396974489,
     ],
     "name": "linear",
     "stops": Array [
@@ -825,8 +825,8 @@ Array [
       },
     ],
     "to": Array [
-      1.0038167964273075,
-      0.9999999674926328,
+      0.9999999762012087,
+      0.9999999613903336,
     ],
     "token": "gradient",
     "type": "LINEAR",
