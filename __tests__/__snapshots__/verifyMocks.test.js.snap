@@ -73,7 +73,7 @@ Object {
           1,
           1,
         ],
-        "name": null,
+        "name": "norwayGradient",
         "stops": Array [
           Object {
             "color": Object {
@@ -165,9 +165,9 @@ Object {
           0.9999999999999999,
         ],
         "token": "gradient",
-        "type": "GRADIENT_LINEAR",
+        "type": "LINEAR",
       },
-      "id": "gradient-with-corners",
+      "id": "gradientWithCorners",
       "radius": Array [
         8,
         12.5,
@@ -222,6 +222,7 @@ Object {
         73,
         64,
       ],
+      "id": "primary900",
       "name": "seagull",
       "red": 95,
       "rgb": Array [
@@ -236,6 +237,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "900",
     },
     Object {
       "alpha": 1,
@@ -247,6 +249,7 @@ Object {
         56,
         59,
       ],
+      "id": "primary800",
       "name": "viking",
       "red": 94,
       "rgb": Array [
@@ -261,6 +264,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "800",
     },
     Object {
       "alpha": 1,
@@ -272,6 +276,7 @@ Object {
         54,
         65,
       ],
+      "id": "primary700",
       "name": "viking",
       "red": 119,
       "rgb": Array [
@@ -286,6 +291,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "700",
     },
     Object {
       "alpha": 1,
@@ -297,6 +303,7 @@ Object {
         52,
         71,
       ],
+      "id": "primary600",
       "name": "halfBaked",
       "red": 141,
       "rgb": Array [
@@ -311,6 +318,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "600",
     },
     Object {
       "alpha": 1,
@@ -322,6 +330,7 @@ Object {
         51,
         75,
       ],
+      "id": "primary500",
       "name": "powderBlue",
       "red": 160,
       "rgb": Array [
@@ -336,6 +345,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "500",
     },
     Object {
       "alpha": 1,
@@ -347,6 +357,7 @@ Object {
         50,
         80,
       ],
+      "id": "primary400",
       "name": "powderBlue",
       "red": 179,
       "rgb": Array [
@@ -361,6 +372,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "400",
     },
     Object {
       "alpha": 1,
@@ -372,6 +384,7 @@ Object {
         48,
         89,
       ],
+      "id": "primary300",
       "name": "pattensBlue",
       "red": 212,
       "rgb": Array [
@@ -386,6 +399,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "300",
     },
     Object {
       "alpha": 1,
@@ -397,6 +411,7 @@ Object {
         68,
         94,
       ],
+      "id": "primary200",
       "name": "solitude",
       "red": 229,
       "rgb": Array [
@@ -411,6 +426,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "200",
     },
     Object {
       "alpha": 1,
@@ -422,6 +438,7 @@ Object {
         73,
         97,
       ],
+      "id": "primary100",
       "name": "aliceBlue",
       "red": 242,
       "rgb": Array [
@@ -436,6 +453,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "100",
     },
     Object {
       "alpha": 1,
@@ -447,6 +465,7 @@ Object {
         57,
         31,
       ],
+      "id": "secondary900",
       "name": "salem",
       "red": 34,
       "rgb": Array [
@@ -461,6 +480,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "900",
     },
     Object {
       "alpha": 1,
@@ -472,6 +492,7 @@ Object {
         88,
         66,
       ],
+      "id": "redUndefined",
       "name": "carnation",
       "red": 245,
       "rgb": Array [
@@ -497,6 +518,7 @@ Object {
         37,
         39,
       ],
+      "id": "secondary800",
       "name": "seaGreen",
       "red": 62,
       "rgb": Array [
@@ -511,6 +533,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "800",
     },
     Object {
       "alpha": 1,
@@ -522,6 +545,7 @@ Object {
         26,
         45,
       ],
+      "id": "secondary700",
       "name": "hippieGreen",
       "red": 85,
       "rgb": Array [
@@ -536,6 +560,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "700",
     },
     Object {
       "alpha": 1,
@@ -547,6 +572,7 @@ Object {
         21,
         52,
       ],
+      "id": "secondary600",
       "name": "aquaForest",
       "red": 107,
       "rgb": Array [
@@ -561,6 +587,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "600",
     },
     Object {
       "alpha": 1,
@@ -572,6 +599,7 @@ Object {
         21,
         57,
       ],
+      "id": "secondary500",
       "name": "amulet",
       "red": 129,
       "rgb": Array [
@@ -586,6 +614,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "500",
     },
     Object {
       "alpha": 1,
@@ -597,6 +626,7 @@ Object {
         21,
         64,
       ],
+      "id": "secondary400",
       "name": "norway",
       "red": 151,
       "rgb": Array [
@@ -611,6 +641,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "400",
     },
     Object {
       "alpha": 1,
@@ -622,6 +653,7 @@ Object {
         21,
         78,
       ],
+      "id": "secondary300",
       "name": "paleLeaf",
       "red": 192,
       "rgb": Array [
@@ -636,6 +668,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "300",
     },
     Object {
       "alpha": 1,
@@ -647,6 +680,7 @@ Object {
         21,
         85,
       ],
+      "id": "secondary200",
       "name": "tasman",
       "red": 212,
       "rgb": Array [
@@ -661,6 +695,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "200",
     },
     Object {
       "alpha": 1,
@@ -672,6 +707,7 @@ Object {
         20,
         92,
       ],
+      "id": "secondary100",
       "name": "grayNurse",
       "red": 233,
       "rgb": Array [
@@ -686,6 +722,7 @@ Object {
         1,
       ],
       "token": "color",
+      "variant": "100",
     },
   ],
   "fileType": "FIGMA",
@@ -793,7 +830,7 @@ Object {
         0.9999999674926328,
       ],
       "token": "gradient",
-      "type": "FRAME",
+      "type": "LINEAR",
     },
     Object {
       "from": Array [
@@ -864,7 +901,7 @@ Object {
         1.0000000000000002,
       ],
       "token": "gradient",
-      "type": "FRAME",
+      "type": "RADIAL",
     },
     Object {
       "from": Array [
@@ -935,11 +972,12 @@ Object {
         1,
       ],
       "token": "gradient",
-      "type": "FRAME",
+      "type": "ANGULAR",
     },
   ],
   "shadows": Array [
     Object {
+      "blur": 4,
       "color": Object {
         "alpha": 0.5,
         "blue": 0,
@@ -973,6 +1011,7 @@ Object {
       "y": 2,
     },
     Object {
+      "blur": 3,
       "color": Object {
         "alpha": 0.5,
         "blue": 0,
@@ -1013,7 +1052,7 @@ Object {
       "id": "paragraph",
       "kerning": null,
       "lineHeight": 21.1,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 18,
       "token": "text-style",
       "weight": "book",
@@ -1024,7 +1063,7 @@ Object {
       "id": "quote",
       "kerning": 1,
       "lineHeight": 16.4,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 14,
       "token": "text-style",
       "weight": "bold",
@@ -1035,7 +1074,7 @@ Object {
       "id": "heading2",
       "kerning": null,
       "lineHeight": 42.2,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 36,
       "token": "text-style",
       "weight": "regular",
@@ -1046,7 +1085,7 @@ Object {
       "id": "heading1",
       "kerning": null,
       "lineHeight": 57.6,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 48,
       "token": "text-style",
       "weight": "bold",
@@ -1296,11 +1335,11 @@ Object {
                 },
                 "blendMode": "PASS_THROUGH",
                 "characterStyleOverrides": Array [
-                  1,
-                  1,
-                  1,
-                  1,
-                  2,
+                  25,
+                  25,
+                  25,
+                  25,
+                  24,
                 ],
                 "characters": "Quote",
                 "constraints": Object {
@@ -1338,12 +1377,14 @@ Object {
                   "textAlignVertical": "TOP",
                 },
                 "styleOverrideTable": Object {
-                  "1": Object {
-                    "letterSpacing": 0.6000000238418579,
+                  "22": Object {
+                    "letterSpacing": 0,
+                    "paragraphIndent": 7,
                   },
-                  "2": Object {
+                  "24": Object {
                     "letterSpacing": 0,
                   },
+                  "25": Object {},
                 },
                 "type": "TEXT",
               },
@@ -3234,9 +3275,6 @@ Object {
                     "visible": false,
                   },
                 ],
-                "styles": Object {
-                  "fill": "47:2",
-                },
                 "type": "RECTANGLE",
               },
             ],
@@ -6882,7 +6920,7 @@ Object {
           },
         ],
         "id": "0:1",
-        "name": "Page 1",
+        "name": "primitives",
         "prototypeStartNodeID": null,
         "type": "CANVAS",
       },
@@ -6891,19 +6929,12 @@ Object {
     "name": "Document",
     "type": "DOCUMENT",
   },
-  "lastModified": "2019-07-08T13:36:57.068874Z",
+  "lastModified": "2019-07-26T08:29:45.661768Z",
   "name": "Hubble Figma Sample",
   "schemaVersion": 0,
-  "styles": Object {
-    "47:2": Object {
-      "description": "",
-      "key": "564ddcdcb8f51a7997d1f2d59c4538dc83b67bd5",
-      "name": "test-gradient",
-      "styleType": "FILL",
-    },
-  },
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/49abe15c-adf6-42cc-80d1-a1ce870ecaab?Expires=1564963200&Signature=DslOcObzkTui8GF1p89WUpHPDGYTvNGZ-dW3nlNuXZ3zVR7hfCBVCL1E1JIpO2QvOwUW3vFd0tKXY9v7vSv~dwuni7bYK4TDFvmyaQkM0AePT6kGr9LT5aAqPVNAF1UOUsIx4zXY5w-VpIGi6bRbABbIgFeZK7D0LoddJZS~HnG5EYXb8QUozR~S8PdtiKbEVQiPURHJrrQAiZJ~MkrfiTMVcbWbQYbB3yr2RXGzwy2W3uhFrzvwiVRzHwd~4z1vehjwpof7stISAn1~CLoR7zpFYPvqloSBsTEPoX1o4qnk3HMaX-LMUFEkOqJgDtNLW40mqbrW8pM2AxRImBn9UQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "147892001",
+  "styles": Object {},
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/ffcb11d4-ed53-41ad-9c80-36c1bf7d108c?Expires=1564963200&Signature=U41In1p~pua6LwH3bK1095mTXWy2nGYBYi2nbMJrlrP8uk~6VQSLSd8hLRCHefUZ9l8wItg-mlBt4K7OBxcBdmPOur~zdwmKoWzoP3PsWxbMa3~Xc1iaToh~X9VsXmUVQCOepv46E3hCw3FxakF~SAZiAgjv9i1WWVwpoc9-zjerbVkOjCe8tXMKhANO8Cc35gG6XXAsI4SFO0kR359sjhczjTPTaVt50hw3Tt4H6kD39jzb-4Co5JMNk8Ny22KBiSiUsbHwRAZ2iWeBQ6i1DpKKiy01m-J-3cqpHSXvN1sicMJcDhMXLH1gqo15JzSUzaYSXUADiU~VCCn87FxfAA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "154284872",
 }
 `;
 
@@ -6935,79 +6966,79 @@ Object {
   },
   "color": Object {
     "base": Object {
-      "default": Object {
-        "comment": "seagull",
-        "value": "#5FC2E6",
-      },
-      "id1": Object {
-        "comment": "viking",
-        "value": "#5EC1D1",
-      },
-      "id10": Object {
-        "comment": "carnation",
-        "value": "#F55E5E",
-      },
-      "id11": Object {
-        "comment": "seaGreen",
-        "value": "#3E874A",
-      },
-      "id12": Object {
-        "comment": "hippieGreen",
-        "value": "#559158",
-      },
-      "id13": Object {
-        "comment": "aquaForest",
-        "value": "#6B9D6A",
-      },
-      "id14": Object {
-        "comment": "amulet",
-        "value": "#81A97C",
-      },
-      "id15": Object {
-        "comment": "norway",
-        "value": "#97B690",
-      },
-      "id16": Object {
-        "comment": "paleLeaf",
-        "value": "#C0D2BA",
-      },
-      "id17": Object {
-        "comment": "tasman",
-        "value": "#D4E0D0",
-      },
-      "id18": Object {
-        "comment": "grayNurse",
-        "value": "#E9EFE7",
-      },
-      "id2": Object {
-        "comment": "viking",
-        "value": "#77C8D6",
-      },
-      "id3": Object {
-        "comment": "halfBaked",
-        "value": "#8DCFDB",
-      },
-      "id4": Object {
-        "comment": "powderBlue",
-        "value": "#A0D6E0",
-      },
-      "id5": Object {
-        "comment": "powderBlue",
-        "value": "#B3DDE6",
-      },
-      "id6": Object {
-        "comment": "pattensBlue",
-        "value": "#D4EBF0",
-      },
-      "id7": Object {
-        "comment": "solitude",
-        "value": "#E5F3FA",
-      },
-      "id8": Object {
+      "primary100": Object {
         "comment": "aliceBlue",
         "value": "#F2F9FD",
       },
-      "id9": Object {
+      "primary200": Object {
+        "comment": "solitude",
+        "value": "#E5F3FA",
+      },
+      "primary300": Object {
+        "comment": "pattensBlue",
+        "value": "#D4EBF0",
+      },
+      "primary400": Object {
+        "comment": "powderBlue",
+        "value": "#B3DDE6",
+      },
+      "primary500": Object {
+        "comment": "powderBlue",
+        "value": "#A0D6E0",
+      },
+      "primary600": Object {
+        "comment": "halfBaked",
+        "value": "#8DCFDB",
+      },
+      "primary700": Object {
+        "comment": "viking",
+        "value": "#77C8D6",
+      },
+      "primary800": Object {
+        "comment": "viking",
+        "value": "#5EC1D1",
+      },
+      "primary900": Object {
+        "comment": "seagull",
+        "value": "#5FC2E6",
+      },
+      "redUndefined": Object {
+        "comment": "carnation",
+        "value": "#F55E5E",
+      },
+      "secondary100": Object {
+        "comment": "grayNurse",
+        "value": "#E9EFE7",
+      },
+      "secondary200": Object {
+        "comment": "tasman",
+        "value": "#D4E0D0",
+      },
+      "secondary300": Object {
+        "comment": "paleLeaf",
+        "value": "#C0D2BA",
+      },
+      "secondary400": Object {
+        "comment": "norway",
+        "value": "#97B690",
+      },
+      "secondary500": Object {
+        "comment": "amulet",
+        "value": "#81A97C",
+      },
+      "secondary600": Object {
+        "comment": "aquaForest",
+        "value": "#6B9D6A",
+      },
+      "secondary700": Object {
+        "comment": "hippieGreen",
+        "value": "#559158",
+      },
+      "secondary800": Object {
+        "comment": "seaGreen",
+        "value": "#3E874A",
+      },
+      "secondary900": Object {
         "comment": "salem",
         "value": "#227D3E",
       },
