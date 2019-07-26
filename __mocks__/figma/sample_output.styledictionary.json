@@ -1,79 +1,79 @@
 {
   "color": {
     "base": {
-      "default": {
+      "primary900": {
         "value": "#5FC2E6",
         "comment": "seagull"
       },
-      "id1": {
+      "primary800": {
         "value": "#5EC1D1",
         "comment": "viking"
       },
-      "id2": {
+      "primary700": {
         "value": "#77C8D6",
         "comment": "viking"
       },
-      "id3": {
+      "primary600": {
         "value": "#8DCFDB",
         "comment": "halfBaked"
       },
-      "id4": {
+      "primary500": {
         "value": "#A0D6E0",
         "comment": "powderBlue"
       },
-      "id5": {
+      "primary400": {
         "value": "#B3DDE6",
         "comment": "powderBlue"
       },
-      "id6": {
+      "primary300": {
         "value": "#D4EBF0",
         "comment": "pattensBlue"
       },
-      "id7": {
+      "primary200": {
         "value": "#E5F3FA",
         "comment": "solitude"
       },
-      "id8": {
+      "primary100": {
         "value": "#F2F9FD",
         "comment": "aliceBlue"
       },
-      "id9": {
+      "secondary900": {
         "value": "#227D3E",
         "comment": "salem"
       },
-      "id10": {
+      "redUndefined": {
         "value": "#F55E5E",
         "comment": "carnation"
       },
-      "id11": {
+      "secondary800": {
         "value": "#3E874A",
         "comment": "seaGreen"
       },
-      "id12": {
+      "secondary700": {
         "value": "#559158",
         "comment": "hippieGreen"
       },
-      "id13": {
+      "secondary600": {
         "value": "#6B9D6A",
         "comment": "aquaForest"
       },
-      "id14": {
+      "secondary500": {
         "value": "#81A97C",
         "comment": "amulet"
       },
-      "id15": {
+      "secondary400": {
         "value": "#97B690",
         "comment": "norway"
       },
-      "id16": {
+      "secondary300": {
         "value": "#C0D2BA",
         "comment": "paleLeaf"
       },
-      "id17": {
+      "secondary200": {
         "value": "#D4E0D0",
         "comment": "tasman"
       },
-      "id18": {
+      "secondary100": {
         "value": "#E9EFE7",
         "comment": "grayNurse"
       }

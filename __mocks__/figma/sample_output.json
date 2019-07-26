@@ -4,7 +4,7 @@
       "token": "text-style",
       "weight": "book",
       "borderBottom": null,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 18,
       "family": "FiraSans-Book",
       "lineHeight": 21.1,
@@ -15,7 +15,7 @@
       "token": "text-style",
       "weight": "bold",
       "borderBottom": null,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 14,
       "family": "Helvetica-Bold",
       "lineHeight": 16.4,
@@ -26,7 +26,7 @@
       "token": "text-style",
       "weight": "regular",
       "borderBottom": null,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 36,
       "family": "FiraSans-Regular",
       "lineHeight": 42.2,
@@ -37,7 +37,7 @@
       "token": "text-style",
       "weight": "bold",
       "borderBottom": null,
-      "paragraphSpacing": null,
+      "paragraphSpacing": 0,
       "size": 48,
       "family": "FiraSans-Bold",
       "lineHeight": 57.6,
@@ -47,6 +47,8 @@
   ],
   "colors": [
     {
+      "id": "primary900",
+      "variant": "900",
       "token": "color",
       "name": "seagull",
       "red": 95,
@@ -72,6 +74,8 @@
       ]
     },
     {
+      "id": "primary800",
+      "variant": "800",
       "token": "color",
       "name": "viking",
       "red": 94,
@@ -97,6 +101,8 @@
       ]
     },
     {
+      "id": "primary700",
+      "variant": "700",
       "token": "color",
       "name": "viking",
       "red": 119,
@@ -122,6 +128,8 @@
       ]
     },
     {
+      "id": "primary600",
+      "variant": "600",
       "token": "color",
       "name": "halfBaked",
       "red": 141,
@@ -147,6 +155,8 @@
       ]
     },
     {
+      "id": "primary500",
+      "variant": "500",
       "token": "color",
       "name": "powderBlue",
       "red": 160,
@@ -172,6 +182,8 @@
       ]
     },
     {
+      "id": "primary400",
+      "variant": "400",
       "token": "color",
       "name": "powderBlue",
       "red": 179,
@@ -197,6 +209,8 @@
       ]
     },
     {
+      "id": "primary300",
+      "variant": "300",
       "token": "color",
       "name": "pattensBlue",
       "red": 212,
@@ -222,6 +236,8 @@
       ]
     },
     {
+      "id": "primary200",
+      "variant": "200",
       "token": "color",
       "name": "solitude",
       "red": 229,
@@ -247,6 +263,8 @@
       ]
     },
     {
+      "id": "primary100",
+      "variant": "100",
       "token": "color",
       "name": "aliceBlue",
       "red": 242,
@@ -272,6 +290,8 @@
       ]
     },
     {
+      "id": "secondary900",
+      "variant": "900",
       "token": "color",
       "name": "salem",
       "red": 34,
@@ -297,6 +317,7 @@
       ]
     },
     {
+      "id": "redUndefined",
       "token": "color",
       "name": "carnation",
       "red": 245,
@@ -322,6 +343,8 @@
       ]
     },
     {
+      "id": "secondary800",
+      "variant": "800",
       "token": "color",
       "name": "seaGreen",
       "red": 62,
@@ -347,6 +370,8 @@
       ]
     },
     {
+      "id": "secondary700",
+      "variant": "700",
       "token": "color",
       "name": "hippieGreen",
       "red": 85,
@@ -372,6 +397,8 @@
       ]
     },
     {
+      "id": "secondary600",
+      "variant": "600",
       "token": "color",
       "name": "aquaForest",
       "red": 107,
@@ -397,6 +424,8 @@
       ]
     },
     {
+      "id": "secondary500",
+      "variant": "500",
       "token": "color",
       "name": "amulet",
       "red": 129,
@@ -422,6 +451,8 @@
       ]
     },
     {
+      "id": "secondary400",
+      "variant": "400",
       "token": "color",
       "name": "norway",
       "red": 151,
@@ -447,6 +478,8 @@
       ]
     },
     {
+      "id": "secondary300",
+      "variant": "300",
       "token": "color",
       "name": "paleLeaf",
       "red": 192,
@@ -472,6 +505,8 @@
       ]
     },
     {
+      "id": "secondary200",
+      "variant": "200",
       "token": "color",
       "name": "tasman",
       "red": 212,
@@ -497,6 +532,8 @@
       ]
     },
     {
+      "id": "secondary100",
+      "variant": "100",
       "token": "color",
       "name": "grayNurse",
       "red": 233,
@@ -526,7 +563,7 @@
     {
       "name": "linear",
       "token": "gradient",
-      "type": "FRAME",
+      "type": "LINEAR",
       "from": [
         0.5038167964273101,
         1.0000000430625262
@@ -625,7 +662,7 @@
     {
       "name": "radial",
       "token": "gradient",
-      "type": "FRAME",
+      "type": "RADIAL",
       "from": [
         0.4999999999999999,
         1.0000000000000002
@@ -696,7 +733,7 @@
     {
       "name": "angular",
       "token": "gradient",
-      "type": "FRAME",
+      "type": "ANGULAR",
       "from": [
         0.5,
         0.5
@@ -769,6 +806,7 @@
     {
       "id": "simple",
       "token": "shadow",
+      "blur": 4,
       "x": 0,
       "y": 2,
       "type": "drop-shadow",
@@ -802,6 +840,7 @@
     {
       "id": "simple",
       "token": "shadow",
+      "blur": 3,
       "x": 0,
       "y": 1,
       "type": "inner-shadow",
@@ -899,7 +938,7 @@
       }
     },
     {
-      "id": "gradient-with-corners",
+      "id": "gradientWithCorners",
       "token": "border",
       "width": 1,
       "type": "OUTSIDE",
@@ -910,9 +949,9 @@
         12.5
       ],
       "gradient": {
-        "name": null,
+        "name": "norwayGradient",
         "token": "gradient",
-        "type": "GRADIENT_LINEAR",
+        "type": "LINEAR",
         "from": [
           1,
           1
