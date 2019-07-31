@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Sample Sketch file for Hubble</title>
+    <description>Use this as an example Sketch file or starter on how to integrate Hubble in your worflow</description>
+    <generator>Sketch</generator>
+    <item>
+      <title>Sample Sketch file for Hubble</title>
+      <pubDate>Wed, 31 July 2019 15:37:00 GMT </pubDate>
+      <enclosure url="https://github.com/inthepocket/hubble-scripts/raw/master/__mocks__/sample_sketchfile.sketch" type="application/octet-stream" sparkle:version="4.3.0"/>
+    </item>
+  </channel>
+</rss>
