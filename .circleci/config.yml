@@ -70,6 +70,7 @@ jobs:
       - checkout
       - <<: *install_node_modules
       - run: npm run build
+      - run: chmod +x ./bin/hubble-cli
       - run: ./bin/hubble-cli --version
 
 workflows:
@@ -78,10 +79,14 @@ workflows:
   test_build_deploy:
     jobs:
       - lint
-      - generate_mocks
-      - unit_tests_node_lts
-      - unit_tests_node_current
       - verify_readme
+      - generate_mocks
+      - unit_tests_node_lts:
+          requires:
+            - generate_mocks
+      - unit_tests_node_current:
+          requires:
+            - generate_mocks
       - build:
           requires:
             - lint
