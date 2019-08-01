@@ -197,6 +197,28 @@
       }
     }
   },
+  "blur": {
+    "background": {
+      "radius": 28,
+      "motionAngle": 0,
+      "saturation": 0.4654579402515723
+    },
+    "zoom": {
+      "radius": 6,
+      "motionAngle": 0,
+      "saturation": 1
+    },
+    "motion": {
+      "radius": 2,
+      "motionAngle": 35.61906645569621,
+      "saturation": 1
+    },
+    "gaussian": {
+      "radius": 2,
+      "motionAngle": 0,
+      "saturation": 1
+    }
+  },
   "asset": {
     "font": {
       "firaSansBold": {

@@ -1081,6 +1081,24 @@
       }
     }
   ],
+  "blurs": [
+    {
+      "id": "background",
+      "token": "blur",
+      "type": "BACKGROUND",
+      "radius": 28,
+      "saturation": 1,
+      "motionAngle": 0
+    },
+    {
+      "id": "gaussian",
+      "token": "blur",
+      "type": "GAUSSIAN",
+      "radius": 2,
+      "saturation": 1,
+      "motionAngle": 0
+    }
+  ],
   "fonts": [
     "FiraSans-Book",
     "Helvetica-Bold",

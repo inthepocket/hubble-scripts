@@ -1082,6 +1082,44 @@
       "radius": 0
     }
   ],
+  "blurs": [
+    {
+      "id": "background",
+      "token": "blur",
+      "type": "BACKGROUND",
+      "radius": 28,
+      "saturation": 0.4654579402515723,
+      "motionAngle": 0,
+      "center": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zoom",
+      "token": "blur",
+      "type": "ZOOM",
+      "radius": 6,
+      "saturation": 1,
+      "motionAngle": 0
+    },
+    {
+      "id": "motion",
+      "token": "blur",
+      "type": "MOTION",
+      "radius": 2,
+      "saturation": 1,
+      "motionAngle": 35.61906645569621
+    },
+    {
+      "id": "gaussian",
+      "token": "blur",
+      "type": "GAUSSIAN",
+      "radius": 2,
+      "saturation": 1,
+      "motionAngle": 0
+    }
+  ],
   "fonts": [
     "FiraSans-Bold",
     "Helvetica-Bold",
@@ -1089,5 +1127,5 @@
     "FiraSans-Book"
   ],
   "fileType": "SKETCH",
-  "sketchVersion": "55.2"
+  "sketchVersion": "56"
 }
