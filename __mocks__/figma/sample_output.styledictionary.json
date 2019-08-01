@@ -197,6 +197,16 @@
       }
     }
   },
+  "blur": {
+    "background": {
+      "radius": 28,
+      "saturation": 1
+    },
+    "gaussian": {
+      "radius": 2,
+      "saturation": 1
+    }
+  },
   "asset": {
     "font": {
       "firaSansBook": {
