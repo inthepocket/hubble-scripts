@@ -40,10 +40,10 @@ jobs:
       - run: shellcheck --external-sources sketchtool.sh
 
   generate_mocks:
-    executor: shellcheck
+    executor: node
     steps:
       - checkout
-      - run: /bin/bash generate_mocks.sh
+      - run: bash generate_mocks.sh
 
   unit_tests_node_lts:
     executor: node
