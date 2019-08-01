@@ -1,23 +1,42 @@
-const sketchDump = require('../__mocks__/sample_dump.json');
-const hubbleOutput = require('../__mocks__/sample_output.json');
-const hubbleOutputAsDocument = require('../__mocks__/sample_output.document.json');
-const hubbleOutputAsStyleDictionary = require('../__mocks__/sample_output.styledictionary.json');
+const sketchDump = require('../__mocks__/sketch/sample_dump.json');
+const figmaDump = require('../__mocks__/figma/sample_dump.json');
+
+const genericSketchArtboards = require('../__mocks__/sketch/sample_output.artboard.json');
+const genericSketchDocument = require('../__mocks__/sketch/sample_output.document.json');
+const styleDictSketch = require('../__mocks__/sketch/sample_output.styledictionary.json');
+
+const genericFigma = require('../__mocks__/figma/sample_output.json');
+const styleDictFigma = require('../__mocks__/figma/sample_output.styledictionary.json');
 
 /**
  * This is a very basic snapshot-diffing test to harness
  * ourselves against external dependency or Sketch API changes.
  */
 describe('Verify that the mocks are unchanged', () => {
-  it('for the Sketch dump', () => {
-    expect(sketchDump).toMatchSnapshot();
+  describe('for Sketch', () => {
+    it('-> Raw dump', () => {
+      expect(sketchDump).toMatchSnapshot();
+    });
+    it('-> Generic Tokens: Artboard Format', () => {
+      expect(genericSketchArtboards).toMatchSnapshot();
+    });
+    it('-> Generic Tokens: Document Styles', () => {
+      expect(genericSketchDocument).toMatchSnapshot();
+    });
+    it('-> Style Dictionary', () => {
+      expect(styleDictSketch).toMatchSnapshot();
+    });
   });
-  it('for the hubble output (using artboards)', () => {
-    expect(hubbleOutput).toMatchSnapshot();
-  });
-  it('for the hubble output (using document styles)', () => {
-    expect(hubbleOutputAsDocument).toMatchSnapshot();
-  });
-  it('for the hubble output (using Style Dictionary)', () => {
-    expect(hubbleOutputAsStyleDictionary).toMatchSnapshot();
+
+  describe('for Figma', () => {
+    it('-> Raw dump', () => {
+      expect(figmaDump).toMatchSnapshot();
+    });
+    it('-> Generic Tokens', () => {
+      expect(genericFigma).toMatchSnapshot();
+    });
+    it('-> Style Dictionary', () => {
+      expect(styleDictFigma).toMatchSnapshot();
+    });
   });
 });

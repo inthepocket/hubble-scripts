@@ -1,0 +1,93 @@
+version: 2.1
+
+executors:
+  node:
+    parameters:
+      image:
+        type: string
+        default: "8"
+    docker:
+      - image: circleci/node:<< parameters.image >>
+
+  shellcheck:
+    docker:
+      - image: koalaman/shellcheck-alpine:stable
+
+aliases:
+  install_node_modules: &install_node_modules
+    run:
+      name: Install node modules
+      command: npm ci
+
+  test_template: &test_template
+    steps:
+      - checkout
+      - <<: *install_node_modules
+      - run: npm test -- -w 1
+
+jobs:
+  lint:
+    executor: node
+    steps:
+      - checkout
+      - <<: *install_node_modules
+      - run: npm run lint
+
+  shellcheck:
+    executor: shellcheck
+    steps:
+      - checkout
+      - run: shellcheck --external-sources sketchtool.sh
+
+  generate_mocks:
+    executor: node
+    steps:
+      - checkout
+      - <<: *install_node_modules
+      - run: bash generate_mocks.sh
+
+  unit_tests_node_lts:
+    executor: node
+    <<: *test_template
+
+  unit_tests_node_current:
+    executor:
+      name: node
+      image: "12"
+    <<: *test_template
+
+  verify_readme:
+    docker:
+      - image: circleci/ruby
+    steps:
+      - run: gem install awesome_bot
+      - checkout
+      - run: awesome_bot README.md --allow-redirect --allow-dupe -w "https://github.com/inthepocket/hubble-app"
+
+  build:
+    executor: node
+    steps:
+      - checkout
+      - <<: *install_node_modules
+      - run: ./node_modules/.bin/pkg cli.js -t node8-linux-x64 --output ./bin/hubble-cli
+      - run: ./bin/hubble-cli --version
+
+workflows:
+  version: 2
+
+  test_build_deploy:
+    jobs:
+      - lint
+      - verify_readme
+      - generate_mocks
+      - unit_tests_node_lts:
+          requires:
+            - generate_mocks
+      - unit_tests_node_current:
+          requires:
+            - generate_mocks
+      - build:
+          requires:
+            - lint
+            - generate_mocks
+            - unit_tests_node_lts
