@@ -200,10 +200,12 @@
   "blur": {
     "background": {
       "radius": 28,
+      "motionAngle": 0,
       "saturation": 1
     },
     "gaussian": {
       "radius": 2,
+      "motionAngle": 0,
       "saturation": 1
     }
   },
