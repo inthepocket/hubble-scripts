@@ -71,6 +71,7 @@ jobs:
       - <<: *install_node_modules
       - run: ./node_modules/.bin/pkg cli.js -t node8-macos-x86 --output ./bin/hubble-cli-x86
       - run: ./node_modules/.bin/pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli-x64
+      - run: file ./bin/hubble-cli-x86 && file ./bin/hubble-cli-x64 && uname -m
       - run: ./bin/hubble-cli-x86 --version
 
 workflows:
