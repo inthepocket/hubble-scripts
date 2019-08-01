@@ -1,7 +1,7 @@
 {
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "homepage": "https://hubble.inthepocket.design",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
@@ -21,8 +21,7 @@
     "bash": ">=4"
   },
   "bin": {
-    "hubble-cli": "./cli.js",
-    "hubble": "bash hubble.sh"
+    "hubble-cli": "./cli.js"
   },
   "scripts": {
     "start": "node cli.js",
@@ -30,7 +29,7 @@
     "start:artboards": "npm start -- --dump --useColorArtboards --useGradientArtboards",
     "start:styledictionary": "npm start -- --dump --useColorArtboards --useGradientArtboards --useStyleDictionaryOutput",
     "clean": "rm hubble-data.json && rm -rf sketchtool-export node_modules && npm install",
-    "export": "./sketchtool.sh ./__mocks__/sample_sketchfile.sketch",
+    "export": "./sketchtool.sh ./__mocks__/sketch/sample_sketchfile.sketch",
     "format": "itp-react-scripts format \"**/*.js\"",
     "lint": "itp-react-scripts lint \"**/*.js\"",
     "lint:fix": "npm run lint -- --fix",
