@@ -43,7 +43,7 @@ jobs:
     executor: shellcheck
     steps:
       - checkout
-      - run: ./generate_mocks.sh
+      - run: /bin/bash generate_mocks.sh
 
   unit_tests_node_lts:
     executor: node
@@ -80,7 +80,9 @@ workflows:
       - generate_mocks
       - unit_tests_node_lts
       - unit_tests_node_current
+      - verify_readme
       - build:
           requires:
             - lint
+            - generate_mocks
             - unit_tests_node_lts
