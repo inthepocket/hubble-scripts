@@ -5,7 +5,7 @@
 [![Releases](https://badgen.net/github/releases/inthepocket/hubble-scripts)][releases]
 ![Last commit](https://badgen.net/github/last-commit/inthepocket/hubble-scripts)
 [![Latest release](https://badgen.net/github/release/inthepocket/hubble-scripts/stable)][latest release]
-[![CI Status](https://badgen.net/circleci/inthepocket/hubble-scripts)][circle ci]
+[![CI Status](https://badgen.net/circleci/github/inthepocket/hubble-scripts)][circle ci]
 
 > Scripts repository to export design data like colors, fonts & text, and map them to design tokens.
 
