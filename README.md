@@ -5,7 +5,7 @@
 [![Releases](https://badgen.net/github/releases/inthepocket/hubble-scripts)][releases]
 ![Last commit](https://badgen.net/github/last-commit/inthepocket/hubble-scripts)
 [![Latest release](https://badgen.net/github/release/inthepocket/hubble-scripts/stable)][latest release]
-[![CI Status](https://badgen.net/travis/inthepocket/hubble-scripts)][travis]
+[![CI Status](https://badgen.net/circleci/github/inthepocket/hubble-scripts)][circle ci]
 
 > Scripts repository to export design data like colors, fonts & text, and map them to design tokens.
 
@@ -21,31 +21,41 @@ The backbone of the [Hubble ecosystem][hubble homepage], this scripts repository
 
 # Prerequisites
 
-- macOS with Sketch 41+ (latest Sketch recommended)
+__For parsing Sketch__:
+
 - A recent bash version (bash@4.4 recommended)
+- macOS with Sketch 41+ (latest Sketch recommended)
+
+__For parsing Figma__:
+
+- A Figma [access token][figma access token]
 
 # Installing
 
 The easiest way to install is to download [one of the releases][releases] and download the hubble-cli binary. This can be executed by most shells and will only output design tokens.
 
-If you're looking to also export assets, download [`sketchtool.sh`][sketchtool], which is a shell script wrapper around Sketch's [sketchtool binary][sketchtool docs].
+## Sketch
+
+If you're looking to also export assets for Sketch, download [`sketchtool.sh`][sketchtool], which is a shell script wrapper around Sketch's [sketchtool binary][sketchtool docs].
 
 # Usage
 
-> There is a sample sketchfile in the [__mocks__][mocks] folder with sample output that would be generated for this file.
+> There is a sample .sketch file and Figma file ID in the [__mocks__][mocks] folder with sample output that would be generated for this file.
 
-hubble-scripts works best with a separate Sketch [library file][sketch library docs]. Take a look at the examples and short bits below, or refer to our [more advanced documentation][wiki].
+hubble-scripts works best with a separate Sketch/Figma [library file][sketch library docs]. Take a look at the examples and short bits below, or refer to our [more advanced documentation][wiki].
 
 ## Generating JSON config
 
-You can use the `hubble-cli` binary to export design data out of your Sketch file and map it to a generic JSON design token format.
+You can use the `hubble-cli` binary to export design data out of your file and map it to a generic JSON design token format.
 
 ```shell
 # This will generate a `hubble-data.json` file with text styles & colors found in a Sketch document:
-$ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch"
+$ ./hubble-cli "__mocks/sketch/sample_sketchfile.sketch"
+$ ./hubble-cli --token "29-206..." HbgJuBVOwIOcoZMVnpG01LqA
 
 # You can optionally specify a config output dir. Otherwise current working directory will be used:
-$ ./hubble-cli "/Users/hubble/Desktop/MyDesign.sketch" --outputDir="/var/hubble/"
+$ ./hubble-cli "__mocks/sketch/sample_sketchfile.sketch" --outputDir="/var/hubble/"
+$ ./hubble-cli "__mocks/sketch/sample_sketchfile.sketch" --outputDir="/var/hubble/"
 ```
 
 If you need more fine-tuning over this export flow, Hubble provides even more options to [customize your design token output][hubble-cli options].
@@ -59,15 +69,21 @@ For more information on our Style Dictionary output, check [the wiki][wiki style
 
 ## Exporting assets
 
+### Sketch
+
 Assets can be exported using the `sketchtool.sh` script. This process exports all layers marked as exportable or that have been sliced.
 
 ```shell
 # This will export normalized (lowercase, underscore) assets as SVG (for web) and PNG (1x, 2x, 3x for native)
-$ ./sketchtool.sh "/Users/hubble/Desktop/MyDesign.sketch"
+$ ./sketchtool.sh "__mocks/sketch/sample_sketchfile.sketch"
 
 # You can optionally specify an asset output dir. Otherwise current working directory will be used:
-$ ./sketchtool.sh "/Users/hubble/Desktop/MyDesign.sketch" "/var/hubble/assets/images"
+$ ./sketchtool.sh "__mocks/sketch/sample_sketchfile.sketch" "/var/hubble/assets/images"
 ```
+
+### Figma
+
+TODO:
 
 ## Integrating in a project
 
@@ -76,9 +92,9 @@ Copy `hubble-cli` and `sketchtool.sh` to a scripts folder in your project. This 
 ```json
 {
   "scripts": {
-    "hubble:data": "./scripts/hubble-cli ...",
+    "hubble:tokens": "./scripts/hubble-cli ...",
     "hubble:assets": "./scripts/sketchtool.sh ...",
-    "hubble": "npm run hubble:data && npm run hubble:assets"
+    "hubble": "npm run hubble:tokens && npm run hubble:assets"
   }
 }
 ```
@@ -95,18 +111,23 @@ Copy `hubble-cli` and `sketchtool.sh` to a scripts folder in your project. This 
 $ node cli.js --help
 
   Usage
-    $ hubble-cli <input> --outputDir="/home/usr/downloads"
+    $ hubble-cli <input> [options]
 
   Options
-    --outputDir=<dir>, -o           The directory where parsed files will be placed after a run. Defaults to current working directory
-    --dump, -d                      Dump all Sketch JSON files into 1 logdump.json
-    --useColorArtboards             Use artboard formatting to export colors instead of using the document colors
-    --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients
+    --outputDir=<dir>, -o           The directory where parsed files will be placed after a run. Defaults to current working directory.
+    --dump, -d                      Dump raw file output into logdump.json.
+                                      For Sketch this is the JSON inside the .sketch file bundle,
+                                      for Figma this is the received REST API response.
+    --useColorArtboards             Use artboard formatting to export colors instead of using the document colors.
+    --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients.
     --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
+    --token, -t                     Authorization token when accessing the Figma API.
 
   Examples
     $ hubble-cli "__mocks/sample_sketchfile.sketch"
-    $ hubble-cli "__mocks__/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
+    $ hubble-cli "__mocks/sample_sketchfile.sketch" -d --useColorArtboards --outputDir="config/"
+    $ hubble-cli --token "29-206..." HbgJuBVOwIOcoZMVnpG01LqA
+    $ hubble-cli --token "29-206..." HbgJuBVOwIOcoZMVnpG01LqA --useStyleDictionary
 ```
 
 For more on running in development mode, check the [wiki].
@@ -133,3 +154,4 @@ For more on running in development mode, check the [wiki].
 [sketch library docs]: https://sketchapp.com/docs/libraries/
 [sketchtool docs]: https://developer.sketchapp.com/guides/sketchtool/
 [style dictionary]: https://amzn.github.io/style-dictionary
+[figma access token]: https://www.figma.com/developers/api#access-tokens
