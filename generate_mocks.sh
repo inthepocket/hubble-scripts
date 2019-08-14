@@ -16,6 +16,9 @@ function generate_figma() {
 }
 
 function generate_sketch() {
+  echo "Exporting assets for Sketch"
+  ./sketchtool.sh "$MOCKS_DIR/sketch/sample_sketchfile.sketch" __mocks__/sketch/exported_assets
+
   echo "Generating mocks for Sketch: Document Styles"
   node cli.js --dump "$MOCKS_DIR/sketch/sample_sketchfile.sketch" && \
     mv hubble-data.json "$MOCKS_DIR/sketch/sample_output.document.json" && \
