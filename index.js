@@ -9,7 +9,7 @@ const ASSETS_DIR = 'assets';
 
 module.exports = async (args, flags) => {
   if (flags.version) return pkg.version;
-  if (args.length <= 0 && !flags.token) throw new Error('No file input or token passed after npm start');
+  if (args.length <= 0) throw new Error('No file input passed after npm start');
 
   const { parser } = await getParser(args, flags);
   const {
