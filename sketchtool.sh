@@ -23,6 +23,11 @@ function check_file_input() {
 }
 
 function export_assets() {
+  if [ "$(uname)" != "Darwin" ]; then
+    echo "Not running on macOS"
+    exit 0
+  fi
+
   if [ ! -d /Applications/Sketch.app ]; then
     log "Doesn't seem like you have Sketch installed..."
     log "Please make sure Sketch is installed and at the path /Applications/Sketch.app"
