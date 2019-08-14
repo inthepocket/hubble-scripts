@@ -2,12 +2,14 @@ const fs = require('fs');
 const pkg = require('./package.json');
 const getParser = require('./lib/parser');
 const getMappers = require('./lib/mappers');
-const { prettyJSON, writeFile } = require('./lib/utils');
+const { prettyJSON, writeFile, downloadFile } = require('./lib/utils');
 const mapToStyleDictionaryTokens = require('./lib/styleDictionary');
+
+const ASSETS_DIR = 'assets';
 
 module.exports = async (args, flags) => {
   if (flags.version) return pkg.version;
-  if (args.length <= 0) throw new Error('No file input passed after npm start');
+  if (args.length <= 0 && !flags.token) throw new Error('No file input or token passed after npm start');
 
   const { parser } = await getParser(args, flags);
   const {
@@ -21,6 +23,7 @@ module.exports = async (args, flags) => {
     version,
     response,
     fileType,
+    filesToDownload,
   } = await parser.getTokens();
 
   const mappers = getMappers(fileType);
@@ -48,6 +51,18 @@ module.exports = async (args, flags) => {
     );
   } else {
     await writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
+  }
+
+  if (filesToDownload) {
+    const fullAssetsDir = `${flags.outputDir}/${ASSETS_DIR}/`;
+
+    if (!fs.existsSync(fullAssetsDir)) {
+      fs.mkdirSync(fullAssetsDir);
+    }
+
+    filesToDownload.forEach(fileToDownload => {
+      downloadFile(fullAssetsDir, fileToDownload);
+    })
   }
 
   if (flags.dump) {
