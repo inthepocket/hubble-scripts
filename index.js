@@ -53,8 +53,8 @@ module.exports = async (args, flags) => {
     await writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
   }
 
-  if (filesToDownload) {
-    const fullAssetsDir = `${flags.outputDir}/${ASSETS_DIR}/`;
+  if (flags.exportAssets && filesToDownload) {
+    const fullAssetsDir = `${flags.outputDir}/${ASSETS_DIR}`;
 
     if (!fs.existsSync(fullAssetsDir)) {
       fs.mkdirSync(fullAssetsDir);

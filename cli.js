@@ -16,6 +16,7 @@ const cli = meow(
     --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients.
     --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
     --token, -t                     Authorization token when accessing the Figma API.
+    --exportAssets, -e              Export assets from Figma
 
   Examples
     $ hubble-cli "__mocks/sample_sketchfile.sketch"
@@ -50,6 +51,11 @@ const cli = meow(
         type: 'boolean',
         default: false,
         alias: 's',
+      },
+      exportAssets: {
+        type: 'boolean',
+        default: false,
+        alias: 'e',
       },
       version: {
         type: 'boolean',
