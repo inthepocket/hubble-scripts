@@ -76,6 +76,9 @@ jobs:
       - <<: *install_node_modules
       - run: ./node_modules/.bin/pkg cli.js -t node8-linux-x64 --output ./bin/hubble-cli
       - run: ./bin/hubble-cli --version
+      - run:
+          command: |
+            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli --version) ]
 
 workflows:
   version: 2
