@@ -7121,12 +7121,12 @@ Object {
     "name": "Document",
     "type": "DOCUMENT",
   },
-  "lastModified": "2019-08-01T11:26:57.968542Z",
+  "lastModified": "2019-08-20T13:09:14.221958Z",
   "name": "Hubble Figma Sample",
   "schemaVersion": 0,
   "styles": Object {},
-  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/4f30cf1c-16d2-49bd-b66b-d44f1ab41059?Expires=1565568000&Signature=djcdoXbZFjHr9SnEl7ynKGKATgiUj3Zp2jTYliAIF6vLo02xtiVYCk7cWhuQTj1-owQ~cUzQltZsY259V1J3hsFUGTumr3cKez5Xj04zPZ2XSpBTJfe3unxZ1h~HV1yaetpTpRcwK891hBI6HAyZBViAUcWb7kys2za9zpYR32D6UvQEZy-FeOUz3iKotpw84Y1bLiBXdZRsAbL8kSDW5M822jhZ2Lx10lY9ZK8duZFxuL61Q0viYJ8kfWxUUmCUMEvaLWY6KYTwHrdTBka8vadT1N~mPKiYZoUMiJsJCtRofM-wwFZjZKvmJ6WJRfVA31LCNyfzMhvfHorhUGbcQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "156404211",
+  "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/4d046bc9-07c5-4043-82e3-28b4808d2947?Expires=1567382400&Signature=Ac5jWhR-MSNBZvuNpBP~G5NbPulj1XHGvYcV5W9SZ3VX8KAfrC8x3GA9LmnEQ8SqIWw8PqyDWGid7gqIbRVyuIXNP1DvmwaCbJL7ykXvif0fyzabeq3ERyCaxWynY-lrLgLH~L3PL9Iro7y2oAY5sDmXCqYp0hoqdhnEQw1GeUWk4g1HflFTvgy0yJWmJ7xgHsvReZMUl1e3N~Ka7I0qdGrwCtXgI3hhJJu~VTkVQFWo9osU6GdIRgcb19h-qPtbpIw8dVvhMG~3Zf8TEiQvXh2jwUILZ96loh65AHBwBZRJMEuzG4IGquIlBRJe5wjCKTKcS8p0lZ0IfvpwxwQgnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+  "version": "163204485",
 }
 `;
 
