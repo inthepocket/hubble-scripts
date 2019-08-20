@@ -25,7 +25,7 @@ module.exports = async (args, flags) => {
     version,
     response,
     fileType,
-    filesToDownload,
+    assets,
   } = await parser.getTokens();
 
   const mappers = getMappers(fileType);
@@ -55,16 +55,16 @@ module.exports = async (args, flags) => {
     await writeFile(`${flags.outputDir}/hubble-data.json`, prettyJSON(mapping));
   }
 
-  if (flags.exportAssets && filesToDownload) {
+  if (flags.exportAssets && assets) {
     const fullAssetsDir = path.join(flags.outputDir, ASSETS_DIR);
 
     if (!fs.existsSync(fullAssetsDir)) {
       fs.mkdirSync(fullAssetsDir);
     }
 
-    filesToDownload.forEach(fileToDownload => {
-      downloadFile(fullAssetsDir, fileToDownload);
-    })
+    assets.forEach(asset => {
+      downloadFile(fullAssetsDir, asset);
+    });
   }
 
   if (flags.dump) {
