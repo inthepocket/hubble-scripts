@@ -6,9 +6,10 @@ FIGMA_FILE="HbgJuBVOwIOcoZMVnpG01LqA"
 
 function generate_figma() {
   echo "Generating mocks for Figma"
-  node cli.js --dump --token "$FIGMA_TOKEN" "$FIGMA_FILE" && \
+  node cli.js --dump --exportAssets --token "$FIGMA_TOKEN" "$FIGMA_FILE" && \
     mv hubble-data.json "$MOCKS_DIR/figma/sample_output.json" && \
-    mv logdump.json "$MOCKS_DIR/figma/sample_dump.json"
+    mv logdump.json "$MOCKS_DIR/figma/sample_dump.json" && \
+    mv assets "$MOCKS_DIR/figma/assets"
 
   echo "Generating mocks for Figma: Style Dictionary"
   node cli.js --useStyleDictionaryOutput --token "$FIGMA_TOKEN" "$FIGMA_FILE" && \
