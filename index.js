@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require('path');
+
 const pkg = require('./package.json');
 const getParser = require('./lib/parser');
 const getMappers = require('./lib/mappers');
@@ -54,7 +56,7 @@ module.exports = async (args, flags) => {
   }
 
   if (flags.exportAssets && filesToDownload) {
-    const fullAssetsDir = `${flags.outputDir}/${ASSETS_DIR}`;
+    const fullAssetsDir = path.join(flags.outputDir, ASSETS_DIR);
 
     if (!fs.existsSync(fullAssetsDir)) {
       fs.mkdirSync(fullAssetsDir);
