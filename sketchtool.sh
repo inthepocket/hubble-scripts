@@ -23,6 +23,11 @@ function check_file_input() {
 }
 
 function export_assets() {
+  if [ "$(uname)" != "Darwin" ]; then
+    echo "Not running on macOS"
+    exit 0
+  fi
+
   if [ ! -d /Applications/Sketch.app ]; then
     log "Doesn't seem like you have Sketch installed..."
     log "Please make sure Sketch is installed and at the path /Applications/Sketch.app"
@@ -30,13 +35,16 @@ function export_assets() {
   fi
 
   if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
-    log "Exporting slices as svg & png(1x,1.5x,2x,3x,4x) to directory $2"
+    log "Exporting slices as SVG, PNG@(1x,1.5x,2x,3x,4x), PDF to directory $2"
 
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
       --format="png" --scales="1, 1.5, 2, 3, 4"
 
     /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
       --format="svg"
+
+    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
+      --format="pdf"
   else
     log "💩  sketchtool was not found"
     log "Please install Sketch.app and follow https://developer.sketchapp.com/guides/sketchtool/"

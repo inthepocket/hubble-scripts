@@ -44,7 +44,12 @@ jobs:
     steps:
       - checkout
       - <<: *install_node_modules
-      - run: bash generate_mocks.sh
+      - run:
+          name: Generate Mocks
+          command: |
+            bash generate_mocks.sh
+            test $(find __mocks__/figma/assets -type f -name "*.png" | wc -l | sed -e 's/^[ \t]*//') -eq 6
+            test $(find __mocks__/figma/assets -type f -name "*.svg" | wc -l | sed -e 's/^[ \t]*//') -eq 3
 
   unit_tests_node_lts:
     executor: node
@@ -71,6 +76,9 @@ jobs:
       - <<: *install_node_modules
       - run: ./node_modules/.bin/pkg cli.js -t node8-linux-x64 --output ./bin/hubble-cli
       - run: ./bin/hubble-cli --version
+      - run:
+          command: |
+            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli --version) ]
 
 workflows:
   version: 2
