@@ -1,0 +1,10 @@
+{
+  "**/*.js": [
+    "itp-react-scripts lint -- --fix",
+    "itp-react-scripts format",
+    "git add"
+  ],
+  "**/*.sh": [
+    "command -v shellcheck && shellcheck"
+  ]
+}

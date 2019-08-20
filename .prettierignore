@@ -1,4 +1,6 @@
 __mocks__
 __tests__
 
+*.test.js
+
 jest.config.js
