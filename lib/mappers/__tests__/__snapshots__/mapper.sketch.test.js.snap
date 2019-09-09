@@ -1357,5 +1357,16 @@ Array [
     "token": "text-style",
     "weight": "bold",
   },
+  Object {
+    "borderBottom": null,
+    "family": "FiraSans-Bold",
+    "id": "heading1",
+    "kerning": null,
+    "lineHeight": 57.6,
+    "paragraphSpacing": 0,
+    "size": 48,
+    "token": "text-style",
+    "weight": "bold",
+  },
 ]
 `;
