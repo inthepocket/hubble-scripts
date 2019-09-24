@@ -72,10 +72,6 @@ jobs:
   build:
     executor: node
     steps:
-      - persist_to_workspace:
-          root: .
-          paths:
-            - bin
       - checkout
       - <<: *install_node_modules
       - run:
@@ -85,6 +81,10 @@ jobs:
           name: Verify version match
           command: |
             [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli-linux-x64 --version) ]
+      - persist_to_workspace:
+          root: .
+          paths:
+            - bin
 
   publish_github_release:
     docker:
