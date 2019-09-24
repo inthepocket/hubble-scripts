@@ -126,6 +126,6 @@ workflows:
           filters:
             branches:
               only: master
-      - publish_gitub_release:
+      - publish_github_release:
           requires:
             - build
