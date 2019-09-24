@@ -95,7 +95,7 @@ jobs:
       - run: ls -l .
       - run:
           name: List available binaries
-          command: ls -l ./bin
+          command: ls -l ./bin/**/*
       # - run:
       #     name: Publish Github release
       #     command: |
