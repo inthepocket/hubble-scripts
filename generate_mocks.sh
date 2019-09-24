@@ -8,7 +8,7 @@ function generate_figma() {
   echo "Generating mocks for Figma"
   node cli.js --dump --exportAssets --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" && \
     mv "$MOCKS_DIR/figma/hubble-data.json" "$MOCKS_DIR/figma/sample_output.json" && \
-    mv "$MOCKS_DIR/figmalogdump.json" "$MOCKS_DIR/figma/sample_dump.json"
+    mv "$MOCKS_DIR/figma/logdump.json" "$MOCKS_DIR/figma/sample_dump.json"
 
   echo "Generating mocks for Figma: Style Dictionary"
   node cli.js --useStyleDictionaryOutput --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" && \
