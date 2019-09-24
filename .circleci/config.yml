@@ -82,6 +82,22 @@ jobs:
           command: |
             [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli-linux-x64 --version) ]
 
+  publish_github_release:
+    docker:
+      - image: cibuilds/github
+    steps:
+      - attach_workspace:
+          at: ./bin
+      - run: ls -l .
+      - run:
+          name: List available binaries
+          command: ls -l ./bin
+      # - run:
+      #     name: Publish Github release
+      #     command: |
+      #       VERSION=$(./bin/hubble-cli-linux-x64 --version)
+      #       ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./bin/
+
 workflows:
   version: 2
 
@@ -90,7 +106,7 @@ workflows:
       - lint
       - verify_readme
 
-  test_build_deploy:
+  test:
     jobs:
       - generate_mocks
       - unit_tests_node_lts:
@@ -103,3 +119,7 @@ workflows:
           requires:
             - generate_mocks
             - unit_tests_node_lts
+      - publish_github_release:
+          requires:
+            - build
+
