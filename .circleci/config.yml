@@ -93,6 +93,9 @@ jobs:
       - attach_workspace:
           at: .
       - run:
+          name: List available artifacts
+          command: ls -l ./bin
+      - run:
           name: Publish Github release
           command: |
             VERSION=$(./bin/hubble-cli-linux-x64 --version)
