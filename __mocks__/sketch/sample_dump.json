@@ -61,8 +61,8 @@
             "constrainProportions": false,
             "height": 18,
             "width": 81,
-            "x": 759,
-            "y": 532
+            "x": 760,
+            "y": 598
           },
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -88,7 +88,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": true,
+          "hasClickThrough": false,
           "layers": [
             {
               "_class": "text",
@@ -237,8 +237,8 @@
             "constrainProportions": false,
             "height": 12,
             "width": 43,
-            "x": 758,
-            "y": 565
+            "x": 759,
+            "y": 631
           },
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -444,8 +444,8 @@
             "constrainProportions": false,
             "height": 37,
             "width": 157,
-            "x": 759,
-            "y": 478
+            "x": 760,
+            "y": 544
           },
           "isFixedToViewport": false,
           "isFlippedHorizontal": false,
@@ -471,7 +471,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": true,
+          "hasClickThrough": false,
           "layers": [
             {
               "_class": "text",
@@ -604,6 +604,193 @@
         },
         {
           "_class": "artboard",
+          "do_objectID": "E0CED25A-6768-4002-AA6D-C6C81EE1A66D",
+          "booleanOperation": -1,
+          "exportOptions": {
+            "_class": "exportOptions",
+            "do_objectID": "145229AA-C43F-47BC-AFCB-C198045C017E",
+            "exportFormats": [],
+            "includedLayerIds": [],
+            "layerOptions": 0,
+            "shouldTrim": false
+          },
+          "frame": {
+            "_class": "rect",
+            "do_objectID": "E61395AE-D3CA-41EE-AA92-081A9140325E",
+            "constrainProportions": false,
+            "height": 52,
+            "width": 228,
+            "x": 759,
+            "y": 475
+          },
+          "isFixedToViewport": false,
+          "isFlippedHorizontal": false,
+          "isFlippedVertical": false,
+          "isLocked": false,
+          "isVisible": true,
+          "layerListExpandedType": 0,
+          "name": "textstyle/heading1/right",
+          "nameIsFixed": true,
+          "resizingConstraint": 63,
+          "resizingType": 0,
+          "rotation": 0,
+          "shouldBreakMaskChain": true,
+          "clippingMaskMode": 0,
+          "hasClippingMask": false,
+          "style": {
+            "_class": "style",
+            "do_objectID": "EF46FBBF-B3A7-414D-9C9E-7AA67407D500",
+            "endMarkerType": 0,
+            "miterLimit": 10,
+            "startMarkerType": 0,
+            "windingRule": 1
+          },
+          "groupLayout": {
+            "_class": "MSImmutableFreeformGroupLayout",
+            "do_objectID": "F057DD57-D0D7-4190-AEE2-E84A4968AEDE"
+          },
+          "hasClickThrough": true,
+          "layers": [
+            {
+              "_class": "text",
+              "do_objectID": "F7055B4B-8185-45C9-94BD-5F26FE575CAE",
+              "booleanOperation": -1,
+              "exportOptions": {
+                "_class": "exportOptions",
+                "do_objectID": "9DF6F5DC-50EE-4FDB-AE8B-5457F4E362C2",
+                "exportFormats": [],
+                "includedLayerIds": [],
+                "layerOptions": 0,
+                "shouldTrim": false
+              },
+              "frame": {
+                "_class": "rect",
+                "do_objectID": "AA9CC6E7-6C97-4AEA-9F10-CF2CEA9ACCD1",
+                "constrainProportions": false,
+                "height": 57.59999847412109,
+                "width": 228,
+                "x": 0,
+                "y": -2.999999999999996
+              },
+              "isFixedToViewport": false,
+              "isFlippedHorizontal": false,
+              "isFlippedVertical": false,
+              "isLocked": false,
+              "isVisible": true,
+              "layerListExpandedType": 0,
+              "name": "Heading 1",
+              "nameIsFixed": false,
+              "resizingConstraint": 63,
+              "resizingType": 0,
+              "rotation": 0,
+              "shouldBreakMaskChain": false,
+              "clippingMaskMode": 0,
+              "hasClippingMask": false,
+              "sharedStyleID": "C4EB7D80-6458-4EB1-9A23-758245FCE345",
+              "style": {
+                "_class": "style",
+                "do_objectID": "B1C89A0D-95EE-49B0-8C7E-655E084B7A7A",
+                "endMarkerType": 0,
+                "miterLimit": 10,
+                "startMarkerType": 0,
+                "textStyle": {
+                  "_class": "textStyle",
+                  "encodedAttributes": {
+                    "MSAttributedStringFontAttribute": {
+                      "_class": "fontDescriptor",
+                      "attributes": {
+                        "name": "FiraSans-Bold",
+                        "size": 48
+                      }
+                    },
+                    "MSAttributedStringColorAttribute": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0.6235294117647059,
+                      "green": 0.02352941176470588,
+                      "red": 0.06274509803921553
+                    },
+                    "textStyleVerticalAlignmentKey": 0,
+                    "paragraphStyle": {
+                      "_class": "paragraphStyle",
+                      "alignment": 1,
+                      "maximumLineHeight": 57.59999847412109,
+                      "minimumLineHeight": 57.59999847412109
+                    }
+                  },
+                  "verticalAlignment": 0
+                },
+                "windingRule": 1
+              },
+              "attributedString": {
+                "_class": "attributedString",
+                "string": "Heading 1",
+                "attributes": [
+                  {
+                    "_class": "stringAttribute",
+                    "location": 0,
+                    "length": 9,
+                    "attributes": {
+                      "MSAttributedStringFontAttribute": {
+                        "_class": "fontDescriptor",
+                        "attributes": {
+                          "name": "FiraSans-Bold",
+                          "size": 48
+                        }
+                      },
+                      "MSAttributedStringColorAttribute": {
+                        "_class": "color",
+                        "alpha": 1,
+                        "blue": 0.6235294117647059,
+                        "green": 0.02352941176470588,
+                        "red": 0.06274509803921553
+                      },
+                      "textStyleVerticalAlignmentKey": 0,
+                      "paragraphStyle": {
+                        "_class": "paragraphStyle",
+                        "alignment": 1,
+                        "maximumLineHeight": 57.59999847412109,
+                        "minimumLineHeight": 57.59999847412109
+                      }
+                    }
+                  }
+                ]
+              },
+              "automaticallyDrawOnUnderlyingPath": false,
+              "dontSynchroniseWithSymbol": false,
+              "glyphBounds": "{{16, 5}, {209, 51}}",
+              "lineSpacingBehaviour": 2,
+              "textBehaviour": 1
+            }
+          ],
+          "backgroundColor": {
+            "_class": "color",
+            "do_objectID": "6732F592-0E55-41E3-821A-50616D877C29",
+            "alpha": 1,
+            "blue": 1,
+            "green": 1,
+            "red": 1
+          },
+          "hasBackgroundColor": false,
+          "horizontalRulerData": {
+            "_class": "rulerData",
+            "do_objectID": "311B450E-BC51-4634-8B12-CD3F4E963775",
+            "base": 0,
+            "guides": []
+          },
+          "includeBackgroundColorInExport": true,
+          "includeInCloudUpload": true,
+          "isFlowHome": false,
+          "resizesContent": false,
+          "verticalRulerData": {
+            "_class": "rulerData",
+            "do_objectID": "EA2FDCD1-45F5-4368-A2F0-75CCB28BB5FA",
+            "base": 0,
+            "guides": []
+          }
+        },
+        {
+          "_class": "artboard",
           "do_objectID": "CB6340A7-7A9B-4B4B-BE91-E9488AEA7893",
           "booleanOperation": -1,
           "exportOptions": {
@@ -627,7 +814,7 @@
           "isLocked": false,
           "isVisible": true,
           "layerListExpandedType": 0,
-          "name": "textstyle/heading1",
+          "name": "textstyle/heading1/left",
           "nameIsFixed": true,
           "resizingConstraint": 63,
           "resizingType": 0,
@@ -645,7 +832,7 @@
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
           },
-          "hasClickThrough": true,
+          "hasClickThrough": false,
           "layers": [
             {
               "_class": "text",
@@ -662,9 +849,9 @@
                 "_class": "rect",
                 "constrainProportions": false,
                 "height": 57.59999847412109,
-                "width": 216,
-                "x": -3,
-                "y": -6
+                "width": 228,
+                "x": 0,
+                "y": -3
               },
               "isFixedToViewport": false,
               "isFlippedHorizontal": false,
@@ -13050,7 +13237,7 @@
         {
           "_class": "sharedStyle",
           "do_objectID": "AE67B98F-F8FC-4899-BCE1-A1766049BD9C",
-          "name": "Heading 1",
+          "name": "Heading 1 / Align / Left",
           "value": {
             "_class": "style",
             "endMarkerType": 0,
@@ -13193,6 +13380,45 @@
             },
             "windingRule": 1
           }
+        },
+        {
+          "_class": "sharedStyle",
+          "do_objectID": "C4EB7D80-6458-4EB1-9A23-758245FCE345",
+          "name": "Heading 1 / Align / Right",
+          "value": {
+            "_class": "style",
+            "endMarkerType": 0,
+            "miterLimit": 10,
+            "startMarkerType": 0,
+            "textStyle": {
+              "_class": "textStyle",
+              "encodedAttributes": {
+                "MSAttributedStringFontAttribute": {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "FiraSans-Bold",
+                    "size": 48
+                  }
+                },
+                "MSAttributedStringColorAttribute": {
+                  "_class": "color",
+                  "alpha": 1,
+                  "blue": 0.6235294117647059,
+                  "green": 0.02352941176470588,
+                  "red": 0.06274509803921553
+                },
+                "textStyleVerticalAlignmentKey": 0,
+                "paragraphStyle": {
+                  "_class": "paragraphStyle",
+                  "alignment": 1,
+                  "maximumLineHeight": 57.59999847412109,
+                  "minimumLineHeight": 57.59999847412109
+                }
+              },
+              "verticalAlignment": 0
+            },
+            "windingRule": 1
+          }
         }
       ]
     },
@@ -13215,12 +13441,12 @@
       "pageListCollapsed": 0
     },
     "3887CAEA-110F-415F-8010-F3C825F27590": {
-      "scrollOrigin": "{-3821, -591}",
-      "zoomValue": 2.235936859863144
+      "scrollOrigin": "{-1584, -685}",
+      "zoomValue": 2.181690631117745
     }
   },
   "meta": {
-    "commit": "94ebe602aa7fa84925f70c61c02bd9c2e976f176",
+    "commit": "0181c02ffae4f4e24c433b7bb014e1093089547e",
     "pagesAndArtboards": {
       "3887CAEA-110F-415F-8010-F3C825F27590": {
         "name": "primitives",
@@ -13242,6 +13468,9 @@
           },
           "46F335CE-30A0-4925-B587-F5BA1D324C5E": {
             "name": "primitives/color/secondary/700"
+          },
+          "E0CED25A-6768-4002-AA6D-C6C81EE1A66D": {
+            "name": "textstyle/heading1/right"
           },
           "46B85BC1-A746-436F-A660-7A3183C21D8E": {
             "name": "primitives/color/secondary/400"
@@ -13322,7 +13551,7 @@
             "name": "primitives/color/secondary/500"
           },
           "CB6340A7-7A9B-4B4B-BE91-E9488AEA7893": {
-            "name": "textstyle/heading1"
+            "name": "textstyle/heading1/left"
           },
           "F9C9C2C5-925B-41CC-B221-A681D3B0467B": {
             "name": "primitives/gradient/radial"
@@ -13357,18 +13586,18 @@
     "autosaved": 0,
     "variant": "NONAPPSTORE",
     "created": {
-      "commit": "94ebe602aa7fa84925f70c61c02bd9c2e976f176",
-      "appVersion": "56",
-      "build": 81588,
+      "commit": "0181c02ffae4f4e24c433b7bb014e1093089547e",
+      "appVersion": "57.1",
+      "build": 83088,
       "app": "com.bohemiancoding.sketch3",
       "compatibilityVersion": 99,
       "version": 119,
       "variant": "NONAPPSTORE"
     },
     "saveHistory": [
-      "NONAPPSTORE.81588"
+      "NONAPPSTORE.83088"
     ],
-    "appVersion": "56",
-    "build": 81588
+    "appVersion": "57.1",
+    "build": 83088
   }
 }

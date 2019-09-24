@@ -4,7 +4,7 @@ const path = require('path');
 const pkg = require('./package.json');
 const getParser = require('./lib/parser');
 const getMappers = require('./lib/mappers');
-const { prettyJSON, writeFile, downloadFile } = require('./lib/utils');
+const { prettyJSON, writeFile, downloadFile, uniqueArrayBy } = require('./lib/utils');
 const mapToStyleDictionaryTokens = require('./lib/styleDictionary');
 
 const ASSETS_DIR = 'assets';
@@ -31,7 +31,10 @@ module.exports = async (args, flags) => {
   const mappers = getMappers(fileType);
 
   const mapping = {
-    textStyles: textStyles.map(mappers.textStyles),
+    textStyles: uniqueArrayBy(
+      textStyles.map((txt) => mappers.textStyles(txt, flags.ignoreTextStylePaths)),
+      'id',
+    ),
     colors: colors.map(mappers.colors),
     gradients: gradients.map(mappers.gradients),
     shadows: shadows.map(mappers.shadows),

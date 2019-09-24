@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+function build_artifacts() {
+  local nodeVersion
+  nodeVersion=$(grep "compileForNode" package.json | sed 's/.*://' | sed 's/[^0-9]*//g')
+
+  local archs=(macos-x64 linux-x64 win-x64)
+  for arch in "${archs[@]}"; do
+    pkg cli.js -t "node$nodeVersion-$arch" --output "./bin/hubble-cli-$arch"
+  done
+
+  if [ "$(uname)" == "Linux" ]; then
+    echo "New hubble-cli version: $(./bin/hubble-cli-linux-x64 --version)"
+  else
+    echo "New hubble-cli version: $(./bin/hubble-cli-macos-x64 --version)"
+  fi
+}
+
+function help {
+  echo ""
+  echo "Available tasks:"
+  echo ""
+  compgen -A function | cat -n
+  echo ""
+}
+
+# Make every binary from npm available in our PATH
+PATH=./node_modules/.bin:$PATH
+
+"${@:-help}"

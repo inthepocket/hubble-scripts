@@ -137,7 +137,7 @@ For more on running in development mode, check the [wiki].
 [MIT][license]
 
 <!-- LINKS -->
-[hubble homepage]: https://hubble-design-system.netlify.com
+[hubble homepage]: https://hubble.inthepocket.design
 
 [logo]: https://github.com/inthepocket/hubble-scripts/blob/master/.github/hubble-scripts-banner.png
 [license]: https://github.com/inthepocket/hubble-scripts/blob/master/LICENSE
