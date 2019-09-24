@@ -72,6 +72,10 @@ jobs:
   build:
     executor: node
     steps:
+      - persist_to_workspace:
+          root: .
+          paths:
+            - bin
       - checkout
       - <<: *install_node_modules
       - run:
