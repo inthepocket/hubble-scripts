@@ -9,7 +9,12 @@ function build_artifacts() {
   for arch in "${archs[@]}"; do
     pkg cli.js -t "node$nodeVersion-$arch" --output "./bin/hubble-cli-$arch"
   done
-  echo "New hubble-cli version: $(./bin/hubble-cli-macos-x64 --version)"
+
+  if [ "$(uname)" == "Linux" ]; then
+    echo "New hubble-cli version: $(./bin/hubble-cli-linux-x64 --version)"
+  else
+    echo "New hubble-cli version: $(./bin/hubble-cli-macos-x64 --version)"
+  fi
 }
 
 function help {
