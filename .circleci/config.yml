@@ -74,19 +74,43 @@ jobs:
     steps:
       - checkout
       - <<: *install_node_modules
-      - run: ./node_modules/.bin/pkg cli.js -t node8-linux-x64 --output ./bin/hubble-cli
-      - run: ./bin/hubble-cli --version
       - run:
+          name: Build artifacts (binary + node runtime)
+          command: npm run build
+      - run:
+          name: Verify version match
           command: |
-            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli --version) ]
+            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli-linux-x64 --version) ]
+      - persist_to_workspace:
+          root: .
+          paths:
+            - bin
+
+  publish_github_release:
+    docker:
+      - image: cibuilds/github
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: List available artifacts
+          command: ls -l ./bin
+      - run:
+          name: Publish Github release
+          command: |
+            VERSION=$(./bin/hubble-cli-linux-x64 --version)
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./bin/
 
 workflows:
   version: 2
 
-  test_build_deploy:
+  static_analysis:
     jobs:
       - lint
       - verify_readme
+
+  test:
+    jobs:
       - generate_mocks
       - unit_tests_node_lts:
           requires:
@@ -96,6 +120,15 @@ workflows:
             - generate_mocks
       - build:
           requires:
-            - lint
             - generate_mocks
             - unit_tests_node_lts
+
+  publish_release:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+      - publish_github_release:
+          requires:
+            - build
