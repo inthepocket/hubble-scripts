@@ -74,19 +74,24 @@ jobs:
     steps:
       - checkout
       - <<: *install_node_modules
-      - run: ./node_modules/.bin/pkg cli.js -t node8-linux-x64 --output ./bin/hubble-cli
-      - run: ./bin/hubble-cli --version
       - run:
+          name: Build artifacts (binary + node runtime)
+          command: npm run build
+      - run:
+          name: Verify version match
           command: |
-            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli --version) ]
+            [ $(npx -c 'echo "$npm_package_version"') = $(./bin/hubble-cli-linux-x64 --version) ]
 
 workflows:
   version: 2
 
-  test_build_deploy:
+  static_analysis:
     jobs:
       - lint
       - verify_readme
+
+  test_build_deploy:
+    jobs:
       - generate_mocks
       - unit_tests_node_lts:
           requires:
@@ -96,6 +101,5 @@ workflows:
             - generate_mocks
       - build:
           requires:
-            - lint
             - generate_mocks
             - unit_tests_node_lts

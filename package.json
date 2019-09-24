@@ -16,6 +16,7 @@
     "hubble-design-system",
     "inthepocket"
   ],
+  "compileForNode": "8",
   "engines": {
     "node": ">=8.0",
     "bash": ">=4"
@@ -37,7 +38,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update": "npm run test -- --updateSnapshot",
-    "build": "pkg cli.js -t node8-macos-x64 --output ./bin/hubble-cli && echo \"New hubble-cli version: $(./bin/hubble-cli --version)\""
+    "build": "./Taskfile build_artifacts"
   },
   "devDependencies": {
     "@inthepocket/itp-react-scripts": "^0.48.1",
