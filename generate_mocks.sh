@@ -6,14 +6,13 @@ FIGMA_FILE="HbgJuBVOwIOcoZMVnpG01LqA"
 
 function generate_figma() {
   echo "Generating mocks for Figma"
-  node cli.js --dump --exportAssets --token "$FIGMA_TOKEN" "$FIGMA_FILE" && \
-    mv hubble-data.json "$MOCKS_DIR/figma/sample_output.json" && \
-    mv logdump.json "$MOCKS_DIR/figma/sample_dump.json" && \
-    mv assets "$MOCKS_DIR/figma/assets"
+  node cli.js --dump --exportAssets --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" && \
+    mv "$MOCKS_DIR/figma/hubble-data.json" "$MOCKS_DIR/figma/sample_output.json" && \
+    mv "$MOCKS_DIR/figma/logdump.json" "$MOCKS_DIR/figma/sample_dump.json"
 
   echo "Generating mocks for Figma: Style Dictionary"
-  node cli.js --useStyleDictionaryOutput --token "$FIGMA_TOKEN" "$FIGMA_FILE" && \
-    mv hubble-style-dictionary-tokens.json "$MOCKS_DIR/figma/sample_output.styledictionary.json"
+  node cli.js --useStyleDictionaryOutput --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" && \
+    mv "$MOCKS_DIR/figma/hubble-style-dictionary-tokens.json" "$MOCKS_DIR/figma/sample_output.styledictionary.json"
 }
 
 function generate_sketch() {
