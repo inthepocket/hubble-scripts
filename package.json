@@ -16,9 +16,9 @@
     "hubble-design-system",
     "inthepocket"
   ],
-  "compileForNode": "8",
+  "compileForNode": "10",
   "engines": {
-    "node": ">=8.0",
+    "node": ">=10.0",
     "bash": ">=4"
   },
   "bin": {
