@@ -92,13 +92,12 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run: apk add tree
       - run:
           name: Publish Github release
           command: |
-            tree . -L 2
-            VERSION="$(bin/hubble-cli-linux-x64 --version)"
-            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} bin/
+            cd ./bin
+            VERSION="$(./hubble-cli-linux-x64 --version)"
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} .
 
 workflows:
   version: 2
