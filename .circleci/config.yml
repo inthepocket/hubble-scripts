@@ -84,7 +84,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - bin
+            - .
 
   publish_github_release:
     docker:
