@@ -96,6 +96,7 @@ jobs:
           name: Publish Github release
           command: |
             cd ./bin
+            ./hubble-cli-linux-x64 --version
             VERSION="$(./hubble-cli-linux-x64 --version)"
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} .
 
