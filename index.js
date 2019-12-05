@@ -11,7 +11,7 @@ const ASSETS_DIR = 'assets';
 
 module.exports = async (args, flags) => {
   if (flags.version) return pkg.version;
-  if (args.length <= 0) throw new Error('No file input passed after npm start');
+  if (args.length <= 0) throw new Error('No file input passed after npm start. For more info, add --help flag.');
 
   const { parser } = await getParser(args, flags);
   const {

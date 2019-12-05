@@ -13,8 +13,13 @@ const cli = meow(
 
   Options: Sketch
     --dump, -d                      Dump the JSON output from the .sketch file.
-    --useColorArtboards             Use artboard formatting to export colors instead of using the document colors.
-    --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients.
+    --mode, -m                      One of 'document', 'artboard' or 'layerStyle'. Determines the source of your primitives.
+                                    Defaults to 'document', which will export the colors and gradients from the document.
+                                    If 'artboard', looks for colors and gradients in the artboards with proper naming. (primitives/color/...)
+                                    If 'layerstyle', looks for colors and gradients in the layerstyle with proper naming. (primitives/color/...)
+                                    NOTE: The shadow, border and blur primitives can never be retrieved from document, and default to artboard.
+    --useColorArtboards             (DEPRECATED, use --mode instead.) Use artboard formatting to export colors instead of using the document colors.
+    --useGradientArtboards          (DEPRECATED, use --mode instead.) Use artboard formatting to export gradients instead of using the document gradients.
     --ignoreTextStylePaths          Textstyles that use slashes to enable navigation in Sketch will be ignored
                                     and their id will be the first part of the path.
 
@@ -47,6 +52,11 @@ const cli = meow(
       dump: {
         type: 'boolean',
         alias: 'd',
+      },
+      mode: {
+        type: 'string',
+        alias: 'm',
+        default: 'document'
       },
       useColorArtboards: {
         type: 'boolean',
