@@ -13,6 +13,8 @@ The backbone of the [Hubble ecosystem][hubble homepage], this scripts repository
 
 # Contents
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/inthepocket/hubble-scripts.svg)](https://greenkeeper.io/)
+
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
 - [Usage](#usage)
