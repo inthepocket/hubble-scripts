@@ -26,6 +26,7 @@ module.exports = async (args, flags) => {
     response,
     fileType,
     assets,
+    grid,
   } = await parser.getTokens();
 
   const mappers = getMappers(fileType);
@@ -40,6 +41,7 @@ module.exports = async (args, flags) => {
     shadows: shadows.map(mappers.shadows),
     borders: borders.map(mappers.borders),
     blurs: blurs.map(mappers.blurs),
+    grid,
     fonts,
     fileType,
     ...mappers.version(version),
