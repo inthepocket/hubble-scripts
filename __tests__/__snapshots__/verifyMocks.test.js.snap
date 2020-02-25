@@ -993,6 +993,9 @@ Object {
       "type": "ANGULAR",
     },
   ],
+  "grid": Object {
+    "size": 8,
+  },
   "shadows": Array [
     Object {
       "blur": 4,
@@ -7290,6 +7293,12 @@ Object {
       },
     },
   },
+  "grid": Object {
+    "global": Object {
+      "comment": "Global grid size definition",
+      "value": 8,
+    },
+  },
   "lineHeight": Object {
     "font": Object {
       "heading1": Object {
@@ -8383,6 +8392,9 @@ Object {
       "type": "ANGULAR",
     },
   ],
+  "grid": Object {
+    "size": 8,
+  },
   "shadows": Array [
     Object {
       "blur": 3,
@@ -8453,7 +8465,7 @@ Object {
       "y": 2,
     },
   ],
-  "sketchVersion": "57.1",
+  "sketchVersion": "63.1",
   "textStyles": Array [
     Object {
       "borderBottom": null,
@@ -8987,6 +8999,9 @@ Object {
       "type": "LINEAR",
     },
   ],
+  "grid": Object {
+    "size": 8,
+  },
   "shadows": Array [
     Object {
       "blur": 3,
@@ -9057,7 +9072,7 @@ Object {
       "y": 2,
     },
   ],
-  "sketchVersion": "57.1",
+  "sketchVersion": "63.1",
   "textStyles": Array [
     Object {
       "borderBottom": null,
@@ -22881,6 +22896,12 @@ Object {
       "quote": Object {
         "value": "helveticaBold",
       },
+    },
+  },
+  "grid": Object {
+    "global": Object {
+      "comment": "Global grid size definition",
+      "value": 8,
     },
   },
   "lineHeight": Object {

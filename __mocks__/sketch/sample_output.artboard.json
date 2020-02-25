@@ -1120,6 +1120,9 @@
       "motionAngle": 0
     }
   ],
+  "grid": {
+    "size": 8
+  },
   "fonts": [
     "FiraSans-Bold",
     "Helvetica-Bold",
@@ -1127,5 +1130,5 @@
     "FiraSans-Book"
   ],
   "fileType": "SKETCH",
-  "sketchVersion": "57.1"
+  "sketchVersion": "63.1"
 }
