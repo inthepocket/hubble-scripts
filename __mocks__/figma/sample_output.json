@@ -1099,6 +1099,9 @@
       "motionAngle": 0
     }
   ],
+  "grid": {
+    "size": 8
+  },
   "fonts": [
     "FiraSans-Book",
     "Helvetica-Bold",

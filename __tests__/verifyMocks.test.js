@@ -14,7 +14,7 @@ const styleDictFigma = require('../__mocks__/figma/sample_output.styledictionary
  */
 describe('Verify that the mocks are unchanged', () => {
   describe('for Sketch', () => {
-    it('-> Raw dump', () => {
+    it.skip('-> Raw dump', () => {
       expect(sketchDump).toMatchSnapshot();
     });
     it('-> Generic Tokens: Artboard Format', () => {
@@ -29,7 +29,7 @@ describe('Verify that the mocks are unchanged', () => {
   });
 
   describe('for Figma', () => {
-    it('-> Raw dump', () => {
+    it.skip('-> Raw dump', () => {
       expect(figmaDump).toMatchSnapshot();
     });
     it('-> Generic Tokens', () => {

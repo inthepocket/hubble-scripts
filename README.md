@@ -1,11 +1,13 @@
-![Hubble Scripts logo][logo]
+![Hubble OSS][oss banner]
 
 [![LICENSE](https://badgen.net/badge/license/MIT/blue)][license]
 ![Platform](https://badgen.net/badge/platform/macOS?icon=apple)
 [![Releases](https://badgen.net/github/releases/inthepocket/hubble-scripts)][releases]
 ![Last commit](https://badgen.net/github/last-commit/inthepocket/hubble-scripts)
 [![Latest release](https://badgen.net/github/release/inthepocket/hubble-scripts/stable)][latest release]
-[![CI Status](https://badgen.net/circleci/github/inthepocket/hubble-scripts)][circle ci]
+![CI Status](https://badgen.net/circleci/github/inthepocket/hubble-scripts)
+
+# hubble-scripts
 
 > Scripts repository to export design data like colors, fonts & text, and map them to design tokens.
 
@@ -139,7 +141,7 @@ For more on running in development mode, check the [wiki].
 <!-- LINKS -->
 [hubble homepage]: https://hubble.inthepocket.design
 
-[logo]: https://github.com/inthepocket/hubble-scripts/blob/master/.github/hubble-scripts-banner.png
+[oss banner]: https://github.com/inthepocket/hubble-scripts/blob/master/.github/hubble-oss-banner.png
 [license]: https://github.com/inthepocket/hubble-scripts/blob/master/LICENSE
 [contributing]: https://github.com/inthepocket/hubble-scripts/blob/master/CONTRIBUTING.md
 [releases]: https://github.com/inthepocket/hubble-scripts/releases

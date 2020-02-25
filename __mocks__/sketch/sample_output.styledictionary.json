@@ -242,5 +242,11 @@
         }
       }
     }
+  },
+  "grid": {
+    "global": {
+      "value": 8,
+      "comment": "Global grid size definition"
+    }
   }
 }
