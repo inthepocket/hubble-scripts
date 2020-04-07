@@ -6,12 +6,13 @@ function log() {
   printf "\\n\\033[1m\\033[34m%s\\033[0m\\n\\n" "[hubble-scripts] ${1}"
 }
 
+SKETCHTOOL_BINARY="$(mdfind kMDItemCFBundleIdentifier == 'com.bohemiancoding.sketch3' | head -n 1)/Contents/Resources/sketchtool/bin/sketchtool"
+
 function check_file_input() {
   if [ $# -eq 0 ]; then
     echo "No arguments provided"
     echo "Please provide a sketchfile to export and an output dir!"
-    echo "e.g: bash ./sketchtool.sh MyFile.sketch /var/hubble/assets/images"
-
+    echo "e.g: /sketchtool.sh MyFile.sketch /var/hubble/assets/images"
     exit 1
   fi
 
@@ -23,33 +24,10 @@ function check_file_input() {
 }
 
 function export_assets() {
-  if [ "$(uname)" != "Darwin" ]; then
-    echo "Not running on macOS"
-    exit 0
-  fi
-
-  if [ ! -d /Applications/Sketch.app ]; then
-    log "Doesn't seem like you have Sketch installed..."
-    log "Please make sure Sketch is installed and at the path /Applications/Sketch.app"
-    exit 1
-  fi
-
-  if [ -f /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool ]; then
-    log "Exporting slices as SVG, PNG@(1x,1.5x,2x,3x,4x), PDF to directory $2"
-
-    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
-      --format="png" --scales="1, 1.5, 2, 3, 4"
-
-    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
-      --format="svg"
-
-    /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export slices "$1" --output="$OUTPUT_DIR" \
-      --format="pdf"
-  else
-    log "💩  sketchtool was not found"
-    log "Please install Sketch.app and follow https://developer.sketchapp.com/guides/sketchtool/"
-    exit 1
-  fi
+  log "Exporting slices as SVG, PNG@(1x,1.5x,2x,3x,4x), PDF to directory $2"
+  "$SKETCHTOOL_BINARY" export slices "$1" --output="$OUTPUT_DIR" --format="png" --scales="1, 1.5, 2, 3, 4"
+  "$SKETCHTOOL_BINARY" export slices "$1" --output="$OUTPUT_DIR" --format="svg"
+  "$SKETCHTOOL_BINARY" export slices "$1" --output="$OUTPUT_DIR" --format="pdf"
 }
 
 # Transform asset:
@@ -69,6 +47,17 @@ function transform_assets() {
 }
 
 function main() {
+  if [ "$(uname)" != "Darwin" ]; then
+    echo "This wrapper around sketchtool is only supported on macOS"
+    exit 1
+  fi
+
+  if [ -f SKETCHTOOL_BINARY ]; then
+    log "sketchtool was not found"
+    log "Please install Sketch and follow https://developer.sketch.com/cli/"
+    exit 1
+  fi
+
   check_file_input "$@"
   export_assets "$@" && transform_assets
 }
