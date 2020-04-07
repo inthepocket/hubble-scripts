@@ -1,0 +1,542 @@
+{
+  "textStyles": [
+    {
+      "token": "text-style",
+      "id": "paragraph",
+      "weight": "book",
+      "size": 18,
+      "family": "FiraSans-Book",
+      "borderBottom": null,
+      "kerning": null
+    },
+    {
+      "token": "text-style",
+      "id": "quote",
+      "weight": "bold",
+      "size": 14,
+      "family": "Helvetica-Bold",
+      "borderBottom": null,
+      "kerning": 42.9
+    },
+    {
+      "token": "text-style",
+      "id": "heading2",
+      "weight": "regular",
+      "size": 36,
+      "family": "FiraSans-Regular",
+      "borderBottom": null,
+      "kerning": null
+    },
+    {
+      "token": "text-style",
+      "id": "heading1",
+      "weight": "bold",
+      "size": 48,
+      "family": "FiraSans-Bold",
+      "borderBottom": null,
+      "kerning": null
+    }
+  ],
+  "colors": [
+    {
+      "token": "color",
+      "name": "white",
+      "red": 24225,
+      "green": 49470,
+      "blue": 58650,
+      "alpha": 1,
+      "rgb": [
+        24225,
+        49470,
+        58650
+      ],
+      "rgba": [
+        24225,
+        49470,
+        58650,
+        1
+      ],
+      "hex": "a13e1a",
+      "hsl": [
+        196,
+        -42,
+        16250
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 23970,
+      "green": 49215,
+      "blue": 53295,
+      "alpha": 1,
+      "rgb": [
+        23970,
+        49215,
+        53295
+      ],
+      "rgba": [
+        23970,
+        49215,
+        53295,
+        1
+      ],
+      "hex": "a23f2f",
+      "hsl": [
+        188,
+        -38,
+        15150
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 30345,
+      "green": 51000,
+      "blue": 54570,
+      "alpha": 1,
+      "rgb": [
+        30345,
+        51000,
+        54570
+      ],
+      "rgba": [
+        30345,
+        51000,
+        54570,
+        1
+      ],
+      "hex": "89382a",
+      "hsl": [
+        189,
+        -29,
+        16650
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 35955,
+      "green": 52785,
+      "blue": 55845,
+      "alpha": 1,
+      "rgb": [
+        35955,
+        52785,
+        55845
+      ],
+      "rgba": [
+        35955,
+        52785,
+        55845,
+        1
+      ],
+      "hex": "733125",
+      "hsl": [
+        189,
+        -22,
+        18000
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 40800,
+      "green": 54570,
+      "blue": 57120,
+      "alpha": 1,
+      "rgb": [
+        40800,
+        54570,
+        57120
+      ],
+      "rgba": [
+        40800,
+        54570,
+        57120,
+        1
+      ],
+      "hex": "602a20",
+      "hsl": [
+        189,
+        -17,
+        19200
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 45645,
+      "green": 56355,
+      "blue": 58650,
+      "alpha": 1,
+      "rgb": [
+        45645,
+        56355,
+        58650
+      ],
+      "rgba": [
+        45645,
+        56355,
+        58650,
+        1
+      ],
+      "hex": "4d231a",
+      "hsl": [
+        191,
+        -13,
+        20450
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 54060,
+      "green": 59925,
+      "blue": 61200,
+      "alpha": 1,
+      "rgb": [
+        54060,
+        59925,
+        61200
+      ],
+      "rgba": [
+        54060,
+        59925,
+        61200,
+        1
+      ],
+      "hex": "2c1510",
+      "hsl": [
+        191,
+        -6,
+        22600
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 58395,
+      "green": 61965,
+      "blue": 63750,
+      "alpha": 1,
+      "rgb": [
+        58395,
+        61965,
+        63750
+      ],
+      "rgba": [
+        58395,
+        61965,
+        63750,
+        1
+      ],
+      "hex": "1b0d06",
+      "hsl": [
+        200,
+        -4,
+        23950
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 61710,
+      "green": 63495,
+      "blue": 64515,
+      "alpha": 1,
+      "rgb": [
+        61710,
+        63495,
+        64515
+      ],
+      "rgba": [
+        61710,
+        63495,
+        64515,
+        1
+      ],
+      "hex": "0e0703",
+      "hsl": [
+        202,
+        -2,
+        24750
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 59415,
+      "green": 60945,
+      "blue": 58905,
+      "alpha": 1,
+      "rgb": [
+        59415,
+        60945,
+        58905
+      ],
+      "rgba": [
+        59415,
+        60945,
+        58905,
+        1
+      ],
+      "hex": "171119",
+      "hsl": [
+        105,
+        -2,
+        23500
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 54060,
+      "green": 57120,
+      "blue": 53040,
+      "alpha": 1,
+      "rgb": [
+        54060,
+        57120,
+        53040
+      ],
+      "rgba": [
+        54060,
+        57120,
+        53040,
+        1
+      ],
+      "hex": "2c2030",
+      "hsl": [
+        105,
+        -4,
+        21600
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 48960,
+      "green": 53550,
+      "blue": 47430,
+      "alpha": 1,
+      "rgb": [
+        48960,
+        53550,
+        47430
+      ],
+      "rgba": [
+        48960,
+        53550,
+        47430,
+        1
+      ],
+      "hex": "402e46",
+      "hsl": [
+        105,
+        -6,
+        19800
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 38505,
+      "green": 46410,
+      "blue": 36720,
+      "alpha": 1,
+      "rgb": [
+        38505,
+        46410,
+        36720
+      ],
+      "rgba": [
+        38505,
+        46410,
+        36720,
+        1
+      ],
+      "hex": "694a70",
+      "hsl": [
+        109,
+        -12,
+        16300
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 32895,
+      "green": 43095,
+      "blue": 31620,
+      "alpha": 1,
+      "rgb": [
+        32895,
+        43095,
+        31620
+      ],
+      "rgba": [
+        32895,
+        43095,
+        31620,
+        1
+      ],
+      "hex": "7f5784",
+      "hsl": [
+        113,
+        -15,
+        14650
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 27285,
+      "green": 40035,
+      "blue": 27030,
+      "alpha": 1,
+      "rgb": [
+        27285,
+        40035,
+        27030
+      ],
+      "rgba": [
+        27285,
+        40035,
+        27030,
+        1
+      ],
+      "hex": "956396",
+      "hsl": [
+        119,
+        -20,
+        13150
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 21675,
+      "green": 36975,
+      "blue": 22440,
+      "alpha": 1,
+      "rgb": [
+        21675,
+        36975,
+        22440
+      ],
+      "rgba": [
+        21675,
+        36975,
+        22440,
+        1
+      ],
+      "hex": "ab6fa8",
+      "hsl": [
+        123,
+        -26,
+        11500
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 15810,
+      "green": 34425,
+      "blue": 18870,
+      "alpha": 1,
+      "rgb": [
+        15810,
+        34425,
+        18870
+      ],
+      "rgba": [
+        15810,
+        34425,
+        18870,
+        1
+      ],
+      "hex": "c279b6",
+      "hsl": [
+        130,
+        -37,
+        9850
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 8670,
+      "green": 31875,
+      "blue": 15810,
+      "alpha": 1,
+      "rgb": [
+        8670,
+        31875,
+        15810
+      ],
+      "rgba": [
+        8670,
+        31875,
+        15810,
+        1
+      ],
+      "hex": "de83c2",
+      "hsl": [
+        138,
+        -58,
+        7950
+      ]
+    },
+    {
+      "token": "color",
+      "name": "white",
+      "red": 62475,
+      "green": 23970,
+      "blue": 23970,
+      "alpha": 1,
+      "rgb": [
+        62475,
+        23970,
+        23970
+      ],
+      "rgba": [
+        62475,
+        23970,
+        23970,
+        1
+      ],
+      "hex": "0ba2a2",
+      "hsl": [
+        0,
+        -45,
+        16950
+      ]
+    }
+  ],
+  "gradients": [
+    {
+      "token": "gradient",
+      "name": "linear"
+    },
+    {
+      "token": "gradient",
+      "name": "radial"
+    }
+  ],
+  "shadows": [
+    {
+      "id": "dropShadow",
+      "token": "shadow"
+    }
+  ],
+  "borders": [
+    {},
+    {},
+    {}
+  ],
+  "blurs": [
+    {}
+  ],
+  "fileType": "ADOBEXD"
+}
