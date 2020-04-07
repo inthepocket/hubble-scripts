@@ -42,7 +42,7 @@ function generate_sketch() {
 function generate_adobexd() {
   log "=== ADOBEXD ============================================="
   echo "Generating mocks for Adobe XD"
-  node cli.js --dump "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd/zip" &&
+  node cli.js --dump "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
     mv "$MOCKS_DIR/adobexd/hubble-data.json" "$MOCKS_DIR/adobexd/sample_output.json" &&
     mv "$MOCKS_DIR/adobexd/logdump.json" "$MOCKS_DIR/adobexd/sample_dump.json"
 }
