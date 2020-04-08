@@ -54,7 +54,7 @@ function transform_assets() {
 }
 
 function main() {
-  if [ -f SKETCHTOOL_BINARY ]; then
+  if [ ! -f SKETCHTOOL_BINARY ]; then
     log "sketchtool was not found"
     log "Please install Sketch and follow https://developer.sketch.com/cli/"
     exit 1
