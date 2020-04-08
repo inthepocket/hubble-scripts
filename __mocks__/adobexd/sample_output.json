@@ -595,7 +595,7 @@
           }
         },
         {
-          "position": 0.5038509964942932,
+          "position": 0.5038507580757141,
           "color": {
             "token": "color",
             "name": "hippieGreen",
@@ -762,18 +762,117 @@
   ],
   "borders": [
     {
-      "id": "outside"
+      "id": "outside",
+      "token": "border",
+      "width": 1,
+      "radius": [
+        12.5,
+        12.5,
+        12.5,
+        12.5
+      ],
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      }
     },
     {
-      "id": "gradient-with-corners"
+      "id": "gradientWithCorners",
+      "token": "border",
+      "width": 1,
+      "radius": [
+        8,
+        12.5,
+        12.5,
+        12.5
+      ],
+      "color": {
+        "token": "color",
+        "name": "doveGray",
+        "red": 112,
+        "green": 112,
+        "blue": 112,
+        "alpha": 1,
+        "rgb": [
+          112,
+          112,
+          112
+        ],
+        "rgba": [
+          112,
+          112,
+          112,
+          1
+        ],
+        "hex": "707070",
+        "hsl": [
+          0,
+          0,
+          44
+        ]
+      }
     },
     {
-      "id": "center"
+      "id": "center",
+      "token": "border",
+      "width": 1,
+      "radius": 0,
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      }
     }
   ],
   "blurs": [
     {
-      "id": "gaussian"
+      "id": "gaussian",
+      "type": "GAUSSIAN",
+      "token": "blur",
+      "radius": 2,
+      "saturation": 1,
+      "motionAngle": 0
     }
   ],
   "fileType": "ADOBEXD"
