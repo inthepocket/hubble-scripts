@@ -61,7 +61,9 @@
         196,
         73,
         64
-      ]
+      ],
+      "id": "primary900",
+      "variant": "900"
     },
     {
       "token": "color",
@@ -86,7 +88,9 @@
         188,
         56,
         59
-      ]
+      ],
+      "id": "primary800",
+      "variant": "800"
     },
     {
       "token": "color",
@@ -111,7 +115,9 @@
         189,
         54,
         65
-      ]
+      ],
+      "id": "primary700",
+      "variant": "700"
     },
     {
       "token": "color",
@@ -136,7 +142,9 @@
         189,
         52,
         71
-      ]
+      ],
+      "id": "primary600",
+      "variant": "600"
     },
     {
       "token": "color",
@@ -161,7 +169,9 @@
         189,
         51,
         75
-      ]
+      ],
+      "id": "primary500",
+      "variant": "500"
     },
     {
       "token": "color",
@@ -186,7 +196,9 @@
         191,
         50,
         80
-      ]
+      ],
+      "id": "primary400",
+      "variant": "400"
     },
     {
       "token": "color",
@@ -211,7 +223,9 @@
         191,
         48,
         89
-      ]
+      ],
+      "id": "primary300",
+      "variant": "300"
     },
     {
       "token": "color",
@@ -236,7 +250,9 @@
         200,
         68,
         94
-      ]
+      ],
+      "id": "primary200",
+      "variant": "200"
     },
     {
       "token": "color",
@@ -261,7 +277,9 @@
         202,
         73,
         97
-      ]
+      ],
+      "id": "primary100",
+      "variant": "100"
     },
     {
       "token": "color",
@@ -286,7 +304,9 @@
         105,
         20,
         92
-      ]
+      ],
+      "id": "secondary100",
+      "variant": "100"
     },
     {
       "token": "color",
@@ -311,7 +331,9 @@
         105,
         21,
         85
-      ]
+      ],
+      "id": "secondary200",
+      "variant": "200"
     },
     {
       "token": "color",
@@ -336,7 +358,9 @@
         105,
         21,
         78
-      ]
+      ],
+      "id": "secondary300",
+      "variant": "300"
     },
     {
       "token": "color",
@@ -361,7 +385,9 @@
         109,
         21,
         64
-      ]
+      ],
+      "id": "secondary400",
+      "variant": "400"
     },
     {
       "token": "color",
@@ -386,7 +412,9 @@
         113,
         21,
         57
-      ]
+      ],
+      "id": "secondary500",
+      "variant": "500"
     },
     {
       "token": "color",
@@ -411,7 +439,9 @@
         119,
         21,
         52
-      ]
+      ],
+      "id": "secondary600",
+      "variant": "600"
     },
     {
       "token": "color",
@@ -436,7 +466,9 @@
         123,
         26,
         45
-      ]
+      ],
+      "id": "secondary700",
+      "variant": "700"
     },
     {
       "token": "color",
@@ -461,7 +493,9 @@
         130,
         37,
         39
-      ]
+      ],
+      "id": "secondary800",
+      "variant": "800"
     },
     {
       "token": "color",
@@ -486,7 +520,9 @@
         138,
         57,
         31
-      ]
+      ],
+      "id": "secondary900",
+      "variant": "900"
     },
     {
       "token": "color",
@@ -511,17 +547,181 @@
         0,
         88,
         66
-      ]
+      ],
+      "id": "red",
+      "variant": "red"
     }
   ],
   "gradients": [
     {
       "token": "gradient",
-      "name": "linear"
+      "name": "linear",
+      "type": "LINEAR",
+      "from": [
+        0.5,
+        1
+      ],
+      "to": [
+        0.5,
+        3.0616171314629196e-17
+      ],
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "token": "color",
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": [
+              151,
+              182,
+              144
+            ],
+            "rgba": [
+              151,
+              182,
+              144,
+              1
+            ],
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 0.5038507580757141,
+          "color": {
+            "token": "color",
+            "name": "hippieGreen",
+            "red": 85,
+            "green": 145,
+            "blue": 88,
+            "alpha": 1,
+            "rgb": [
+              85,
+              145,
+              88
+            ],
+            "rgba": [
+              85,
+              145,
+              88,
+              1
+            ],
+            "hex": "559158",
+            "hsl": [
+              123,
+              26,
+              45
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "token": "color",
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": [
+              34,
+              125,
+              62
+            ],
+            "rgba": [
+              34,
+              125,
+              62,
+              1
+            ],
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
     },
     {
       "token": "gradient",
-      "name": "radial"
+      "name": "radial",
+      "type": "RADIAL",
+      "from": [
+        0.5,
+        1
+      ],
+      "to": [
+        0.5,
+        1
+      ],
+      "stops": [
+        {
+          "position": 0,
+          "color": {
+            "token": "color",
+            "name": "norway",
+            "red": 151,
+            "green": 182,
+            "blue": 144,
+            "alpha": 1,
+            "rgb": [
+              151,
+              182,
+              144
+            ],
+            "rgba": [
+              151,
+              182,
+              144,
+              1
+            ],
+            "hex": "97b690",
+            "hsl": [
+              109,
+              21,
+              64
+            ]
+          }
+        },
+        {
+          "position": 1,
+          "color": {
+            "token": "color",
+            "name": "salem",
+            "red": 34,
+            "green": 125,
+            "blue": 62,
+            "alpha": 1,
+            "rgb": [
+              34,
+              125,
+              62
+            ],
+            "rgba": [
+              34,
+              125,
+              62,
+              1
+            ],
+            "hex": "227d3e",
+            "hsl": [
+              138,
+              57,
+              31
+            ]
+          }
+        }
+      ]
     }
   ],
   "shadows": [
