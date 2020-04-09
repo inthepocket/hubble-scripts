@@ -839,7 +839,7 @@
       "id": "center",
       "token": "border",
       "width": 1,
-      "type": null,
+      "type": "CENTER",
       "radius": 1,
       "color": {
         "token": "color",
