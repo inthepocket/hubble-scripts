@@ -765,6 +765,7 @@
       "id": "outside",
       "token": "border",
       "width": 1,
+      "type": "OUTSIDE",
       "radius": [
         12.5,
         12.5,
@@ -801,6 +802,7 @@
       "id": "gradientWithCorners",
       "token": "border",
       "width": 1,
+      "type": "OUTSIDE",
       "radius": [
         8,
         12.5,
@@ -837,7 +839,8 @@
       "id": "center",
       "token": "border",
       "width": 1,
-      "radius": 0,
+      "type": null,
+      "radius": 1,
       "color": {
         "token": "color",
         "name": "geraldine",
@@ -871,6 +874,14 @@
       "type": "GAUSSIAN",
       "token": "blur",
       "radius": 2,
+      "saturation": 1,
+      "motionAngle": 0
+    },
+    {
+      "id": "background",
+      "type": "BACKGROUND",
+      "token": "blur",
+      "radius": 2.2736899852752686,
       "saturation": 1,
       "motionAngle": 0
     }
