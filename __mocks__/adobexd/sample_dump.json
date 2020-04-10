@@ -2671,585 +2671,194 @@
   ],
   "textStyles": [
     {
-      "name": "paragraph",
-      "value": {
-        "type": "text",
-        "name": "Paragraph",
-        "id": "f6970455-fd95-43e3-8cd7-67906473592c",
-        "transform": {
-          "a": 1,
-          "b": 0,
-          "c": 0,
-          "d": 1,
-          "tx": -603,
-          "ty": 34
-        },
-        "meta": {
-          "ux": {
-            "hasCustomName": true,
-            "singleTextObject": true,
-            "rangedStyles": [
-              {
-                "length": 9,
-                "linkId": "",
-                "fontFamily": "FiraSans-Book",
-                "fontStyle": "",
-                "postscriptName": "FiraSans-Book",
-                "fontSize": 18,
-                "charSpacing": 0,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4278190080
-                },
-                "strikethrough": false
+      "id": "6b338946-0549-401a-a32b-349b2676e598",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 1 / Align / Left",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Heading 1 / Align / Left",
+      "index": 21,
+      "representations": [
+        {
+          "id": "a08dea7f-24e4-4ad9-9b8b-06d87f88fe03",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Bold",
+            "fontStyle": "",
+            "fontSize": 48,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 16,
+                "g": 6,
+                "b": 159
               }
-            ],
-            "localTransform": {
-              "a": 1,
-              "b": 0,
-              "c": 0,
-              "d": 1,
-              "tx": -1,
-              "ty": -3
-            }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 57.59999847412109,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Bold"
           }
-        },
-        "style": {
-          "fill": {
-            "type": "solid",
-            "color": {
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "48f16b48-f6b2-43fb-91fb-74ac06e702b4",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 2",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Heading 2",
+      "index": 22,
+      "representations": [
+        {
+          "id": "dd9c3258-b307-4689-af28-17ef969e1a9d",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Regular",
+            "fontStyle": "",
+            "fontSize": 36,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 16,
+                "g": 6,
+                "b": 159
+              }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 0,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Regular"
+          }
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "5a843e7d-484f-4fb3-8d40-61c1c75fa12b",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Paragraph",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Paragraph",
+      "index": 23,
+      "representations": [
+        {
+          "id": "4fa6982c-e449-4913-88e7-42fa6ed9721a",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Book",
+            "fontStyle": "",
+            "fontSize": 18,
+            "fontColor": {
               "mode": "RGB",
               "value": {
                 "r": 0,
                 "g": 0,
                 "b": 0
               }
-            }
-          },
-          "filters": [
-            {
-              "type": "uxdesign#blur",
-              "global": true,
-              "params": {
-                "blurAmount": 10,
-                "brightnessAmount": 0,
-                "fillOpacity": 1,
-                "backgroundEffect": false
-              },
-              "visible": false
-            }
-          ],
-          "font": {
-            "postscriptName": "FiraSans-Book",
-            "family": "FiraSans-Book",
-            "size": 18
+            },
+            "charSpacing": 0,
+            "lineSpacing": 0,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Book"
           }
-        },
-        "text": {
-          "frame": {
-            "type": "area",
-            "width": 115,
-            "height": 22
-          },
-          "paragraphs": [
-            {
-              "lines": [
-                [
-                  {
-                    "y": 17,
-                    "from": 0,
-                    "to": 9,
-                    "x": 0,
-                    "style": {
-                      "font": {
-                        "postscriptName": "FiraSans-Book",
-                        "family": "Fira Sans",
-                        "style": "Book"
-                      }
-                    }
-                  }
-                ]
-              ]
-            }
-          ],
-          "rawText": "Paragraph"
         }
-      }
+      ],
+      "updateElement": 0
     },
     {
-      "name": "quote",
-      "value": {
-        "type": "text",
-        "name": "Quote",
-        "id": "c6f240b2-12dc-4442-a1aa-db37dd2bec61",
-        "transform": {
-          "a": 1,
-          "b": 0,
-          "c": 0,
-          "d": 1,
-          "tx": -603,
-          "ty": 67
-        },
-        "meta": {
-          "ux": {
-            "hasCustomName": true,
-            "singleTextObject": true,
-            "rangedStyles": [
-              {
-                "length": 4,
-                "linkId": "",
-                "fontFamily": "Helvetica-Bold",
-                "fontStyle": "",
-                "postscriptName": "Helvetica-Bold",
-                "fontSize": 14,
-                "charSpacing": 42.85714340209961,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4290427578
-                },
-                "strikethrough": false
-              },
-              {
-                "length": 1,
-                "linkId": "",
-                "fontFamily": "Helvetica-Bold",
-                "fontStyle": "",
-                "postscriptName": "Helvetica-Bold",
-                "fontSize": 14,
-                "charSpacing": 0,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4290427578
-                },
-                "strikethrough": false
-              }
-            ],
-            "localTransform": {
-              "a": 1,
-              "b": 0,
-              "c": 0,
-              "d": 1,
-              "tx": 0,
-              "ty": -3
-            }
-          }
-        },
-        "style": {
-          "fill": {
-            "type": "solid",
-            "color": {
+      "id": "f287f724-5e9c-48fb-a386-9c4b0522fe12",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Quote",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Quote",
+      "index": 24,
+      "representations": [
+        {
+          "id": "4ab3f56f-743e-4196-bc43-4bfa0bc64f46",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "Helvetica-Bold",
+            "fontStyle": "",
+            "fontSize": 14,
+            "fontColor": {
               "mode": "RGB",
               "value": {
                 "r": 186,
                 "g": 186,
                 "b": 186
               }
-            }
-          },
-          "filters": [
-            {
-              "type": "uxdesign#blur",
-              "global": true,
-              "params": {
-                "blurAmount": 10,
-                "brightnessAmount": 0,
-                "fillOpacity": 1,
-                "backgroundEffect": false
-              },
-              "visible": false
-            }
-          ],
-          "font": {
-            "postscriptName": "Helvetica-Bold",
-            "family": "Helvetica-Bold",
-            "size": 14
-          },
-          "textAttributes": {
-            "lineHeight": 14
+            },
+            "charSpacing": 42.85714456013271,
+            "lineSpacing": 0,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "Helvetica-Bold"
           }
-        },
-        "text": {
-          "frame": {
-            "type": "area",
-            "width": 69,
-            "height": 17
-          },
-          "paragraphs": [
-            {
-              "lines": [
-                [
-                  {
-                    "y": 11,
-                    "from": 0,
-                    "to": 4,
-                    "x": 0,
-                    "style": {
-                      "font": {
-                        "postscriptName": "Helvetica-Bold",
-                        "family": "Helvetica",
-                        "style": "Bold"
-                      },
-                      "textAttributes": {
-                        "letterSpacing": 42.85714340209961
-                      }
-                    }
-                  },
-                  {
-                    "y": 11,
-                    "from": 4,
-                    "to": 5,
-                    "style": {
-                      "font": {
-                        "postscriptName": "Helvetica-Bold",
-                        "family": "Helvetica",
-                        "style": "Bold"
-                      }
-                    }
-                  }
-                ]
-              ]
-            }
-          ],
-          "rawText": "Quote"
         }
-      }
+      ],
+      "updateElement": 0
     },
     {
-      "name": "heading2",
-      "value": {
-        "type": "text",
-        "name": "Heading 2",
-        "id": "8147c9ed-08e0-4b1b-891e-faf894e15056",
-        "transform": {
-          "a": 1,
-          "b": 0,
-          "c": 0,
-          "d": 1,
-          "tx": -605,
-          "ty": -22
-        },
-        "meta": {
-          "ux": {
-            "hasCustomName": true,
-            "singleTextObject": true,
-            "rangedStyles": [
-              {
-                "length": 9,
-                "linkId": "",
-                "fontFamily": "FiraSans-Regular",
-                "fontStyle": "",
-                "postscriptName": "FiraSans-Regular",
-                "fontSize": 36,
-                "charSpacing": 0,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4279240351
-                },
-                "strikethrough": false
-              }
-            ],
-            "localTransform": {
-              "a": 1,
-              "b": 0,
-              "c": 0,
-              "d": 1,
-              "tx": -3,
-              "ty": -5
-            }
-          }
-        },
-        "style": {
-          "fill": {
-            "type": "solid",
-            "color": {
+      "id": "5e0ae0ff-54a3-4fa0-ac84-8bc78bd5e681",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 1 / Align / Right",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Heading 1 / Align / Right",
+      "index": 25,
+      "representations": [
+        {
+          "id": "d3671155-a741-48c8-8c85-dac230e388f9",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Bold",
+            "fontStyle": "",
+            "fontSize": 48,
+            "fontColor": {
               "mode": "RGB",
               "value": {
                 "r": 16,
                 "g": 6,
                 "b": 159
               }
-            }
-          },
-          "filters": [
-            {
-              "type": "uxdesign#blur",
-              "global": true,
-              "params": {
-                "blurAmount": 10,
-                "brightnessAmount": 0,
-                "fillOpacity": 1,
-                "backgroundEffect": false
-              },
-              "visible": false
-            }
-          ],
-          "font": {
-            "postscriptName": "FiraSans-Regular",
-            "family": "FiraSans-Regular",
-            "size": 36
+            },
+            "charSpacing": 0,
+            "lineSpacing": 57.59999847412109,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Bold"
           }
-        },
-        "text": {
-          "frame": {
-            "type": "area",
-            "width": 224,
-            "height": 44
-          },
-          "paragraphs": [
-            {
-              "lines": [
-                [
-                  {
-                    "y": 34,
-                    "from": 0,
-                    "to": 9,
-                    "x": 0,
-                    "style": {
-                      "font": {
-                        "postscriptName": "FiraSans-Regular",
-                        "family": "Fira Sans",
-                        "style": "Regular"
-                      }
-                    }
-                  }
-                ]
-              ]
-            }
-          ],
-          "rawText": "Heading 2"
         }
-      }
-    },
-    {
-      "name": "heading1/right",
-      "value": {
-        "type": "text",
-        "name": "Heading 1",
-        "id": "b0dc0a5e-7b73-441a-a2cb-bf98bba57680",
-        "transform": {
-          "a": 1,
-          "b": 0,
-          "c": 0,
-          "d": 1,
-          "tx": -603,
-          "ty": -89.4000015258789
-        },
-        "meta": {
-          "ux": {
-            "hasCustomName": true,
-            "singleTextObject": true,
-            "rangedStyles": [
-              {
-                "length": 9,
-                "linkId": "",
-                "fontFamily": "FiraSans-Bold",
-                "fontStyle": "",
-                "postscriptName": "FiraSans-Bold",
-                "fontSize": 48,
-                "charSpacing": 0,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4279240351
-                },
-                "strikethrough": false
-              }
-            ],
-            "localTransform": {
-              "a": 1,
-              "b": 0,
-              "c": 0,
-              "d": 1,
-              "tx": 0,
-              "ty": -3.4000015258789062
-            }
-          }
-        },
-        "style": {
-          "fill": {
-            "type": "solid",
-            "color": {
-              "mode": "RGB",
-              "value": {
-                "r": 16,
-                "g": 6,
-                "b": 159
-              }
-            }
-          },
-          "filters": [
-            {
-              "type": "uxdesign#blur",
-              "global": true,
-              "params": {
-                "blurAmount": 10,
-                "brightnessAmount": 0,
-                "fillOpacity": 1,
-                "backgroundEffect": false
-              },
-              "visible": false
-            }
-          ],
-          "font": {
-            "postscriptName": "FiraSans-Bold",
-            "family": "FiraSans-Bold",
-            "size": 48
-          },
-          "textAttributes": {
-            "lineHeight": 57.599998474121094,
-            "paragraphAlign": "right"
-          }
-        },
-        "text": {
-          "frame": {
-            "type": "area",
-            "width": 228,
-            "height": 58
-          },
-          "paragraphs": [
-            {
-              "lines": [
-                [
-                  {
-                    "y": 45,
-                    "from": 0,
-                    "to": 9,
-                    "x": 13.00799560546875,
-                    "style": {
-                      "font": {
-                        "postscriptName": "FiraSans-Bold",
-                        "family": "Fira Sans",
-                        "style": "Bold"
-                      }
-                    }
-                  }
-                ]
-              ]
-            }
-          ],
-          "rawText": "Heading 1"
-        }
-      }
-    },
-    {
-      "name": "heading1/left",
-      "value": {
-        "type": "text",
-        "name": "Heading 1",
-        "id": "5402c75a-0b6d-4a1b-9fad-2406eae96aef",
-        "transform": {
-          "a": 1,
-          "b": 0,
-          "c": 0,
-          "d": 1,
-          "tx": -603,
-          "ty": -156.39999389648438
-        },
-        "meta": {
-          "ux": {
-            "hasCustomName": true,
-            "singleTextObject": true,
-            "rangedStyles": [
-              {
-                "length": 9,
-                "linkId": "",
-                "fontFamily": "FiraSans-Bold",
-                "fontStyle": "",
-                "postscriptName": "FiraSans-Bold",
-                "fontSize": 48,
-                "charSpacing": 0,
-                "underline": false,
-                "textTransform": "none",
-                "textScript": "none",
-                "fill": {
-                  "value": 4279240351
-                },
-                "strikethrough": false
-              }
-            ],
-            "localTransform": {
-              "a": 1,
-              "b": 0,
-              "c": 0,
-              "d": 1,
-              "tx": 0,
-              "ty": -3.399993896484375
-            }
-          }
-        },
-        "style": {
-          "fill": {
-            "type": "solid",
-            "color": {
-              "mode": "RGB",
-              "value": {
-                "r": 16,
-                "g": 6,
-                "b": 159
-              }
-            }
-          },
-          "filters": [
-            {
-              "type": "uxdesign#blur",
-              "global": true,
-              "params": {
-                "blurAmount": 10,
-                "brightnessAmount": 0,
-                "fillOpacity": 1,
-                "backgroundEffect": false
-              },
-              "visible": false
-            }
-          ],
-          "font": {
-            "postscriptName": "FiraSans-Bold",
-            "family": "FiraSans-Bold",
-            "size": 48
-          },
-          "textAttributes": {
-            "lineHeight": 57.599998474121094
-          }
-        },
-        "text": {
-          "frame": {
-            "type": "area",
-            "width": 228,
-            "height": 58
-          },
-          "paragraphs": [
-            {
-              "lines": [
-                [
-                  {
-                    "y": 45,
-                    "from": 0,
-                    "to": 9,
-                    "x": 0,
-                    "style": {
-                      "font": {
-                        "postscriptName": "FiraSans-Bold",
-                        "family": "Fira Sans",
-                        "style": "Bold"
-                      }
-                    }
-                  }
-                ]
-              ]
-            }
-          ],
-          "rawText": "Heading 1"
-        }
-      }
+      ],
+      "updateElement": 0
     }
   ],
   "shadows": [

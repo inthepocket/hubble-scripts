@@ -2,6 +2,24 @@
   "textStyles": [
     {
       "token": "text-style",
+      "id": "heading1",
+      "weight": "bold",
+      "size": 48,
+      "family": "FiraSans-Bold",
+      "borderBottom": null,
+      "kerning": null
+    },
+    {
+      "token": "text-style",
+      "id": "heading2",
+      "weight": "regular",
+      "size": 36,
+      "family": "FiraSans-Regular",
+      "borderBottom": null,
+      "kerning": null
+    },
+    {
+      "token": "text-style",
       "id": "paragraph",
       "weight": "book",
       "size": 18,
@@ -17,24 +35,6 @@
       "family": "Helvetica-Bold",
       "borderBottom": null,
       "kerning": 42.9
-    },
-    {
-      "token": "text-style",
-      "id": "heading2",
-      "weight": "regular",
-      "size": 36,
-      "family": "FiraSans-Regular",
-      "borderBottom": null,
-      "kerning": null
-    },
-    {
-      "token": "text-style",
-      "id": "heading1",
-      "weight": "bold",
-      "size": 48,
-      "family": "FiraSans-Bold",
-      "borderBottom": null,
-      "kerning": null
     }
   ],
   "colors": [
