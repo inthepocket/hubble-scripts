@@ -2967,6 +2967,9 @@
       }
     }
   ],
+  "grid": {
+    "size": 8
+  },
   "fonts": [
     "FiraSans-Bold",
     "FiraSans-Regular",
