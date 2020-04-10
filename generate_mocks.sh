@@ -45,6 +45,10 @@ function generate_adobexd() {
   node cli.js --dump "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
     mv "$MOCKS_DIR/adobexd/hubble-data.json" "$MOCKS_DIR/adobexd/sample_output.json" &&
     mv "$MOCKS_DIR/adobexd/logdump.json" "$MOCKS_DIR/adobexd/sample_dump.json"
+
+  echo "Generating mocks for Adobe XD: Style Dictionary"
+  node cli.js --useStyleDictionaryOutput "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" &&
+    mv hubble-style-dictionary-tokens.json "$MOCKS_DIR/adobexd/sample_output.styledictionary.json"
 }
 
 function main() {
