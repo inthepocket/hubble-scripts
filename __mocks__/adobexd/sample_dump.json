@@ -1,5 +1,5 @@
 {
-  "colorTokens": [
+  "colors": [
     {
       "name": "primary/900",
       "value": {
@@ -2038,7 +2038,7 @@
       }
     }
   ],
-  "blurTokens": [
+  "blurs": [
     {
       "name": "gaussian",
       "value": {
@@ -2202,7 +2202,7 @@
       }
     }
   ],
-  "borderTokens": [
+  "borders": [
     {
       "name": "outside",
       "value": {
@@ -2443,7 +2443,7 @@
       }
     }
   ],
-  "gradientTokens": [
+  "gradients": [
     {
       "name": "linear",
       "value": {
@@ -2669,7 +2669,7 @@
       }
     }
   ],
-  "textStyleTokens": [
+  "textStyles": [
     {
       "name": "paragraph",
       "value": {
@@ -3252,9 +3252,9 @@
       }
     }
   ],
-  "shadowTokens": [
+  "shadows": [
     {
-      "name": "drop-shadow/simple",
+      "name": "simple",
       "value": {
         "type": "shape",
         "name": "Rectangle",
@@ -3358,5 +3358,5 @@
       }
     }
   ],
-  "manifestVersion": 6
+  "version": 6
 }
