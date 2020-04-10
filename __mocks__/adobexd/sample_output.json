@@ -886,5 +886,11 @@
       "motionAngle": 0
     }
   ],
+  "fonts": [
+    "FiraSans-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book",
+    "Helvetica-Bold"
+  ],
   "fileType": "ADOBEXD"
 }

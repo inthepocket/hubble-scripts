@@ -2967,5 +2967,11 @@
       }
     }
   ],
+  "fonts": [
+    "FiraSans-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book",
+    "Helvetica-Bold"
+  ],
   "version": 6
 }
