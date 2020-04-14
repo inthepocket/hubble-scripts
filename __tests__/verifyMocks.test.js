@@ -1,5 +1,6 @@
 const sketchDump = require('../__mocks__/sketch/sample_dump.json');
 const figmaDump = require('../__mocks__/figma/sample_dump.json');
+const adobeXDDump = require('../__mocks__/adobexd/sample_dump.json');
 
 const genericSketchArtboards = require('../__mocks__/sketch/sample_output.artboard.json');
 const genericSketchDocument = require('../__mocks__/sketch/sample_output.document.json');
@@ -7,6 +8,9 @@ const styleDictSketch = require('../__mocks__/sketch/sample_output.styledictiona
 
 const genericFigma = require('../__mocks__/figma/sample_output.json');
 const styleDictFigma = require('../__mocks__/figma/sample_output.styledictionary.json');
+
+const genericAdobeXD = require('../__mocks__/adobexd/sample_output.json');
+const styleDictAdobeXD = require('../__mocks__/adobexd/sample_output.styledictionary.json');
 
 /**
  * This is a very basic snapshot-diffing test to harness
@@ -37,6 +41,18 @@ describe('Verify that the mocks are unchanged', () => {
     });
     it('-> Style Dictionary', () => {
       expect(styleDictFigma).toMatchSnapshot();
+    });
+  });
+
+  describe('for Adobe XD', () => {
+    it.skip('-> Raw dump', () => {
+      expect(adobeXDDump).toMatchSnapshot();
+    });
+    it('-> Generic Tokens', () => {
+      expect(genericAdobeXD).toMatchSnapshot();
+    });
+    it('-> Style Dictionary', () => {
+      expect(styleDictAdobeXD).toMatchSnapshot();
     });
   });
 });
