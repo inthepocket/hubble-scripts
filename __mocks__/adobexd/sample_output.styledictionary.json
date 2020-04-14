@@ -91,7 +91,7 @@
         "value": "#FF9696",
         "comment": "geraldine"
       },
-      "inner": {
+      "inside": {
         "value": "#FF9696",
         "comment": "geraldine"
       }
@@ -160,7 +160,7 @@
       "center": {
         "value": "1"
       },
-      "inner": {
+      "inside": {
         "value": "1"
       }
     }

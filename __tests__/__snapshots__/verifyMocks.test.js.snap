@@ -153,7 +153,7 @@ Object {
         ],
         "token": "color",
       },
-      "id": "inner",
+      "id": "inside",
       "radius": 1,
       "token": "border",
       "type": "INSIDE",
@@ -1064,7 +1064,7 @@ Object {
         "comment": "doveGray",
         "value": "#707070",
       },
-      "inner": Object {
+      "inside": Object {
         "comment": "geraldine",
         "value": "#FF9696",
       },
@@ -1126,7 +1126,7 @@ Object {
       "gradientWithCorners": Object {
         "value": "1",
       },
-      "inner": Object {
+      "inside": Object {
         "value": "1",
       },
       "outside": Object {

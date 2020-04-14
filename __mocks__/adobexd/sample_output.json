@@ -872,7 +872,7 @@
       }
     },
     {
-      "id": "inner",
+      "id": "inside",
       "token": "border",
       "width": 1,
       "type": "INSIDE",

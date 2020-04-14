@@ -2443,7 +2443,7 @@
       }
     },
     {
-      "name": "inner",
+      "name": "inside",
       "value": {
         "type": "shape",
         "name": "Rectangle",

@@ -27,7 +27,7 @@ Array [
     "type": "GAUSSIAN",
   },
   Object {
-    "id": "inner",
+    "id": "inside",
     "motionAngle": 0,
     "radius": 10,
     "saturation": 1,
@@ -171,7 +171,7 @@ Array [
       ],
       "token": "color",
     },
-    "id": "inner",
+    "id": "inside",
     "radius": 1,
     "token": "border",
     "type": "INSIDE",
