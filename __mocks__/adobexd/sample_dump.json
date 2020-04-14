@@ -2713,7 +2713,7 @@
       "type": "application/vnd.adobe.element.characterstyle+dcx",
       "name": "Heading 2",
       "created": 1580114960865,
-      "modified": 1580114960865,
+      "modified": 1586856212167,
       "displayName": "Heading 2",
       "index": 22,
       "representations": [
@@ -2734,7 +2734,7 @@
               }
             },
             "charSpacing": 0,
-            "lineSpacing": 0,
+            "lineSpacing": 43.2,
             "linkId": "",
             "underline": false,
             "strikethrough": false,
@@ -2751,7 +2751,7 @@
       "type": "application/vnd.adobe.element.characterstyle+dcx",
       "name": "Paragraph",
       "created": 1580114960865,
-      "modified": 1580114960865,
+      "modified": 1586856197064,
       "displayName": "Paragraph",
       "index": 23,
       "representations": [
@@ -2772,7 +2772,7 @@
               }
             },
             "charSpacing": 0,
-            "lineSpacing": 0,
+            "lineSpacing": 21.6,
             "linkId": "",
             "underline": false,
             "strikethrough": false,
@@ -2789,7 +2789,7 @@
       "type": "application/vnd.adobe.element.characterstyle+dcx",
       "name": "Quote",
       "created": 1580114960865,
-      "modified": 1580114960865,
+      "modified": 1586856220794,
       "displayName": "Quote",
       "index": 24,
       "representations": [
@@ -2810,7 +2810,7 @@
               }
             },
             "charSpacing": 42.85714456013271,
-            "lineSpacing": 0,
+            "lineSpacing": 16.8,
             "linkId": "",
             "underline": false,
             "strikethrough": false,

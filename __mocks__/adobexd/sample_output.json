@@ -6,6 +6,7 @@
       "weight": "bold",
       "size": 48,
       "family": "FiraSans-Bold",
+      "lineHeight": 57.6,
       "borderBottom": null,
       "kerning": null
     },
@@ -15,6 +16,7 @@
       "weight": "regular",
       "size": 36,
       "family": "FiraSans-Regular",
+      "lineHeight": 43.2,
       "borderBottom": null,
       "kerning": null
     },
@@ -24,6 +26,7 @@
       "weight": "book",
       "size": 18,
       "family": "FiraSans-Book",
+      "lineHeight": 21.6,
       "borderBottom": null,
       "kerning": null
     },
@@ -33,6 +36,7 @@
       "weight": "bold",
       "size": 14,
       "family": "Helvetica-Bold",
+      "lineHeight": 16.8,
       "borderBottom": null,
       "kerning": 42.9
     }
