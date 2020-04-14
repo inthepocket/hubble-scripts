@@ -2297,7 +2297,7 @@
           "c": 0,
           "d": 1,
           "tx": 378,
-          "ty": -36
+          "ty": 25
         },
         "meta": {
           "ux": {
@@ -2417,6 +2417,82 @@
               }
             },
             "width": 1,
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25
+        }
+      }
+    },
+    {
+      "name": "inner",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "3c5dbac3-1bca-4fda-9f13-ea81dac802e8",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 378,
+          "ty": -32
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "align": "inside",
             "miterLimit": 10
           },
           "filters": [

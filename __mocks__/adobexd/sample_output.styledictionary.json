@@ -90,6 +90,10 @@
       "center": {
         "value": "#FF9696",
         "comment": "geraldine"
+      },
+      "inner": {
+        "value": "#FF9696",
+        "comment": "geraldine"
       }
     },
     "shadow": {
@@ -154,6 +158,9 @@
         "value": "1"
       },
       "center": {
+        "value": "1"
+      },
+      "inner": {
         "value": "1"
       }
     }

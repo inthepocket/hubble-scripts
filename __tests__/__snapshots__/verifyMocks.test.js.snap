@@ -127,6 +127,38 @@ Object {
       "type": "CENTER",
       "width": 1,
     },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "inner",
+      "radius": 1,
+      "token": "border",
+      "type": "INSIDE",
+      "width": 1,
+    },
   ],
   "colors": Array [
     Object {
@@ -1032,6 +1064,10 @@ Object {
         "comment": "doveGray",
         "value": "#707070",
       },
+      "inner": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
       "outside": Object {
         "comment": "geraldine",
         "value": "#FF9696",
@@ -1088,6 +1124,9 @@ Object {
         "value": "1",
       },
       "gradientWithCorners": Object {
+        "value": "1",
+      },
+      "inner": Object {
         "value": "1",
       },
       "outside": Object {

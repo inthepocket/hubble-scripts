@@ -26,6 +26,14 @@ Array [
     "token": "blur",
     "type": "GAUSSIAN",
   },
+  Object {
+    "id": "inner",
+    "motionAngle": 0,
+    "radius": 10,
+    "saturation": 1,
+    "token": "blur",
+    "type": "GAUSSIAN",
+  },
 ]
 `;
 
@@ -135,6 +143,38 @@ Array [
     "radius": 1,
     "token": "border",
     "type": "CENTER",
+    "width": 1,
+  },
+  Object {
+    "color": Object {
+      "alpha": 1,
+      "blue": 150,
+      "green": 150,
+      "hex": "ff9696",
+      "hsl": Array [
+        0,
+        100,
+        79,
+      ],
+      "name": "geraldine",
+      "red": 255,
+      "rgb": Array [
+        255,
+        150,
+        150,
+      ],
+      "rgba": Array [
+        255,
+        150,
+        150,
+        1,
+      ],
+      "token": "color",
+    },
+    "id": "inner",
+    "radius": 1,
+    "token": "border",
+    "type": "INSIDE",
     "width": 1,
   },
 ]

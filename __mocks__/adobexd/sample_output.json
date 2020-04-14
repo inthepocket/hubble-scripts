@@ -870,6 +870,38 @@
           79
         ]
       }
+    },
+    {
+      "id": "inner",
+      "token": "border",
+      "width": 1,
+      "type": "INSIDE",
+      "radius": 1,
+      "color": {
+        "token": "color",
+        "name": "geraldine",
+        "red": 255,
+        "green": 150,
+        "blue": 150,
+        "alpha": 1,
+        "rgb": [
+          255,
+          150,
+          150
+        ],
+        "rgba": [
+          255,
+          150,
+          150,
+          1
+        ],
+        "hex": "ff9696",
+        "hsl": [
+          0,
+          100,
+          79
+        ]
+      }
     }
   ],
   "blurs": [
