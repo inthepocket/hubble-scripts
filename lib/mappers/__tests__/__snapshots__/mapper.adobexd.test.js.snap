@@ -11,7 +11,7 @@ Array [
     "type": "GAUSSIAN",
   },
   Object {
-    "id": "gradient-with-corners",
+    "id": "gradientWithCorners",
     "motionAngle": 0,
     "radius": 10,
     "saturation": 1,
