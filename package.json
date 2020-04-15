@@ -1,7 +1,7 @@
 {
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "homepage": "https://hubble.inthepocket.design",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
