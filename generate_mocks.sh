@@ -39,8 +39,20 @@ function generate_sketch() {
     mv hubble-style-dictionary-tokens.json "$MOCKS_DIR/sketch/sample_output.styledictionary.json"
 }
 
+function generate_adobexd() {
+  log "=== ADOBEXD ============================================="
+  echo "Generating mocks for Adobe XD"
+  node cli.js --dump "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
+    mv "$MOCKS_DIR/adobexd/hubble-data.json" "$MOCKS_DIR/adobexd/sample_output.json" &&
+    mv "$MOCKS_DIR/adobexd/logdump.json" "$MOCKS_DIR/adobexd/sample_dump.json"
+
+  echo "Generating mocks for Adobe XD: Style Dictionary"
+  node cli.js --useStyleDictionaryOutput "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
+    mv "$MOCKS_DIR/adobexd/hubble-style-dictionary-tokens.json" "$MOCKS_DIR/adobexd/sample_output.styledictionary.json"
+}
+
 function main() {
-  local arr=("sketch" "figma")
+  local arr=("sketch" "figma" "adobexd")
 
   for item in "${arr[@]}"; do
     if [ ! -d "$MOCKS_DIR/$item" ]; then

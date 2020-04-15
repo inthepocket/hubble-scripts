@@ -1,5 +1,1186 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Verify that the mocks are unchanged for Adobe XD -> Generic Tokens 1`] = `
+Object {
+  "blurs": Array [
+    Object {
+      "id": "gaussian",
+      "motionAngle": 0,
+      "radius": 2,
+      "saturation": 1,
+      "token": "blur",
+      "type": "GAUSSIAN",
+    },
+    Object {
+      "id": "background",
+      "motionAngle": 0,
+      "radius": 2.2736899852752686,
+      "saturation": 1,
+      "token": "blur",
+      "type": "BACKGROUND",
+    },
+  ],
+  "borders": Array [
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "outside",
+      "radius": Array [
+        12.5,
+        12.5,
+        12.5,
+        12.5,
+      ],
+      "token": "border",
+      "type": "OUTSIDE",
+      "width": 1,
+    },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 112,
+        "green": 112,
+        "hex": "707070",
+        "hsl": Array [
+          0,
+          0,
+          44,
+        ],
+        "name": "doveGray",
+        "red": 112,
+        "rgb": Array [
+          112,
+          112,
+          112,
+        ],
+        "rgba": Array [
+          112,
+          112,
+          112,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "gradientWithCorners",
+      "radius": Array [
+        8,
+        12.5,
+        12.5,
+        12.5,
+      ],
+      "token": "border",
+      "type": "OUTSIDE",
+      "width": 1,
+    },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "center",
+      "radius": 1,
+      "token": "border",
+      "type": "CENTER",
+      "width": 1,
+    },
+    Object {
+      "color": Object {
+        "alpha": 1,
+        "blue": 150,
+        "green": 150,
+        "hex": "ff9696",
+        "hsl": Array [
+          0,
+          100,
+          79,
+        ],
+        "name": "geraldine",
+        "red": 255,
+        "rgb": Array [
+          255,
+          150,
+          150,
+        ],
+        "rgba": Array [
+          255,
+          150,
+          150,
+          1,
+        ],
+        "token": "color",
+      },
+      "id": "inside",
+      "radius": 1,
+      "token": "border",
+      "type": "INSIDE",
+      "width": 1,
+    },
+  ],
+  "colors": Array [
+    Object {
+      "alpha": 1,
+      "blue": 230,
+      "green": 194,
+      "hex": "5fc2e6",
+      "hsl": Array [
+        196,
+        73,
+        64,
+      ],
+      "id": "primary900",
+      "name": "seagull",
+      "red": 95,
+      "rgb": Array [
+        95,
+        194,
+        230,
+      ],
+      "rgba": Array [
+        95,
+        194,
+        230,
+        1,
+      ],
+      "token": "color",
+      "variant": "900",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 209,
+      "green": 193,
+      "hex": "5ec1d1",
+      "hsl": Array [
+        188,
+        56,
+        59,
+      ],
+      "id": "primary800",
+      "name": "viking",
+      "red": 94,
+      "rgb": Array [
+        94,
+        193,
+        209,
+      ],
+      "rgba": Array [
+        94,
+        193,
+        209,
+        1,
+      ],
+      "token": "color",
+      "variant": "800",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 214,
+      "green": 200,
+      "hex": "77c8d6",
+      "hsl": Array [
+        189,
+        54,
+        65,
+      ],
+      "id": "primary700",
+      "name": "viking",
+      "red": 119,
+      "rgb": Array [
+        119,
+        200,
+        214,
+      ],
+      "rgba": Array [
+        119,
+        200,
+        214,
+        1,
+      ],
+      "token": "color",
+      "variant": "700",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 219,
+      "green": 207,
+      "hex": "8dcfdb",
+      "hsl": Array [
+        189,
+        52,
+        71,
+      ],
+      "id": "primary600",
+      "name": "halfBaked",
+      "red": 141,
+      "rgb": Array [
+        141,
+        207,
+        219,
+      ],
+      "rgba": Array [
+        141,
+        207,
+        219,
+        1,
+      ],
+      "token": "color",
+      "variant": "600",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 224,
+      "green": 214,
+      "hex": "a0d6e0",
+      "hsl": Array [
+        189,
+        51,
+        75,
+      ],
+      "id": "primary500",
+      "name": "powderBlue",
+      "red": 160,
+      "rgb": Array [
+        160,
+        214,
+        224,
+      ],
+      "rgba": Array [
+        160,
+        214,
+        224,
+        1,
+      ],
+      "token": "color",
+      "variant": "500",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 230,
+      "green": 221,
+      "hex": "b3dde6",
+      "hsl": Array [
+        191,
+        50,
+        80,
+      ],
+      "id": "primary400",
+      "name": "powderBlue",
+      "red": 179,
+      "rgb": Array [
+        179,
+        221,
+        230,
+      ],
+      "rgba": Array [
+        179,
+        221,
+        230,
+        1,
+      ],
+      "token": "color",
+      "variant": "400",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 240,
+      "green": 235,
+      "hex": "d4ebf0",
+      "hsl": Array [
+        191,
+        48,
+        89,
+      ],
+      "id": "primary300",
+      "name": "pattensBlue",
+      "red": 212,
+      "rgb": Array [
+        212,
+        235,
+        240,
+      ],
+      "rgba": Array [
+        212,
+        235,
+        240,
+        1,
+      ],
+      "token": "color",
+      "variant": "300",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 250,
+      "green": 243,
+      "hex": "e5f3fa",
+      "hsl": Array [
+        200,
+        68,
+        94,
+      ],
+      "id": "primary200",
+      "name": "solitude",
+      "red": 229,
+      "rgb": Array [
+        229,
+        243,
+        250,
+      ],
+      "rgba": Array [
+        229,
+        243,
+        250,
+        1,
+      ],
+      "token": "color",
+      "variant": "200",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 253,
+      "green": 249,
+      "hex": "f2f9fd",
+      "hsl": Array [
+        202,
+        73,
+        97,
+      ],
+      "id": "primary100",
+      "name": "aliceBlue",
+      "red": 242,
+      "rgb": Array [
+        242,
+        249,
+        253,
+      ],
+      "rgba": Array [
+        242,
+        249,
+        253,
+        1,
+      ],
+      "token": "color",
+      "variant": "100",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 231,
+      "green": 239,
+      "hex": "e9efe7",
+      "hsl": Array [
+        105,
+        20,
+        92,
+      ],
+      "id": "secondary100",
+      "name": "grayNurse",
+      "red": 233,
+      "rgb": Array [
+        233,
+        239,
+        231,
+      ],
+      "rgba": Array [
+        233,
+        239,
+        231,
+        1,
+      ],
+      "token": "color",
+      "variant": "100",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 208,
+      "green": 224,
+      "hex": "d4e0d0",
+      "hsl": Array [
+        105,
+        21,
+        85,
+      ],
+      "id": "secondary200",
+      "name": "tasman",
+      "red": 212,
+      "rgb": Array [
+        212,
+        224,
+        208,
+      ],
+      "rgba": Array [
+        212,
+        224,
+        208,
+        1,
+      ],
+      "token": "color",
+      "variant": "200",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 186,
+      "green": 210,
+      "hex": "c0d2ba",
+      "hsl": Array [
+        105,
+        21,
+        78,
+      ],
+      "id": "secondary300",
+      "name": "paleLeaf",
+      "red": 192,
+      "rgb": Array [
+        192,
+        210,
+        186,
+      ],
+      "rgba": Array [
+        192,
+        210,
+        186,
+        1,
+      ],
+      "token": "color",
+      "variant": "300",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 144,
+      "green": 182,
+      "hex": "97b690",
+      "hsl": Array [
+        109,
+        21,
+        64,
+      ],
+      "id": "secondary400",
+      "name": "norway",
+      "red": 151,
+      "rgb": Array [
+        151,
+        182,
+        144,
+      ],
+      "rgba": Array [
+        151,
+        182,
+        144,
+        1,
+      ],
+      "token": "color",
+      "variant": "400",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 124,
+      "green": 169,
+      "hex": "81a97c",
+      "hsl": Array [
+        113,
+        21,
+        57,
+      ],
+      "id": "secondary500",
+      "name": "amulet",
+      "red": 129,
+      "rgb": Array [
+        129,
+        169,
+        124,
+      ],
+      "rgba": Array [
+        129,
+        169,
+        124,
+        1,
+      ],
+      "token": "color",
+      "variant": "500",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 106,
+      "green": 157,
+      "hex": "6b9d6a",
+      "hsl": Array [
+        119,
+        21,
+        52,
+      ],
+      "id": "secondary600",
+      "name": "aquaForest",
+      "red": 107,
+      "rgb": Array [
+        107,
+        157,
+        106,
+      ],
+      "rgba": Array [
+        107,
+        157,
+        106,
+        1,
+      ],
+      "token": "color",
+      "variant": "600",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 88,
+      "green": 145,
+      "hex": "559158",
+      "hsl": Array [
+        123,
+        26,
+        45,
+      ],
+      "id": "secondary700",
+      "name": "hippieGreen",
+      "red": 85,
+      "rgb": Array [
+        85,
+        145,
+        88,
+      ],
+      "rgba": Array [
+        85,
+        145,
+        88,
+        1,
+      ],
+      "token": "color",
+      "variant": "700",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 74,
+      "green": 135,
+      "hex": "3e874a",
+      "hsl": Array [
+        130,
+        37,
+        39,
+      ],
+      "id": "secondary800",
+      "name": "seaGreen",
+      "red": 62,
+      "rgb": Array [
+        62,
+        135,
+        74,
+      ],
+      "rgba": Array [
+        62,
+        135,
+        74,
+        1,
+      ],
+      "token": "color",
+      "variant": "800",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 62,
+      "green": 125,
+      "hex": "227d3e",
+      "hsl": Array [
+        138,
+        57,
+        31,
+      ],
+      "id": "secondary900",
+      "name": "salem",
+      "red": 34,
+      "rgb": Array [
+        34,
+        125,
+        62,
+      ],
+      "rgba": Array [
+        34,
+        125,
+        62,
+        1,
+      ],
+      "token": "color",
+      "variant": "900",
+    },
+    Object {
+      "alpha": 1,
+      "blue": 94,
+      "green": 94,
+      "hex": "f55e5e",
+      "hsl": Array [
+        0,
+        88,
+        66,
+      ],
+      "id": "red",
+      "name": "carnation",
+      "red": 245,
+      "rgb": Array [
+        245,
+        94,
+        94,
+      ],
+      "rgba": Array [
+        245,
+        94,
+        94,
+        1,
+      ],
+      "token": "color",
+      "variant": "red",
+    },
+  ],
+  "fileType": "ADOBEXD",
+  "fonts": Array [
+    "FiraSans-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book",
+    "Helvetica-Bold",
+  ],
+  "gradients": Array [
+    Object {
+      "from": Array [
+        0.5,
+        1,
+      ],
+      "name": "linear",
+      "stops": Array [
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 144,
+            "green": 182,
+            "hex": "97b690",
+            "hsl": Array [
+              109,
+              21,
+              64,
+            ],
+            "name": "norway",
+            "red": 151,
+            "rgb": Array [
+              151,
+              182,
+              144,
+            ],
+            "rgba": Array [
+              151,
+              182,
+              144,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 0,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 88,
+            "green": 145,
+            "hex": "559158",
+            "hsl": Array [
+              123,
+              26,
+              45,
+            ],
+            "name": "hippieGreen",
+            "red": 85,
+            "rgb": Array [
+              85,
+              145,
+              88,
+            ],
+            "rgba": Array [
+              85,
+              145,
+              88,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 0.5038507580757141,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 62,
+            "green": 125,
+            "hex": "227d3e",
+            "hsl": Array [
+              138,
+              57,
+              31,
+            ],
+            "name": "salem",
+            "red": 34,
+            "rgb": Array [
+              34,
+              125,
+              62,
+            ],
+            "rgba": Array [
+              34,
+              125,
+              62,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 1,
+        },
+      ],
+      "to": Array [
+        0.5,
+        3.0616171314629196e-17,
+      ],
+      "token": "gradient",
+      "type": "LINEAR",
+    },
+    Object {
+      "from": Array [
+        0.5,
+        1,
+      ],
+      "name": "radial",
+      "stops": Array [
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 144,
+            "green": 182,
+            "hex": "97b690",
+            "hsl": Array [
+              109,
+              21,
+              64,
+            ],
+            "name": "norway",
+            "red": 151,
+            "rgb": Array [
+              151,
+              182,
+              144,
+            ],
+            "rgba": Array [
+              151,
+              182,
+              144,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 0,
+        },
+        Object {
+          "color": Object {
+            "alpha": 1,
+            "blue": 62,
+            "green": 125,
+            "hex": "227d3e",
+            "hsl": Array [
+              138,
+              57,
+              31,
+            ],
+            "name": "salem",
+            "red": 34,
+            "rgb": Array [
+              34,
+              125,
+              62,
+            ],
+            "rgba": Array [
+              34,
+              125,
+              62,
+              1,
+            ],
+            "token": "color",
+          },
+          "position": 1,
+        },
+      ],
+      "to": Array [
+        0.5,
+        1,
+      ],
+      "token": "gradient",
+      "type": "RADIAL",
+    },
+  ],
+  "grid": Object {
+    "size": 8,
+  },
+  "shadows": Array [
+    Object {
+      "blur": 4,
+      "color": Object {
+        "alpha": 0.5019607843137255,
+        "blue": 0,
+        "green": 0,
+        "hex": "000000",
+        "hsl": Array [
+          0,
+          0,
+          0,
+        ],
+        "name": "black",
+        "red": 0,
+        "rgb": Array [
+          0,
+          0,
+          0,
+        ],
+        "rgba": Array [
+          0,
+          0,
+          0,
+          0.5019607843137255,
+        ],
+        "token": "color",
+      },
+      "id": "simple",
+      "spread": null,
+      "token": "shadow",
+      "type": "drop-shadow",
+      "x": 0,
+      "y": 2,
+    },
+  ],
+  "textStyles": Array [
+    Object {
+      "borderBottom": null,
+      "family": "FiraSans-Bold",
+      "id": "heading1",
+      "kerning": null,
+      "lineHeight": 57.6,
+      "size": 48,
+      "token": "text-style",
+      "weight": "bold",
+    },
+    Object {
+      "borderBottom": null,
+      "family": "FiraSans-Regular",
+      "id": "heading2",
+      "kerning": null,
+      "lineHeight": 43.2,
+      "size": 36,
+      "token": "text-style",
+      "weight": "regular",
+    },
+    Object {
+      "borderBottom": null,
+      "family": "FiraSans-Book",
+      "id": "paragraph",
+      "kerning": null,
+      "lineHeight": 21.6,
+      "size": 18,
+      "token": "text-style",
+      "weight": "book",
+    },
+    Object {
+      "borderBottom": null,
+      "family": "Helvetica-Bold",
+      "id": "quote",
+      "kerning": 42.9,
+      "lineHeight": 16.8,
+      "size": 14,
+      "token": "text-style",
+      "weight": "bold",
+    },
+  ],
+}
+`;
+
+exports[`Verify that the mocks are unchanged for Adobe XD -> Style Dictionary 1`] = `
+Object {
+  "asset": Object {
+    "font": Object {
+      "firaSansBold": Object {
+        "name": Object {
+          "value": "FiraSans-Bold",
+        },
+      },
+      "firaSansBook": Object {
+        "name": Object {
+          "value": "FiraSans-Book",
+        },
+      },
+      "firaSansRegular": Object {
+        "name": Object {
+          "value": "FiraSans-Regular",
+        },
+      },
+      "helveticaBold": Object {
+        "name": Object {
+          "value": "Helvetica-Bold",
+        },
+      },
+    },
+  },
+  "blur": Object {
+    "background": Object {
+      "motionAngle": 0,
+      "radius": 2.2736899852752686,
+      "saturation": 1,
+    },
+    "gaussian": Object {
+      "motionAngle": 0,
+      "radius": 2,
+      "saturation": 1,
+    },
+  },
+  "color": Object {
+    "base": Object {
+      "primary100": Object {
+        "comment": "aliceBlue",
+        "value": "#F2F9FD",
+      },
+      "primary200": Object {
+        "comment": "solitude",
+        "value": "#E5F3FA",
+      },
+      "primary300": Object {
+        "comment": "pattensBlue",
+        "value": "#D4EBF0",
+      },
+      "primary400": Object {
+        "comment": "powderBlue",
+        "value": "#B3DDE6",
+      },
+      "primary500": Object {
+        "comment": "powderBlue",
+        "value": "#A0D6E0",
+      },
+      "primary600": Object {
+        "comment": "halfBaked",
+        "value": "#8DCFDB",
+      },
+      "primary700": Object {
+        "comment": "viking",
+        "value": "#77C8D6",
+      },
+      "primary800": Object {
+        "comment": "viking",
+        "value": "#5EC1D1",
+      },
+      "primary900": Object {
+        "comment": "seagull",
+        "value": "#5FC2E6",
+      },
+      "red": Object {
+        "comment": "carnation",
+        "value": "#F55E5E",
+      },
+      "secondary100": Object {
+        "comment": "grayNurse",
+        "value": "#E9EFE7",
+      },
+      "secondary200": Object {
+        "comment": "tasman",
+        "value": "#D4E0D0",
+      },
+      "secondary300": Object {
+        "comment": "paleLeaf",
+        "value": "#C0D2BA",
+      },
+      "secondary400": Object {
+        "comment": "norway",
+        "value": "#97B690",
+      },
+      "secondary500": Object {
+        "comment": "amulet",
+        "value": "#81A97C",
+      },
+      "secondary600": Object {
+        "comment": "aquaForest",
+        "value": "#6B9D6A",
+      },
+      "secondary700": Object {
+        "comment": "hippieGreen",
+        "value": "#559158",
+      },
+      "secondary800": Object {
+        "comment": "seaGreen",
+        "value": "#3E874A",
+      },
+      "secondary900": Object {
+        "comment": "salem",
+        "value": "#227D3E",
+      },
+    },
+    "border": Object {
+      "center": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+      "gradientWithCorners": Object {
+        "comment": "doveGray",
+        "value": "#707070",
+      },
+      "inside": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+      "outside": Object {
+        "comment": "geraldine",
+        "value": "#FF9696",
+      },
+    },
+    "shadow": Object {
+      "simple": Object {
+        "comment": "black",
+        "value": "#000000",
+      },
+    },
+  },
+  "font": Object {
+    "typo": Object {
+      "heading1": Object {
+        "value": "firaSansBold",
+      },
+      "heading2": Object {
+        "value": "firaSansRegular",
+      },
+      "paragraph": Object {
+        "value": "firaSansBook",
+      },
+      "quote": Object {
+        "value": "helveticaBold",
+      },
+    },
+  },
+  "grid": Object {
+    "global": Object {
+      "comment": "Global grid size definition",
+      "value": 8,
+    },
+  },
+  "lineHeight": Object {
+    "font": Object {
+      "heading1": Object {
+        "value": 57.6,
+      },
+      "heading2": Object {
+        "value": 43.2,
+      },
+      "paragraph": Object {
+        "value": 21.6,
+      },
+      "quote": Object {
+        "value": 16.8,
+      },
+    },
+  },
+  "size": Object {
+    "border": Object {
+      "center": Object {
+        "value": "1",
+      },
+      "gradientWithCorners": Object {
+        "value": "1",
+      },
+      "inside": Object {
+        "value": "1",
+      },
+      "outside": Object {
+        "value": "1",
+      },
+    },
+    "font": Object {
+      "heading1": Object {
+        "value": 48,
+      },
+      "heading2": Object {
+        "value": 36,
+      },
+      "paragraph": Object {
+        "value": 18,
+      },
+      "quote": Object {
+        "value": 14,
+      },
+    },
+  },
+  "weight": Object {
+    "font": Object {
+      "heading1": Object {
+        "value": 700,
+      },
+      "heading2": Object {
+        "value": 400,
+      },
+      "paragraph": Object {
+        "value": 350,
+      },
+      "quote": Object {
+        "value": 700,
+      },
+    },
+    "fontFamily": Object {
+      "firaSansBold": Object {
+        "value": 700,
+      },
+      "firaSansBook": Object {
+        "value": 350,
+      },
+      "firaSansRegular": Object {
+        "value": 400,
+      },
+      "helveticaBold": Object {
+        "value": 700,
+      },
+    },
+  },
+}
+`;
+
 exports[`Verify that the mocks are unchanged for Figma -> Generic Tokens 1`] = `
 Object {
   "blurs": Array [
