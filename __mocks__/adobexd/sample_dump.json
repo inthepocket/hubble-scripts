@@ -1,0 +1,3056 @@
+{
+  "colors": [
+    {
+      "name": "primary/900",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/900",
+        "id": "16d93710-0596-4ccd-a96a-9598db473bc0",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": -153
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "constraintLeft": true,
+            "constraintRight": true,
+            "constraintTop": true,
+            "constraintBottom": true,
+            "symbolId": "b5cc9ea7-a7ea-4c8e-80ff-b4aeb103540a",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "5e0ca49c-df43-4770-ac6e-aa9e77b5b105": "f4d0e594-643a-4c25-8712-8007f9cabc51"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "f4d0e594-643a-4c25-8712-8007f9cabc51",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 95,
+                      "g": 194,
+                      "b": 230
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/800",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/800",
+        "id": "57bccd57-ca7d-4590-a5b6-7c769e959fa1",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": -115
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "b97524dc-962c-4eb1-a742-5b101ef18e33",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "dbc9d855-9071-4b38-b763-3fe0aae885ea": "6cf6429c-dc63-46bf-aafe-7b9937b2dd12"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "6cf6429c-dc63-46bf-aafe-7b9937b2dd12",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 94,
+                      "g": 193,
+                      "b": 209
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/700",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/700",
+        "id": "a8142b73-6f4a-4401-b3bf-401e6b99d122",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": -72
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "0faba58d-3c76-4d19-81d5-721444bb7c36",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "39875b61-ce3b-43ec-8b8f-2549495d11c4": "d723a44c-1f7f-44bf-ac26-4a5dcf3f7168"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "d723a44c-1f7f-44bf-ac26-4a5dcf3f7168",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 119,
+                      "g": 200,
+                      "b": 214
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/600",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/600",
+        "id": "ee77ed67-df04-4002-bf1f-eb97726523ad",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": -29
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "d158540c-4366-4391-98fb-72ff9d6e92e3",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "b0f0ad1c-4038-435f-b427-4fd717a78e1a": "1a2525d8-2a35-4d27-83ec-34bd302df5f8"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "1a2525d8-2a35-4d27-83ec-34bd302df5f8",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 141,
+                      "g": 207,
+                      "b": 219
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/500",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/500",
+        "id": "def42668-5455-4d00-ab09-4b35e216fff1",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": 11
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "91c78463-2776-4b65-b2c0-42e45c214bce",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "f8652772-60f6-49a5-9f0b-b1ec95ed3740": "41d6c314-67d1-4e19-a234-1598db615b08"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "41d6c314-67d1-4e19-a234-1598db615b08",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 160,
+                      "g": 214,
+                      "b": 224
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/400",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/400",
+        "id": "b6e62146-1fe9-4421-b3a6-e8fbc6c09db2",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": 53
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "5c949325-71cc-4a79-bae7-dedf796a14bf",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "8e6f99f7-7b97-42a0-a81c-efd365a4eaf3": "f84992de-23db-4bbf-9af4-68c71efbb96e"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "f84992de-23db-4bbf-9af4-68c71efbb96e",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 179,
+                      "g": 221,
+                      "b": 230
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/300",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/300",
+        "id": "c09834f0-8fc7-4624-a226-fe937330480f",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": 98
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "5c7bb85f-427e-4d93-ac9d-2c3fe1b69e49",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "6ff1c391-6dcf-40ee-9b40-b901c146c69f": "f4ce6cdc-8717-4e05-ae58-073801f9a4ee"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "f4ce6cdc-8717-4e05-ae58-073801f9a4ee",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 212,
+                      "g": 235,
+                      "b": 240
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/200",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/200",
+        "id": "57b8a68d-6a9b-4eff-9044-7b9593d7c167",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": 143
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "859708da-38fb-409f-8bb0-6c2ca5cd5ee2",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "de9b4492-419f-424c-8541-b6141c094409": "e47fc3a2-d689-407a-b7b8-547916da4835"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "e47fc3a2-d689-407a-b7b8-547916da4835",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 229,
+                      "g": 243,
+                      "b": 250
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "primary/100",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/primary/100",
+        "id": "53277190-721b-4776-9f0b-79e6e88a6d91",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -74,
+          "ty": 186
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "7999e1ed-e222-4e14-818e-4249751062ac",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "99b79559-c76a-46b2-941f-6d56e2de9938": "fe962745-5a76-418b-8763-63bd7e9f678c"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "fe962745-5a76-418b-8763-63bd7e9f678c",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 242,
+                      "g": 249,
+                      "b": 253
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/100",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/100",
+        "id": "3902417d-676e-4333-92f5-ebb7a5170d3d",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": 186
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "c1646d57-bbae-46e8-b559-d5e6a2b07f79",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "cabcfdaf-dc4d-41fd-9a3f-5b181eeeb656": "a8626eb1-d4f2-40a0-b4b2-7b48f3c87034"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "a8626eb1-d4f2-40a0-b4b2-7b48f3c87034",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 233,
+                      "g": 239,
+                      "b": 231
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/200",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/200",
+        "id": "194d9400-4fe3-4996-bc1d-ba4ba1459907",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": 143
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "40a67e06-f251-4c03-a149-f0d1eaa29ea6",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "4c88c612-52e6-42a3-afb4-8bd2cfda5111": "321a53da-878a-4edb-96e2-f310ee120a4f"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "321a53da-878a-4edb-96e2-f310ee120a4f",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 212,
+                      "g": 224,
+                      "b": 208
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/300",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/300",
+        "id": "4c358b1a-bd76-4560-8975-0e001e471b86",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": 98
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "c450dc4a-320f-4428-9875-9c616744fe8a",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "afd2be4f-c990-421d-a8d3-0c96c2cc9ac5": "29b8398c-d003-44d3-b90c-502c5f700dcd"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "29b8398c-d003-44d3-b90c-502c5f700dcd",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 192,
+                      "g": 210,
+                      "b": 186
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/400",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/400",
+        "id": "fccdc040-545f-445f-b69a-18ca4280747e",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": 53
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "9ff3f558-7452-42aa-9d38-429796a318ed",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "10182d30-35aa-4e1c-9e49-4115dd1e25d2": "28aa8f8c-7426-4d5f-8e26-22ed8f4405a1"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "28aa8f8c-7426-4d5f-8e26-22ed8f4405a1",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 182,
+                      "b": 144
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/500",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/500",
+        "id": "3c72c3e5-87e0-416b-bb91-c08b40bb2e8d",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": 11
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "df98bebe-d073-4a4a-be81-6ea4a6136171",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "eb7d7f96-698f-4e7c-b96e-5f7792ba24e7": "8a411630-1df1-4405-b41c-56de021ebc3d"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "8a411630-1df1-4405-b41c-56de021ebc3d",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 129,
+                      "g": 169,
+                      "b": 124
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/600",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/600",
+        "id": "e6558886-430d-4841-98e8-32244fcce268",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": -29
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "67c0c5ee-e1c8-4ddd-bafe-b323cc8bee57",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "1b02ee27-07b8-4521-ab62-238ee7e98dce": "d37be274-4878-4a81-b5cb-2db73809e2b8"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "d37be274-4878-4a81-b5cb-2db73809e2b8",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 107,
+                      "g": 157,
+                      "b": 106
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/700",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/700",
+        "id": "028049b8-81c7-4005-913f-2cfc7085e68b",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": -72
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "878d46f3-b202-4c8b-a6ce-82b47f037eab",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "91b7a801-3d7b-4d10-8290-a2086df454d3": "95aec782-4132-480f-b99f-768f009b5608"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "95aec782-4132-480f-b99f-768f009b5608",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 85,
+                      "g": 145,
+                      "b": 88
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/800",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/800",
+        "id": "b18b7ba6-71f6-47db-9e02-5af8d4540898",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": -115
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "4d9f8cdb-7cbf-4ec2-a7fc-fd745d9fd69a",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "b4337a07-8164-4dd8-baeb-525730cfe469": "f0a71f7e-5664-4b9d-b698-584754bf5361"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "f0a71f7e-5664-4b9d-b698-584754bf5361",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 62,
+                      "g": 135,
+                      "b": 74
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "secondary/900",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/secondary/900",
+        "id": "9e3f4910-58f1-4626-840d-1f59670fad9a",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -7,
+          "ty": -153
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "246d8b84-2827-4c7c-8f9d-c762af5625c9",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "0463b34e-0b13-415b-a518-586da63176b9": "c17d70b0-5500-441d-a99f-788893f1ed50"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "c17d70b0-5500-441d-a99f-788893f1ed50",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 34,
+                      "g": 125,
+                      "b": 62
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "red",
+      "value": {
+        "type": "group",
+        "name": "primitives/color/red",
+        "id": "bd4290af-6b60-486f-9648-ebb6d094467e",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": -40,
+          "ty": -153
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "symbolId": "9dbbae3c-1ff0-4a9a-afcb-35a94802c66f",
+            "width": 24,
+            "height": 24,
+            "componentType": "componentNoBounds",
+            "isMaster": true,
+            "syncMap": {
+              "3d42d6d0-1d23-43bb-bcb7-a0d56a588051": "66d9cb3f-34e2-439e-bff4-cb91ae46c538"
+            },
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "group": {
+          "children": [
+            {
+              "type": "shape",
+              "name": "gray-dark",
+              "id": "66d9cb3f-34e2-439e-bff4-cb91ae46c538",
+              "transform": {
+                "a": 1,
+                "b": 0,
+                "c": 0,
+                "d": 1,
+                "tx": 0,
+                "ty": 0
+              },
+              "meta": {
+                "ux": {
+                  "hasCustomName": true,
+                  "customConstraints": true
+                }
+              },
+              "style": {
+                "fill": {
+                  "type": "solid",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 245,
+                      "g": 94,
+                      "b": 94
+                    }
+                  }
+                },
+                "stroke": {
+                  "type": "none",
+                  "color": {
+                    "mode": "RGB",
+                    "value": {
+                      "r": 151,
+                      "g": 151,
+                      "b": 151
+                    }
+                  },
+                  "width": 1,
+                  "align": "inside",
+                  "miterLimit": 10
+                },
+                "filters": [
+                  {
+                    "type": "uxdesign#blur",
+                    "global": true,
+                    "params": {
+                      "blurAmount": 10,
+                      "brightnessAmount": 0,
+                      "fillOpacity": 1,
+                      "backgroundEffect": false
+                    },
+                    "visible": false
+                  }
+                ]
+              },
+              "shape": {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blurs": [
+    {
+      "name": "gaussian",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "f09ca34c-670f-4d15-be70-94fb4dfd0ddb",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 512,
+          "ty": -144
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 2,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              }
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25,
+          "r": [
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "background",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "439bbc0d-87a5-4039-9707-ab2f78a33f52",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 512,
+          "ty": -88
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 2.2736899852752686,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": true
+              }
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25,
+          "r": [
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      }
+    }
+  ],
+  "borders": [
+    {
+      "name": "outside",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "8e924c44-3812-415e-9b87-7687f5875916",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 378,
+          "ty": -89
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "align": "outside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25,
+          "r": [
+            12.5,
+            12.5,
+            12.5,
+            12.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "gradient-with-corners",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "018a34af-bc54-4f02-9043-9708c9c86ba9",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 378,
+          "ty": 25
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 112,
+                "g": 112,
+                "b": 112
+              }
+            },
+            "width": 1,
+            "align": "outside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25,
+          "r": [
+            8,
+            12.5,
+            12.5,
+            12.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "center",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "19adcd3f-a559-46a9-84d4-aea20da95351",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 378,
+          "ty": -144
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25
+        }
+      }
+    },
+    {
+      "name": "inside",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "3c5dbac3-1bca-4fda-9f13-ea81dac802e8",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 378,
+          "ty": -32
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 255,
+                "g": 150,
+                "b": 150
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25
+        }
+      }
+    }
+  ],
+  "gradients": [
+    {
+      "name": "linear",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "51a2282c-6f6f-4640-ac15-ac544de754cb",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 56,
+          "ty": -153
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "gradient",
+            "gradient": {
+              "meta": {
+                "ux": {
+                  "gradientResources": {
+                    "type": "linear",
+                    "stops": [
+                      {
+                        "offset": 0,
+                        "color": {
+                          "mode": "RGB",
+                          "value": {
+                            "r": 151,
+                            "g": 182,
+                            "b": 144
+                          }
+                        }
+                      },
+                      {
+                        "offset": 0.5038507580757141,
+                        "color": {
+                          "mode": "RGB",
+                          "value": {
+                            "r": 85,
+                            "g": 145,
+                            "b": 88
+                          }
+                        }
+                      },
+                      {
+                        "offset": 1,
+                        "color": {
+                          "mode": "RGB",
+                          "value": {
+                            "r": 34,
+                            "g": 125,
+                            "b": 62
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "x1": 0.5,
+              "y1": 1,
+              "x2": 0.5,
+              "y2": 3.0616171314629196e-17,
+              "units": "objectBoundingBox"
+            }
+          },
+          "stroke": {
+            "type": "none",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 151,
+                "g": 151,
+                "b": 151
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 131,
+          "height": 62
+        }
+      }
+    },
+    {
+      "name": "radial",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "f70fbcde-c1eb-47d6-a27b-8fece4c16213",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 56,
+          "ty": -72
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 0,
+              "ty": 0
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "gradient",
+            "gradient": {
+              "meta": {
+                "ux": {
+                  "gradientResources": {
+                    "type": "radial",
+                    "stops": [
+                      {
+                        "offset": 0,
+                        "color": {
+                          "mode": "RGB",
+                          "value": {
+                            "r": 151,
+                            "g": 182,
+                            "b": 144
+                          }
+                        }
+                      },
+                      {
+                        "offset": 1,
+                        "color": {
+                          "mode": "RGB",
+                          "value": {
+                            "r": 34,
+                            "g": 125,
+                            "b": 62
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "cx": 0.5,
+              "cy": 1,
+              "fx": 0.5,
+              "fy": 1,
+              "r": 1.2726315259933472,
+              "units": "objectBoundingBox"
+            }
+          },
+          "stroke": {
+            "type": "none",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 151,
+                "g": 151,
+                "b": 151
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 131,
+          "height": 62
+        }
+      }
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "6b338946-0549-401a-a32b-349b2676e598",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 1 / Align / Left",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Heading 1 / Align / Left",
+      "index": 21,
+      "representations": [
+        {
+          "id": "a08dea7f-24e4-4ad9-9b8b-06d87f88fe03",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Bold",
+            "fontStyle": "",
+            "fontSize": 48,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 16,
+                "g": 6,
+                "b": 159
+              }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 57.59999847412109,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Bold"
+          }
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "48f16b48-f6b2-43fb-91fb-74ac06e702b4",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 2",
+      "created": 1580114960865,
+      "modified": 1586856212167,
+      "displayName": "Heading 2",
+      "index": 22,
+      "representations": [
+        {
+          "id": "dd9c3258-b307-4689-af28-17ef969e1a9d",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Regular",
+            "fontStyle": "",
+            "fontSize": 36,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 16,
+                "g": 6,
+                "b": 159
+              }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 43.2,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Regular"
+          }
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "5a843e7d-484f-4fb3-8d40-61c1c75fa12b",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Paragraph",
+      "created": 1580114960865,
+      "modified": 1586856197064,
+      "displayName": "Paragraph",
+      "index": 23,
+      "representations": [
+        {
+          "id": "4fa6982c-e449-4913-88e7-42fa6ed9721a",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Book",
+            "fontStyle": "",
+            "fontSize": 18,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 21.6,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Book"
+          }
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "f287f724-5e9c-48fb-a386-9c4b0522fe12",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Quote",
+      "created": 1580114960865,
+      "modified": 1586856220794,
+      "displayName": "Quote",
+      "index": 24,
+      "representations": [
+        {
+          "id": "4ab3f56f-743e-4196-bc43-4bfa0bc64f46",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "Helvetica-Bold",
+            "fontStyle": "",
+            "fontSize": 14,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 186,
+                "g": 186,
+                "b": 186
+              }
+            },
+            "charSpacing": 42.85714456013271,
+            "lineSpacing": 16.8,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "Helvetica-Bold"
+          }
+        }
+      ],
+      "updateElement": 0
+    },
+    {
+      "id": "5e0ae0ff-54a3-4fa0-ac84-8bc78bd5e681",
+      "type": "application/vnd.adobe.element.characterstyle+dcx",
+      "name": "Heading 1 / Align / Right",
+      "created": 1580114960865,
+      "modified": 1580114960865,
+      "displayName": "Heading 1 / Align / Right",
+      "index": 25,
+      "representations": [
+        {
+          "id": "d3671155-a741-48c8-8c85-dac230e388f9",
+          "type": "application/vnd.adobe.characterstyle+json",
+          "relationship": "primary",
+          "content": {
+            "fontFamily": "FiraSans-Bold",
+            "fontStyle": "",
+            "fontSize": 48,
+            "fontColor": {
+              "mode": "RGB",
+              "value": {
+                "r": 16,
+                "g": 6,
+                "b": 159
+              }
+            },
+            "charSpacing": 0,
+            "lineSpacing": 57.59999847412109,
+            "linkId": "",
+            "underline": false,
+            "strikethrough": false,
+            "textTransform": "none",
+            "textScript": "none",
+            "postscriptName": "FiraSans-Bold"
+          }
+        }
+      ],
+      "updateElement": 0
+    }
+  ],
+  "shadows": [
+    {
+      "name": "simple",
+      "value": {
+        "type": "shape",
+        "name": "Rectangle",
+        "id": "fd0e226e-192b-4936-8102-7c2fe4205382",
+        "transform": {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "d": 1,
+          "tx": 237,
+          "ty": -144
+        },
+        "meta": {
+          "ux": {
+            "hasCustomName": true,
+            "localTransform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "tx": 11,
+              "ty": 9
+            }
+          }
+        },
+        "style": {
+          "fill": {
+            "type": "solid",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 216,
+                "g": 216,
+                "b": 216
+              }
+            }
+          },
+          "stroke": {
+            "type": "none",
+            "color": {
+              "mode": "RGB",
+              "value": {
+                "r": 151,
+                "g": 151,
+                "b": 151
+              }
+            },
+            "width": 1,
+            "align": "inside",
+            "miterLimit": 10
+          },
+          "filters": [
+            {
+              "type": "dropShadow",
+              "global": true,
+              "params": {
+                "dropShadows": [
+                  {
+                    "dx": 0,
+                    "dy": 2,
+                    "r": 2,
+                    "color": {
+                      "mode": "RGB",
+                      "value": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                      },
+                      "alpha": 0.5019607843137255
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "uxdesign#blur",
+              "global": true,
+              "params": {
+                "blurAmount": 10,
+                "brightnessAmount": 0,
+                "fillOpacity": 1,
+                "backgroundEffect": false
+              },
+              "visible": false
+            }
+          ]
+        },
+        "visualBounds": {
+          "x": 231,
+          "y": -148,
+          "width": 92,
+          "height": 37
+        },
+        "shape": {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 25
+        }
+      }
+    }
+  ],
+  "grid": {
+    "size": 8
+  },
+  "fonts": [
+    "FiraSans-Bold",
+    "FiraSans-Regular",
+    "FiraSans-Book",
+    "Helvetica-Bold"
+  ],
+  "version": 6
+}

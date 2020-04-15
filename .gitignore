@@ -9,7 +9,7 @@ npm-debug.log
 # Build artifacts
 sketchtool-export
 hubble-data.json
-logdump.json
+raw_output.json
 assets/images
 
 .eslintcache

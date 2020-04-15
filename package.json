@@ -1,7 +1,7 @@
 {
   "name": "hubble-scripts",
   "description": "Scripts repository to export design data like colors, fonts & text, and map them to design tokens.",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "homepage": "https://hubble.inthepocket.design",
   "repository": "inthepocket/hubble-scripts",
   "author": "In The Pocket",
@@ -54,7 +54,9 @@
     "color-namer": "^1.3.0",
     "figma-js": "^1.7.0",
     "meow": "^5.0.0",
-    "sketch2json": "^0.1.2"
+    "rimraf": "^3.0.2",
+    "sketch2json": "^0.1.2",
+    "unzipper": "^0.10.10"
   },
   "lint-staged": {
     "**/*.js": [

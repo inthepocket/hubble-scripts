@@ -13,7 +13,7 @@ function generate_figma() {
   echo "Generating mocks for Figma"
   node cli.js --dump --exportAssets --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" &&
     mv "$MOCKS_DIR/figma/hubble-data.json" "$MOCKS_DIR/figma/sample_output.json" &&
-    mv "$MOCKS_DIR/figma/logdump.json" "$MOCKS_DIR/figma/sample_dump.json"
+    mv "$MOCKS_DIR/figma/raw_output.json" "$MOCKS_DIR/figma/sample_dump.json"
 
   echo "Generating mocks for Figma: Style Dictionary"
   node cli.js --useStyleDictionaryOutput --token "$FIGMA_TOKEN" "$FIGMA_FILE" --outputDir "$MOCKS_DIR/figma" &&
@@ -28,7 +28,7 @@ function generate_sketch() {
   echo "Generating mocks for Sketch: Document Styles"
   node cli.js --dump --ignoreTextStylePaths "$MOCKS_DIR/sketch/sample_sketchfile.sketch" &&
     mv hubble-data.json "$MOCKS_DIR/sketch/sample_output.document.json" &&
-    mv logdump.json "$MOCKS_DIR/sketch/sample_dump.json"
+    mv raw_output.json "$MOCKS_DIR/sketch/sample_dump.json"
 
   echo "Generating mocks for Sketch: Artboard format"
   node cli.js --useColorArtboards --useGradientArtboards --ignoreTextStylePaths "$MOCKS_DIR/sketch/sample_sketchfile.sketch" &&
@@ -39,8 +39,20 @@ function generate_sketch() {
     mv hubble-style-dictionary-tokens.json "$MOCKS_DIR/sketch/sample_output.styledictionary.json"
 }
 
+function generate_adobexd() {
+  log "=== ADOBEXD ============================================="
+  echo "Generating mocks for Adobe XD"
+  node cli.js --dump "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
+    mv "$MOCKS_DIR/adobexd/hubble-data.json" "$MOCKS_DIR/adobexd/sample_output.json" &&
+    mv "$MOCKS_DIR/adobexd/raw_output.json" "$MOCKS_DIR/adobexd/sample_dump.json"
+
+  echo "Generating mocks for Adobe XD: Style Dictionary"
+  node cli.js --useStyleDictionaryOutput "$MOCKS_DIR/adobexd/sample_adobexd_lib.xd" --outputDir "$MOCKS_DIR/adobexd" &&
+    mv "$MOCKS_DIR/adobexd/hubble-style-dictionary-tokens.json" "$MOCKS_DIR/adobexd/sample_output.styledictionary.json"
+}
+
 function main() {
-  local arr=("sketch" "figma")
+  local arr=("sketch" "figma" "adobexd")
 
   for item in "${arr[@]}"; do
     if [ ! -d "$MOCKS_DIR/$item" ]; then

@@ -26,11 +26,15 @@ The backbone of the [Hubble ecosystem][hubble homepage], this scripts repository
 __For parsing Sketch__:
 
 - A recent bash version (bash@4.4 recommended)
-- macOS with Sketch 41+ (latest Sketch recommended)
+- macOS with Sketch 60+ (latest Sketch recommended)
 
 __For parsing Figma__:
 
 - A Figma [access token][figma access token]
+
+__For parsing Adobe XD__:
+
+- Recent version of Adobe XD
 
 # Installing
 
@@ -42,9 +46,9 @@ If you're looking to also export assets for Sketch, download [`sketchtool.sh`][s
 
 # Usage
 
-> There is a sample .sketch file and Figma file ID in the [__mocks__][mocks] folder with sample output that would be generated for this file.
+> There is a sample .sketch file, .xd file and Figma file ID in the [__mocks__][mocks] folder with sample output that would be generated for this file.
 
-hubble-scripts works best with a separate Sketch/Figma [library file][sketch library docs]. Take a look at the examples and short bits below, or refer to our [more advanced documentation][wiki].
+hubble-scripts works best with a separate Sketch, Figma or Adobe XD library file. Take a look at the examples and short bits below, or refer to our the [relevant documentation for your design tool.](https://www.notion.so/thibmaek/Hubble-Documentation-650f10129c284e9ca54cecaca8283458)
 
 ## Generating JSON config
 
@@ -87,6 +91,10 @@ $ ./sketchtool.sh "__mocks/sketch/sample_sketchfile.sketch" "/var/hubble/assets/
 
 TODO:
 
+### Adobe XD
+
+Please see the [Caveats](https://www.notion.so/thibmaek/Adobe-XD-b67717dbef514c139c557f0f60400b93)
+
 ## Integrating in a project
 
 Copy `hubble-cli` and `sketchtool.sh` to a scripts folder in your project. This example uses npm run-tasks to describe the export flow:
@@ -117,13 +125,18 @@ $ node cli.js --help
 
   Options
     --outputDir=<dir>, -o           The directory where parsed files will be placed after a run. Defaults to current working directory.
-    --dump, -d                      Dump raw file output into logdump.json.
-                                      For Sketch this is the JSON inside the .sketch file bundle,
-                                      for Figma this is the received REST API response.
+    --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
+    --dump, -d                      Generate a raw JSON dump from your design parser, before Hubble exports its tokens
+
+  Options: Sketch
     --useColorArtboards             Use artboard formatting to export colors instead of using the document colors.
     --useGradientArtboards          Use artboard formatting to export gradients instead of using the document gradients.
-    --useStyleDictionaryOutput, -s  Generate Style Dictionary compatible output instead of the generic design token format.
+    --ignoreTextStylePaths          Textstyles that use slashes to enable navigation in Sketch will be ignored
+                                    and their id will be the first part of the path.
+
+  Options: Figma
     --token, -t                     Authorization token when accessing the Figma API.
+    --exportAssets, -e              Export assets from Figma.
 
   Examples
     $ hubble-cli "__mocks/sample_sketchfile.sketch"
@@ -146,7 +159,6 @@ For more on running in development mode, check the [wiki].
 [contributing]: https://github.com/inthepocket/hubble-scripts/blob/master/CONTRIBUTING.md
 [releases]: https://github.com/inthepocket/hubble-scripts/releases
 [latest release]: https://github.com/inthepocket/hubble-scripts/releases/latest
-[wiki]: https://github.com/inthepocket/hubble-scripts/wiki
 [hubble-cli options]: https://github.com/inthepocket/hubble-scripts/wiki/Hubble-cli-options
 [mocks]: https://github.com/inthepocket/hubble-scripts/blob/master/__mocks__/
 [sketchtool]: https://github.com/inthepocket/hubble-scripts/blob/master/sketchtool.sh
