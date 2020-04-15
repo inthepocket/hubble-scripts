@@ -73,7 +73,7 @@ module.exports = async (args, flags) => {
   }
 
   if (flags.dump) {
-    await writeFile(`${flags.outputDir}/logdump.json`, prettyJSON(response));
+    await writeFile(`${flags.outputDir}/raw_output.json`, prettyJSON(response));
   }
   return response;
 };
