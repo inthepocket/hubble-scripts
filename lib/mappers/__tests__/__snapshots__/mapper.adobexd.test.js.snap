@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Adobe XD mapper test suite -> #formatBlurs: Given figma formatted array of JSON blurs, should transform to a nicely parsed array 1`] = `
+exports[`Adobe XD mapper test suite -> #formatBlurs: Given Adobe XD formatted array of JSON blurs, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "id": "outside",
@@ -37,7 +37,7 @@ Array [
 ]
 `;
 
-exports[`Adobe XD mapper test suite -> #formatBorders: Given figma formatted array of JSON borders, should transform to a nicely parsed array 1`] = `
+exports[`Adobe XD mapper test suite -> #formatBorders: Given Adobe XD formatted array of JSON borders, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "color": Object {
@@ -698,7 +698,7 @@ Array [
 ]
 `;
 
-exports[`Adobe XD mapper test suite -> #formatGradients: Given figma formatted array of JSON gradients, should transform to a nicely parsed array 1`] = `
+exports[`Adobe XD mapper test suite -> #formatGradients: Given Adobe XD formatted array of JSON gradients, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "from": Array [
@@ -873,7 +873,7 @@ Array [
 ]
 `;
 
-exports[`Adobe XD mapper test suite -> #formatShadows Given figma formatted array of JSON shadows, should transform to a nicely parsed array 1`] = `
+exports[`Adobe XD mapper test suite -> #formatShadows Given Adobe XD formatted array of JSON shadows, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "blur": 4,
@@ -912,7 +912,7 @@ Array [
 ]
 `;
 
-exports[`Adobe XD mapper test suite -> #formatTextStyles: Given figma formatted array of JSON textstyles, should transform to a nicely parsed array 1`] = `
+exports[`Adobe XD mapper test suite -> #formatTextStyles: Given Adobe XD formatted array of JSON textstyles, should transform to a nicely parsed array 1`] = `
 Array [
   Object {
     "borderBottom": null,
